@@ -1,8 +1,9 @@
 {
   "reference_counts": {
-    "doi": 1,
-    "url": 1,
-    "total": 2
+    "arxiv": 1,
+    "doi": 31,
+    "url": 26,
+    "total": 58
   },
   "authors": [
     {
@@ -13,15 +14,6 @@
       "email": "daniel.himmelstein@gmail.com",
       "affiliations": "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania",
       "funders": "GBMF4552"
-    },
-    {
-      "github_username": "agitter",
-      "full_name": "Anthony Gitter",
-      "initials": "AG",
-      "orcid": "0000-0002-5324-9833",
-      "email": "gitter@biostat.wisc.edu",
-      "affiliations": "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison and Morgridge Institute for Research",
-      "funders": "NIH U54AI117924"
     }
   ]
 }
