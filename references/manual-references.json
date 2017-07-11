@@ -18,5 +18,19 @@
   ],
   "type": "webpage",
   "standard_citation": "url:https://github.com/greenelab/manubot-rootstock"
- }
+},
+{
+ "URL": "https://doi.org/10.1000/182",
+ "title": "DOI® Handbook",
+ "container-title": "International DOI Foundation",
+ "issued": {
+   "date-parts": [
+     [
+       2017
+     ]
+   ]
+ },
+ "type": "webpage",
+ "standard_citation": "doi:10.1000/182"
+}
 ]
