@@ -14,6 +14,15 @@
       "email": "daniel.himmelstein@gmail.com",
       "affiliations": "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania",
       "funders": "GBMF4552"
+    },
+    {
+      "github_username": "gedankenstuecke",
+      "full_name": "Bastian Greshake",
+      "initials": "BG",
+      "orcid": "0000-0002-9925-9623",
+      "email": "bgreshake@googlemail.com",
+      "affiliations": "Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt",
+      "funders": NaN
     }
   ]
 }
