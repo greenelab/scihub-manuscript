@@ -4,29 +4,26 @@
 
 
 + **Daniel S. Himmelstein**<br>
-  [\@dhimmel](https://github.com/dhimmel) ·
-  [0000-0002-3012-7446](https://orcid.org/0000-0002-3012-7446) ·
-  Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania ·
-  Funded by GBMF4552
+  [0000-0002-3012-7446](https://orcid.org/0000-0002-3012-7446)
+     · [\@dhimmel](https://github.com/dhimmel)
+     · Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
+     · Funded by GBMF4552
 
 + **Ariel R. Romero**<br>
-  [\@arielsvn](https://github.com/arielsvn) ·
-  [0000-0003-2290-4927](https://orcid.org/0000-0003-2290-4927) ·
-  Bidwise, Inc ·
-  Funded by nan
+  [0000-0003-2290-4927](https://orcid.org/0000-0003-2290-4927)
+     · [\@arielsvn](https://github.com/arielsvn)
+     · Bidwise, Inc
 
 + **Bastian Greshake**<br>
-  [\@gedankenstuecke](https://github.com/gedankenstuecke) ·
-  [0000-0002-9925-9623](https://orcid.org/0000-0002-9925-9623) ·
-  Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt ·
-  Funded by nan
+  [0000-0002-9925-9623](https://orcid.org/0000-0002-9925-9623)
+     · [\@gedankenstuecke](https://github.com/gedankenstuecke)
+     · Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt
 
 + **Casey S. Greene**<br>
-  [\@cgreene](https://github.com/cgreene) ·
-  [0000-0001-8713-9213](https://orcid.org/0000-0001-8713-9213) ·
-  Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania ·
-  Funded by GBMF4552
-
+  [0000-0001-8713-9213](https://orcid.org/0000-0001-8713-9213)
+     · [\@cgreene](https://github.com/cgreene)
+     · Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
+     · Funded by GBMF4552
 
 
 
