@@ -13,7 +13,7 @@ dependencies:
     - arxiv2bib==1.0.7
     - bibtexparser==0.6.2
     - ghp-import==0.5.5
-    - git+https://github.com/greenelab/manubot@b0da17625e1f12091159f15a329391b85c205565
+    - git+https://github.com/greenelab/manubot@555a420d28a7c7c409eaebf3772bde49ce8b21eb
     - pandoc-eqnos==0.16
     - pandoc-fignos==0.20
     - pandoc-tablenos==0.16
