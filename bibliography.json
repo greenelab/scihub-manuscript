@@ -2867,64 +2867,23 @@
     "id": "8mg1a0YE"
   },
   {
-    "indexed": {
-      "date-parts": [
-        [
-          2017,
-          5,
-          28
-        ]
-      ],
-      "date-time": "2017-05-28T17:14:48Z",
-      "timestamp": 1495991688091
-    },
-    "publisher-location": "London",
-    "reference-count": 0,
-    "publisher": "BSI British Standards",
-    "content-domain": {
-      "domain": [],
-      "crossmark-restriction": false
-    },
-    "short-container-title": [],
     "DOI": "10.3403/30177056",
+    "publisher-location": "London",
+    "publisher": "BSI British Standards",
     "type": "entry",
-    "created": {
+    "issued": {
       "date-parts": [
         [
-          2013,
-          11,
-          13
-        ]
-      ],
-      "date-time": "2013-11-13T22:46:52Z",
-      "timestamp": 1384382812000
-    },
-    "source": "Crossref",
-    "is-referenced-by-count": 0,
-    "title": "Information and documentation. Digital object identifier system",
-    "prefix": "10.3403",
-    "member": "1988",
-    "container-title": null,
-    "original-title": [],
-    "deposited": {
-      "date-parts": [
-        [
-          2017,
+          2012,
           5,
-          13
+          31
         ]
-      ],
-      "date-time": "2017-05-13T15:04:57Z",
-      "timestamp": 1494687897000
+      ]
     },
-    "score": 1.0,
-    "subtitle": [
-      ""
-    ],
-    "short-title": [],
-    "references-count": 0,
+    "title": "BS ISO 26324:2012. Information and documentation. Digital object identifier system",
+    "container-title": "BSI British Standards",
+    "original-title": [],
     "URL": "https://doi.org/10.3403/30177056",
-    "relation": {},
     "id": "LS0mB1CD"
   },
   {
