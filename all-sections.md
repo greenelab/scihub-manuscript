@@ -9,6 +9,12 @@
   Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania ·
   Funded by GBMF4552
 
++ **Ariel R. Romero**<br>
+  [\@arielsvn](https://github.com/arielsvn) ·
+  [0000-0003-2290-4927](https://orcid.org/0000-0003-2290-4927) ·
+  Bidwise, Inc ·
+  Funded by nan
+
 + **Bastian Greshake**<br>
   [\@gedankenstuecke](https://github.com/gedankenstuecke) ·
   [0000-0002-9925-9623](https://orcid.org/0000-0002-9925-9623) ·
