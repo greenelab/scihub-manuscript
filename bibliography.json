@@ -3343,18 +3343,25 @@
     "id": "zvVsLNxf"
   },
   {
-    "URL": "http://www.leafscience.org/alexandra-elbakyan/",
-    "title": "Alexandra Elbakyan &ndash; Science Should be Open to all Not Behind Paywalls | ",
-    "container-title": "@LifespanIO",
+    "type": "post",
+    "title": "Alexandra Elbakyan – Science Should be Open to all Not Behind Paywalls",
     "author": [
       {
-        "family": "@LifespanIO",
-        "given": ""
+        "given": "Elena",
+        "family": "Milova"
       }
     ],
-    "greycite-status": "Scanned",
-    "greycite-scanned": "2017-07-11 21:24:32",
-    "type": "webpage",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          27
+        ]
+      ]
+    },
+    "container-title": "Life Extension Advocacy Foundation",
+    "URL": "http://www.leafscience.org/alexandra-elbakyan/",
     "id": "K6n65WB0"
   },
   {
@@ -3681,68 +3688,112 @@
     "id": "jlNm94FU"
   },
   {
-    "URL": "https://www.courtlistener.com/docket/4355308/1/elsevier-inc-v-sci-hub/",
-    "title": "Complaint &ndash; Document #1 in Elsevier Inc. v. Sci-Hub &ndash; CourtListener.com",
-    "container-title": "CourtListener",
+    "type": "legal-case",
+    "title": "Complaint – Document #1 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS",
     "author": [
       {
-        "family": "@freelawproject",
-        "given": ""
+        "given": "Joseph V.",
+        "family": "DeMarco"
+      },
+      {
+        "given": "David M.",
+        "family": "Hirschberg"
+      },
+      {
+        "given": "Urvashi",
+        "family": "Sen"
       }
     ],
-    "greycite-status": "Scanned",
-    "greycite-scanned": "2017-07-02 22:52:47",
-    "type": "webpage",
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          6,
+          3
+        ]
+      ]
+    },
+    "container-title": "Southern District Court of New York",
+    "authority": "Southern District Court of New York",
+    "number": "1:15-cv-04282-RWS",
+    "URL": "https://www.courtlistener.com/docket/4355308/1/elsevier-inc-v-sci-hub/",
     "id": "j3Zl6sH5"
   },
   {
-    "URL": "https://www.courtlistener.com/docket/4355308/50/elsevier-inc-v-sci-hub/",
-    "title": "Letter &ndash; Document #50 in Elsevier Inc. v. Sci-Hub &ndash; CourtListener.com",
-    "container-title": "CourtListener",
+    "type": "legal-case",
+    "title": "Letter – Document #50 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS",
     "author": [
       {
-        "family": "@freelawproject",
-        "given": ""
+        "given": "Alexandra",
+        "family": "Elbakyan"
       }
     ],
-    "greycite-status": "Scanned",
-    "greycite-scanned": "2017-07-11 21:25:48",
-    "type": "webpage",
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          9,
+          15
+        ]
+      ]
+    },
+    "container-title": "Southern District Court of New York",
+    "authority": "Southern District Court of New York",
+    "number": "1:15-cv-04282-RWS",
+    "URL": "https://www.courtlistener.com/docket/4355308/50/elsevier-inc-v-sci-hub/",
     "id": "1BUarVNFD"
   },
   {
-    "URL": "https://www.courtlistener.com/docket/4355308/53/elsevier-inc-v-sci-hub/",
-    "title": "Memorandum & Opinion &ndash; Document #53 in Elsevier Inc. v. Sci-Hub &ndash; CourtListener.com",
-    "container-title": "CourtListener",
+    "type": "legal-case",
+    "title": "Memorandum & Opinion – Document #53 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS",
     "author": [
       {
-        "family": "@freelawproject",
-        "given": ""
+        "family": "Sweet",
+        "given": "Robert W."
       }
     ],
-    "greycite-status": "Scanned",
-    "greycite-scanned": "2017-07-11 21:25:52",
-    "type": "webpage",
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          10,
+          30
+        ]
+      ]
+    },
+    "container-title": "Southern District Court of New York",
+    "authority": "Southern District Court of New York",
+    "number": "1:15-cv-04282-RWS",
+    "URL": "https://www.courtlistener.com/docket/4355308/53/elsevier-inc-v-sci-hub/",
     "id": "BpCqwlYS"
   },
   {
-    "URL": "https://www.courtlistener.com/docket/4355308/8/23/elsevier-inc-v-sci-hub/",
-    "title": "Exhibit W &ndash; Document #8, Attachment #23 in Elsevier Inc. v. Sci-Hub &ndash; CourtListener.com",
-    "container-title": "CourtListener",
+    "type": "legal-case",
+    "title": "Declaration in Support of Motion – Document #8 Attachment #23 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS",
     "author": [
       {
-        "family": "@freelawproject",
-        "given": ""
+        "given": "Anthony",
+        "family": "Woltermann"
       }
     ],
-    "greycite-status": "Scanned",
-    "greycite-scanned": "2017-07-11 21:25:55",
-    "type": "webpage",
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          6,
+          11
+        ]
+      ]
+    },
+    "container-title": "Southern District Court of New York",
+    "authority": "Southern District Court of New York",
+    "number": "1:15-cv-04282-RWS",
+    "URL": "https://www.courtlistener.com/docket/4355308/8/23/elsevier-inc-v-sci-hub/",
     "id": "1EZBJN9ej"
   },
   {
     "type": "legal-case",
-    "title": "Judgement: Case 1:15-cv-04282-RWS Document 87.",
+    "title": "Judgement – Document #87 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS",
     "author": [
       {
         "family": "Sweet",
@@ -3766,10 +3817,20 @@
   },
   {
     "type": "legal-case",
-    "title": "Complaint: Case 1:17-cv-00726-LMB-JFA Document 1.",
+    "title": "Complaint – Document #1 of American Chemical Society v. Sci-Hub – Case 1:17-cv-00726-LMB-JFA",
     "author": [
       {
-        "family": "American Chemical Society"
+        "family": "Attison L.",
+        "given": "Barnes",
+        "suffix": "III"
+      },
+      {
+        "family": "David E.",
+        "given": "Weslow"
+      },
+      {
+        "family": "Matthew J.",
+        "given": "Gardner"
       }
     ],
     "issued": {
