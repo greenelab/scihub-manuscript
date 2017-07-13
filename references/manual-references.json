@@ -32,5 +32,25 @@
  },
  "type": "webpage",
  "standard_citation": "doi:10.1000/182"
+},
+{
+  "DOI": "10.3403/30177056",
+  "publisher-location": "London",
+  "publisher": "BSI British Standards",
+  "type": "entry",
+  "issued": {
+    "date-parts": [
+      [
+        2012,
+        5,
+        31
+      ]
+    ]
+  },
+  "title": "BS ISO 26324:2012. Information and documentation. Digital object identifier system",
+  "container-title": "BSI British Standards",
+  "original-title": [],
+  "URL": "https://doi.org/10.3403/30177056",
+  "standard_citation": "doi:10.3403/30177056"
 }
 ]
