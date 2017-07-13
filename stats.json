@@ -23,6 +23,15 @@
       "email": "bgreshake@googlemail.com",
       "affiliations": "Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt",
       "funders": NaN
+    },
+    {
+      "github_username": "cgreene",
+      "full_name": "Casey S. Greene",
+      "initials": "CSG",
+      "orcid": "0000-0001-8713-9213",
+      "email": "csgreene@upenn.edu",
+      "affiliations": "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania",
+      "funders": "GBMF4552"
     }
   ]
 }
