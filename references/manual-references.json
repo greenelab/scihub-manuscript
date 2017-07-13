@@ -345,5 +345,71 @@
     }
   ],
   "type": "webpage"
+},
+{
+  "standard_citation": "url:https://engineuring.wordpress.com/2016/02/24/why-sci-hub-is-the-true-solution-for-open-access-reply-to-criticism/",
+  "URL": "https://engineuring.wordpress.com/2016/02/24/why-sci-hub-is-the-true-solution-for-open-access-reply-to-criticism/",
+  "title": "Why Sci-Hub is the true solution for Open Access: reply to criticism",
+  "container-title": "Engineuring",
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        2,
+        24
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Alexandra",
+      "family": "Elbakyan"
+    }
+  ],
+  "type": "webpage"
+},
+{
+  "standard_citation": "url:https://engineuring.wordpress.com/2016/03/11/sci-hub-is-a-goal-changing-the-system-is-a-method/",
+  "URL": "https://engineuring.wordpress.com/2016/03/11/sci-hub-is-a-goal-changing-the-system-is-a-method/",
+  "title": "Sci-Hub is a goal, changing the system is a method",
+  "container-title": "Engineuring",
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        11
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Alexandra",
+      "family": "Elbakyan"
+    }
+  ],
+  "type": "webpage"
+},
+{
+  "standard_citation": "url:https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/",
+  "URL": "https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/",
+  "title": "Some facts on Sci-Hub that Wikipedia gets wrong",
+  "container-title": "Engineuring",
+  "issued": {
+    "date-parts": [
+      [
+        2017,
+        7,
+        2
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Alexandra",
+      "family": "Elbakyan"
+    }
+  ],
+  "type": "webpage"
 }
 ]
