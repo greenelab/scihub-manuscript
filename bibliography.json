@@ -3741,33 +3741,50 @@
     "id": "1EZBJN9ej"
   },
   {
-    "URL": "https://www.documentcloud.org/documents/3878258-2017-06-21-Elsevier-Sci-Hub-Final-Judgement.html",
-    "title": "2017 06 21 Elsevier Sci Hub Final Judgement",
-    "container-title": "@documentcloud",
+    "type": "legal-case",
+    "title": "Judgement: Case 1:15-cv-04282-RWS Document 87.",
     "author": [
       {
-        "family": "News)",
-        "given": "Jyllian Kemsley (Chemical & Engineering"
+        "family": "Sweet",
+        "given": "Robert W."
       }
     ],
-    "greycite-status": "Scanned",
-    "greycite-scanned": "2017-07-11 21:25:58",
-    "type": "webpage",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          21
+        ]
+      ]
+    },
+    "container-title": "Southern District Court of New York",
+    "authority": "Southern District Court of New York",
+    "number": "1:15-cv-04282-RWS",
+    "URL": "https://www.documentcloud.org/documents/3878258-2017-06-21-Elsevier-Sci-Hub-Final-Judgement.html",
     "id": "17drH57zs"
   },
   {
-    "URL": "https://www.documentcloud.org/documents/3879464-2017-06-23-ACS-Sci-Hub-Complaint.html",
-    "title": "2017 06 23 ACS Sci Hub Complaint",
-    "container-title": "@documentcloud",
+    "type": "legal-case",
+    "title": "Complaint: Case 1:17-cv-00726-LMB-JFA Document 1.",
     "author": [
       {
-        "family": "News)",
-        "given": "Jyllian Kemsley (Chemical & Engineering"
+        "family": "American Chemical Society"
       }
     ],
-    "greycite-status": "Scanned",
-    "greycite-scanned": "2017-07-11 21:26:00",
-    "type": "webpage",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          23
+        ]
+      ]
+    },
+    "container-title": "Eastern District Court of Virginia",
+    "authority": "Eastern District Court of Virginia",
+    "number": "1:17-cv-00726-LMB-JFA",
+    "URL": "https://www.documentcloud.org/documents/3879464-2017-06-23-ACS-Sci-Hub-Complaint.html",
     "id": "POar53EX"
   },
   {
