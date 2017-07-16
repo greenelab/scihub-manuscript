@@ -522,4 +522,13 @@ Therefore, we caution against drawing any conclusions from LibGen `DateAdded` an
 ](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/figure/libgen-monthly-lagtimes.svg){#fig:libgen-lag tag="S4"}
 
 
+# Acknowledgements
+
+We'd like to thank the individuals, not listed as authors, who provided comments on [GitHub issues](https://github.com/greenelab/scihub/issues) or pull requests.
+Specifically, the following individuals provided valuable input while the study was underway:
+[Richard Smith-Unna](https://github.com/blahah),
+[Ross Mounce](https://github.com/rossmounce),
+and [Guillaume Cabanac](https://github.com/gcabanac).
+In addition, we're grateful to GitHub for offering gratis Large File Storage as part of their education program.
+
 # References
