@@ -48,7 +48,7 @@ As of 2014, paywalls on the web limited access to an estimated 76% of scholarly 
 The open access movement strives to increase the accessibility of scholarly literature [@PuP45jrB].
 After decades of effort by the open access community [@3k6GM8o4], nearly 50% of newly published articles are available without paywalls [@n1xo9kJ7; @NE5AByb0].
 Literature that is free to read is comprised of two categories [@tSEdUvgK].
-The first category includes articles that are articles are [openly licensed](http://opendefinition.org/) to freely allow reuse, a group colloquially termed "free as in libre".
+The first category includes articles that are [openly licensed](http://opendefinition.org/) to freely allow reuse, a group colloquially termed "free as in libre".
 The remainder of free to read articles can be accessed without price barriers, but permission barriers may remain (usually due to copyright) [@7aXVorCC]. This set of articles is termed "free as in gratis".
 In this work, we refer to availability as "libre" or "gratis" to denote these categories.
 
@@ -103,10 +103,10 @@ Written by Richard Van Noorden, the story profiles Alexandra and includes an est
 The court makes the injunction permanent and orders the defendants to pay Elsevier $15 million — $150,000 for each of 100 copyrighted works.
 The statutory damages, which the defendants do not intend to pay, now bear interest.
 + **Ⓘ** The American Chemical Society files suit against Sci-Hub in the Eastern District of Virginia.
-Their prayer for relief requests that Internet search engines and Internet service providers "cease facilitating access" to Sci-Hub [@17REO8hrA; @POar53EX].
+Their "prayer for relief" requests that Internet search engines and Internet service providers "cease facilitating access" to Sci-Hub [@17REO8hrA; @POar53EX].
 
 Past research sheds some light on Sci-Hub's reach.
-From the Spring of 2013 till the end of 2014, Sci-Hub relied the Library Genesis (LibGen) scimag database to store articles [@1H8x8f4Y7].
+From the Spring of 2013 till the end of 2014, Sci-Hub relied on the Library Genesis (LibGen) scimag database to store articles [@1H8x8f4Y7].
 Whenever a user requested an article, Sci-Hub would check LibGen for a copy.
 If the article was not in LibGen, Sci-Hub would fetch the article for the user and also upload it to LibGen.
 Cabanac compared the number of articles in the LibGen scimag database at the start of 2014 to the total number of Crossref DOIs.
@@ -119,12 +119,12 @@ Based on these logs, Gardner, McLaughlin, and Asher estimated the ratio of publi
 They estimated this ratio at 20:1 for the Royal Society of Chemistry and 48:1 for Elsevier.
 Greshake also analyzed the logs to identify per capita Sci-Hub usage [@uBm4Sor6].
 Portugal, Iran, Tunisia, and Greece had the highest usage, suggesting Sci-Hub is preferentially used in countries with poor institutional access to scholarly literature.
-In a subsequent study, Greshake found especially high Sci-Hub usage in chemistry, with 12 of top 20 requested journals specializing in chemistry [@iLKgjFDu; @nnSxBFFr].
+In a subsequent study, Greshake found especially high Sci-Hub usage in chemistry, with 12 of the top 20 requested journals specializing in chemistry [@iLKgjFDu; @nnSxBFFr].
 
 Since 2015, Sci-Hub has operated its own repository, distinct from LibGen.
 On March 19, 2017, Sci-Hub released the list of DOIs for articles in its database.
 Greshake retrieved metadata for 77% of Sci-Hub DOIs [@iLKgjFDu; @nnSxBFFr].
-He found that 95% articles in Sci-Hub were published after 1950.
+He found that 95% of articles in Sci-Hub were published after 1950.
 Sci-Hub requests were even more skewed towards recent articles with only 5% targeting articles published before 1983.
 Greshake's study did not incorporate a catalog of all scholarly literature.
 This study analyzes Sci-Hub's catalog in the context of all scholarly literature and thus assesses coverage.
@@ -164,7 +164,7 @@ Another factor could be that some journals are now deploying more aggressive ant
 
 ![
 **Coverage of articles by year published.**
-Sci-Hub's article coverage is shows for each year since 1850.
+Sci-Hub's article coverage is shown for each year since 1850.
 ](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/figure/coverage-by-year.svg){#fig:years}
 
 ### Coverage by journal
@@ -192,7 +192,7 @@ The complete journal coverage results are available in our [Sci-Hub Stats Browse
 | New England Journal of Medicine | 180,321 | 180,467 | 99.92% |
 | PLoS ONE | 4,731 | 177,260 | 2.67% |
 
-Table: **Coverage for the the ten journals with the most articles.**
+Table: **Coverage for the ten journals with the most articles.**
 {#tbl:top-ten-journals}
 
 In general, a journal's coverage was either nearly complete or nearly entirely absent (Figure @fig:distributions).
@@ -203,7 +203,7 @@ Of perfect-coverage journals, 80.3% were inactive, and 1.9% were open access.
 Hence, inactive closed-access journals make up the bulk of perfect-coverage journals.
 
 ![
-**the distributions of journal & publisher coverages.**
+**Distributions of journal & publisher coverages.**
 The histograms show the distribution of Sci-Hub's coverage for journals and publishers. 
 Each bin spans 2.5 percentage points.
 ](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/figure/coverage-distributions.svg){#fig:distributions width="5in"}
@@ -391,7 +391,7 @@ We queried the `works` endpoint of the [Crossref API](https://api.crossref.org/)
 The queries began on March 21, 2017 and took 12 days to complete.
 In total, we retrieved metadata for 87,542,370 DOIs corresponding to all Crossref works as of March 21, 2017.
 The source code for this step is available on GitHub at [`greenelab/crossref`](https://github.com/greenelab/crossref).
-Due to its large file size (7.4 GB), the MongoDB database export of DOI metadata is not available on GitHub and instead hosted via figshare [@1E6E4mpZ].
+Due to its large file size (7.4 GB), the MongoDB database export of DOI metadata is not available on GitHub and is instead hosted via figshare [@1E6E4mpZ].
 We created TSV files with the minimal information needed for this study.
 First, a DOI table with columns for work type and date issued.
 Date issued refers to the earliest known publication date, i.e. the date of print or online publication, whichever occurred first.
@@ -469,7 +469,7 @@ Therefore, the LibGen scimag and Sci-Hub DOI catalogs can presumably be used int
 
 The 2016 study titled "Who's downloading pirated papers? Everyone" analyzed a dataset of Sci-Hub request logs [@RsNXQAG2; @t4r48QpO].
 Alexandra Elbakyan worked with journalist John Bohannon to produce a dataset of download requests received by Sci-Hub from September 1, 2015 through February 29, 2016 [@kQFQ8EaO].
-In November 2015, Sci-Hub's domain name was suspended as the result legal action by Elsevier [@16k28dBmH; @sR4uAYxB].
+In November 2015, Sci-Hub's domain name was suspended as the result of legal action by Elsevier [@16k28dBmH; @sR4uAYxB].
 According to Bohannon, this resulted in "an 18-day gap in the data starting November 4, 2015 when the domain `sci-hub.org` went down and the server logs were improperly configured."
 We show this downtime in Figure @fig:history.
 
@@ -499,7 +499,7 @@ Sci-Hub's coverage is shown for countries with at least 100,000 articles.
 ![
 **Bitcoin donations to Sci-Hub per month.**
 For months since June 2015, total bitcoin donations (deposits to known Sci-Hub addresses) are assessed. 
-Donations to USD refers to the United States dollar value at time of transaction confirmation.
+Donations in USD refers to the United States dollar value at time of transaction confirmation.
 ](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/explore/bitcoin/monthly-donations-faceted.svg){#fig:bitcoin-all tag="S2"  width="5in"}
 
 ![
