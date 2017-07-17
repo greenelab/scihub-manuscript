@@ -30,6 +30,7 @@
       "full_name": "Bastian Greshake Tzovaras",
       "initials": "BGT",
       "orcid": "0000-0002-9925-9623",
+      "twitter_username": "gedankenstuecke",
       "email": "bgreshake@googlemail.com",
       "affiliations": "Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt",
       "funders": "GBMF4552"
@@ -39,7 +40,7 @@
       "full_name": "Casey S. Greene",
       "initials": "CSG",
       "orcid": "0000-0001-8713-9213",
-      "twitter_username": "dhimmel",
+      "twitter_username": "GreeneScientist",
       "email": "csgreene@upenn.edu",
       "affiliations": "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania",
       "funders": "GBMF4552"
@@ -47,6 +48,6 @@
   ],
   "ci_source": {
     "repo_slug": "greenelab/scihub-manuscript",
-    "commit": "6951ac5ba55c25b6d3de5e7c42e1189d23929f42"
+    "commit": "efbd4a0dfa30ad1c9a54c92c1195ce89cf024ac4"
   }
 }

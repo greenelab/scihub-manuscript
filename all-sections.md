@@ -14,7 +14,7 @@ title: 'Manubot Rootstock: Manuscript Title'
 
 
 <small><em>
-This manuscript was automatically generated from [greenelab/scihub-manuscript@6951ac5](https://github.com/greenelab/scihub-manuscript/tree/6951ac5ba55c25b6d3de5e7c42e1189d23929f42).
+This manuscript was automatically generated from [greenelab/scihub-manuscript@efbd4a0](https://github.com/greenelab/scihub-manuscript/tree/efbd4a0dfa30ad1c9a54c92c1195ce89cf024ac4).
 </em></small>
 
 
@@ -47,7 +47,9 @@ This manuscript was automatically generated from [greenelab/scihub-manuscript@69
     ![ORCID icon](images/orcid.svg){height="13px"}
     [0000-0002-9925-9623](https://orcid.org/0000-0002-9925-9623)
     · ![GitHub icon](images/github.svg){height="13px"}
-    [gedankenstuecke](https://github.com/gedankenstuecke)<br>
+    [gedankenstuecke](https://github.com/gedankenstuecke)
+    · ![Twitter icon](images/twitter.svg){height="13px"}
+    [gedankenstuecke](https://twitter.com/gedankenstuecke)<br>
   <small>
      Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt
      · Funded by GBMF4552
@@ -59,7 +61,7 @@ This manuscript was automatically generated from [greenelab/scihub-manuscript@69
     · ![GitHub icon](images/github.svg){height="13px"}
     [cgreene](https://github.com/cgreene)
     · ![Twitter icon](images/twitter.svg){height="13px"}
-    [dhimmel](https://twitter.com/dhimmel)<br>
+    [GreeneScientist](https://twitter.com/GreeneScientist)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
      · Funded by GBMF4552
