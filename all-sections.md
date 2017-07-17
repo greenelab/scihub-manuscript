@@ -20,7 +20,7 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 
 <small><em>
-This manuscript was automatically generated from [greenelab/scihub-manuscript@ba87c84](https://github.com/greenelab/scihub-manuscript/tree/ba87c8481ce4aa8df1c1b0a72258162b5097777c).
+This manuscript was automatically generated from [greenelab/scihub-manuscript@a49436b](https://github.com/greenelab/scihub-manuscript/tree/a49436b4ab126a62ac6bf291b9a864e915665e71).
 </em></small>
 
 
@@ -132,7 +132,7 @@ The light green period indicates when Sci-Hub used LibGen as its database for st
 The light blue period indicates the public availability of Sci-Hub request logs [@kQFQ8EaO].
 The first pink dotted line represents the collection date of the LibGen metadata used in Cabanac's study [@18KKRwlN6].
 The second pink dotted line shows the date of Sci-Hub's Tweeted DOI catalog used in this study.
-](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/explore/trends/google-trends.svg){#fig:history}
+](https://cdn.rawgit.com/greenelab/scihub/d84c62a1cbcd70033d70a3728df5492a0031afa9/explore/trends/google-trends.svg){#fig:history}
 
 In Figure @fig:history, The ⓛⓔⓣⓣⓔⓡⓢ refer to the following events:
 
@@ -199,7 +199,7 @@ The remaining Crossref types were uncommon, and hence contributed little to over
 **Coverage by article type.**
 Coverage is plotted for the Crossref work types included by this study.
 We refer to all of these types as "articles".
-](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/figure/coverage-by-type.svg){#fig:types width="4in"}
+](https://cdn.rawgit.com/greenelab/scihub/d84c62a1cbcd70033d70a3728df5492a0031afa9/figure/coverage-by-type.svg){#fig:types width="4in"}
 
 ### Coverage by year
 
@@ -213,7 +213,7 @@ Another factor could be that some journals are now deploying more aggressive ant
 ![
 **Coverage of articles by year published.**
 Sci-Hub's article coverage is shown for each year since 1850.
-](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/figure/coverage-by-year.svg){#fig:years}
+](https://cdn.rawgit.com/greenelab/scihub/d84c62a1cbcd70033d70a3728df5492a0031afa9/figure/coverage-by-year.svg){#fig:years}
 
 ### Coverage by journal
 
@@ -254,7 +254,7 @@ Hence, inactive closed-access journals make up the bulk of perfect-coverage jour
 **Distributions of journal & publisher coverages.**
 The histograms show the distribution of Sci-Hub's coverage for journals and publishers. 
 Each bin spans 2.5 percentage points.
-](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/figure/coverage-distributions.svg){#fig:distributions width="5in"}
+](https://cdn.rawgit.com/greenelab/scihub/d84c62a1cbcd70033d70a3728df5492a0031afa9/figure/coverage-distributions.svg){#fig:distributions width="5in"}
 
 Next we explored article coverage according to journal attributes (Figure @fig:attributes).
 Sci-Hub covered 83.4% of the 57,074,208 articles that were attributable to a journal.
@@ -266,7 +266,7 @@ Accordingly, no disciplines had coverage below 75%. See Figure @fig:countries fo
 ![
 **Coverage by journal attributes.**
 Coverage was assessed for all articles from journals with the specified Scopus attributes.
-](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/figure/coverage.svg){#fig:attributes}
+](https://cdn.rawgit.com/greenelab/scihub/d84c62a1cbcd70033d70a3728df5492a0031afa9/figure/coverage.svg){#fig:attributes}
 
 We also evaluated whether journal coverage varied by journal impact.
 We assessed journal impact using the 2015 CiteScore, which measures the average number of citations articles published in 2012–2014 received during 2015.
@@ -294,7 +294,7 @@ Sci-Hub had zero coverage for 1,206 publishers and complete coverage for 323 pub
 ![
 **Coverage by publisher.**
 Article coverage is shown for all Scopus publishers with at least 200,000 articles.
-](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/figure/coverage-by-publisher.svg){#fig:publishers}
+](https://cdn.rawgit.com/greenelab/scihub/d84c62a1cbcd70033d70a3728df5492a0031afa9/figure/coverage-by-publisher.svg){#fig:publishers}
 
 ### Sci-Hub request logs
 
@@ -330,7 +330,7 @@ This is the only analysis where "Sci-Hub Coverage" refers to journal-level rathe
 **B)**
 The association between 2015 CiteScore and average visitors per article is plotted for open and closed access journals.
 Curves show the 95% confidence band from a Generalized Additive Model.
-](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/figure/citescore.svg){#fig:citescore}
+](https://cdn.rawgit.com/greenelab/scihub/d84c62a1cbcd70033d70a3728df5492a0031afa9/figure/citescore.svg){#fig:citescore}
 
 ## Discussion
 
@@ -359,7 +359,7 @@ However, since the price of bitcoins has risen, the 67.42 donated bitcoins that 
 The number of bitcoin donations to Sci-Hub is shown for each month from June 2015 to June 2017.
 Since February 2016, Sci-Hub has received at least 30 donations per month.
 Each donation corresponds to an incoming transaction to a known Sci-Hub address.
-](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/explore/bitcoin/monthly-donations-count.svg){#fig:bitcoin}
+](https://cdn.rawgit.com/greenelab/scihub/d84c62a1cbcd70033d70a3728df5492a0031afa9/explore/bitcoin/monthly-donations-count.svg){#fig:bitcoin}
 
 The largest and most prominent publishers are highly covered by Sci-Hub.
 Publishers have taken note.
@@ -542,20 +542,20 @@ Interestingly, the journal [_Medicine - Programa de Formación Médica Continuad
 **Coverage by country of publication.**
 Scopus assigns each journal a country of publication.
 Sci-Hub's coverage is shown for countries with at least 100,000 articles.
-](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/figure/coverage-by-country.svg){#fig:countries tag="S1"}
+](https://cdn.rawgit.com/greenelab/scihub/d84c62a1cbcd70033d70a3728df5492a0031afa9/figure/coverage-by-country.svg){#fig:countries tag="S1"}
 
 ![
 **Bitcoin donations to Sci-Hub per month.**
 For months since June 2015, total bitcoin donations (deposits to known Sci-Hub addresses) are assessed. 
 Donations in USD refers to the United States dollar value at time of transaction confirmation.
-](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/explore/bitcoin/monthly-donations-faceted.svg){#fig:bitcoin-all tag="S2"  width="5in"}
+](https://cdn.rawgit.com/greenelab/scihub/d84c62a1cbcd70033d70a3728df5492a0031afa9/explore/bitcoin/monthly-donations-faceted.svg){#fig:bitcoin-all tag="S2"  width="5in"}
 
 ![
 **Number of articles in LibGen scimag over time.**
 The figure shows the cumulative number of articles versus the LibGen scimag `DateAdded` field.
 When comparing this plot to Figure 1 of Cabanac 2015 [@18KKRwlN6], we noticed a major discrepancy.
 We hypothesize that the `DateAdded` field is replaced upon modification, making it impossible to assess date of first upload.
-](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/figure/libgen-cumulative-works.svg){#fig:libgen-size tag="S3" width="4in"}
+](https://cdn.rawgit.com/greenelab/scihub/d84c62a1cbcd70033d70a3728df5492a0031afa9/figure/libgen-cumulative-works.svg){#fig:libgen-size tag="S3" width="4in"}
 
 ![
 **Lag-time from publication to LibGen upload.**
@@ -567,7 +567,7 @@ For example, coverage for 2016 articles exceeded 50% within 6 months, but appear
 Alternatively, coverage for 2014 took 15 months to exceed 50% but has since then reached 75%.
 However, this signal could result from post-dated LibGen upload timestamps.
 Therefore, we caution against drawing any conclusions from LibGen `DateAdded` analyses, such as this, until more is known.
-](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/figure/libgen-monthly-lagtimes.svg){#fig:libgen-lag tag="S4"}
+](https://cdn.rawgit.com/greenelab/scihub/d84c62a1cbcd70033d70a3728df5492a0031afa9/figure/libgen-monthly-lagtimes.svg){#fig:libgen-lag tag="S4"}
 
 
 # Acknowledgements
