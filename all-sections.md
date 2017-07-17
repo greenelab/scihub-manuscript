@@ -20,7 +20,7 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 
 <small><em>
-This manuscript was automatically generated from [greenelab/scihub-manuscript@ef59c3c](https://github.com/greenelab/scihub-manuscript/tree/ef59c3c622b45c53da4bd4159588afb8b98ef9a3).
+This manuscript was automatically generated from [greenelab/scihub-manuscript@e481955](https://github.com/greenelab/scihub-manuscript/tree/e4819559bfd32288d0479a9e5d03a5a6c357e988).
 </em></small>
 
 
