@@ -20,7 +20,7 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 
 <small><em>
-This manuscript was automatically generated from [greenelab/scihub-manuscript@8f40d7a](https://github.com/greenelab/scihub-manuscript/tree/8f40d7a76c74a27fee0a2a3ac99e534572efea54).
+This manuscript was automatically generated from [greenelab/scihub-manuscript@ef59c3c](https://github.com/greenelab/scihub-manuscript/tree/ef59c3c622b45c53da4bd4159588afb8b98ef9a3).
 </em></small>
 
 
@@ -91,7 +91,7 @@ For the first time, the overwhelming majority of scholarly literature is availab
 ## Introduction
 
 As of 2014, paywalls on the web limited access to an estimated 76% of scholarly literature [@MNHagzoO].
-The open access movement strives to increase the accessibility of scholarly literature [@PuP45jrB].
+The open access movement strives to remedy this situation [@PuP45jrB].
 After decades of effort by the open access community [@3k6GM8o4], nearly 50% of newly published articles are available without paywalls [@n1xo9kJ7; @NE5AByb0].
 Literature that is free to read is comprised of two categories [@tSEdUvgK].
 The first category includes articles that are [openly licensed](http://opendefinition.org/) to freely allow reuse, a group colloquially termed "free as in libre".
@@ -316,7 +316,7 @@ The "visitors" metric assesses the average number of IP addresses that requested
 In aggregate, articles from closed access journals average 1.30 visitors, whereas articles from open access journals averaged 0.27 visitors.
 Figure {@fig:citescore}B shows that articles from highly cited journals were on average much more frequently visited.
 Articles in the least cited closed access journals averaged almost zero visitors compared to approximately 15 visitors for the most cited journals.
-In addition, Figure {@fig:citescore}B shows that Sci-Hub visitors are many times more frequent for articles in closed versus open access journals, even after accounting for journal impact.
+In addition, Figure {@fig:citescore}B shows that articles in closed access journals received many times more visitors than those in open access journals, even after accounting for journal impact.
 
 ![
 **Relation to journal impact.**
@@ -362,10 +362,12 @@ Each donation corresponds to an incoming transaction to a known Sci-Hub address.
 The largest and most prominent publishers are highly covered by Sci-Hub.
 Publishers have taken note.
 Elsevier (whose 13 million works are 97.3% covered by Sci-Hub) and the American Chemical Society (whose 1.4 million works are 98.8% covered) have both filed suit against Sci-Hub, despite the limited enforcement options of United States courts.
-The widespread gratis access to previously paywalled content calls into question the sustainability of the subscription publishing model.
-As distributed and censorship-resistant file storage protocols mature [@16kozZ9Ys; @5gyFSQse], Sci-Hub alternatives may emerge that no longer rely on a centralized service. As such, Sci-Hub's corpus of gratis scholarly literature will be extremely difficult to suppress.
+The widespread gratis access to previously paywalled content calls into question the sustainability of the subscription publishing model [@102oWwJt1].
+As distributed and censorship-resistant file storage protocols mature [@16kozZ9Ys; @5gyFSQse], Sci-Hub alternatives may emerge that no longer rely on a centralized service.
+Indeed, Alexandra Elbakyan is only one individual in the larger "guerilla access" movement [@2TjdrEPp; @R9mR68Y4], which will persist regardless of her fate.
+As such, Sci-Hub's corpus of gratis scholarly literature will be extremely difficult to suppress.
 
-In addition, adoption of pirate sites may accelerate if Universities continue canceling journal subscriptions [@wnNilBvm; @uKvlPbm2], leaving researchers with few alternative access options.
+In addition, adoption of pirate sites may accelerate if Universities continue canceling increasingly expensive journal subscriptions [@wnNilBvm; @uKvlPbm2; @12rSJsEKK; @GWp5Zx0w], leaving researchers with few alternative access options.
 We can also expect biblioleaks — bulk releases of closed access corpuses — to progress despite publisher's best efforts, as articles must only leak once to be perpetually available [@8mg1a0YE].
 In essence, scholarly publishers have already lost the access battle.
 Publishers will be forced to adapt quickly to open access publishing models.
@@ -375,9 +377,11 @@ In the words of Alexandra Elbakyan [@DCZkZXsz]:
 
 Sci-Hub is poised to fundamentally disrupt scholarly publishing.
 The transition to gratis availability of scholarly articles is inevitable.
-However, we urge the community to take this opportunity to fully liberate scholarly articles.
+However, we urge the community to take this opportunity to fully liberate scholarly articles, as well as explore more constructive business models for publishing [@cunYx7X4].
 Only libre access, enabled by [open licensing](http://opendefinition.org/), allows building applications on top of scholarly literature without fear of legal consequences [@7aXVorCC].
-Were all articles libre, there would be no such thing as a "pirate website" for accessing scholarly literature.
+For example, fulltext mining of scholarly literature is an area of great potential [@1BW4FtNLl], but is currently impractical due to the lack of a large-scale preprocessed corpus of articles.
+The barriers here are legal, not technological [@llK8SMam; @I6O7IKP7].
+In closing, were all articles libre, there would be no such thing as a "pirate website" for accessing scholarly literature.
 
 ## Methods
 

@@ -3810,8 +3810,9 @@
   },
   {
     "URL": "https://www.nytimes.com/2016/03/13/opinion/sunday/should-all-research-papers-be-free.html",
-    "title": "Opinion | Should All Research Papers Be Free?",
-    "container-title": "@nytimes",
+    "title": "Should All Research Papers Be Free?",
+    "section": "Opinion",
+    "container-title": "New York Times",
     "issued": {
       "date-parts": [
         [
@@ -3827,12 +3828,7 @@
         "given": "Kate"
       }
     ],
-    "greycite-status": "Scanned",
-    "greycite-scanned": "2017-07-11 21:26:04",
-    "archives": [
-      "http://wayback.archive.org/web/https://www.nytimes.com/2016/03/13/opinion/sunday/should-all-research-papers-be-free.html"
-    ],
-    "type": "webpage",
+    "type": "article-newspaper",
     "id": "tMPCGeuL"
   },
   {
@@ -4229,6 +4225,570 @@
     "URL": "https://doi.org/10.1101/142760",
     "relation": {},
     "id": "tJKvnIaZ"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          5,
+          27
+        ]
+      ],
+      "date-time": "2017-05-27T10:39:08Z",
+      "timestamp": 1495881548759
+    },
+    "reference-count": 0,
+    "publisher": "Springer Nature",
+    "issue": "7388",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Nature"
+    ],
+    "DOI": "10.1038/483134a",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2012,
+          3,
+          7
+        ]
+      ],
+      "date-time": "2012-03-07T11:55:09Z",
+      "timestamp": 1331121309000
+    },
+    "page": "134-135",
+    "source": "Crossref",
+    "is-referenced-by-count": 9,
+    "title": "Trouble at the text mine",
+    "prefix": "10.1038",
+    "volume": "483",
+    "author": [
+      {
+        "given": "Richard",
+        "family": "Van Noorden",
+        "affiliation": []
+      }
+    ],
+    "member": "339",
+    "published-online": {
+      "date-parts": [
+        [
+          2012,
+          3,
+          7
+        ]
+      ]
+    },
+    "container-title": "Nature",
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2012,
+          3,
+          15
+        ]
+      ],
+      "date-time": "2012-03-15T14:51:25Z",
+      "timestamp": 1331823085000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2012,
+          3,
+          7
+        ]
+      ]
+    },
+    "references-count": 0,
+    "alternative-id": [
+      "483134a"
+    ],
+    "URL": "https://doi.org/10.1038/483134a",
+    "relation": {},
+    "issn-type": [
+      {
+        "value": "0028-0836",
+        "type": "print"
+      },
+      {
+        "value": "1744-7933",
+        "type": "electronic"
+      }
+    ],
+    "subject": [
+      "General"
+    ],
+    "id": "I6O7IKP7"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          5,
+          29
+        ]
+      ],
+      "date-time": "2017-05-29T01:49:02Z",
+      "timestamp": 1496022542048
+    },
+    "reference-count": 0,
+    "publisher": "CNRI Acct",
+    "issue": "11/12",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "D-Lib Magazine"
+    ],
+    "DOI": "10.1045/november14-brook",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          11,
+          17
+        ]
+      ],
+      "date-time": "2014-11-17T11:46:25Z",
+      "timestamp": 1416224785000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "The Social, Political and Legal Aspects of Text and Data Mining (TDM)",
+    "prefix": "10.1045",
+    "volume": "20",
+    "author": [
+      {
+        "given": "Michelle",
+        "family": "Brook",
+        "affiliation": []
+      },
+      {
+        "given": "Peter",
+        "family": "Murray-Rust",
+        "affiliation": []
+      },
+      {
+        "given": "Charles",
+        "family": "Oppenheim",
+        "affiliation": []
+      }
+    ],
+    "member": "72",
+    "published-online": {
+      "date-parts": [
+        [
+          2014,
+          11
+        ]
+      ]
+    },
+    "container-title": "D-Lib Magazine",
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2014,
+          11,
+          17
+        ]
+      ],
+      "date-time": "2014-11-17T11:46:28Z",
+      "timestamp": 1416224788000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          11
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.1045/november14-brook",
+    "relation": {},
+    "issn-type": [
+      {
+        "value": "1082-9873",
+        "type": "electronic"
+      }
+    ],
+    "subject": [
+      "Library and Information Sciences"
+    ],
+    "id": "llK8SMam"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          7,
+          12
+        ]
+      ],
+      "date-time": "2017-07-12T08:11:12Z",
+      "timestamp": 1499847072848
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2017,
+          7,
+          11
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 0,
+    "publisher": "Cold Spring Harbor Laboratory",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2017,
+          7,
+          11
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Across academia and industry, text mining has become a popular strategy for keeping up with the rapid growth of the scientific literature. Text mining of the scientific literature has mostly been carried out on collections of abstracts, due to their availability. Here we present an analysis of 15 million English scientific full-text articles published during the period 1823-2016. We describe the development in article length and publication sub-topics during these nearly 250 years. We showcase the potential of text mining by extracting published protein-protein, disease-gene, and protein subcellular associations using a named entity recognition system, and quantitatively report on their accuracy using gold standard benchmark data sets. We subsequently compare the findings to corresponding results obtained on 16.5 million abstracts included in MEDLINE and show that text mining of full-text articles consistently outperforms using abstracts only.</jats:p>",
+    "DOI": "10.1101/162099",
+    "type": "manuscript",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          7,
+          12
+        ]
+      ],
+      "date-time": "2017-07-12T05:10:13Z",
+      "timestamp": 1499836213000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "Text mining of 15 million full-text scientific articles",
+    "prefix": "10.1101",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0003-0128-8432",
+        "authenticated-orcid": false,
+        "given": "David",
+        "family": "Westergaard",
+        "affiliation": []
+      },
+      {
+        "given": "Hans-Henrik",
+        "family": "Stærfeldt",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-9504-2163",
+        "authenticated-orcid": false,
+        "given": "Christian",
+        "family": "Tønsberg",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-7885-715X",
+        "authenticated-orcid": false,
+        "given": "Lars Juhl",
+        "family": "Jensen",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-0316-5866",
+        "authenticated-orcid": false,
+        "given": "Søren",
+        "family": "Brunak",
+        "affiliation": []
+      }
+    ],
+    "member": "246",
+    "container-title": null,
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          7,
+          12
+        ]
+      ],
+      "date-time": "2017-07-12T05:10:15Z",
+      "timestamp": 1499836215000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          7,
+          11
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.1101/162099",
+    "relation": {},
+    "id": "1BW4FtNLl"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          25
+        ]
+      ],
+      "date-time": "2017-06-25T12:43:27Z",
+      "timestamp": 1498394607489
+    },
+    "reference-count": 29,
+    "publisher": "Ubiquity Press, Ltd.",
+    "issue": "1",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          3,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1629/uksg.333",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          3,
+          8
+        ]
+      ],
+      "date-time": "2017-03-08T16:33:03Z",
+      "timestamp": 1488990783000
+    },
+    "page": "25-30",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "Access, ethics and piracy",
+    "prefix": "10.1629",
+    "volume": "30",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0002-1972-8953",
+        "authenticated-orcid": false,
+        "given": "Stuart",
+        "family": "Lawson",
+        "affiliation": []
+      }
+    ],
+    "member": "3285",
+    "container-title": "Insights the UKSG journal",
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          25
+        ]
+      ],
+      "date-time": "2017-06-25T12:12:37Z",
+      "timestamp": 1498392757000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          3,
+          10
+        ]
+      ]
+    },
+    "references-count": 29,
+    "alternative-id": [
+      "10.1629/uksg.333"
+    ],
+    "URL": "https://doi.org/10.1629/uksg.333",
+    "relation": {},
+    "issn-type": [
+      {
+        "value": "2048-7754",
+        "type": "electronic"
+      }
+    ],
+    "id": "102oWwJt1"
+  },
+  {
+    "URL": "https://doi.org/10.2139/ssrn.2616636",
+    "title": "Libraries in the Post-Scarcity Era",
+    "container-title": "Copyrighting Creativity: Creative values, Cultural Heritage Institutions and Systems of Intellectual Property",
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          6,
+          12
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Bodó",
+        "given": "Balázs"
+      }
+    ],
+    "editor": [
+      {
+        "family": "Porsdam",
+        "given": "Helle"
+      }
+    ],
+    "type": "chapter",
+    "id": "R9mR68Y4"
+  },
+  {
+    "URL": "https://doi.org/10.2139/ssrn.2816925",
+    "title": "Pirates in the Library – An Inquiry into the Guerilla Open Access Movement",
+    "container-title": "8th Annual Workshop of the International Society for the History and Theory of Intellectual Property, CREATe",
+    "event-place": "Glasgow, United Kingdom",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          8,
+          6
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Bodó",
+        "given": "Balázs"
+      }
+    ],
+    "type": "paper-conference",
+    "id": "2TjdrEPp"
+  },
+  {
+    "type": "article-journal",
+    "journalAbbreviation": "STAL",
+    "author": [
+      {
+        "literal": "Eve Martin Paul"
+      },
+      {
+        "literal": "de Vries Saskia C.J."
+      },
+      {
+        "literal": "Rooryck Johan"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "container-title": "Stand Alone",
+    "DOI": "10.3233/978-1-61499-769-6-118",
+    "issue": "Expanding Perspectives on Open Science: Communities, Cultures and Diversity in Concepts and Practices",
+    "page": "118-128",
+    "page-first": "118",
+    "publisher": "IOS Press",
+    "title": "The Transition to Open Access: The State of the Market, Offsetting Deals, and a Demonstrated Model for Fair Open Access with the Open Library of Humanities",
+    "URL": "https://doi.org/10.3233/978-1-61499-769-6-118",
+    "volume": "0",
+    "id": "cunYx7X4"
+  },
+  {
+    "type": "dataset",
+    "id": "12rSJsEKK",
+    "author": [
+      {
+        "family": "Lawson",
+        "given": "Stuart"
+      },
+      {
+        "family": "Meghreblian",
+        "given": "Ben"
+      },
+      {
+        "family": "Brook",
+        "given": "Michelle"
+      }
+    ],
+    "editor": [],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "abstract": "This dataset contains the amount of money paid by UK higher education institutions to ten major publishers (Elsevier, Wiley, Springer, Taylor &amp; Francis, Sage, Oxford University Press, Cambridge University Press, Nature Publishing Group, Royal Society of Chemistry, and Institute of Physics Publishing) for academic journals from 2010-14. The data was obtained by sending FOI requests to each institution through the website whatdotheyknow.com. It now represents over £430m of expenditure.\nThese are ten of the largest academic publishers but do not represent the total spend of these institutions on academic journals.\nPlease see the F1000 data note (http://f1000research.com/articles/3-274/v3) for a full description of the data collection process. For a visualisation of the data go to http://shiny.retr0.me/journal_costs/, and for updated 2015/16 figures go to https://figshare.com/articles/Journal_subscription_expenditure_in_the_UK_2015-16/4542433/3<br>\n<strong>UPDATE 08/10/2014</strong>: Added figures for 13 more institutions.\n<strong>UPDATE 22/10/2014</strong>: Added figures for subscriptions to Elsevier journals. Also includes additional figures for other publishers for 16 institutions.\n<strong>UPDATE 24/10/2014</strong>: Added figures for subscriptions to Elsevier journals for 13 more institutions.\n<strong>UPDATE 27/10/2014</strong>: Added figures for subscriptions to Elsevier journals for 5 more institutions.\n<strong>UPDATE 29/10/2014</strong>: Added figures for subscriptions to Elsevier journals for 25 more institutions.\n<strong>UPDATE 5/11/2014</strong>: Added figures for subscriptions to Elsevier journals for 14 more institutions.\n<strong>UPDATE 25/11/2014</strong>: Added figures for Wiley, Springer, and OUP for 20 Russell Group institutions from Michelle Brook's FOI data (http://dx.doi.org/10.6084/m9.figshare.1250073) as well as further figures for around 20 other institutions.\n<strong>UPDATE 03/12/2014</strong>: Added figures for subscriptions to various publishers for 13 institutions.\n<strong>UPDATE 09/12/2014</strong>: Added figures for subscriptions to various publishers for 15 institutions.\n<strong>UPDATE 23/12/2014</strong>: Added figures for subscriptions to various publishers for 12 institutions.\n<strong>Note on the data 16/01/2015</strong>: It has been brought to my attention that the way I have added VAT to some figures may not be 100% accurate. I have added VAT to those figures for which it was not provided (a minority), but since VAT is only applied to electronic and not print publications in the UK, the figures I have added may not be completely accurate. Electronic subscriptions make up the majority of journal expenditure now but not all of it. Please bear this is mind when directly comparing different institutions' figures. I will see revisit the data at some point to see if I can rectify the problem.\n<strong>UPDATE 22/01/2015</strong>: Added figures for subscriptions to various publishers for 16 institutions.\n<strong>UPDATE 20/03/2015</strong>: Added figures for subscriptions to various publishers for 16 institutions. I have also removed the VAT (17.5% in 2010, 20% in 2011-14) which I had previously added to those figures which excluded VAT. This is to address the issue raised above - in the UK, VAT is only charged on electronic publications and not print. Since I don't know which proportion of the expenditure is on print and which is on electronic, I have decided not to add VAT. This may not make the figures more accurate but at least I can be sure that I am not inflating them. The total is now around £5m lower than before.\n<strong>UPDATE 05/06/2015</strong>: Data for three more publishers added (NPG, RSC, and IOP) for 70 institutions. Added figures for various other publishers for three institutions.\n<strong>UPDATES 10/06/2015</strong>: Added figures for subscriptions to NPG, RSC, and IOP for 17 institutions. Fixed two formatting errors as noted by D. Himmelstein in the comments.\n<strong>UPDATE 12/06/2015</strong>: Added figures for subscriptions to NPG, RSC, and IOP for 20 institutions.\n<strong>UPDATE 17/06/2015</strong>: Added figures for subscriptions to NPG, RSC, and IOP for 27 institutions.\n<strong>UPDATE 29/06/2015</strong>: Added figures for subscriptions to NPG, RSC, and IOP for 7 institutions.\n<strong>UPDATE 29/07/2015</strong>: Added figures for subscriptions to NPG, RSC, and IOP for 5 institutions.",
+    "DOI": "10.6084/m9.figshare.1186832.v23",
+    "publisher": "Figshare",
+    "title": "Journal subscription costs - FOIs to UK universities",
+    "URL": "https://doi.org/10.6084/m9.figshare.1186832.v23"
+  },
+  {
+    "type": "dataset",
+    "id": "GWp5Zx0w",
+    "author": [
+      {
+        "family": "Lawson",
+        "given": "Stuart"
+      }
+    ],
+    "editor": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "abstract": "This dataset contains payments made by UK higher education institutions for access to academic journals from eight publishers in 2015 and 2016. The data was obtained by sending Freedom of Information requests to 153 institutions through the website whatdotheyknow.com.<br><br>The total expenditure on these eight publishers in 2016 was £103m.<br><br>* Updated 24 January 2017 with data for five institutions.<br>* Updated 20 February 2017 with data for nine institutions.<br>* Updated 19 April 2017 with data for two institutions.<br>* Updated 26 April 2017 after checking all figures for inclusion of VAT and currency conversion from EUR to GBP.<br>* Updated 9 May 2017 with figures for Elsevier expenditure by University of Leeds. <br>",
+    "DOI": "10.6084/m9.figshare.4542433.v6",
+    "publisher": "Figshare",
+    "title": "Journal subscription expenditure in the UK 2015-16",
+    "URL": "https://doi.org/10.6084/m9.figshare.4542433.v6"
   },
   {
     "URL": "https://arxiv.org/abs/1407.3561v1",

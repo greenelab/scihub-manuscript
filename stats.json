@@ -1,9 +1,9 @@
 {
   "reference_counts": {
     "arxiv": 1,
-    "doi": 33,
+    "doi": 42,
     "url": 26,
-    "total": 60
+    "total": 69
   },
   "authors": [
     {
@@ -46,6 +46,6 @@
   ],
   "ci_source": {
     "repo_slug": "greenelab/scihub-manuscript",
-    "commit": "8f40d7a76c74a27fee0a2a3ac99e534572efea54"
+    "commit": "ef59c3c622b45c53da4bd4159588afb8b98ef9a3"
   }
 }
