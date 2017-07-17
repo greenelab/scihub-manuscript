@@ -411,5 +411,80 @@
     }
   ],
   "type": "webpage"
+},
+{
+ "URL": "https://doi.org/10.2139/ssrn.2816925",
+ "title": "Pirates in the Library – An Inquiry into the Guerilla Open Access Movement",
+ "container-title": "8th Annual Workshop of the International Society for the History and Theory of Intellectual Property, CREATe",
+ "event-place": "Glasgow, United Kingdom",
+ "issued": {
+   "date-parts": [
+     [
+       2016,
+       8,
+       6
+     ]
+   ]
+ },
+ "author": [
+   {
+    "family": "Bodó",
+    "given": "Balázs"
+   }
+ ],
+ "type": "paper-conference",
+ "standard_citation": "doi:10.2139/ssrn.2816925"
+},
+{
+ "URL": "https://doi.org/10.2139/ssrn.2616636",
+ "title": "Libraries in the Post-Scarcity Era",
+ "container-title": "Copyrighting Creativity: Creative values, Cultural Heritage Institutions and Systems of Intellectual Property",
+ "ISBN": "9781315574257",
+ "issued": {
+   "date-parts": [
+     [
+       2015,
+       6,
+       12
+     ]
+   ]
+ },
+ "author": [
+   {
+    "family": "Bodó",
+    "given": "Balázs"
+   }
+ ],
+ "editor": [
+   {
+     "family": "Porsdam",
+     "given": "Helle"
+   }
+ ],
+ "type": "chapter",
+ "standard_citation": "doi:10.2139/ssrn.2616636"
+},
+{
+  "URL": "https://www.nytimes.com/2016/03/13/opinion/sunday/should-all-research-papers-be-free.html",
+  "standard_citation": "url:https://www.nytimes.com/2016/03/13/opinion/sunday/should-all-research-papers-be-free.html",
+  "title": "Should All Research Papers Be Free?",
+  "section": "Opinion",
+  "container-title": "New York Times",
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        12
+      ]
+    ]
+  },
+  "author": [
+    {
+      "family": "Murphy",
+      "given": "Kate"
+    }
+  ],
+  "type": "article-newspaper"
 }
 ]
