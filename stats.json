@@ -22,8 +22,7 @@
       "initials": "ARR",
       "orcid": "0000-0003-2290-4927",
       "email": "arielsvn@gmail.com",
-      "affiliations": "Bidwise, Inc",
-      "funders": "GBMF4552"
+      "affiliations": "Bidwise, Inc"
     },
     {
       "github_username": "gedankenstuecke",
@@ -32,8 +31,7 @@
       "orcid": "0000-0002-9925-9623",
       "twitter_username": "gedankenstuecke",
       "email": "bgreshake@googlemail.com",
-      "affiliations": "Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt",
-      "funders": "GBMF4552"
+      "affiliations": "Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt"
     },
     {
       "github_username": "cgreene",
@@ -48,6 +46,6 @@
   ],
   "ci_source": {
     "repo_slug": "greenelab/scihub-manuscript",
-    "commit": "a49436b4ab126a62ac6bf291b9a864e915665e71"
+    "commit": "8f40d7a76c74a27fee0a2a3ac99e534572efea54"
   }
 }

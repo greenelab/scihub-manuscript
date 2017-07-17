@@ -20,7 +20,7 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 
 <small><em>
-This manuscript was automatically generated from [greenelab/scihub-manuscript@a49436b](https://github.com/greenelab/scihub-manuscript/tree/a49436b4ab126a62ac6bf291b9a864e915665e71).
+This manuscript was automatically generated from [greenelab/scihub-manuscript@8f40d7a](https://github.com/greenelab/scihub-manuscript/tree/8f40d7a76c74a27fee0a2a3ac99e534572efea54).
 </em></small>
 
 
@@ -46,7 +46,6 @@ This manuscript was automatically generated from [greenelab/scihub-manuscript@a4
     [arielsvn](https://github.com/arielsvn)<br>
   <small>
      Bidwise, Inc
-     · Funded by GBMF4552
   </small>
 
 + **Bastian Greshake Tzovaras**<br>
@@ -58,7 +57,6 @@ This manuscript was automatically generated from [greenelab/scihub-manuscript@a4
     [gedankenstuecke](https://twitter.com/gedankenstuecke)<br>
   <small>
      Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt
-     · Funded by GBMF4552
   </small>
 
 + **Casey S. Greene**<br>
