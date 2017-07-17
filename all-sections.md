@@ -1,29 +1,69 @@
-# Sci-Hub provides access to nearly all scholarly literature
+---
+author:
+- Daniel S. Himmelstein
+- Ariel R. Romero
+- Bastian Greshake Tzovaras
+- Casey S. Greene
+keywords:
+- work-in-progress
+- markdown
+- manuscript
+- publishing
+title: 'Manubot Rootstock: Manuscript Title'
+...
+
+
+<small><em>
+This manuscript was automatically generated from [greenelab/scihub-manuscript@6951ac5](https://github.com/greenelab/scihub-manuscript/tree/6951ac5ba55c25b6d3de5e7c42e1189d23929f42).
+</em></small>
+
 
 ## Authors
 
 
 + **Daniel S. Himmelstein**<br>
-  [0000-0002-3012-7446](https://orcid.org/0000-0002-3012-7446)
-     · [\@dhimmel](https://github.com/dhimmel)
-     · Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
+    ![ORCID icon](images/orcid.svg){height="13px"}
+    [0000-0002-3012-7446](https://orcid.org/0000-0002-3012-7446)
+    · ![GitHub icon](images/github.svg){height="13px"}
+    [dhimmel](https://github.com/dhimmel)
+    · ![Twitter icon](images/twitter.svg){height="13px"}
+    [dhimmel](https://twitter.com/dhimmel)<br>
+  <small>
+     Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
      · Funded by GBMF4552
+  </small>
 
 + **Ariel R. Romero**<br>
-  [0000-0003-2290-4927](https://orcid.org/0000-0003-2290-4927)
-     · [\@arielsvn](https://github.com/arielsvn)
-     · Bidwise, Inc
+    ![ORCID icon](images/orcid.svg){height="13px"}
+    [0000-0003-2290-4927](https://orcid.org/0000-0003-2290-4927)
+    · ![GitHub icon](images/github.svg){height="13px"}
+    [arielsvn](https://github.com/arielsvn)<br>
+  <small>
+     Bidwise, Inc
+     · Funded by GBMF4552
+  </small>
 
-+ **Bastian Greshake**<br>
-  [0000-0002-9925-9623](https://orcid.org/0000-0002-9925-9623)
-     · [\@gedankenstuecke](https://github.com/gedankenstuecke)
-     · Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt
++ **Bastian Greshake Tzovaras**<br>
+    ![ORCID icon](images/orcid.svg){height="13px"}
+    [0000-0002-9925-9623](https://orcid.org/0000-0002-9925-9623)
+    · ![GitHub icon](images/github.svg){height="13px"}
+    [gedankenstuecke](https://github.com/gedankenstuecke)<br>
+  <small>
+     Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt
+     · Funded by GBMF4552
+  </small>
 
 + **Casey S. Greene**<br>
-  [0000-0001-8713-9213](https://orcid.org/0000-0001-8713-9213)
-     · [\@cgreene](https://github.com/cgreene)
-     · Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
+    ![ORCID icon](images/orcid.svg){height="13px"}
+    [0000-0001-8713-9213](https://orcid.org/0000-0001-8713-9213)
+    · ![GitHub icon](images/github.svg){height="13px"}
+    [cgreene](https://github.com/cgreene)
+    · ![Twitter icon](images/twitter.svg){height="13px"}
+    [dhimmel](https://twitter.com/dhimmel)<br>
+  <small>
+     Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
      · Funded by GBMF4552
+  </small>
 
 
 
