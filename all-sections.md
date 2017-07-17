@@ -5,16 +5,22 @@ author:
 - Bastian Greshake Tzovaras
 - Casey S. Greene
 keywords:
-- work-in-progress
-- markdown
-- manuscript
+- Sci-Hub
 - publishing
-title: 'Manubot Rootstock: Manuscript Title'
+- literature
+- piracy
+- data-science
+- LibGen
+- journals
+- open-data
+- copyright
+- paywalls
+title: Sci-Hub provides access to nearly all scholarly literature
 ...
 
 
 <small><em>
-This manuscript was automatically generated from [greenelab/scihub-manuscript@efbd4a0](https://github.com/greenelab/scihub-manuscript/tree/efbd4a0dfa30ad1c9a54c92c1195ce89cf024ac4).
+This manuscript was automatically generated from [greenelab/scihub-manuscript@ba87c84](https://github.com/greenelab/scihub-manuscript/tree/ba87c8481ce4aa8df1c1b0a72258162b5097777c).
 </em></small>
 
 
