@@ -2,7 +2,7 @@
 
 [Manubot Rootstock](https://git.io/vQSvo) provides a system for collaboratively writing scholarly manuscripts via GitHub.
 This project aims to automate publishing.
-For example, citation and referencing are largely automated. 
+For example, citation and referencing are largely automated.
 This project originated with the [Deep Review](https://github.com/greenelab/deep-review), but was moved here in hopes of making a general purpose template for the system.
 
 A rootstock (or rhizome) is "a plant onto which another variety is grafted".
