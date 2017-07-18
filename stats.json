@@ -25,6 +25,14 @@
       "affiliations": "Bidwise, Inc"
     },
     {
+      "github": "stevemclaugh",
+      "name": "Stephen Reid McLaughlin",
+      "initials": "SRM",
+      "orcid": "0000-0002-9888-3168",
+      "email": "stephen.mclaughlin@utexas.edu",
+      "affiliations": "School of Information, University of Texas at Austin"
+    },
+    {
       "github": "gedankenstuecke",
       "name": "Bastian Greshake Tzovaras",
       "initials": "BGT",
@@ -46,6 +54,6 @@
   ],
   "ci_source": {
     "repo_slug": "greenelab/scihub-manuscript",
-    "commit": "7adb7c5ce57ced31396e2b7b473bb096f6efed4a"
+    "commit": "5cd08f89ee7dc1f9dd584ad5735b6c80d8fdd6b5"
   }
 }

@@ -2,6 +2,7 @@
 author:
 - Daniel S. Himmelstein
 - Ariel R. Romero
+- Stephen Reid McLaughlin
 - Bastian Greshake Tzovaras
 - Casey S. Greene
 keywords:
@@ -20,7 +21,7 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 
 <small><em>
-This manuscript was automatically generated from [greenelab/scihub-manuscript@7adb7c5](https://github.com/greenelab/scihub-manuscript/tree/7adb7c5ce57ced31396e2b7b473bb096f6efed4a).
+This manuscript was automatically generated from [greenelab/scihub-manuscript@5cd08f8](https://github.com/greenelab/scihub-manuscript/tree/5cd08f89ee7dc1f9dd584ad5735b6c80d8fdd6b5).
 </em></small>
 
 
@@ -46,6 +47,15 @@ This manuscript was automatically generated from [greenelab/scihub-manuscript@7a
     [arielsvn](https://github.com/arielsvn)<br>
   <small>
      Bidwise, Inc
+  </small>
+
++ **Stephen Reid McLaughlin**<br>
+    ![ORCID icon](images/orcid.svg){height="13px"}
+    [0000-0002-9888-3168](https://orcid.org/0000-0002-9888-3168)
+    · ![GitHub icon](images/github.svg){height="13px"}
+    [stevemclaugh](https://github.com/stevemclaugh)<br>
+  <small>
+     School of Information, University of Texas at Austin
   </small>
 
 + **Bastian Greshake Tzovaras**<br>
@@ -84,9 +94,9 @@ Furthermore, Sci-Hub contains 77.0% of the 5.2 million articles published by ina
 Coverage varies by discipline, with 92.8% coverage of articles in chemistry journals compared to 76.3% for computer science.
 Coverage also varies by publisher, with the coverage of the largest publisher, Elsevier, at 97.3%.
 Our interactive browser at [greenelab.github.io/scihub](https://greenelab.github.io/scihub) allows users to explore these findings in more detail.
-Finally, we estimate that over a six month period in 2015–2016, Sci-Hub provided access for 99.3% of valid incoming requests.
+Finally, we estimate that over a six-month period in 2015–2016, Sci-Hub provided access for 99.3% of valid incoming requests.
 Hence, the scope of this resource suggests the subscription publishing model is becoming unsustainable.
-For the first time, the overwhelming majority of scholarly literature is available gratis to anyone.
+For the first time, the overwhelming majority of scholarly literature is available gratis to anyone with an Internet connection.
 
 ## Introduction
 
@@ -100,7 +110,7 @@ In this work, we refer to availability as "libre" or "gratis" to denote these ca
 
 The website Sci-Hub, now in its fifth year of existence provides gratis access to scholarly literature, despite the continued presence of paywalls.
 Sci-Hub brands itself as "the first pirate website in the world to provide mass and public access to tens of millions of research papers."
-The website, started in 2011, is run by Alexandra Elbakyan, a neuroscientist and native of Kazakhstan who now resides in Russia [@JVjciZPv; @sR4uAYxB].
+The website, started in 2011, is run by Alexandra Elbakyan, a graduate student and native of Kazakhstan who now resides in Russia [@JVjciZPv; @sR4uAYxB].
 Elbakyan describes herself as motivated to provide universal access to knowledge [@nZZjs6T6; @1BUarVNFD; @K6n65WB0].
 
 Sci-Hub does not restrict itself to only openly licensed content.
@@ -108,10 +118,10 @@ Instead, it retrieves and distributes scholarly literature without regard to cop
 **Readers should note that, in many jurisdictions, use of Sci-Hub may constitute copyright infringement.
 Users of Sci-Hub do so at their own risk.
 This study is not an endorsement of using Sci-Hub, and its authors and publishers accept no responsibility on behalf of readers.
-It is a strong possibility that Sci-Hub users — especially those not using privacy-protecting services such as Tor — could have their usage history unmasked and face consequences, both legal or reputational in nature.**
+There is a possibility that Sci-Hub users — especially those not using privacy-enhancing services such as Tor — could have their usage history unmasked and face consequences, both legal or reputational in nature.**
 
-Sci-Hub is currently served at the domains `sci-hub.cc`, `sci-hub.io`, `sci-hub.ac`, and `scihub22266oqcxt.onion` (a Tor Hidden Service [@zvVsLNxf]).
-Elbakyan recently described the project's technical scope [@1H8x8f4Y7]:
+Sci-Hub is currently served at domains including `sci-hub.cc`, `sci-hub.io`, and `sci-hub.ac`, as well as at `scihub22266oqcxt.onion` — a Tor Hidden Service [@zvVsLNxf].
+Elbakyan described the project's technical scope in July 2017 [@1H8x8f4Y7]:
 
 > Sci-Hub technically is by itself a repository, or a library if you like, and not a search engine for some other repository.
 But of course, the most important part in Sci-Hub is not a repository, but the script that can download papers closed behind paywalls.
@@ -121,13 +131,13 @@ These credentials enable Sci-Hub to use institutional networks as proxies and ga
 While the open access movement has progressed slowly, Sci-Hub represents a seismic shift in access to scholarly literature.
 Since its inception, Sci-Hub has experienced sustained growth, with spikes in interest and awareness driven by legal proceedings, news coverage, and social media (Figure @fig:history).
 Here we investigate the extent to which Sci-Hub provides access to scholarly literature.
-If the coverage of Sci-Hub is widespread, then a radical and rapid shift is likely underway in how individuals access scholarly literature.
+If Sci-Hub's coverage is sufficiently broad, then a radical shift may be underway in how individuals access scholarly literature.
 
 ![
 **The history of Sci-Hub.**
-Weekly interest from Google Trends is plotted over time for the search terms "Sci-Hub" and "LibGen".
+Weekly interest from Google Trends is plotted over time for the search terms "Sci-Hub" and "LibGen."
 The light green period indicates when Sci-Hub used LibGen as its database for storing articles [@1H8x8f4Y7].
-The light blue period indicates the public availability of Sci-Hub request logs [@kQFQ8EaO].
+The light blue period indicates the public availability of request logs from Sci-Hub [@kQFQ8EaO].
 The first pink dotted line represents the collection date of the LibGen metadata used in Cabanac's study [@18KKRwlN6].
 The second pink dotted line shows the date of Sci-Hub's Tweeted DOI catalog used in this study.
 ](https://cdn.rawgit.com/greenelab/scihub/d84c62a1cbcd70033d70a3728df5492a0031afa9/explore/trends/google-trends.svg){#fig:history}
@@ -135,33 +145,32 @@ The second pink dotted line shows the date of Sci-Hub's Tweeted DOI catalog used
 In Figure @fig:history, The ⓛⓔⓣⓣⓔⓡⓢ refer to the following events:
 
 + **Ⓐ** Created by Alexandra Elbakyan, the Sci-Hub website goes live on September 5, 2011.
-+ **Ⓑ** Certain LibGen domains go down, allegedly due to the death of a contributor [@Hz2uRUJS].
-+ **Ⓒ** Elsevier files a complaint against Sci-Hub and LibGen — at the respective domains `sci-hub.org` and `libgen.org` — in the New York Southern District Court [@6ZrZVv6E; @j3Zl6sH5].
-The complaint seeks a "prayer for relief" that includes domain names seizure, damages, and "an order disgorging Defendants' profits."
++ **Ⓑ** Several LibGen domains go down [@Hz2uRUJS].
++ **Ⓒ** Elsevier files a civil suit against Sci-Hub and LibGen — at the respective domains `sci-hub.org` and `libgen.org` —  in the U.S. District Court for the Southern District of New York [@6ZrZVv6E; @j3Zl6sH5].
+The complaint seeks a "prayer for relief" that includes domain name seizure, damages, and "an order disgorging Defendants' profits".
 + **Ⓓ** Elsevier is granted a preliminary injunction to suspend domain names and restrain the site operators from distributing Elsevier's copyrighted works [@9GOM6WEw; @BpCqwlYS].
-Shortly after, Sci-Hub and LibGen resurface at alternative domains outside of U.S. court jurisdiction including on the dark web [@16k28dBmH; @sR4uAYxB].
-+ **Ⓔ** The article "Meet the Robin Hood of Science" by Simon Oxenham generates an unprecedented amount of attention and news coverage of Sci-Hub and Alexandra Elbakyan [@SlcfPQQQ], culminating in the _New York Times_ asking "Should all research papers be free?" [@tMPCGeuL].
-+ **Ⓕ** The article "Who's downloading pirated papers? Everyone" by John Bohannon shows widespread, global usage of Sci-Hub [@RsNXQAG2; @t4r48QpO].
-These findings spark debate amongst scholars, with a large contingent of scientists supporting Sci-Hub's mission [@Zp0s36X0; @cOKy7PSo].
+Shortly after, Sci-Hub and LibGen resurface at alternative domains outside of U.S. court jurisdiction, including on the dark web [@16k28dBmH; @sR4uAYxB].
++ **Ⓔ** The article "Meet the Robin Hood of Science" by Simon Oxenham spurs a wave of attention and news coverage on Sci-Hub and Alexandra Elbakyan [@SlcfPQQQ], culminating in _The New York Times_ asking "Should all research papers be free?" [@tMPCGeuL].
++ **Ⓕ** The article "Who's downloading pirated papers? Everyone" by John Bohannon shows Sci-Hub is used worldwide, including in developed countries [@RsNXQAG2; @t4r48QpO].
+These findings spark debate among scholars, with a large contingent of scientists supporting Sci-Hub's mission [@Zp0s36X0; @cOKy7PSo].
 + **Ⓖ** Alexandra Elbakyan is named one of "_Nature_'s 10", which featured "ten people who mattered" in 2016 [@cUfIvWm6].
-Written by Richard Van Noorden, the story profiles Alexandra and includes an estimate that Sci-Hub serves "3% of all downloads from science publishers worldwide".
+Written by Richard Van Noorden, the story profiles Alexandra and includes an estimate that Sci-Hub serves "3% of all downloads from science publishers worldwide."
 + **Ⓗ** The court finds that Alexandra Elbakyan, Sci-Hub, and LibGen are "liable for willful copyright infringement" in a default judgment, since none of the defendants answered Elsevier's complaint [@b5B01CbS; @jlNm94FU; @17drH57zs].
-The court makes the injunction permanent and orders the defendants to pay Elsevier $15 million — $150,000 for each of 100 copyrighted works.
+The court issues a permanent injunction and orders the defendants to pay Elsevier $15 million, or $150,000 for each of 100 copyrighted works.
 The statutory damages, which the defendants do not intend to pay, now bear interest.
-+ **Ⓘ** The American Chemical Society files suit against Sci-Hub in the Eastern District of Virginia.
-Their "prayer for relief" requests that Internet search engines and Internet service providers "cease facilitating access" to Sci-Hub [@17REO8hrA; @POar53EX].
++ **Ⓘ** The American Chemical Society files suit against Sci-Hub in the U.S. District Court for the Eastern District of Virginia.
+Their "prayer for relief" requests that Internet search engines and Internet service providers "cease facilitating access" to Sci-Hub[@17REO8hrA; @POar53EX].
 
 Past research sheds some light on Sci-Hub's reach.
-From the Spring of 2013 till the end of 2014, Sci-Hub relied on the Library Genesis (LibGen) scimag database to store articles [@1H8x8f4Y7].
+From the Spring of 2013 until the end of 2014, Sci-Hub relied on the Library Genesis (LibGen) scimag repository to store articles [@1H8x8f4Y7].
 Whenever a user requested an article, Sci-Hub would check LibGen for a copy.
-If the article was not in LibGen, Sci-Hub would fetch the article for the user and also upload it to LibGen.
-Cabanac compared the number of articles in the LibGen scimag database at the start of 2014 to the total number of Crossref DOIs.
-Accordingly, he estimated LibGen contained 36% of all scholarly articles [@18KKRwlN6].
+If the article was not in LibGen, Sci-Hub would fetch the article for the user and then upload it to LibGen.
+Cabanac compared the number of articles in the LibGen scimag database at the start of 2014 to the total number of Crossref DOIs, estimating that LibGen contained 36% of all published scholarly articles [@18KKRwlN6].
 Coverage was higher for several prominent publishers: 77% for Elsevier, 73% for Wiley, and 53% for Springer (prior to its merger with Macmillan / Nature [@ynhlmOBH]).
 
-Later, Bohannon analyzed six months of Sci-Hub's server request logs starting in September 2015 [@RsNXQAG2].
+Later, Bohannon analyzed six months of Sci-Hub's server request logs, starting in September 2015 [@RsNXQAG2].
 He found a global pattern of usage.
-Based on these logs, Gardner, McLaughlin, and Asher estimated the ratio of publisher to Sci-Hub downloads for several journals [@17rORqxsI].
+Based on these logs, Gardner, McLaughlin, and Asher estimated the ratio of publisher downloads to Sci-Hub downloads within the United States for several journals [@17rORqxsI].
 They estimated this ratio at 20:1 for the Royal Society of Chemistry and 48:1 for Elsevier.
 Greshake also analyzed the logs to identify per capita Sci-Hub usage [@uBm4Sor6].
 Portugal, Iran, Tunisia, and Greece had the highest usage, suggesting Sci-Hub is preferentially used in countries with poor institutional access to scholarly literature.
@@ -171,10 +180,10 @@ Since 2015, Sci-Hub has operated its own repository, distinct from LibGen.
 On March 19, 2017, Sci-Hub released the list of DOIs for articles in its database.
 Greshake retrieved metadata for 77% of Sci-Hub DOIs [@iLKgjFDu; @nnSxBFFr].
 He found that 95% of articles in Sci-Hub were published after 1950.
-Sci-Hub requests were even more skewed towards recent articles with only 5% targeting articles published before 1983.
+Sci-Hub requests were even more skewed towards recent articles, with only 5% targeting articles published before 1983.
 Greshake's study did not incorporate a catalog of all scholarly literature.
 This study analyzes Sci-Hub's catalog in the context of all scholarly literature and thus assesses coverage.
-In other words, what percent of articles in a given domain does Sci-Hub possess?
+In other words, what percentage of articles in a given domain does Sci-Hub have in its repository?
 
 ## Results
 
@@ -205,7 +214,7 @@ Next, we investigated coverage based on the year an article was published (Figur
 For most years since 1850, annual coverage is between 60–80%.
 However, there's a dropoff in coverage, starting in 2010, for recently published articles.
 For example, 2016 coverage was 56.0% and 2017 coverage (for part of the year) was 45.3%.
-One factor is that it takes some time for Sci-Hub to retrieve articles following their publication, especially since many are not downloaded until requested by a user. 
+One factor is that it takes some time for Sci-Hub to retrieve articles following their publication, especially since many are not downloaded until requested by a user.
 Another factor could be that some journals are now deploying more aggressive anti-piracy measures [@xn59qVAG; @d9g1ZhPz], making recent articles less accessible.
 
 ![
@@ -250,7 +259,7 @@ Hence, inactive closed-access journals make up the bulk of perfect-coverage jour
 
 ![
 **Distributions of journal & publisher coverages.**
-The histograms show the distribution of Sci-Hub's coverage for journals and publishers. 
+The histograms show the distribution of Sci-Hub's coverage for journals and publishers.
 Each bin spans 2.5 percentage points.
 ](https://cdn.rawgit.com/greenelab/scihub/d84c62a1cbcd70033d70a3728df5492a0031afa9/figure/coverage-distributions.svg){#fig:distributions width="5in"}
 
@@ -415,7 +424,7 @@ The prevalence of DOIs varies by discipline and country of publication, with DOI
 Indeed, DOI registration is almost entirely lacking for publishers from many Eastern European countries [@10zxQMO6J].
 In addition, the prevalence of DOI assignment is likely lower for older articles [@10zxQMO6J].
 The incomplete and non-random assignment of DOIs to scholarly articles is a limitation of this study.
-However, DOIs are presumably the least imperfect and most widespread identifier for scholarly articles. 
+However, DOIs are presumably the least imperfect and most widespread identifier for scholarly articles.
 
 An often overlooked aspect of the DOI system is that DOIs are case-insensitive within the ASCII character range [@8zeVK2hX; @LS0mB1CD].
 In other words, `10.7717/peerj.705` refers to the same article as `10.7717/PeerJ.705`.
@@ -435,7 +444,7 @@ In March 2015, of the 1,464,818 valid DOI links on the English Wikipedia, 99.9% 
 This percentage was slightly lower for other languages — 99.8% on the Chinese Wikipedia and 98.0% on the Japanese Wikipedia.
 Hence, the overwhelming majority of DOI-referenced scholarly articles are registered with Crossref.
 Since Crossref has the most comprehensive and featureful programmatic access, there was a strong incentive to focus solely on Crossref-registered DOIs.
-Given Crossref's preeminence, the omission of other Registration Agencies is unlikely to severely influence our findings. 
+Given Crossref's preeminence, the omission of other Registration Agencies is unlikely to severely influence our findings.
 
 We queried the `works` endpoint of the [Crossref API](https://api.crossref.org/) to retrieve the metadata for all DOIs, storing the responses in a MongoDB database.
 The queries began on March 21, 2017 and took 12 days to complete.
@@ -511,7 +520,7 @@ On March 19, 2017, Sci-Hub [tweeted](https://twitter.com/Sci_Hub/status/84354635
 The Tweet included a download link for a file with the 62,835,101 DOIs that Sci-Hub claims to provide access to.
 Of these DOIs, 56,246,220 were part of the Crossref-derived catalog of scholarly articles.
 99.5% of the DOIs from Sci-Hub's list were in the LibGen scimag DOIs (after filtering).
-Hence, the LibGen scimag and Sci-Hub repositories have stayed largely in sync since their split. 
+Hence, the LibGen scimag and Sci-Hub repositories have stayed largely in sync since their split.
 On Twitter, the Sci-Hub account confirmed this finding, [commenting](https://twitter.com/Sci_Hub/status/844165613203480576) "with a small differences, yes the database is the same".
 Therefore, the LibGen scimag and Sci-Hub DOI catalogs can presumably be used interchangeably for research purposes.
 
@@ -548,7 +557,7 @@ Sci-Hub's coverage is shown for countries with at least 100,000 articles.
 
 ![
 **Bitcoin donations to Sci-Hub per month.**
-For months since June 2015, total bitcoin donations (deposits to known Sci-Hub addresses) are assessed. 
+For months since June 2015, total bitcoin donations (deposits to known Sci-Hub addresses) are assessed.
 Donations in USD refers to the United States dollar value at time of transaction confirmation.
 ](https://cdn.rawgit.com/greenelab/scihub/d84c62a1cbcd70033d70a3728df5492a0031afa9/explore/bitcoin/monthly-donations-faceted.svg){#fig:bitcoin-all tag="S2"  width="5in"}
 
