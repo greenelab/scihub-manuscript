@@ -21,7 +21,7 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 
 <small><em>
-This manuscript was automatically generated from [greenelab/scihub-manuscript@5cd08f8](https://github.com/greenelab/scihub-manuscript/tree/5cd08f89ee7dc1f9dd584ad5735b6c80d8fdd6b5).
+This manuscript was automatically generated from [greenelab/scihub-manuscript@aea71d8](https://github.com/greenelab/scihub-manuscript/tree/aea71d800019d2629a0092a84d46c8700ece23be).
 </em></small>
 
 
@@ -232,7 +232,7 @@ Of these journals, 4,345 were inactive (19.6%, i.e. no longer publishing article
 Only two journals were inactive and also open access.
 
 We calculated Sci-Hub's coverage for each of the 22,193 journals (examples in Table @tbl:top-ten-journals).
-The complete journal coverage results are available in our [Sci-Hub Stats Browser](https://greenelab.github.io/scihub/#/).
+The complete journal coverage results are available in our [Sci-Hub Stats Browser](https://greenelab.github.io/scihub/#/journals).
 
 | Journal | Sci-Hub | Crossref | Coverage |
 |-------|--------|----------|----------|
