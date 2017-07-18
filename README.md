@@ -15,4 +15,4 @@ This directory contains the following files, which are mostly ignored on the `ma
 ## Source
 
 The manuscripts in this directory were built from
-[`e4819559bfd32288d0479a9e5d03a5a6c357e988`](https://github.com/greenelab/scihub-manuscript/commit/e4819559bfd32288d0479a9e5d03a5a6c357e988).
+[`7adb7c5ce57ced31396e2b7b473bb096f6efed4a`](https://github.com/greenelab/scihub-manuscript/commit/7adb7c5ce57ced31396e2b7b473bb096f6efed4a).
