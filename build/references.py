@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 """
-Process citations and retrieve metadata
+Process citations and retrieve citation metadata
 """
 
 import collections
@@ -14,8 +14,8 @@ import textwrap
 
 import jinja2
 import pandas
+import yaml
 
-from authors import get_author_info
 from citations import (
     citation_to_metadata,
     citeproc_passthrough,
@@ -151,10 +151,27 @@ stats['reference_counts'] = ref_counts
 print('References by type:')
 print(ref_counts)
 
-# Author table information
-authors_path = pathlib.Path('../content/authors.tsv')
-stats['authors'] = get_author_info(authors_path)
+# Read metadata which contains pandoc_yaml_metadata
+# as well as author_info.
+path = pathlib.Path('../content/metadata.yaml')
+with path.open() as read_file:
+    metadata = yaml.load(read_file)
 
+# Author table information
+authors = metadata.pop('author_info')
+metadata['author'] = [author['name'] for author in authors]
+stats['authors'] = authors
+
+# Set repository version metadata for CI builds only
+repo_slug = os.getenv('TRAVIS_REPO_SLUG')
+commit = os.getenv('TRAVIS_COMMIT')
+if repo_slug and commit:
+    stats['ci_source'] = {
+        'repo_slug': repo_slug,
+        'commit': commit,
+    }
+
+# Write stats to JSON
 with gen_dir.joinpath('stats.json').open('wt') as write_file:
     json.dump(stats, write_file, indent=2)
 
@@ -176,7 +193,12 @@ template = jinja_environment.from_string(converted_text)
 converted_text = template.render(**stats)
 
 # Write manuscript for pandoc
-gen_dir.joinpath('all-sections.md').write_text(converted_text)
+all_sections_path = gen_dir.joinpath('all-sections.md')
+with all_sections_path.open('wt') as write_file:
+    yaml.dump(metadata, write_file, explicit_start=True,
+              explicit_end=True, default_flow_style=False)
+    write_file.write('\n')
+    write_file.write(converted_text)
 
 # Write citation table
 path = gen_dir.joinpath('processed-citations.tsv')
