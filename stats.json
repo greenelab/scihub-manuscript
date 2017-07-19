@@ -29,6 +29,7 @@
       "name": "Stephen Reid McLaughlin",
       "initials": "SRM",
       "orcid": "0000-0002-9888-3168",
+      "twitter": "SteveMcLaugh",
       "email": "stephen.mclaughlin@utexas.edu",
       "affiliations": "School of Information, University of Texas at Austin"
     },
@@ -54,6 +55,6 @@
   ],
   "ci_source": {
     "repo_slug": "greenelab/scihub-manuscript",
-    "commit": "eed82f75327acbba595b4430d187deb15362960d"
+    "commit": "e789219e544e58098f853aa277ad4c0054cbe727"
   }
 }

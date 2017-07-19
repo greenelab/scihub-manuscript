@@ -21,7 +21,7 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 
 <small><em>
-This manuscript was automatically generated from [greenelab/scihub-manuscript@eed82f7](https://github.com/greenelab/scihub-manuscript/tree/eed82f75327acbba595b4430d187deb15362960d).
+This manuscript was automatically generated from [greenelab/scihub-manuscript@e789219](https://github.com/greenelab/scihub-manuscript/tree/e789219e544e58098f853aa277ad4c0054cbe727).
 </em></small>
 
 
@@ -53,7 +53,9 @@ This manuscript was automatically generated from [greenelab/scihub-manuscript@ee
     ![ORCID icon](images/orcid.svg){height="13px"}
     [0000-0002-9888-3168](https://orcid.org/0000-0002-9888-3168)
     · ![GitHub icon](images/github.svg){height="13px"}
-    [stevemclaugh](https://github.com/stevemclaugh)<br>
+    [stevemclaugh](https://github.com/stevemclaugh)
+    · ![Twitter icon](images/twitter.svg){height="13px"}
+    [SteveMcLaugh](https://twitter.com/SteveMcLaugh)<br>
   <small>
      School of Information, University of Texas at Austin
   </small>
