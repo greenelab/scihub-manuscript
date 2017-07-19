@@ -21,7 +21,7 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 
 <small><em>
-This manuscript was automatically generated from [greenelab/scihub-manuscript@f3f2c8e](https://github.com/greenelab/scihub-manuscript/tree/f3f2c8e8d996b0d4c8df0245f34c8ae1b0dd752b).
+This manuscript was automatically generated from [greenelab/scihub-manuscript@eed82f7](https://github.com/greenelab/scihub-manuscript/tree/eed82f75327acbba595b4430d187deb15362960d).
 </em></small>
 
 
@@ -229,7 +229,7 @@ We defined a comprehensive set of scholarly publishing venues, referred to as "j
 In reality, these include conferences with proceedings as well as book series.
 For inclusion in this analysis, each required an ISSN and at least one article as part of the Crossref-derived catalog of scholarly literature.
 Accordingly, our catalog consisted of 22,193 journals encompassing 57,074,208 articles.
-Of these journals, 4,345 (19.6%) were inactive (i.e., no longer publishing articles), and 2,650 were open access (11.9%).
+Of these journals, 4,345 (19.6%) were inactive (i.e. no longer publishing articles), and 2,650 were open access (11.9%).
 Only two journals were inactive and also open access.
 
 We calculated Sci-Hub's coverage for each of the 22,193 journals (examples in Table @tbl:top-ten-journals).
@@ -248,7 +248,7 @@ The complete journal coverage results are available in our [Sci-Hub Stats Browse
 | New England Journal of Medicine | 180,321 | 180,467 | 99.92% |
 | PLoS ONE | 4,731 | 177,260 | 2.67% |
 
-Table: **Coverage for the ten journals with the most articles in Sci-Hub.**
+Table: **Coverage for the ten journals with the most articles.**
 {#tbl:top-ten-journals}
 
 In general, a journal's coverage was either nearly complete or nearly entirely absent (Figure @fig:distributions).
@@ -456,7 +456,7 @@ First, a DOI table with columns for work type and date issued.
 Date issued refers to the earliest known publication date, i.e. the date of print or online publication, whichever occurred first.
 Second, a mapping of DOI to ISSN for associating articles with their journal of publication.
 
-We [selected](https://github.com/greenelab/scihub/issues/7) a subset of Crossref work types to include in our Sci-Hub coverage analyses that corresponded to scholarly articles (i.e., publications).
+We [selected](https://github.com/greenelab/scihub/issues/7) a subset of Crossref work types to include in our Sci-Hub coverage analyses that corresponded to scholarly articles (i.e. publications).
 Since we could not locate definitions for the Crossref types, we used our best judgment and evaluated sample works of a given type in the case of uncertainty.
 We included the following types: `book-chapter`, `book-part`, `book-section`, `journal-article`, `proceedings-article`, `reference-entry`, `report`, and `standard`.
 Types such as `book`, `journal`, `journal-issue`, and `report-series` were excluded, as they are generally containers for individual articles rather than scholarly articles themselves.
@@ -470,7 +470,7 @@ Therefore, we instead relied on the [Scopus](https://www.scopus.com) database to
 Scopus uses "title" to refer to all of the following: peer-reviewed journals, trade journals, book series, and conference proceedings.
 For this study, we refer to all of these types as journals.
 From the January 2017 data release of Scopus titles, we extracted metadata for 62,482 titles including their names, ISSNs, subject areas, open access status, and active status.
-We then tidied up the Scopus Journal Metrics, which evaluate journals based on the number of citations their articles receive.
+We then tidied the Scopus Journal Metrics, which evaluate journals based on the number of citations their articles receive.
 Specifically, we extracted a 2015 CiteScore for 22,256 titles, 17,295 of which were included in our journal catalog.
 Finally, we queried the Elsevier API to [retrieve](https://github.com/dhimmel/journalmetrics/issues/2) homepage URLs for 20,442 Scopus titles.
 See [`dhimmel/journalmetrics`](https://github.com/dhimmel/journalmetrics) for the source code and data relating to Scopus.
@@ -557,7 +557,7 @@ Sci-Hub's coverage is shown for countries with at least 100,000 articles.
 
 ![
 **Bitcoin donations to Sci-Hub per month.**
-For months since June 2015, total Bitcoin donations (deposits to known Sci-Hub addresses) are assessed.
+For months since June 2015, total bitcoin donations (deposits to known Sci-Hub addresses) are assessed.
 Donations in USD refers to the United States dollar value at time of transaction confirmation.
 ](https://cdn.rawgit.com/greenelab/scihub/d84c62a1cbcd70033d70a3728df5492a0031afa9/explore/bitcoin/monthly-donations-faceted.svg){#fig:bitcoin-all tag="S2"  width="5in"}
 
