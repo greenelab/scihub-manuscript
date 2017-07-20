@@ -21,7 +21,7 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 
 <small><em>
-This manuscript was automatically generated from [greenelab/scihub-manuscript@a6daf47](https://github.com/greenelab/scihub-manuscript/tree/a6daf47b596c00790324e9eccba73f3448125548).
+This manuscript was automatically generated from [greenelab/scihub-manuscript@360a463](https://github.com/greenelab/scihub-manuscript/tree/360a46304fe66b95612af47a13f1e104f72d1c1c).
 </em></small>
 
 
@@ -85,7 +85,7 @@ This manuscript was automatically generated from [greenelab/scihub-manuscript@a6
 
 
 
-## Abstract
+## Abstract {.page_break_before}
 
 The website Sci-Hub provides access to scholarly literature via full text PDF downloads.
 The site enables users to access articles that would otherwise be paywalled.
@@ -100,7 +100,7 @@ Finally, we estimate that over a six-month period in 2015–2016, Sci-Hub provid
 Hence, the scope of this resource suggests the subscription publishing model is becoming unsustainable.
 For the first time, the overwhelming majority of scholarly literature is available gratis to anyone with an Internet connection.
 
-## Introduction
+## Introduction {.page_break_before}
 
 As of 2014, paywalls on the web limited access to an estimated 76% of scholarly literature [@MNHagzoO].
 The open access movement strives to remedy this situation [@PuP45jrB].
@@ -188,7 +188,7 @@ Greshake's study did not incorporate a catalog of all scholarly literature.
 This study analyzes Sci-Hub's catalog in the context of all scholarly literature and thus assesses coverage.
 In other words, what percentage of articles in a given domain does Sci-Hub have in its repository?
 
-## Results
+## Results {.page_break_before}
 
 To define the extent of the scholarly literature, we relied on DOIs from the Crossref database, as downloaded on March 21, 2017.
 We define the "scholarly literature" as 81,609,016 texts identified by their DOIs.
@@ -342,7 +342,7 @@ The association between 2015 CiteScore and average visitors per article is plott
 Curves show the 95% confidence band from a Generalized Additive Model.
 ](https://cdn.rawgit.com/greenelab/scihub/d84c62a1cbcd70033d70a3728df5492a0031afa9/figure/citescore.svg){#fig:citescore}
 
-## Discussion
+## Discussion {.page_break_before}
 
 Sci-Hub's repository contains 69% of all scholarly articles with DOIs.
 Coverage for the 50 million articles attributed to closed access journals — which some users may not otherwise be able to access — was 85.2%.
@@ -394,7 +394,7 @@ For example, fulltext mining of scholarly literature is an area of great potenti
 The barriers here are legal, not technological [@llK8SMam; @I6O7IKP7].
 In closing, were all articles libre, there would be no such thing as a "pirate website" for accessing scholarly literature.
 
-## Methods
+## Methods {.page_break_before}
 
 This project was performed entirely in the open, via the GitHub repository [`greenelab/scihub`](https://github.com/greenelab/scihub).
 Several authors of this study became involved after we mentioned their usernames in GitHub discussions.
@@ -592,4 +592,4 @@ Specifically, the following individuals provided valuable input while the study 
 and [Guillaume Cabanac](https://github.com/gcabanac).
 In addition, we're grateful to GitHub for offering gratis Large File Storage as part of their education program.
 
-# References
+# References {.page_break_before}
