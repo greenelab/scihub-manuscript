@@ -21,7 +21,7 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 <small><em>
 
-This manuscript was automatically generated from [greenelab/scihub-manuscript@cea9d6a](https://github.com/greenelab/scihub-manuscript/tree/cea9d6adc4f59b67883a041074d5eed3bc0323f0).
+This manuscript was automatically generated from [greenelab/scihub-manuscript@b0dfb75](https://github.com/greenelab/scihub-manuscript/tree/b0dfb7521e008be1e6e6a0c0b38034083c7b173c).
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
 
@@ -122,7 +122,7 @@ Users of Sci-Hub do so at their own risk.
 This study is not an endorsement of using Sci-Hub, and its authors and publishers accept no responsibility on behalf of readers.
 There is a possibility that Sci-Hub users — especially those not using privacy-enhancing services such as Tor — could have their usage history unmasked and face consequences, both legal or reputational in nature.**
 
-Sci-Hub is currently served at domains including `sci-hub.cc`, `sci-hub.io`, and `sci-hub.ac`, as well as at `scihub22266oqcxt.onion` — a Tor Hidden Service [@zvVsLNxf].
+Sci-Hub is currently served at domains including `sci-hub.cc`, `sci-hub.io`, `sci-hub.ac`, and `sci-hub.bz`, as well as at `scihub22266oqcxt.onion` — a Tor Hidden Service [@zvVsLNxf].
 Elbakyan described the project's technical scope in July 2017 [@1H8x8f4Y7]:
 
 > Sci-Hub technically is by itself a repository, or a library if you like, and not a search engine for some other repository.
