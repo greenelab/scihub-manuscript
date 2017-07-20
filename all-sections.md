@@ -19,11 +19,12 @@ keywords:
 title: Sci-Hub provides access to nearly all scholarly literature
 ...
 
-
 <small><em>
-This manuscript was automatically generated from [greenelab/scihub-manuscript@360a463](https://github.com/greenelab/scihub-manuscript/tree/360a46304fe66b95612af47a13f1e104f72d1c1c).
-</em></small>
 
+This manuscript was automatically generated from [greenelab/scihub-manuscript@32f75d2](https://github.com/greenelab/scihub-manuscript/tree/32f75d26c4787df788ea81f1304dcf99637a791c).
+
+Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
+</em></small>
 
 ## Authors
 
