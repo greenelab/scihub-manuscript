@@ -1,4 +1,4 @@
-# scihub-manuscript
+# Manuscript source for the Sci-Hub Coverage Study
 
 [Manubot Rootstock](https://git.io/vQSvo) provides a system for collaboratively writing scholarly manuscripts via GitHub.
 This project aims to automate publishing.
