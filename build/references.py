@@ -5,6 +5,7 @@ Process citations and retrieve citation metadata
 """
 
 import collections
+import datetime
 import json
 import os
 import pathlib
@@ -157,9 +158,14 @@ path = pathlib.Path('../content/metadata.yaml')
 with path.open() as read_file:
     metadata = yaml.load(read_file)
 
+# Add date to metadata
+today = datetime.date.today()
+metadata['date-meta'] = today.isoformat()
+stats['date'] = today.strftime('%B %e, %Y')
+
 # Author table information
 authors = metadata.pop('author_info')
-metadata['author'] = [author['name'] for author in authors]
+metadata['author-meta'] = [author['name'] for author in authors]
 stats['authors'] = authors
 
 # Set repository version metadata for CI builds only

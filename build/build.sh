@@ -35,10 +35,6 @@ pandoc --verbose \
   --output=output/index.html \
   $INPUT_PATH
 
-# Remove h2 author names from HTML body but keep them as
-# metadata in the head.
-sed --in-place '/<h2 class="author">/d' output/index.html
-
 # Create PDF output
 echo "Exporting PDF manuscript"
 wkhtmltopdf \
