@@ -1,10 +1,11 @@
 ---
-author:
+author-meta:
 - Daniel S. Himmelstein
 - Ariel R. Romero
 - Stephen Reid McLaughlin
 - Bastian Greshake Tzovaras
 - Casey S. Greene
+date-meta: '2017-07-21'
 keywords:
 - Sci-Hub
 - publishing
@@ -22,8 +23,9 @@ title: Sci-Hub provides access to nearly all scholarly literature
 *A preprint for this study is available at <https://doi.org/10.7287/peerj.preprints.3100>.*
 
 <small><em>
-
-This manuscript was automatically generated from [greenelab/scihub-manuscript@4a02c39](https://github.com/greenelab/scihub-manuscript/tree/4a02c39d87eb19d01c425776aa5add7cef0c073c).
+This manuscript was automatically generated
+from [greenelab/scihub-manuscript@7869c7b](https://github.com/greenelab/scihub-manuscript/tree/7869c7b55af64dc8646678a9521906256aa053dd)
+on July 21, 2017.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
 
