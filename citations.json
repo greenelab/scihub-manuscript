@@ -5204,5 +5204,33 @@
       "URL": "https://doi.org/10.6084/m9.figshare.4542433.v6"
     },
     "citation_id": "GWp5Zx0w"
+  },
+  "url:http://www.atlasobscura.com/articles/the-rise-of-illegal-pirate-libraries": {
+    "source": "url",
+    "identifer": "http://www.atlasobscura.com/articles/the-rise-of-illegal-pirate-libraries",
+    "standard_citation": "url:http://www.atlasobscura.com/articles/the-rise-of-illegal-pirate-libraries",
+    "citeproc": {
+      "URL": "http://www.atlasobscura.com/articles/the-rise-of-illegal-pirate-libraries",
+      "title": " The Rise of Pirate Libraries",
+      "container-title": "Atlas Obscura",
+      "author": [
+        {
+          "family": "Laskow",
+          "given": "Sarah"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2016,
+            4,
+            21
+          ]
+        ]
+      },
+      "type": "webpage",
+      "id": "xkkXadRh"
+    },
+    "citation_id": "xkkXadRh"
   }
 }

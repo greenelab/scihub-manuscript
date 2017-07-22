@@ -2,8 +2,8 @@
   "reference_counts": {
     "arxiv": 1,
     "doi": 42,
-    "url": 26,
-    "total": 69
+    "url": 27,
+    "total": 70
   },
   "date": "July 22, 2017",
   "authors": [
@@ -56,6 +56,6 @@
   ],
   "ci_source": {
     "repo_slug": "greenelab/scihub-manuscript",
-    "commit": "9fec87f215b5d018e8097d3d99c56e8afe357602"
+    "commit": "573e884975d10002a088c52568864974ce684ee3"
   }
 }

@@ -4791,6 +4791,28 @@
     "URL": "https://doi.org/10.6084/m9.figshare.4542433.v6"
   },
   {
+    "URL": "http://www.atlasobscura.com/articles/the-rise-of-illegal-pirate-libraries",
+    "title": " The Rise of Pirate Libraries",
+    "container-title": "Atlas Obscura",
+    "author": [
+      {
+        "family": "Laskow",
+        "given": "Sarah"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          4,
+          21
+        ]
+      ]
+    },
+    "type": "webpage",
+    "id": "xkkXadRh"
+  },
+  {
     "URL": "https://arxiv.org/abs/1407.3561v1",
     "abstract": "The InterPlanetary File System (IPFS) is a peer-to-peer distributed file system that seeks to connect all computing devices with the same system of files. In some ways, IPFS is similar to the Web, but IPFS could be seen as a single BitTorrent swarm, exchanging objects within one Git repository. In other words, IPFS provides a high throughput content-addressed block storage model, with content-addressed hyper links. This forms a generalized Merkle DAG, a data structure upon which one can build versioned file systems, blockchains, and even a Permanent Web. IPFS combines a distributed hashtable, an incentivized block exchange, and a self-certifying namespace. IPFS has no single point of failure, and nodes do not need to trust each other.",
     "author": [

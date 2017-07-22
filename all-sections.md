@@ -24,7 +24,7 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@9fec87f](https://github.com/greenelab/scihub-manuscript/tree/9fec87f215b5d018e8097d3d99c56e8afe357602)
+from [greenelab/scihub-manuscript@573e884](https://github.com/greenelab/scihub-manuscript/tree/573e884975d10002a088c52568864974ce684ee3)
 on July 22, 2017.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
@@ -379,7 +379,7 @@ The largest, most prominent academic publishers are thoroughly covered by Sci-Hu
 Elsevier (whose 13 million works are 97.3% covered by Sci-Hub) and the American Chemical Society (whose 1.4 million works are 98.8% covered) have both filed suit against Sci-Hub, despite the limited enforcement options of United States courts.
 The widespread gratis access that Sci-Hub provides to previously paywalled articles calls into question the sustainability of the subscription publishing model [@102oWwJt1].
 As distributed and censorship-resistant file storage protocols mature [@16kozZ9Ys; @5gyFSQse], successors to Sci-Hub may emerge that no longer rely on a centralized service.
-Indeed, Alexandra Elbakyan is only one individual in the larger "guerilla access" movement [@2TjdrEPp; @R9mR68Y4], which will persist regardless of her fate.
+Indeed, Alexandra Elbakyan is only one individual in the larger "guerilla access" movement [@2TjdrEPp; @R9mR68Y4; @xkkXadRh], which will persist regardless of her fate.
 As such, Sci-Hub's corpus of gratis scholarly literature may be extremely difficult to suppress.
 
 In addition, adoption of Sci-Hub and similar sites may accelerate if universities continue canceling increasingly expensive journal subscriptions [@wnNilBvm; @uKvlPbm2; @12rSJsEKK; @GWp5Zx0w], leaving researchers with few alternative access options.
