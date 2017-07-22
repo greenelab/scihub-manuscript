@@ -486,5 +486,27 @@
     }
   ],
   "type": "article-newspaper"
+},
+{
+  "URL": "http://www.atlasobscura.com/articles/the-rise-of-illegal-pirate-libraries",
+  "standard_citation": "url:http://www.atlasobscura.com/articles/the-rise-of-illegal-pirate-libraries",
+  "title": " The Rise of Pirate Libraries",
+  "container-title": "Atlas Obscura",
+  "author": [
+    {
+      "family": "Laskow",
+      "given": "Sarah"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        4,
+        21
+      ]
+    ]
+  },
+  "type": "webpage"
 }
 ]
