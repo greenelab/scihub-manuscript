@@ -5,7 +5,7 @@ author-meta:
 - Stephen Reid McLaughlin
 - Bastian Greshake Tzovaras
 - Casey S. Greene
-date-meta: '2017-07-21'
+date-meta: '2017-07-22'
 keywords:
 - Sci-Hub
 - publishing
@@ -24,8 +24,8 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@17dd201](https://github.com/greenelab/scihub-manuscript/tree/17dd2015ec9396e59cdbc3c2b0abb7d33481bcbf)
-on July 21, 2017.
+from [greenelab/scihub-manuscript@9fec87f](https://github.com/greenelab/scihub-manuscript/tree/9fec87f215b5d018e8097d3d99c56e8afe357602)
+on July 22, 2017.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
 
@@ -141,7 +141,7 @@ If Sci-Hub's coverage is sufficiently broad, then a radical shift may be underwa
 
 ![
 **The history of Sci-Hub.**
-Weekly interest from Google Trends is plotted over time for the search terms "Sci-Hub" and "LibGen."
+Weekly interest from Google Trends is plotted over time for the search terms "Sci-Hub" and "LibGen".
 The light green period indicates when Sci-Hub used LibGen as its database for storing articles [@1H8x8f4Y7].
 The light blue period indicates the public availability of request logs from Sci-Hub [@kQFQ8EaO].
 The first pink dotted line represents the collection date of the LibGen metadata used in Cabanac's study [@18KKRwlN6].
@@ -527,7 +527,7 @@ The Tweet included a download link for a file with the 62,835,101 DOIs that Sci-
 Of these DOIs, 56,246,220 were part of the Crossref-derived catalog of scholarly articles.
 99.5% of the DOIs from Sci-Hub's list were in the LibGen scimag repository (after filtering).
 Hence, the LibGen scimag and Sci-Hub repositories have largely stayed in sync since their split.
-On Twitter, the Sci-Hub account confirmed this finding, [commenting](https://twitter.com/Sci_Hub/status/844165613203480576) "with a small differences, yes the database is the same."
+On Twitter, the Sci-Hub account confirmed this finding, [commenting](https://twitter.com/Sci_Hub/status/844165613203480576) "with a small differences, yes the database is the same".
 Therefore, the LibGen scimag and Sci-Hub DOI catalogs can essentially be used interchangeably for research purposes.
 
 ### Sci-Hub request logs
