@@ -5,7 +5,7 @@ author-meta:
 - Stephen Reid McLaughlin
 - Bastian Greshake Tzovaras
 - Casey S. Greene
-date-meta: '2017-07-24'
+date-meta: '2017-07-25'
 keywords:
 - Sci-Hub
 - publishing
@@ -24,8 +24,8 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@c850a7a](https://github.com/greenelab/scihub-manuscript/tree/c850a7ac7396631830f7a674f5586a65b4b4989c)
-on July 24, 2017.
+from [greenelab/scihub-manuscript@d0e8686](https://github.com/greenelab/scihub-manuscript/tree/d0e8686ecf353c384d2631a893344fd61c4d41fa)
+on July 25, 2017.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
 
@@ -144,7 +144,7 @@ If Sci-Hub's coverage is sufficiently broad, then a radical shift may be underwa
 Weekly interest from Google Trends is plotted over time for the search terms "Sci-Hub" and "LibGen".
 The light green period indicates when Sci-Hub used LibGen as its database for storing articles [@1H8x8f4Y7].
 The light blue period indicates the public availability of request logs from Sci-Hub [@kQFQ8EaO].
-The first pink dotted line represents the collection date of the LibGen metadata used in Cabanac's study [@18KKRwlN6].
+The first pink dotted line represents the collection date of the LibGen metadata used in Cabanac's study [@18KKRwlN6; @GxWkjeN2].
 The second pink dotted line shows the date of Sci-Hub's Tweeted DOI catalog used in this study.
 ](https://cdn.rawgit.com/greenelab/scihub/d84c62a1cbcd70033d70a3728df5492a0031afa9/explore/trends/google-trends.svg){#fig:history}
 
@@ -491,7 +491,7 @@ Since the spring of 2013, Sci-Hub has uploaded articles that it obtains to LibGe
 At the end of 2014, Sci-Hub forked LibGen scimag and began managing its own distinct article repository.
 
 We downloaded the LibGen scimag metadata database on April 7, 2017 as a SQL dump.
-We [imported](https://github.com/greenelab/scihub/issues/2) the SQL dump into MySQL, and then exported the scimag table to a TSV file.
+We [imported](https://github.com/greenelab/scihub/issues/2) the SQL dump into MySQL, and then exported the scimag table to a TSV file [@Th4EY2wD].
 Each row of this table corresponds to an article in LibGen, identified by its DOI.
 The `TimeAdded` field apparently indicates when the publication was uploaded to LibGen.
 After removing records missing `TimeAdded`, 64,195,940 DOIs remained.
@@ -499,7 +499,7 @@ After removing records missing `TimeAdded`, 64,195,940 DOIs remained.
 The 12.4% of LibGen scimag DOIs missing from our Crossref catalog likely comprise incorrect DOIs, DOIs whose metadata availability postdates our Crossref export, DOIs from other Registration Agencies, and DOIs for excluded publication types.
 
 Next, we explored the cumulative size of LibGen scimag over time according to the `TimeAdded` field (Figure @fig:libgen-size).
-However, when we [compared](https://github.com/greenelab/scihub/issues/8#issuecomment-296710357) our plot to one generated from the LibGen scimag database SQL dump on January 5, 2014 [@18KKRwlN6], we noticed a major discrepancy.
+However, when we [compared](https://github.com/greenelab/scihub/issues/8#issuecomment-296710357) our plot to one generated from the LibGen scimag database SQL dump on January 5, 2014 [@18KKRwlN6; @GxWkjeN2], we noticed a major discrepancy.
 The earlier analysis identified a total of 22,829,088 DOIs, whereas we found only 234,504 DOIs as of January 5, 2014.
 We hypothesize that the discrepancy arose because `TimeAdded` indicates the date modified rather than created.
 Specifically, when an article in the database is changed, the database record for that DOI is entirely replaced.

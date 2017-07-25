@@ -4813,6 +4813,57 @@
     "id": "xkkXadRh"
   },
   {
+    "URL": "https://doi.org/10.6084/m9.figshare.4906367.v1",
+    "author": [
+      {
+        "family": "Cabanac",
+        "given": "Guillaume"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          4,
+          28
+        ]
+      ]
+    },
+    "abstract": "This MySql database dump of LibGen's Scimag catalogue was downloaded from http://gen.lib.rus.ec/dbdumps/. It is dated January 1st, 2014.<br>This database was used in the following paper:Cabanac, G. (2016). Bibliogifts in LibGen? A study of a text-sharing platform driven by biblioleaks and crowdsourcing. <i>Journal of the Association for Information Science and Technology</i>, 67(4), 874–884. doi:10.1002/asi.23445",
+    "DOI": "10.6084/m9.figshare.4906367.v1",
+    "publisher": "Figshare",
+    "title": "Scimag catalogue of LibGen as of January 1st, 2014",
+    "type": "dataset",
+    "id": "GxWkjeN2"
+  },
+  {
+    "type": "dataset",
+    "id": "Th4EY2wD",
+    "author": [
+      {
+        "family": "Himmelstein",
+        "given": "Daniel"
+      },
+      {
+        "family": "McLaughlin",
+        "given": "Stephen"
+      }
+    ],
+    "editor": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "abstract": "This dataset contains the metadata for the LibGen scimag database of full-text scholarly documents. Each row of this dataset corresponds to a scholarly document in the LibGen scimag database, as identified by its DOI.<br>scimag_dbbackup-2017-04-07.rar was downloaded from http://libgen.io/dbdumps/backup_archive/scimag_dbbackup-2017-04-07.rar. It's a compressed SQL dump of the LibGen scimag metadata database on 2017-04-07. This is the unmodified file downloaded from libgen.io. It encodes a single table named scimag.<br><br>libgen-scimag-2017-04-07.tsv.xz contains a TSV version of the scimag table from scimag_dbbackup-2017-04-07.rar. It's more user-friendly because it provides access to the data without requiring MySQL, is UTF-8 encoded, and has null bytes removed.<br>The code that downloaded and processed these datasets is at https://git.io/v7Uh4. Users should note that the TimeAdded column appears to store the modification rather than the creation date for each DOI. As discussed in https://doi.org/b9s5, this field should not be mistaken for the date of first upload to LibGen scimag.",
+    "DOI": "10.6084/m9.figshare.5231245.v1",
+    "publisher": "Figshare",
+    "title": "A user-friendly extract of the LibGen scimag metadata SQL dump on 2017-04-07",
+    "URL": "https://doi.org/10.6084/m9.figshare.5231245.v1"
+  },
+  {
     "URL": "https://arxiv.org/abs/1407.3561v1",
     "abstract": "The InterPlanetary File System (IPFS) is a peer-to-peer distributed file system that seeks to connect all computing devices with the same system of files. In some ways, IPFS is similar to the Web, but IPFS could be seen as a single BitTorrent swarm, exchanging objects within one Git repository. In other words, IPFS provides a high throughput content-addressed block storage model, with content-addressed hyper links. This forms a generalized Merkle DAG, a data structure upon which one can build versioned file systems, blockchains, and even a Permanent Web. IPFS combines a distributed hashtable, an incentivized block exchange, and a self-certifying namespace. IPFS has no single point of failure, and nodes do not need to trust each other.",
     "author": [
