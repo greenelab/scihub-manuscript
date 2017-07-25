@@ -508,5 +508,29 @@
     ]
   },
   "type": "webpage"
+},
+{
+  "standard_citation": "doi:10.6084/m9.figshare.4906367.v1",
+  "URL": "https://doi.org/10.6084/m9.figshare.4906367.v1",
+  "author": [
+    {
+      "family": "Cabanac",
+      "given": "Guillaume"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2017,
+        4,
+        28
+      ]
+    ]
+  },
+  "abstract": "This MySql database dump of LibGen's Scimag catalogue was downloaded from http://gen.lib.rus.ec/dbdumps/. It is dated January 1st, 2014.<br>This database was used in the following paper:Cabanac, G. (2016). Bibliogifts in LibGen? A study of a text-sharing platform driven by biblioleaks and crowdsourcing. <i>Journal of the Association for Information Science and Technology</i>, 67(4), 874–884. doi:10.1002/asi.23445",
+  "DOI": "10.6084/m9.figshare.4906367.v1",
+  "publisher": "Figshare",
+  "title": "Scimag catalogue of LibGen as of January 1st, 2014",
+  "type": "dataset"
 }
 ]
