@@ -5,7 +5,7 @@
     "url": 27,
     "total": 72
   },
-  "date": "July 25, 2017",
+  "date": "July 26, 2017",
   "authors": [
     {
       "github": "dhimmel",
@@ -56,6 +56,6 @@
   ],
   "ci_source": {
     "repo_slug": "greenelab/scihub-manuscript",
-    "commit": "d0e8686ecf353c384d2631a893344fd61c4d41fa"
+    "commit": "663406e04763f08203669a41ba76d39ad0fa3958"
   }
 }

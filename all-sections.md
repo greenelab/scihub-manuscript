@@ -5,7 +5,7 @@ author-meta:
 - Stephen Reid McLaughlin
 - Bastian Greshake Tzovaras
 - Casey S. Greene
-date-meta: '2017-07-25'
+date-meta: '2017-07-26'
 keywords:
 - Sci-Hub
 - publishing
@@ -24,8 +24,8 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@d0e8686](https://github.com/greenelab/scihub-manuscript/tree/d0e8686ecf353c384d2631a893344fd61c4d41fa)
-on July 25, 2017.
+from [greenelab/scihub-manuscript@663406e](https://github.com/greenelab/scihub-manuscript/tree/663406e04763f08203669a41ba76d39ad0fa3958)
+on July 26, 2017.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
 
@@ -114,7 +114,7 @@ The first category includes articles that are [openly licensed](http://opendefin
 The remainder of free to read articles can be accessed without price barriers, but permission barriers may remain (usually due to copyright) [@7aXVorCC]. This set of articles is termed "free as in gratis".
 In this work, we refer to availability as "libre" or "gratis" to denote these categories.
 
-The website Sci-Hub, now in its fifth year of existence provides gratis access to scholarly literature, despite the continued presence of paywalls.
+The website Sci-Hub, now in its fifth year of existence, provides gratis access to scholarly literature, despite the continued presence of paywalls.
 Sci-Hub brands itself as "the first pirate website in the world to provide mass and public access to tens of millions of research papers."
 The website, started in 2011, is run by Alexandra Elbakyan, a graduate student and native of Kazakhstan who now resides in Russia [@JVjciZPv; @sR4uAYxB].
 Elbakyan describes herself as motivated to provide universal access to knowledge [@nZZjs6T6; @1BUarVNFD; @K6n65WB0].
