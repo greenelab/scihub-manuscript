@@ -1,11 +1,11 @@
 {
   "reference_counts": {
     "arxiv": 1,
-    "doi": 44,
+    "doi": 45,
     "url": 27,
-    "total": 72
+    "total": 73
   },
-  "date": "July 26, 2017",
+  "date": "July 27, 2017",
   "authors": [
     {
       "github": "dhimmel",
@@ -56,6 +56,6 @@
   ],
   "ci_source": {
     "repo_slug": "greenelab/scihub-manuscript",
-    "commit": "663406e04763f08203669a41ba76d39ad0fa3958"
+    "commit": "bdc20f37f6bdb4ccd04762fc945a45171dcd3105"
   }
 }
