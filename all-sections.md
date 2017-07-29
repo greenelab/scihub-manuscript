@@ -5,7 +5,7 @@ author-meta:
 - Stephen Reid McLaughlin
 - Bastian Greshake Tzovaras
 - Casey S. Greene
-date-meta: '2017-07-27'
+date-meta: '2017-07-29'
 keywords:
 - Sci-Hub
 - publishing
@@ -24,8 +24,8 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@bdc20f3](https://github.com/greenelab/scihub-manuscript/tree/bdc20f37f6bdb4ccd04762fc945a45171dcd3105)
-on July 27, 2017.
+from [greenelab/scihub-manuscript@a431d84](https://github.com/greenelab/scihub-manuscript/tree/a431d84c94cfc2243ac47b25f2503fd8e886279e)
+on July 29, 2017.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
 
@@ -377,7 +377,7 @@ Each donation corresponds to an incoming transaction to a known Sci-Hub address.
 
 The largest, most prominent academic publishers are thoroughly covered by Sci-Hub, and these publishers have taken note.
 Elsevier (whose 13 million works are 97.3% covered by Sci-Hub) and the American Chemical Society (whose 1.4 million works are 98.8% covered) have both filed suit against Sci-Hub, despite the limited enforcement options of United States courts.
-The widespread gratis access that Sci-Hub provides to previously paywalled articles calls into question the sustainability of the subscription publishing model [@102oWwJt1].
+The widespread gratis access that Sci-Hub provides to previously paywalled articles calls into question the sustainability of the subscription publishing model [@102oWwJt1; @sheBR4X4].
 As distributed and censorship-resistant file storage protocols mature [@16kozZ9Ys; @5gyFSQse], successors to Sci-Hub may emerge that no longer rely on a centralized service.
 Indeed, Alexandra Elbakyan is only one individual in the larger "guerilla access" movement [@2TjdrEPp; @R9mR68Y4; @xkkXadRh], which will persist regardless of her fate.
 As such, Sci-Hub's corpus of gratis scholarly literature may be extremely difficult to suppress.

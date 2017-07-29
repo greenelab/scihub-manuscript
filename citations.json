@@ -5445,5 +5445,97 @@
       "id": "QyHSyHo3"
     },
     "citation_id": "QyHSyHo3"
+  },
+  "doi:10.1126/science.aan7164": {
+    "source": "doi",
+    "identifer": "10.1126/science.aan7164",
+    "standard_citation": "doi:10.1126/science.aan7164",
+    "citeproc": {
+      "indexed": {
+        "date-parts": [
+          [
+            2017,
+            7,
+            29
+          ]
+        ],
+        "date-time": "2017-07-29T01:40:04Z",
+        "timestamp": 1501292404962
+      },
+      "reference-count": 0,
+      "publisher": "American Association for the Advancement of Science (AAAS)",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2017,
+            7,
+            27
+          ]
+        ]
+      },
+      "DOI": "10.1126/science.aan7164",
+      "type": "article-journal",
+      "created": {
+        "date-parts": [
+          [
+            2017,
+            7,
+            28
+          ]
+        ],
+        "date-time": "2017-07-28T01:10:07Z",
+        "timestamp": 1501204207000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": "Sci-Hub’s cache of pirated papers is so big, subscription journals are doomed, data analyst suggests",
+      "prefix": "10.1126",
+      "author": [
+        {
+          "given": "Lindsay ",
+          "family": "McKenzie",
+          "affiliation": []
+        }
+      ],
+      "member": "221",
+      "container-title": "Science",
+      "original-title": [],
+      "deposited": {
+        "date-parts": [
+          [
+            2017,
+            7,
+            29
+          ]
+        ],
+        "date-time": "2017-07-29T01:10:17Z",
+        "timestamp": 1501290617000
+      },
+      "score": 1.0,
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2017,
+            7,
+            27
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.1126/science.aan7164",
+      "relation": {},
+      "subject": [
+        "Multidisciplinary"
+      ],
+      "container-title-short": "Science",
+      "id": "sheBR4X4"
+    },
+    "citation_id": "sheBR4X4"
   }
 }
