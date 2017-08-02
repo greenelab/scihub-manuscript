@@ -5,7 +5,7 @@ author-meta:
 - Stephen Reid McLaughlin
 - Bastian Greshake Tzovaras
 - Casey S. Greene
-date-meta: '2017-07-29'
+date-meta: '2017-08-02'
 keywords:
 - Sci-Hub
 - publishing
@@ -24,8 +24,8 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@a431d84](https://github.com/greenelab/scihub-manuscript/tree/a431d84c94cfc2243ac47b25f2503fd8e886279e)
-on July 29, 2017.
+from [greenelab/scihub-manuscript@8fcd0cd](https://github.com/greenelab/scihub-manuscript/tree/8fcd0cd665f6fb5f39bed7e26b940aa27d4770ba)
+on August  2, 2017.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
 
@@ -100,7 +100,7 @@ Furthermore, Sci-Hub contains 77.0% of the 5.2 million articles published by ina
 Coverage varies by discipline, with 92.8% coverage of articles in chemistry journals compared to 76.3% for computer science.
 Coverage also varies by publisher, with the coverage of the largest publisher, Elsevier, at 97.3%.
 Our interactive browser at [greenelab.github.io/scihub](https://greenelab.github.io/scihub) allows users to explore these findings in more detail.
-Finally, we estimate that over a six-month period in 2015–2016, Sci-Hub provided access for 99.3% of valid incoming requests.
+~~Finally, we estimate that over a six-month period in 2015–2016, Sci-Hub provided access for 99.3% of valid incoming requests.~~
 Hence, the scope of this resource suggests the subscription publishing model is becoming unsustainable.
 For the first time, the overwhelming majority of scholarly literature is available gratis to anyone with an Internet connection.
 
@@ -317,15 +317,15 @@ We filtered for valid requests by excluding DOIs not included in our literature 
 Accordingly, we identified 26,984,851 valid requests for 10,116,937 distinct articles.
 Hence, on average, Sci-Hub received approximately 164,000 valid requests per day in late 2015–early 2016.
 
-The logs do not indicate whether requests were fulfilled.
+~~The logs do not indicate whether requests were fulfilled.
 However, if a requested article wasn't in Sci-Hub's database, Sci-Hub would have attempted to retrieve it and store it for future use.
-Therefore, we can estimate fulfillment rates by assuming that articles currently in Sci-Hub's database were available in the past, at the time of request.
+Therefore, we can estimate fulfillment rates by assuming that articles currently in Sci-Hub's database were available in the past, at the time of request.~~
 
-Accordingly, we estimate that Sci-Hub fulfilled 99.3% of valid requests during this period.
+~~Accordingly, we estimate that Sci-Hub fulfilled 99.3% of valid requests during this period.
 The estimated fulfillment rate was nearly 100% for all article types other than book chapters.
 Users that requested book chapters were granted access 82.1% of the time.
 In total, only 141,466 articles were requested that are not presently in Sci-Hub.
-Of these inaccessible articles, 14,154 [were](https://github.com/greenelab/scihub/issues/5#issuecomment-298952622) book chapters from _Lecture Notes in Computer Science_.
+Of these inaccessible articles, 14,154 [were](https://github.com/greenelab/scihub/issues/5#issuecomment-298952622) book chapters from _Lecture Notes in Computer Science_.~~
 
 We computed journal-level metrics based on average article requests.
 The "visitors" metric assesses the average number of IP addresses that requested each article published by a journal during the 20 months preceding September 2015 (the start date of the Sci-Hub logs).
@@ -354,7 +354,7 @@ Furthermore, coverage of the most cited journals exceeded 90%.
 Journals with very low (including zero) coverage tended to be obscure, less cited venues.
 Importantly, Sci-Hub delivers access to scholarly literature at a much higher rate than its database coverage.
 Since Sci-Hub can retrieve, in real time, requested articles that are not in its database, our coverage figures are a lower bound.
-In terms of articles actually requested by users, we infer that Sci-Hub provides access 99% of the time.
+~~In terms of articles actually requested by users, we infer that Sci-Hub provides access 99% of the time.~~
 
 We find strong evidence that Sci-Hub is primarily used to circumvent paywalls.
 In particular, users requested articles from closed access journals much more frequently than open access journals.
