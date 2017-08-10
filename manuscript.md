@@ -24,7 +24,7 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@9402260](https://github.com/greenelab/scihub-manuscript/tree/9402260dbcfdd5b7d716b6badb84405d60e4d79a)
+from [greenelab/scihub-manuscript@cfe599e](https://github.com/greenelab/scihub-manuscript/tree/cfe599e25405d38092bf972b6ea1c9e0dcf3deb9)
 on August 10, 2017.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
@@ -152,8 +152,7 @@ In Figure @fig:history, The ⓛⓔⓣⓣⓔⓡⓢ refer to the following events:
 
 + **Ⓐ** Created by Alexandra Elbakyan, the Sci-Hub website goes live on September 5, 2011.
 + **Ⓑ** Several LibGen domains go down [@Hz2uRUJS].
-+ **Ⓒ** Elsevier files a civil suit against Sci-Hub and LibGen — at the respective domains `sci-hub.org` and `libgen.org` —  in the U.S. District Court for the Southern District of New York [@6ZrZVv6E;
-@j3Zl6sH5].
++ **Ⓒ** Elsevier files a civil suit against Sci-Hub and LibGen — at the respective domains `sci-hub.org` and `libgen.org` —  in the U.S. District Court for the Southern District of New York [@6ZrZVv6E; @j3Zl6sH5].
 The complaint seeks a "prayer for relief" that includes domain name seizure, damages, and "an order disgorging Defendants' profits".
 + **Ⓓ** Elsevier is granted a preliminary injunction to suspend domain names and restrain the site operators from distributing Elsevier's copyrighted works [@9GOM6WEw; @BpCqwlYS].
 Shortly after, Sci-Hub and LibGen resurface at alternative domains outside of U.S. court jurisdiction, including on the dark web [@16k28dBmH; @sR4uAYxB].
