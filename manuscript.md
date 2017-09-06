@@ -5,7 +5,7 @@ author-meta:
 - Stephen Reid McLaughlin
 - Bastian Greshake Tzovaras
 - Casey S. Greene
-date-meta: '2017-08-10'
+date-meta: '2017-09-06'
 keywords:
 - Sci-Hub
 - publishing
@@ -20,16 +20,20 @@ keywords:
 title: Sci-Hub provides access to nearly all scholarly literature
 ...
 
-*A preprint for this study is available at <https://doi.org/10.7287/peerj.preprints.3100>.*
+
+
+_A DOI-citable version of this manuscript is available at <https://doi.org/10.7287/peerj.preprints.3100>_.
+
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@cfe599e](https://github.com/greenelab/scihub-manuscript/tree/cfe599e25405d38092bf972b6ea1c9e0dcf3deb9)
-on August 10, 2017.
+from [greenelab/scihub-manuscript@7cbaf22](https://github.com/greenelab/scihub-manuscript/tree/7cbaf2219b15d41ba6a1380c0a70284169b0b8d0)
+on September  6, 2017.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
 
 ## Authors
+
 
 
 + **Daniel S. Himmelstein**<br>
@@ -103,6 +107,7 @@ Our interactive browser at [greenelab.github.io/scihub](https://greenelab.github
 ~~Finally, we estimate that over a six-month period in 2015–2016, Sci-Hub provided access for 99.3% of valid incoming requests.~~
 Hence, the scope of this resource suggests the subscription publishing model is becoming unsustainable.
 For the first time, the overwhelming majority of scholarly literature is available gratis to anyone with an Internet connection.
+
 
 ## Introduction {.page_break_before}
 
@@ -589,7 +594,7 @@ Therefore, we caution against drawing any conclusions from the `TimeAdded` field
 ](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/figure/libgen-monthly-lagtimes.svg){#fig:libgen-lag tag="S4"}
 
 
-# Acknowledgements
+## Acknowledgements
 
 We'd like to thank the individuals, not listed as authors, who provided comments on [GitHub issues](https://github.com/greenelab/scihub/issues) or pull requests.
 Specifically, the following individuals provided valuable input while the study was underway:
@@ -598,4 +603,7 @@ Specifically, the following individuals provided valuable input while the study 
 and [Guillaume Cabanac](https://github.com/gcabanac).
 In addition, we're grateful to GitHub for offering gratis Large File Storage as part of their education program.
 
-# References {.page_break_before}
+## References {.page_break_before}
+
+<!-- Explicitly insert bibliography here -->
+<div id="refs"></div>
