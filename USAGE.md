@@ -7,7 +7,13 @@ This repository uses the [Manubot](https://github.com/greenelab/manubot) to auto
 Manuscript text should be written in markdown files, which should be located in [`content`](content) with a digit prefix for ordering (e.g. `01.`, `02.`, etc.) and a `.md` extension.
 
 For basic formatting, check out the [CommonMark Help](http://commonmark.org/help/) page for an introduction to the formatting options provided by standard markdown.
-In addition, manubot supports an extended version of markdown, tailored for scholarly writing.
+In addition, manubot supports an extended version of markdown, tailored for scholarly writing, which includes [Pandoc's Markdown](http://pandoc.org/MANUAL.html#pandocs-markdown) and the extensions discussed below.
+
+Within a paragraph in markdown, single newlines are interpreted as whitespace (same as a space).
+A paragraph's source does not need to contain newlines.
+However, "one paragraph per line" makes the git diff less precise, leading to less granular review commenting, and makes conflicts more likely.
+Therefore, we recommend using [semantic linefeeds](http://rhodesmill.org/brandon/2012/one-sentence-per-line/ "Semantic Linefeeds. Brandon Rhodes. 2012") — newlines between sentences.
+We have found that "one sentence per line" is preferable to "word wrap" or "one paragraph per line".
 
 ### Tables
 
@@ -114,6 +120,8 @@ For guidance on what CSL JSON should be like for different document types, refer
 [`content/metadata.yaml`](content/metadata.yaml) contains manuscript metadata that gets passed through to Pandoc, via a [`yaml_metadata_block`](http://pandoc.org/MANUAL.html#extension-yaml_metadata_block).
 `metadata.yaml` should contain the manuscript `title`, `authors` list, and `keywords`.
 Additional metadata, such as `date`, will automatically be created by the Manubot.
+Manubot uses the [timezone](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) specified in [`build.sh`](build/build.sh) for setting the manuscript's date.
+For example, setting the `TZ` environment variable to `Etc/UTC` directs the Manubot to use Coordinated Universal Time.
 
 We recommend authors add themselves to `metadata.yaml` via pull request (when requested by a maintainer), thereby signaling that they've read and approved the manuscript.
 The following YAML shows the supported key–value pairs for an author:  
@@ -132,3 +140,15 @@ funders: GBMF4552  # optional
 ## Manubot feedback
 
 If you experience any issues with the Manubot or would like to contribute to its source code, please visit [`greenelab/manubot`](https://github.com/greenelab/manubot) or [`greenelab/manubot-rootstock`](https://github.com/greenelab/manubot-rootstock).
+
+## Examples
+
+For additional examples, check out existing manuscripts that use the Manubot:
+
++ The Sci-Hub Coverage Study ([source](https://github.com/greenelab/scihub-manuscript), [manuscript](https://greenelab.github.io/scihub-manuscript/))
++ A Report for the Vagelos Scholars Program by Michael Zietz ([source](https://github.com/zietzm/Vagelos2017), [manuscript](https://zietzm.github.io/Vagelos2017/))
++ The Deep Review ([source](https://github.com/greenelab/deep-review), [manuscript](https://greenelab.github.io/deep-review/))
++ The Meta Review ([source](https://github.com/greenelab/meta-review), [manuscript](https://greenelab.github.io/meta-review/))
++ A Literature Review for Project Planning by David Slochower ([source](https://github.com/slochower/synthetic-motor-literature), [manuscript](https://slochower.github.io/synthetic-motor-literature/))
+
+If you are using the Manubot, feel free to submit a pull request to add your manuscript to the list above.
