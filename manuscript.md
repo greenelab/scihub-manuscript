@@ -27,7 +27,7 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.72
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@7cbaf22](https://github.com/greenelab/scihub-manuscript/tree/7cbaf2219b15d41ba6a1380c0a70284169b0b8d0)
+from [greenelab/scihub-manuscript@df28e35](https://github.com/greenelab/scihub-manuscript/tree/df28e3565c818a1913da0c818a33b040936be877)
 on September  6, 2017.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
