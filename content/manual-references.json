@@ -490,7 +490,7 @@
 {
   "URL": "http://www.atlasobscura.com/articles/the-rise-of-illegal-pirate-libraries",
   "standard_citation": "url:http://www.atlasobscura.com/articles/the-rise-of-illegal-pirate-libraries",
-  "title": " The Rise of Pirate Libraries",
+  "title": "The Rise of Pirate Libraries",
   "container-title": "Atlas Obscura",
   "author": [
     {
@@ -532,5 +532,49 @@
   "publisher": "Figshare",
   "title": "Scimag catalogue of LibGen as of January 1st, 2014",
   "type": "dataset"
+},
+{
+  "URL": "https://www.insidehighered.com/blogs/library-babel-fish/inevitably-open",
+  "standard_citation": "url:https://www.insidehighered.com/blogs/library-babel-fish/inevitably-open",
+  "title": "Library Babel Fish Blog: Inevitably Open",
+  "container-title": "Inside Higher Ed",
+  "author": [
+    {
+      "family": "Fister",
+      "given": "Barbara"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2017,
+        8,
+        1
+      ]
+    ]
+  },
+  "type": "webpage"
+},
+{
+  "URL": "http://foreignpolicy.com/2017/09/06/the-worlds-largest-free-scientific-resource-is-now-blocked-in-russia/",
+  "standard_citation": "url:http://foreignpolicy.com/2017/09/06/the-worlds-largest-free-scientific-resource-is-now-blocked-in-russia/",
+  "title": "The World’s Largest Free Scientific Resource Is Now Blocked in Russia",
+  "container-title": "Foreign Policy",
+  "author": [
+    {
+      "family": "Standish",
+      "given": "Reid"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2017,
+        9,
+        6
+      ]
+    ]
+  },
+  "type": "webpage"
 }
 ]
