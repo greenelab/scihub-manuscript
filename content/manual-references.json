@@ -576,5 +576,31 @@
     ]
   },
   "type": "webpage"
+},
+{
+  "URL": "http://lj.libraryjournal.com/2017/04/publishing/new-world-same-model-periodicals-price-survey-2017/",
+  "standard_citation": "url:http://lj.libraryjournal.com/2017/04/publishing/new-world-same-model-periodicals-price-survey-2017/",
+  "title": "New World, Same Model | Periodicals Price Survey 2017",
+  "container-title": "Library Journal",
+  "issued": {
+    "date-parts": [
+      [
+        2017,
+        4,
+        19
+      ]
+    ]
+  },
+  "type": "webpage",
+  "author": [
+    {
+      "given": "Stephen",
+      "family": "Bosch"
+    },
+    {
+      "given": "Kittie",
+      "family": "Henderson"
+    }
+  ]
 }
 ]
