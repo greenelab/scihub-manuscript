@@ -2,9 +2,9 @@
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
-[![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://greenelab.github.io/manubot-rootstock/)
-[![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://greenelab.github.io/manubot-rootstock/manuscript.pdf)
-[![Build Status](https://travis-ci.org/greenelab/manubot-rootstock.svg?branch=master)](https://travis-ci.org/greenelab/manubot-rootstock)
+[![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://greenelab.github.io/scihub-manuscript/)
+[![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://greenelab.github.io/scihub-manuscript/manuscript.pdf)
+[![Build Status](https://travis-ci.org/greenelab/scihub-manuscript.svg?branch=master)](https://travis-ci.org/greenelab/scihub-manuscript)
 
 ## Manuscript description
 
