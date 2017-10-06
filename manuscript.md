@@ -1,7 +1,7 @@
 ---
 author-meta:
 - Daniel S. Himmelstein
-- Ariel R. Romero
+- Ariel Rodriguez Romero
 - Stephen Reid McLaughlin
 - Bastian Greshake Tzovaras
 - Casey S. Greene
@@ -27,7 +27,7 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.72
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@cea2926](https://github.com/greenelab/scihub-manuscript/tree/cea29262047a104e9b4178487a5b4204272934e5)
+from [greenelab/scihub-manuscript@f74c32a](https://github.com/greenelab/scihub-manuscript/tree/f74c32a0ca4059943201fdd2f9971c182a3c413b)
 on October  6, 2017.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
@@ -48,11 +48,13 @@ Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on 
      · Funded by GBMF4552
   </small>
 
-+ **Ariel R. Romero**<br>
++ **Ariel Rodriguez Romero**<br>
     ![ORCID icon](images/orcid.svg){height="13px"}
     [0000-0003-2290-4927](https://orcid.org/0000-0003-2290-4927)
     · ![GitHub icon](images/github.svg){height="13px"}
-    [arielsvn](https://github.com/arielsvn)<br>
+    [arielsvn](https://github.com/arielsvn)
+    · ![Twitter icon](images/twitter.svg){height="13px"}
+    [arielswn](https://twitter.com/arielswn)<br>
   <small>
      Bidwise, Inc
   </small>
