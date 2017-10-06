@@ -302,12 +302,12 @@
       "date-parts": [
         [
           2017,
-          7,
-          27
+          10,
+          4
         ]
       ],
-      "date-time": "2017-07-27T13:42:43Z",
-      "timestamp": 1501162963137
+      "date-time": "2017-10-04T10:22:21Z",
+      "timestamp": 1507112541048
     },
     "reference-count": 26,
     "publisher": "Springer Nature",
@@ -360,7 +360,7 @@
     "page": "213-228",
     "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 40,
+    "is-referenced-by-count": 50,
     "title": "The journal coverage of Web of Science and Scopus: a comparative analysis",
     "prefix": "10.1007",
     "volume": "106",
@@ -400,6 +400,12 @@
         "content-type": "text/html",
         "content-version": "vor",
         "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/s11192-015-1765-5",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
       }
     ],
     "deposited": {
@@ -600,12 +606,12 @@
       "date-parts": [
         [
           2017,
-          7,
-          24
+          10,
+          4
         ]
       ],
-      "date-time": "2017-07-24T16:32:37Z",
-      "timestamp": 1500913957137
+      "date-time": "2017-10-04T07:22:17Z",
+      "timestamp": 1507101737960
     },
     "reference-count": 25,
     "publisher": "Elsevier BV",
@@ -659,7 +665,7 @@
     "page": "98-109",
     "update-policy": "http://dx.doi.org/10.1016/elsevier_cm_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 2,
+    "is-referenced-by-count": 3,
     "title": "Availability of digital object identifiers (DOIs) in Web of Science and Scopus",
     "prefix": "10.1016",
     "volume": "10",
@@ -775,12 +781,12 @@
       "date-parts": [
         [
           2017,
-          7,
-          25
+          8,
+          11
         ]
       ],
-      "date-time": "2017-07-25T02:20:46Z",
-      "timestamp": 1500949246227
+      "date-time": "2017-08-11T05:04:47Z",
+      "timestamp": 1502427887621
     },
     "reference-count": 9,
     "publisher": "Informa UK Limited",
@@ -835,6 +841,14 @@
     },
     "container-title": "Serials Review",
     "original-title": [],
+    "link": [
+      {
+        "URL": "http://www.tandfonline.com/doi/pdf/10.1080/00987913.2007.10765116",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
     "deposited": {
       "date-parts": [
         [
@@ -1332,12 +1346,12 @@
       "date-parts": [
         [
           2017,
-          7,
-          24
+          8,
+          11
         ]
       ],
-      "date-time": "2017-07-24T14:29:12Z",
-      "timestamp": 1500906552381
+      "date-time": "2017-08-11T03:24:31Z",
+      "timestamp": 1502421871103
     },
     "reference-count": 0,
     "publisher": "Springer Nature",
@@ -1610,12 +1624,12 @@
       "date-parts": [
         [
           2017,
-          7,
-          25
+          8,
+          11
         ]
       ],
-      "date-time": "2017-07-25T15:26:28Z",
-      "timestamp": 1500996388331
+      "date-time": "2017-08-11T17:35:03Z",
+      "timestamp": 1502472903160
     },
     "reference-count": 0,
     "publisher": "Springer Nature",
@@ -1659,6 +1673,14 @@
     },
     "container-title": "Nature",
     "original-title": [],
+    "link": [
+      {
+        "URL": "http://www.nature.com/doifinder/10.1038/nature.2017.22196",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
     "deposited": {
       "date-parts": [
         [
@@ -1700,12 +1722,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          4
+          9,
+          11
         ]
       ],
-      "date-time": "2017-08-04T08:09:01Z",
-      "timestamp": 1501834141601
+      "date-time": "2017-09-11T12:22:11Z",
+      "timestamp": 1505132531877
     },
     "reference-count": 33,
     "publisher": "Springer Nature",
@@ -1729,7 +1751,7 @@
     },
     "page": "342-346",
     "source": "Crossref",
-    "is-referenced-by-count": 1,
+    "is-referenced-by-count": 3,
     "title": "Reproducibility of computational workflows is automated using continuous analysis",
     "prefix": "10.1038",
     "volume": "35",
@@ -1910,12 +1932,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          8
+          9,
+          26
         ]
       ],
-      "date-time": "2017-08-08T09:22:51Z",
-      "timestamp": 1502184171106
+      "date-time": "2017-09-26T00:22:10Z",
+      "timestamp": 1506385330745
     },
     "reference-count": 0,
     "publisher": "The Royal Society",
@@ -1948,7 +1970,7 @@
     },
     "page": "821-831",
     "source": "Crossref",
-    "is-referenced-by-count": 37,
+    "is-referenced-by-count": 39,
     "title": "Observations, Communicated to the Publisher by Mr. Antony van Leewenhoeck, in a Dutch Letter of the 9th of Octob. 1676. Here English'd: concerning Little Animals by Him Observed in Rain-Well-Sea. and Snow Water; as Also in Water Wherein Pepper Had Lain Infused",
     "prefix": "10.1098",
     "volume": "12",
@@ -1997,12 +2019,12 @@
       "date-parts": [
         [
           2017,
-          7,
-          25
+          8,
+          11
         ]
       ],
-      "date-time": "2017-07-25T13:37:39Z",
-      "timestamp": 1500989859998
+      "date-time": "2017-08-11T15:31:27Z",
+      "timestamp": 1502465487706
     },
     "posted": {
       "date-parts": [
@@ -2241,6 +2263,14 @@
     "member": "246",
     "container-title": [],
     "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/142760",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
     "deposited": {
       "date-parts": [
         [
@@ -2275,12 +2305,12 @@
       "date-parts": [
         [
           2017,
-          7,
-          25
+          8,
+          11
         ]
       ],
-      "date-time": "2017-07-25T17:10:25Z",
-      "timestamp": 1501002625041
+      "date-time": "2017-08-11T19:33:11Z",
+      "timestamp": 1502479991833
     },
     "posted": {
       "date-parts": [
@@ -2363,6 +2393,14 @@
     "member": "246",
     "container-title": [],
     "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/162099",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
     "deposited": {
       "date-parts": [
         [
@@ -2884,12 +2922,12 @@
       "date-parts": [
         [
           2017,
-          7,
-          29
+          8,
+          11
         ]
       ],
-      "date-time": "2017-07-29T01:40:04Z",
-      "timestamp": 1501292404962
+      "date-time": "2017-08-11T20:50:14Z",
+      "timestamp": 1502484614466
     },
     "reference-count": 0,
     "publisher": "American Association for the Advancement of Science (AAAS)",
@@ -2971,12 +3009,12 @@
       "date-parts": [
         [
           2017,
-          7,
-          24
+          8,
+          11
         ]
       ],
-      "date-time": "2017-07-24T06:03:45Z",
-      "timestamp": 1500876225909
+      "date-time": "2017-08-11T05:00:59Z",
+      "timestamp": 1502427659000
     },
     "reference-count": 26,
     "publisher": "F1000 Research, Ltd.",
@@ -3025,6 +3063,14 @@
     },
     "container-title": "F1000Research",
     "original-title": [],
+    "link": [
+      {
+        "URL": "https://f1000research.com/articles/6-541/v1/iparadigms",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
     "deposited": {
       "date-parts": [
         [
@@ -3051,6 +3097,13 @@
     "references-count": 26,
     "URL": "https://doi.org/10.12688/f1000research.11366.1",
     "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.1101/124495",
+          "asserted-by": "object"
+        }
+      ],
       "cites": []
     },
     "container-title-short": "F1000Res",
@@ -3153,12 +3206,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          9
+          9,
+          29
         ]
       ],
-      "date-time": "2017-08-09T23:28:51Z",
-      "timestamp": 1502321331977
+      "date-time": "2017-09-29T16:42:13Z",
+      "timestamp": 1506703333992
     },
     "update-to": [
       {
@@ -3218,7 +3271,7 @@
     "page": "632",
     "update-policy": "http://dx.doi.org/10.12688/f1000research.crossmark-policy",
     "source": "Crossref",
-    "is-referenced-by-count": 8,
+    "is-referenced-by-count": 12,
     "title": "The academic, economic and societal impacts of Open Access: an evidence-based review",
     "prefix": "10.12688",
     "volume": "5",
@@ -3390,11 +3443,11 @@
         [
           2017,
           8,
-          10
+          21
         ]
       ],
-      "date-time": "2017-08-10T19:27:57Z",
-      "timestamp": 1502393277646
+      "date-time": "2017-08-21T05:02:15Z",
+      "timestamp": 1503291735365
     },
     "reference-count": 17,
     "publisher": "Public Library of Science (PLoS)",
@@ -3439,7 +3492,7 @@
     "page": "e93949",
     "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 51,
+    "is-referenced-by-count": 52,
     "title": "The Number of Scholarly Documents on the Public Web",
     "prefix": "10.1371",
     "volume": "9",
@@ -3590,11 +3643,11 @@
         [
           2017,
           8,
-          4
+          11
         ]
       ],
-      "date-time": "2017-08-04T07:52:00Z",
-      "timestamp": 1501833120943
+      "date-time": "2017-08-11T01:15:00Z",
+      "timestamp": 1502414100985
     },
     "reference-count": 29,
     "publisher": "Ubiquity Press, Ltd.",
@@ -3732,12 +3785,12 @@
       "date-parts": [
         [
           2017,
-          7,
-          24
+          8,
+          11
         ]
       ],
-      "date-time": "2017-07-24T23:31:45Z",
-      "timestamp": 1500939105953
+      "date-time": "2017-08-11T00:46:57Z",
+      "timestamp": 1502412417734
     },
     "reference-count": 31,
     "publisher": "JMIR Publications Inc.",
@@ -3819,7 +3872,9 @@
     },
     "references-count": 31,
     "URL": "https://doi.org/10.2196/jmir.3331",
-    "relation": {},
+    "relation": {
+      "cites": []
+    },
     "subject": [
       "Health Informatics"
     ],

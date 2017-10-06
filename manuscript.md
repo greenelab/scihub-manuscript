@@ -5,7 +5,7 @@ author-meta:
 - Stephen Reid McLaughlin
 - Bastian Greshake Tzovaras
 - Casey S. Greene
-date-meta: '2017-09-06'
+date-meta: '2017-10-06'
 keywords:
 - Sci-Hub
 - publishing
@@ -27,8 +27,8 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.72
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@df28e35](https://github.com/greenelab/scihub-manuscript/tree/df28e3565c818a1913da0c818a33b040936be877)
-on September  6, 2017.
+from [greenelab/scihub-manuscript@cea2926](https://github.com/greenelab/scihub-manuscript/tree/cea29262047a104e9b4178487a5b4204272934e5)
+on October  6, 2017.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
 
@@ -596,11 +596,9 @@ Therefore, we caution against drawing any conclusions from the `TimeAdded` field
 
 ## Acknowledgements
 
-We'd like to thank the individuals, not listed as authors, who provided comments on [GitHub issues](https://github.com/greenelab/scihub/issues) or pull requests.
+We'd like to thank the individuals, not listed as authors, who provided comments on [GitHub issues](https://github.com/search?utf8=%E2%9C%93&q=repo%3Agreenelab%2Fscihub+repo%3Agreenelab%2Fscihub-manuscript+repo%3Agreenelab%2Fscihub-browser-data+repo%3Adhimmel%2Fjournalmetrics&type=Issues "GitHub Issues in Project Repositories") or pull requests.
 Specifically, the following individuals provided valuable input while the study was underway:
-[Richard Smith-Unna](https://github.com/blahah),
-[Ross Mounce](https://github.com/rossmounce),
-and [Guillaume Cabanac](https://github.com/gcabanac).
+[Thomas Munro](https://github.com/tamunro) (Deakin University), [Ross Mounce](https://github.com/rossmounce), [Richard Smith-Unna](https://github.com/blahah), and [Guillaume Cabanac](https://github.com/gcabanac).
 In addition, we're grateful to GitHub for offering gratis Large File Storage as part of their education program.
 
 ## References {.page_break_before}
