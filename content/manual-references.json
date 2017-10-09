@@ -86,6 +86,38 @@
   "URL": "https://www.courtlistener.com/docket/4355308/1/elsevier-inc-v-sci-hub/"
 },
 {
+  "standard_citation": "url:https://www.courtlistener.com/docket/4355308/6/elsevier-inc-v-sci-hub/",
+  "type": "legal-case",
+  "title": "Memorandum of Law in Support of Motion – Document #6 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS",
+  "author": [
+    {
+     "given": "Joseph V.",
+     "family": "DeMarco"
+    },
+    {
+      "given": "David M.",
+      "family": "Hirschberg"
+    },
+    {
+      "given": "Urvashi",
+      "family": "Sen"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2015,
+        6,
+        11
+      ]
+    ]
+  },
+  "container-title": "Southern District Court of New York",
+  "authority": "Southern District Court of New York",
+  "number": "1:15-cv-04282-RWS",
+  "URL": "https://www.courtlistener.com/docket/4355308/6/elsevier-inc-v-sci-hub/"
+},
+{
   "standard_citation": "url:https://www.courtlistener.com/docket/4355308/8/23/elsevier-inc-v-sci-hub/",
   "type": "legal-case",
   "title": "Declaration in Support of Motion – Document #8 Attachment #23 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS",
@@ -182,7 +214,7 @@
   "URL": "https://www.documentcloud.org/documents/3878258-2017-06-21-Elsevier-Sci-Hub-Final-Judgement.html"
 },
 {
-  "standard_citation": "url:https://www.documentcloud.org/documents/3879464-2017-06-23-ACS-Sci-Hub-Complaint.html",
+  "standard_citation": "url:https://www.courtlistener.com/docket/6146630/1/american-chemical-society-v-does-1-99/",
   "type": "legal-case",
   "title": "Complaint – Document #1 of American Chemical Society v. Sci-Hub – Case 1:17-cv-00726-LMB-JFA",
   "author": [
@@ -212,7 +244,7 @@
   "container-title": "Eastern District Court of Virginia",
   "authority": "Eastern District Court of Virginia",
   "number": "1:17-cv-00726-LMB-JFA",
-  "URL": "https://www.documentcloud.org/documents/3879464-2017-06-23-ACS-Sci-Hub-Complaint.html"
+  "URL": "https://www.courtlistener.com/docket/6146630/1/american-chemical-society-v-does-1-99/"
 },
 {
   "standard_citation": "url:http://www.leafscience.org/alexandra-elbakyan/",
@@ -490,7 +522,7 @@
 {
   "URL": "http://www.atlasobscura.com/articles/the-rise-of-illegal-pirate-libraries",
   "standard_citation": "url:http://www.atlasobscura.com/articles/the-rise-of-illegal-pirate-libraries",
-  "title": " The Rise of Pirate Libraries",
+  "title": "The Rise of Pirate Libraries",
   "container-title": "Atlas Obscura",
   "author": [
     {
@@ -532,5 +564,162 @@
   "publisher": "Figshare",
   "title": "Scimag catalogue of LibGen as of January 1st, 2014",
   "type": "dataset"
+},
+{
+  "URL": "https://www.insidehighered.com/blogs/library-babel-fish/inevitably-open",
+  "standard_citation": "url:https://www.insidehighered.com/blogs/library-babel-fish/inevitably-open",
+  "title": "Library Babel Fish Blog: Inevitably Open",
+  "container-title": "Inside Higher Ed",
+  "author": [
+    {
+      "family": "Fister",
+      "given": "Barbara"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2017,
+        8,
+        1
+      ]
+    ]
+  },
+  "type": "webpage"
+},
+{
+  "URL": "http://foreignpolicy.com/2017/09/06/the-worlds-largest-free-scientific-resource-is-now-blocked-in-russia/",
+  "standard_citation": "url:http://foreignpolicy.com/2017/09/06/the-worlds-largest-free-scientific-resource-is-now-blocked-in-russia/",
+  "title": "The World’s Largest Free Scientific Resource Is Now Blocked in Russia",
+  "container-title": "Foreign Policy",
+  "author": [
+    {
+      "family": "Standish",
+      "given": "Reid"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2017,
+        9,
+        6
+      ]
+    ]
+  },
+  "type": "webpage"
+},
+{
+  "URL": "http://lj.libraryjournal.com/2017/04/publishing/new-world-same-model-periodicals-price-survey-2017/",
+  "standard_citation": "url:http://lj.libraryjournal.com/2017/04/publishing/new-world-same-model-periodicals-price-survey-2017/",
+  "title": "New World, Same Model | Periodicals Price Survey 2017",
+  "container-title": "Library Journal",
+  "issued": {
+    "date-parts": [
+      [
+        2017,
+        4,
+        19
+      ]
+    ]
+  },
+  "type": "webpage",
+  "author": [
+    {
+      "given": "Stephen",
+      "family": "Bosch"
+    },
+    {
+      "given": "Kittie",
+      "family": "Henderson"
+    }
+  ]
+},
+{
+  "URL": "http://www.attemptingelegance.com/?p=1765",
+  "standard_citation": "url:http://www.attemptingelegance.com/?p=1765",
+  "title": "Walking away from the American Chemical Society",
+  "container-title": "Attempting Elegance",
+  "author": [
+    {
+      "given": "Jenica",
+      "family": "Rogers"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2012,
+        9,
+        12
+      ]
+    ]
+  },
+  "type": "post-weblog"
+},
+{
+  "URL": "https://www.ebscohost.com/promoMaterials/Five_Year_Journal_Price_Increase_History_EBSCO_2013-2017.pdf",
+  "standard_citation": "url:https://www.ebscohost.com/promoMaterials/Five_Year_Journal_Price_Increase_History_EBSCO_2013-2017.pdf",
+  "title": "Five Year Journal Price Increase History (2013-2017)",
+  "author": [
+    {
+      "literal": "EBSCO"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2017,
+        9,
+        27
+      ]
+    ]
+  },
+  "abstract": "This report shows price fluctuations over the last five years for typical library lists invoiced in U.S. dollars. Data for each library type is based on a merged list of titles ordered by representative libraries purchasing in U.S. dollars.",
+  "type": "report"
+},
+{
+  "URL": "http://www.arl.org/storage/documents/expenditure-trends.pdf",
+  "standard_citation": "url:http://www.arl.org/storage/documents/expenditure-trends.pdf",
+  "title": "Graph 4: Expenditure Trends in ARL Libraries, 1986-2015",
+  "container-title": "ARL Statistics 2014–2015",
+  "author": [
+    {
+      "literal": "Association of Research Libraries"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2017,
+        3,
+        17
+      ]
+    ]
+  },
+  "note": "Date issued from press release at http://www.arl.org/news/arl-news/4246-arl-statistics-2014-2015-and-updated-trends-graphs-published",
+  "type": "graphic"
+},
+{
+  "URL": "http://www.bib.umontreal.ca/communiques/20170504-DC-annulation-taylor-francis-va.htm",
+  "standard_citation": "url:http://www.bib.umontreal.ca/communiques/20170504-DC-annulation-taylor-francis-va.htm",
+  "title": "UdeM Libraries cancel Big Deal subscription to 2,231 periodical titles published by Taylor & Francis Group",
+  "container-title": "Communiqués, Bibliothèques, Université de Montréal",
+  "author": [
+    {
+      "given": "Stéphanie",
+      "family": "Gagnon"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2017,
+        5,
+        4
+      ]
+    ]
+  },
+  "type": "webpage"
 }
 ]
