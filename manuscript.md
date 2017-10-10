@@ -27,7 +27,7 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.72
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@f3af75b](https://github.com/greenelab/scihub-manuscript/tree/f3af75bc471950d11e6ff41c222b24915f76e9ca)
+from [greenelab/scihub-manuscript@3c1a665](https://github.com/greenelab/scihub-manuscript/tree/3c1a665016bf2a553789168b7414c8e3d5979bbd)
 on October 10, 2017.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
@@ -37,11 +37,11 @@ Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on 
 
 
 + **Daniel S. Himmelstein**<br>
-    ![ORCID icon](images/orcid.svg){height="13px"}
+    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
     [0000-0002-3012-7446](https://orcid.org/0000-0002-3012-7446)
-    · ![GitHub icon](images/github.svg){height="13px"}
+    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
     [dhimmel](https://github.com/dhimmel)
-    · ![Twitter icon](images/twitter.svg){height="13px"}
+    · ![Twitter icon](images/twitter.svg){height="13px" width="13px"}
     [dhimmel](https://twitter.com/dhimmel)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
@@ -49,44 +49,44 @@ Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on 
   </small>
 
 + **Ariel Rodriguez Romero**<br>
-    ![ORCID icon](images/orcid.svg){height="13px"}
+    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
     [0000-0003-2290-4927](https://orcid.org/0000-0003-2290-4927)
-    · ![GitHub icon](images/github.svg){height="13px"}
+    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
     [arielsvn](https://github.com/arielsvn)
-    · ![Twitter icon](images/twitter.svg){height="13px"}
+    · ![Twitter icon](images/twitter.svg){height="13px" width="13px"}
     [arielswn](https://twitter.com/arielswn)<br>
   <small>
      Bidwise, Inc
   </small>
 
 + **Stephen Reid McLaughlin**<br>
-    ![ORCID icon](images/orcid.svg){height="13px"}
+    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
     [0000-0002-9888-3168](https://orcid.org/0000-0002-9888-3168)
-    · ![GitHub icon](images/github.svg){height="13px"}
+    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
     [stevemclaugh](https://github.com/stevemclaugh)
-    · ![Twitter icon](images/twitter.svg){height="13px"}
+    · ![Twitter icon](images/twitter.svg){height="13px" width="13px"}
     [SteveMcLaugh](https://twitter.com/SteveMcLaugh)<br>
   <small>
      School of Information, University of Texas at Austin
   </small>
 
 + **Bastian Greshake Tzovaras**<br>
-    ![ORCID icon](images/orcid.svg){height="13px"}
+    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
     [0000-0002-9925-9623](https://orcid.org/0000-0002-9925-9623)
-    · ![GitHub icon](images/github.svg){height="13px"}
+    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
     [gedankenstuecke](https://github.com/gedankenstuecke)
-    · ![Twitter icon](images/twitter.svg){height="13px"}
+    · ![Twitter icon](images/twitter.svg){height="13px" width="13px"}
     [gedankenstuecke](https://twitter.com/gedankenstuecke)<br>
   <small>
      Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt
   </small>
 
 + **Casey S. Greene**<br>
-    ![ORCID icon](images/orcid.svg){height="13px"}
+    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
     [0000-0001-8713-9213](https://orcid.org/0000-0001-8713-9213)
-    · ![GitHub icon](images/github.svg){height="13px"}
+    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
     [cgreene](https://github.com/cgreene)
-    · ![Twitter icon](images/twitter.svg){height="13px"}
+    · ![Twitter icon](images/twitter.svg){height="13px" width="13px"}
     [GreeneScientist](https://twitter.com/GreeneScientist)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
@@ -169,7 +169,7 @@ The light green period indicates when Sci-Hub used LibGen as its database for st
 The light blue period indicates the public availability of access logs from Sci-Hub [@kQFQ8EaO].
 The first pink dotted line represents the collection date of the LibGen metadata used in Cabanac's study [@18KKRwlN6; @GxWkjeN2].
 The second pink dotted line shows the date of Sci-Hub's Tweeted DOI catalog used in this study.
-](https://cdn.rawgit.com/greenelab/scihub/f78760cd15e061d254e9db30cd203e3911aeb392/explore/trends/google-trends.svg){#fig:history}
+](https://cdn.rawgit.com/greenelab/scihub/f78760cd15e061d254e9db30cd203e3911aeb392/explore/trends/google-trends.svg){#fig:history width="100%"}
 
 In Figure @fig:history, The ⓛⓔⓣⓣⓔⓡⓢ refer to the following events:
 
@@ -295,7 +295,7 @@ See Figure @fig:countries for coverage according to a journal's country of publi
 ![
 **Coverage by journal attributes.**
 Coverage was assessed for all articles from journals with the specified Scopus attributes.
-](https://cdn.rawgit.com/greenelab/scihub/f78760cd15e061d254e9db30cd203e3911aeb392/figure/coverage.svg){#fig:attributes}
+](https://cdn.rawgit.com/greenelab/scihub/f78760cd15e061d254e9db30cd203e3911aeb392/figure/coverage.svg){#fig:attributes width="100%"}
 
 We also evaluated whether journal coverage varied by journal impact.
 We assessed journal impact using the 2015 CiteScore, which measures the average number of citations that articles published in 2012–2014 received during 2015.
@@ -323,7 +323,7 @@ Sci-Hub had zero coverage for 1,206 publishers, and complete coverage for 323 pu
 ![
 **Coverage by publisher.**
 Article coverage is shown for all Scopus publishers with at least 200,000 articles.
-](https://cdn.rawgit.com/greenelab/scihub/f78760cd15e061d254e9db30cd203e3911aeb392/figure/coverage-by-publisher.svg){#fig:publishers}
+](https://cdn.rawgit.com/greenelab/scihub/f78760cd15e061d254e9db30cd203e3911aeb392/figure/coverage-by-publisher.svg){#fig:publishers width="100%"}
 
 ### Coverage by year
 
@@ -337,7 +337,7 @@ Another possible factor is that some publishers are now deploying more aggressiv
 ![
 **Coverage of articles by year published.**
 Sci-Hub's article coverage is shown for each year since 1850.
-](https://cdn.rawgit.com/greenelab/scihub/f78760cd15e061d254e9db30cd203e3911aeb392/figure/coverage-by-year.svg){#fig:years}
+](https://cdn.rawgit.com/greenelab/scihub/f78760cd15e061d254e9db30cd203e3911aeb392/figure/coverage-by-year.svg){#fig:years width="100%"}
 
 In addition, the prevalence of open access has been increasing, while Sci-Hub preferentially covers articles in toll access journals.
 Figure @fig:years-by-access tracks yearly coverage separately for articles in toll and open access journals.
@@ -349,7 +349,7 @@ In addition to having limited readership demand, these journals are generally op
 ![
 **Coverage of articles by year published and journal access status.**
 Sci-Hub's coverage is shown, separately for articles in open versus toll access journals, for each year since 1950.
-](https://cdn.rawgit.com/greenelab/scihub/f78760cd15e061d254e9db30cd203e3911aeb392/figure/coverage-by-year-and-access.svg){#fig:years-by-access}
+](https://cdn.rawgit.com/greenelab/scihub/f78760cd15e061d254e9db30cd203e3911aeb392/figure/coverage-by-year-and-access.svg){#fig:years-by-access width="100%"}
 
 Sci-Hub's coverage of 2016 articles in open access journals was just 32.8% compared to 79.1% for articles in toll access journals (Figure @fig:years-by-access).
 Upon further investigation, we discovered that in June 2015, Sci-Hub ceased archiving articles in [_PeerJ_](https://greenelab.github.io/scihub/#/journal/21100239256), [_eLife_](https://greenelab.github.io/scihub/#/journal/21100242814), and PLOS journals, although they continued archiving articles in other open access journals such as [_Scientific Reports_](https://greenelab.github.io/scihub/#/journal/21100200805), [_Nature Communications_](https://greenelab.github.io/scihub/#/journal/19700182758), and BMC-series journals (`13.oa-journal-dropoffs.ipynb`).
@@ -382,7 +382,7 @@ However, hybrid and bronze articles, which are available gratis from their publi
 Color indicates accessibility status.
 Gray indicates closed (not accessible via oaDOI).
 **B)** Coverage of oaDOI, Sci-Hub, and the combination of both repositories.
-](https://cdn.rawgit.com/greenelab/scihub/f78760cd15e061d254e9db30cd203e3911aeb392/figure/state-of-oa.svg){#fig:state-of-oa}
+](https://cdn.rawgit.com/greenelab/scihub/f78760cd15e061d254e9db30cd203e3911aeb392/figure/state-of-oa.svg){#fig:state-of-oa width="100%"}
 
 ### oaDOI Coverage
 
@@ -449,7 +449,7 @@ This is the only analysis where "Sci-Hub Coverage" refers to journal-level rathe
 **B)**
 The association between 2015 CiteScore and average visitors per article is plotted for open and toll access journals.
 Curves show the 95% confidence band from a Generalized Additive Model.
-](https://cdn.rawgit.com/greenelab/scihub/f78760cd15e061d254e9db30cd203e3911aeb392/figure/citescore.svg){#fig:citescore}
+](https://cdn.rawgit.com/greenelab/scihub/f78760cd15e061d254e9db30cd203e3911aeb392/figure/citescore.svg){#fig:citescore width="100%"}
 
 ## Discussion {.page_break_before}
 
@@ -481,7 +481,7 @@ Therefore, presumably, Sci-Hub has received considerable donations via alternati
 The number of bitcoin donations to Sci-Hub is shown for each month from June 2015 to August 2017.
 Since February 2016, Sci-Hub has received over 25 donations per month.
 Each donation corresponds to an incoming transaction to a known Sci-Hub address.
-](https://cdn.rawgit.com/greenelab/scihub/f78760cd15e061d254e9db30cd203e3911aeb392/explore/bitcoin/monthly-donations-count.svg){#fig:bitcoin}
+](https://cdn.rawgit.com/greenelab/scihub/f78760cd15e061d254e9db30cd203e3911aeb392/explore/bitcoin/monthly-donations-count.svg){#fig:bitcoin width="100%"}
 
 The largest, most prominent academic publishers are thoroughly covered by Sci-Hub, and these publishers have taken note.
 Elsevier (whose 13 million works are 97.3% covered by Sci-Hub) and the American Chemical Society (whose 1.4 million works are 98.8% covered) have both filed suit against Sci-Hub, despite the limited enforcement options of United States courts.
@@ -718,13 +718,13 @@ Interestingly, the journal _Medicine - Programa de Formación Médica Continuada
 **Coverage by country of publication.**
 Scopus assigns each journal a country of publication.
 Sci-Hub's coverage is shown for countries with at least 100,000 articles.
-](https://cdn.rawgit.com/greenelab/scihub/f78760cd15e061d254e9db30cd203e3911aeb392/figure/coverage-by-country.svg){#fig:countries tag="S1"}
+](https://cdn.rawgit.com/greenelab/scihub/f78760cd15e061d254e9db30cd203e3911aeb392/figure/coverage-by-country.svg){#fig:countries tag="S1" width="100%"}
 
 ![
 **Bitcoin donations to Sci-Hub per month.**
 For months since June 2015, total bitcoin donations (deposits to known Sci-Hub addresses) are assessed.
 Donations in USD refers to the United States dollar value at time of transaction confirmation.
-](https://cdn.rawgit.com/greenelab/scihub/f78760cd15e061d254e9db30cd203e3911aeb392/explore/bitcoin/monthly-donations-faceted.svg){#fig:bitcoin-all tag="S2"  width="5in"}
+](https://cdn.rawgit.com/greenelab/scihub/f78760cd15e061d254e9db30cd203e3911aeb392/explore/bitcoin/monthly-donations-faceted.svg){#fig:bitcoin-all tag="S2" width="5in"}
 
 ![
 **Number of articles in LibGen scimag over time.**
@@ -743,7 +743,7 @@ For example, coverage for 2016 articles exceeded 50% within 6 months, but appear
 Alternatively, coverage for 2014 took 15 months to exceed 50%, but has since reached 75%.
 However, this signal could result from post-dated LibGen upload timestamps.
 Therefore, we caution against drawing any conclusions from the `TimeAdded` field in LibGen scimag until its accuracy can be established more reliably.
-](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/figure/libgen-monthly-lagtimes.svg){#fig:libgen-lag tag="S4"}
+](https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/figure/libgen-monthly-lagtimes.svg){#fig:libgen-lag tag="S4" width="100%"}
 
 
 ## Acknowledgements
