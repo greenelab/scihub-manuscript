@@ -606,6 +606,156 @@
       "date-parts": [
         [
           2017,
+          8,
+          10
+        ]
+      ],
+      "date-time": "2017-08-10T23:43:10Z",
+      "timestamp": 1502408590160
+    },
+    "reference-count": 51,
+    "publisher": "Springer Nature",
+    "issue": "2",
+    "license": [
+      {
+        "URL": "http://www.springer.com/tdm",
+        "start": {
+          "date-parts": [
+            [
+              2017,
+              2,
+              19
+            ]
+          ],
+          "date-time": "2017-02-19T00:00:00Z",
+          "timestamp": 1487462400000
+        },
+        "delay-in-days": 0,
+        "content-version": "vor"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.1007/s12525-017-0249-2",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          2,
+          18
+        ]
+      ],
+      "date-time": "2017-02-18T23:45:00Z",
+      "timestamp": 1487461500000
+    },
+    "page": "101-109",
+    "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": "Scholarly journal publishing in transition- from restricted to open access",
+    "prefix": "10.1007",
+    "volume": "27",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0003-1545-9642",
+        "authenticated-orcid": false,
+        "given": "Bo-Christer",
+        "family": "Björk",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2017,
+          2,
+          19
+        ]
+      ]
+    },
+    "container-title": "Electronic Markets",
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/s12525-017-0249-2.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://link.springer.com/article/10.1007/s12525-017-0249-2/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/s12525-017-0249-2.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          5,
+          10
+        ]
+      ],
+      "date-time": "2017-05-10T08:10:32Z",
+      "timestamp": 1494403832000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          2,
+          19
+        ]
+      ]
+    },
+    "references-count": 51,
+    "alternative-id": [
+      "249"
+    ],
+    "URL": "https://doi.org/10.1007/s12525-017-0249-2",
+    "relation": {
+      "cites": []
+    },
+    "subject": [
+      "Management of Technology and Innovation",
+      "Marketing",
+      "Economics and Econometrics",
+      "Business and International Management",
+      "Computer Science Applications"
+    ],
+    "container-title-short": "Electron Markets",
+    "short_url": "https://doi.org/f98kxw",
+    "id": "KDvO1ctK"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
           10,
           4
         ]
@@ -892,6 +1042,160 @@
         [
           2017,
           8,
+          14
+        ]
+      ],
+      "date-time": "2017-08-14T19:43:11Z",
+      "timestamp": 1502739791965
+    },
+    "reference-count": 5,
+    "publisher": "Elsevier BV",
+    "issue": "9",
+    "license": [
+      {
+        "URL": "http://www.elsevier.com/tdm/userlicense/1.0/",
+        "start": {
+          "date-parts": [
+            [
+              2016,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2016-09-01T00:00:00Z",
+          "timestamp": 1472688000000
+        },
+        "delay-in-days": 0,
+        "content-version": "tdm"
+      },
+      {
+        "URL": "http://creativecommons.org/licenses/by/4.0/",
+        "start": {
+          "date-parts": [
+            [
+              2016,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2016-08-01T00:00:00Z",
+          "timestamp": 1470009600000
+        },
+        "delay-in-days": 0,
+        "content-version": "vor"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2016,
+          9
+        ]
+      ]
+    },
+    "DOI": "10.1016/s2214-109x(16)30188-7",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          8,
+          15
+        ]
+      ],
+      "date-time": "2016-08-15T23:30:27Z",
+      "timestamp": 1471303827000
+    },
+    "page": "e608",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": "Sci-Hub and medical practice: an ethical dilemma in Peru",
+    "prefix": "10.1016",
+    "volume": "4",
+    "author": [
+      {
+        "given": "Guido",
+        "family": "Bendezú-Quispe",
+        "affiliation": []
+      },
+      {
+        "given": "Wendy",
+        "family": "Nieto-Gutiérrez",
+        "affiliation": []
+      },
+      {
+        "given": "Josmel",
+        "family": "Pacheco-Mendoza",
+        "affiliation": []
+      },
+      {
+        "given": "Alvaro",
+        "family": "Taype-Rondan",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "container-title": "The Lancet Global Health",
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://api.elsevier.com/content/article/PII:S2214109X16301887?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://api.elsevier.com/content/article/PII:S2214109X16301887?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          24
+        ]
+      ],
+      "date-time": "2017-06-24T20:46:34Z",
+      "timestamp": 1498337194000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          9
+        ]
+      ]
+    },
+    "references-count": 5,
+    "alternative-id": [
+      "S2214109X16301887"
+    ],
+    "URL": "https://doi.org/10.1016/s2214-109x(16)30188-7",
+    "relation": {},
+    "subject": [
+      "General Medicine"
+    ],
+    "container-title-short": "The Lancet Global Health",
+    "short_url": "https://doi.org/gbxtgw",
+    "id": "17wtGC2m7"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          8,
           10
         ]
       ],
@@ -978,6 +1282,99 @@
     "container-title-short": "Nature",
     "short_url": "https://doi.org/hqr",
     "id": "I6O7IKP7"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2017-10-10T06:02:11Z",
+      "timestamp": 1507615331693
+    },
+    "reference-count": 0,
+    "publisher": "Springer Nature",
+    "issue": "7442",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "DOI": "10.1038/495426a",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2013,
+          3,
+          26
+        ]
+      ],
+      "date-time": "2013-03-26T11:18:48Z",
+      "timestamp": 1364296728000
+    },
+    "page": "426-429",
+    "source": "Crossref",
+    "is-referenced-by-count": 85,
+    "title": "Open access: The true cost of science publishing",
+    "prefix": "10.1038",
+    "volume": "495",
+    "author": [
+      {
+        "given": "Richard",
+        "family": "Van Noorden",
+        "affiliation": []
+      }
+    ],
+    "member": "339",
+    "published-online": {
+      "date-parts": [
+        [
+          2013,
+          3,
+          27
+        ]
+      ]
+    },
+    "container-title": "Nature",
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2015,
+          9,
+          18
+        ]
+      ],
+      "date-time": "2015-09-18T09:57:00Z",
+      "timestamp": 1442570220000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          3,
+          27
+        ]
+      ]
+    },
+    "references-count": 0,
+    "alternative-id": [
+      "495426a"
+    ],
+    "URL": "https://doi.org/10.1038/495426a",
+    "relation": {},
+    "subject": [
+      "Multidisciplinary"
+    ],
+    "container-title-short": "Nature",
+    "short_url": "https://doi.org/kxz",
+    "id": "xDn5v2f3"
   },
   {
     "indexed": {
@@ -1625,6 +2022,194 @@
         [
           2017,
           8,
+          10
+        ]
+      ],
+      "date-time": "2017-08-10T23:23:30Z",
+      "timestamp": 1502407410235
+    },
+    "reference-count": 0,
+    "publisher": "Springer Nature",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "DOI": "10.1038/nature.2017.21482",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          2,
+          14
+        ]
+      ],
+      "date-time": "2017-02-14T10:50:46Z",
+      "timestamp": 1487069446000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "German scientists regain access to Elsevier journals",
+    "prefix": "10.1038",
+    "author": [
+      {
+        "given": "Quirin",
+        "family": "Schiermeier",
+        "affiliation": []
+      }
+    ],
+    "member": "339",
+    "published-online": {
+      "date-parts": [
+        [
+          2017,
+          2,
+          14
+        ]
+      ]
+    },
+    "container-title": "Nature",
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          2,
+          22
+        ]
+      ],
+      "date-time": "2017-02-22T17:58:29Z",
+      "timestamp": 1487786309000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          2,
+          14
+        ]
+      ]
+    },
+    "references-count": 0,
+    "alternative-id": [
+      "nature.2017.21482"
+    ],
+    "URL": "https://doi.org/10.1038/nature.2017.21482",
+    "relation": {},
+    "subject": [
+      "Multidisciplinary"
+    ],
+    "container-title-short": "Nature",
+    "short_url": "https://doi.org/gbxtgx",
+    "id": "xehij8U0"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          8,
+          11
+        ]
+      ],
+      "date-time": "2017-08-11T03:21:46Z",
+      "timestamp": 1502421706875
+    },
+    "reference-count": 0,
+    "publisher": "Springer Nature",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "DOI": "10.1038/nature.2017.21765",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          4,
+          2
+        ]
+      ],
+      "date-time": "2017-04-02T23:07:49Z",
+      "timestamp": 1491174469000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "Unpaywall finds free versions of paywalled papers",
+    "prefix": "10.1038",
+    "author": [
+      {
+        "given": "Dalmeet Singh",
+        "family": "Chawla",
+        "affiliation": []
+      }
+    ],
+    "member": "339",
+    "published-online": {
+      "date-parts": [
+        [
+          2017,
+          4,
+          4
+        ]
+      ]
+    },
+    "container-title": "Nature",
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://www.nature.com/doifinder/10.1038/nature.2017.21765",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          4,
+          24
+        ]
+      ],
+      "date-time": "2017-04-24T16:29:38Z",
+      "timestamp": 1493051378000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          4,
+          4
+        ]
+      ]
+    },
+    "references-count": 0,
+    "alternative-id": [
+      "nature.2017.21765"
+    ],
+    "URL": "https://doi.org/10.1038/nature.2017.21765",
+    "relation": {},
+    "subject": [
+      "Multidisciplinary"
+    ],
+    "container-title-short": "Nature",
+    "short_url": "https://doi.org/gbr3m4",
+    "id": "8AIp1E7j"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          8,
           11
         ]
       ],
@@ -1926,6 +2511,251 @@
     "container-title-short": "D-Lib Magazine",
     "short_url": "https://doi.org/xjz",
     "id": "llK8SMam"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          8,
+          24
+        ]
+      ],
+      "date-time": "2017-08-24T09:23:02Z",
+      "timestamp": 1503566582608
+    },
+    "reference-count": 25,
+    "publisher": "Proceedings of the National Academy of Sciences",
+    "issue": "26",
+    "content-domain": {
+      "domain": [
+        "pnas.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2014,
+          7,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1073/pnas.1403006111",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          6,
+          17
+        ]
+      ],
+      "date-time": "2014-06-17T02:56:38Z",
+      "timestamp": 1402973798000
+    },
+    "page": "9425-9430",
+    "update-policy": "http://dx.doi.org/10.1073/pnas.cm10313",
+    "source": "Crossref",
+    "is-referenced-by-count": 19,
+    "title": "Evaluating big deal journal bundles",
+    "prefix": "10.1073",
+    "volume": "111",
+    "author": [
+      {
+        "given": "Theodore C.",
+        "family": "Bergstrom",
+        "affiliation": []
+      },
+      {
+        "given": "Paul N.",
+        "family": "Courant",
+        "affiliation": []
+      },
+      {
+        "given": "R. Preston",
+        "family": "McAfee",
+        "affiliation": []
+      },
+      {
+        "given": "Michael A.",
+        "family": "Williams",
+        "affiliation": []
+      }
+    ],
+    "member": "341",
+    "published-online": {
+      "date-parts": [
+        [
+          2014,
+          6,
+          16
+        ]
+      ]
+    },
+    "container-title": "Proceedings of the National Academy of Sciences",
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1073/pnas.1403006111",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          22
+        ]
+      ],
+      "date-time": "2017-06-22T14:59:46Z",
+      "timestamp": 1498143586000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          6,
+          16
+        ]
+      ]
+    },
+    "references-count": 25,
+    "alternative-id": [
+      "10.1073/pnas.1403006111"
+    ],
+    "URL": "https://doi.org/10.1073/pnas.1403006111",
+    "relation": {
+      "cites": []
+    },
+    "subject": [
+      "Multidisciplinary"
+    ],
+    "container-title-short": "Proc Natl Acad Sci USA",
+    "short_url": "https://doi.org/s78",
+    "id": "7oTLbigW"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          8,
+          11
+        ]
+      ],
+      "date-time": "2017-08-11T04:59:26Z",
+      "timestamp": 1502427566520
+    },
+    "reference-count": 35,
+    "publisher": "Informa UK Limited",
+    "issue": "4",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2005,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1080/00987913.2005.10764998",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          6,
+          24
+        ]
+      ],
+      "date-time": "2014-06-24T12:17:38Z",
+      "timestamp": 1403612258000
+    },
+    "page": "246-255",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": "Transforming Access to Research Literature for Developing Countries",
+    "prefix": "10.1080",
+    "volume": "31",
+    "author": [
+      {
+        "given": "Barbara",
+        "family": "Kirsop",
+        "affiliation": []
+      },
+      {
+        "given": "Leslie",
+        "family": "Chan",
+        "affiliation": []
+      }
+    ],
+    "member": "301",
+    "published-online": {
+      "date-parts": [
+        [
+          2013,
+          12,
+          6
+        ]
+      ]
+    },
+    "container-title": "Serials Review",
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://www.tandfonline.com/doi/pdf/10.1080/00987913.2005.10764998",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          22
+        ]
+      ],
+      "date-time": "2017-06-22T15:26:32Z",
+      "timestamp": 1498145192000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2005,
+          12
+        ]
+      ]
+    },
+    "references-count": 35,
+    "alternative-id": [
+      "10.1080/00987913.2005.10764998"
+    ],
+    "URL": "https://doi.org/10.1080/00987913.2005.10764998",
+    "relation": {
+      "cites": []
+    },
+    "subject": [
+      "Library and Information Sciences"
+    ],
+    "container-title-short": "Serials Review",
+    "short_url": "https://doi.org/gbw28b",
+    "id": "13ynzWtv8"
   },
   {
     "indexed": {
@@ -2435,12 +3265,287 @@
       "date-parts": [
         [
           2017,
-          8,
-          9
+          10,
+          4
         ]
       ],
-      "date-time": "2017-08-09T08:13:53Z",
-      "timestamp": 1502266433140
+      "date-time": "2017-10-04T08:42:17Z",
+      "timestamp": 1507106537605
+    },
+    "reference-count": 40,
+    "publisher": "Emerald",
+    "issue": "2",
+    "license": [
+      {
+        "URL": "http://www.emeraldinsight.com/page/tdm",
+        "start": {
+          "date-parts": [
+            [
+              2015,
+              3,
+              9
+            ]
+          ],
+          "date-time": "2015-03-09T00:00:00Z",
+          "timestamp": 1425859200000
+        },
+        "delay-in-days": 0,
+        "content-version": "tdm"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2015,
+          3,
+          9
+        ]
+      ]
+    },
+    "DOI": "10.1108/jd-12-2013-0166",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2015,
+          2,
+          18
+        ]
+      ],
+      "date-time": "2015-02-18T11:58:08Z",
+      "timestamp": 1424260688000
+    },
+    "page": "253-277",
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": "Setting our bibliographic references free: towards open citation data",
+    "prefix": "10.1108",
+    "volume": "71",
+    "author": [
+      {
+        "given": "Silvio",
+        "family": "Peroni",
+        "affiliation": []
+      },
+      {
+        "given": "Alexander",
+        "family": "Dutton",
+        "affiliation": []
+      },
+      {
+        "given": "Tanya",
+        "family": "Gray",
+        "affiliation": []
+      },
+      {
+        "given": "David",
+        "family": "Shotton",
+        "affiliation": []
+      }
+    ],
+    "member": "140",
+    "container-title": "Journal of Documentation",
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://www.emeraldinsight.com/doi/full-xml/10.1108/JD-12-2013-0166",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://www.emeraldinsight.com/doi/full/10.1108/JD-12-2013-0166",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          23
+        ]
+      ],
+      "date-time": "2017-06-23T05:48:06Z",
+      "timestamp": 1498196886000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          3,
+          9
+        ]
+      ]
+    },
+    "references-count": 40,
+    "alternative-id": [
+      "10.1108/JD-12-2013-0166"
+    ],
+    "URL": "https://doi.org/10.1108/jd-12-2013-0166",
+    "relation": {
+      "cites": []
+    },
+    "subject": [
+      "Library and Information Sciences",
+      "Information Systems"
+    ],
+    "container-title-short": "Journal of Documentation",
+    "short_url": "https://doi.org/f68psk",
+    "id": "H2hXqKsr"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          10,
+          3
+        ]
+      ],
+      "date-time": "2017-10-03T02:22:22Z",
+      "timestamp": 1506997342166
+    },
+    "reference-count": 31,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "1",
+    "funder": [
+      {
+        "DOI": "10.13039/501100001744",
+        "name": "International Science and Technology Center",
+        "doi-asserted-by": "publisher",
+        "award": []
+      },
+      {
+        "DOI": "10.13039/100000185",
+        "name": "Defense Advanced Research Projects Agency",
+        "doi-asserted-by": "publisher",
+        "award": []
+      },
+      {
+        "name": "Moore Foundation",
+        "award": []
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1109/tvcg.2016.2599030",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          8,
+          10
+        ]
+      ],
+      "date-time": "2016-08-10T19:59:53Z",
+      "timestamp": 1470859193000
+    },
+    "page": "341-350",
+    "source": "Crossref",
+    "is-referenced-by-count": 9,
+    "title": "Vega-Lite: A Grammar of Interactive Graphics",
+    "prefix": "10.1109",
+    "volume": "23",
+    "author": [
+      {
+        "given": "Arvind",
+        "family": "Satyanarayan",
+        "affiliation": []
+      },
+      {
+        "given": "Dominik",
+        "family": "Moritz",
+        "affiliation": []
+      },
+      {
+        "given": "Kanit",
+        "family": "Wongsuphasawat",
+        "affiliation": []
+      },
+      {
+        "given": "Jeffrey",
+        "family": "Heer",
+        "affiliation": []
+      }
+    ],
+    "member": "263",
+    "container-title": "IEEE Transactions on Visualization and Computer Graphics",
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/2945/7747554/07539624.pdf?arnumber=7539624",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          24
+        ]
+      ],
+      "date-time": "2017-06-24T20:26:12Z",
+      "timestamp": 1498335972000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          1
+        ]
+      ]
+    },
+    "references-count": 31,
+    "URL": "https://doi.org/10.1109/tvcg.2016.2599030",
+    "relation": {},
+    "subject": [
+      "Signal Processing",
+      "Software",
+      "Computer Vision and Pattern Recognition",
+      "Computer Graphics and Computer-Aided Design"
+    ],
+    "container-title-short": "IEEE Trans. Visual. Comput. Graphics",
+    "short_url": "https://doi.org/f92f32",
+    "id": "nyZChH5b"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2017-10-10T11:42:14Z",
+      "timestamp": 1507635734529
     },
     "reference-count": 0,
     "publisher": "American Association for the Advancement of Science (AAAS)",
@@ -2473,7 +3578,7 @@
     },
     "page": "508-512",
     "source": "Crossref",
-    "is-referenced-by-count": 6,
+    "is-referenced-by-count": 9,
     "title": "Who's downloading pirated papers? Everyone",
     "prefix": "10.1126",
     "volume": "352",
@@ -2536,6 +3641,116 @@
     "container-title-short": "Science",
     "short_url": "https://doi.org/gbqq96",
     "id": "RsNXQAG2"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          8,
+          10
+        ]
+      ],
+      "date-time": "2017-08-10T14:36:54Z",
+      "timestamp": 1502375814823
+    },
+    "reference-count": 0,
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "issue": "6320",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          1,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1126/science.355.6320.17",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          1,
+          5
+        ]
+      ],
+      "date-time": "2017-01-05T19:10:37Z",
+      "timestamp": 1483643437000
+    },
+    "page": "17-17",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": "German researchers start 2017 without Elsevier journals",
+    "prefix": "10.1126",
+    "volume": "355",
+    "author": [
+      {
+        "given": "Gretchen",
+        "family": "Vogel",
+        "affiliation": []
+      }
+    ],
+    "member": "221",
+    "published-online": {
+      "date-parts": [
+        [
+          2017,
+          1,
+          5
+        ]
+      ]
+    },
+    "container-title": "Science",
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1126/science.355.6320.17",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          5,
+          1
+        ]
+      ],
+      "date-time": "2017-05-01T21:56:52Z",
+      "timestamp": 1493675812000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          1,
+          5
+        ]
+      ]
+    },
+    "references-count": 0,
+    "alternative-id": [
+      "10.1126/science.355.6320.17"
+    ],
+    "URL": "https://doi.org/10.1126/science.355.6320.17",
+    "relation": {},
+    "subject": [
+      "Multidisciplinary"
+    ],
+    "container-title-short": "Science",
+    "short_url": "https://doi.org/gbxtgz",
+    "id": "pzBnDw2j"
   },
   {
     "indexed": {
@@ -3010,6 +4225,416 @@
         [
           2017,
           8,
+          27
+        ]
+      ],
+      "date-time": "2017-08-27T11:42:26Z",
+      "timestamp": 1503834146432
+    },
+    "reference-count": 0,
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          8,
+          23
+        ]
+      ]
+    },
+    "DOI": "10.1126/science.aap7562",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          8,
+          24
+        ]
+      ],
+      "date-time": "2017-08-24T01:10:07Z",
+      "timestamp": 1503537007000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "A bold open-access push in Germany could change the future of academic publishing",
+    "prefix": "10.1126",
+    "author": [
+      {
+        "given": "Gretchen",
+        "family": "Vogel",
+        "affiliation": []
+      }
+    ],
+    "member": "221",
+    "container-title": "Science",
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          8,
+          25
+        ]
+      ],
+      "date-time": "2017-08-25T01:10:26Z",
+      "timestamp": 1503623426000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          8,
+          23
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.1126/science.aap7562",
+    "relation": {},
+    "subject": [
+      "Multidisciplinary"
+    ],
+    "container-title-short": "Science",
+    "short_url": "https://doi.org/gbr3m5",
+    "id": "1F2Ri1rrL"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          9,
+          22
+        ]
+      ],
+      "date-time": "2017-09-22T01:40:19Z",
+      "timestamp": 1506044419967
+    },
+    "reference-count": 0,
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          9,
+          20
+        ]
+      ]
+    },
+    "DOI": "10.1126/science.aaq0132",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          9,
+          21
+        ]
+      ],
+      "date-time": "2017-09-21T01:10:09Z",
+      "timestamp": 1505956209000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "Publishers go after networking site for illicit sharing of journal papers",
+    "prefix": "10.1126",
+    "author": [
+      {
+        "given": "Dalmeet",
+        "family": "Chawla",
+        "affiliation": []
+      }
+    ],
+    "member": "221",
+    "container-title": "Science",
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          9,
+          22
+        ]
+      ],
+      "date-time": "2017-09-22T01:10:21Z",
+      "timestamp": 1506042621000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          9,
+          20
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.1126/science.aaq0132",
+    "relation": {},
+    "subject": [
+      "Multidisciplinary"
+    ],
+    "container-title-short": "Science",
+    "short_url": "https://doi.org/gbxtg2",
+    "id": "1BKBt9JRq"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          10,
+          7
+        ]
+      ],
+      "date-time": "2017-10-07T01:40:28Z",
+      "timestamp": 1507340428985
+    },
+    "reference-count": 0,
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          10,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1126/science.aaq1560",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          10,
+          7
+        ]
+      ],
+      "date-time": "2017-10-07T01:10:07Z",
+      "timestamp": 1507338607000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "Publishers take ResearchGate to court, alleging massive copyright infringement",
+    "prefix": "10.1126",
+    "author": [
+      {
+        "given": "Dalmeet",
+        "family": "Chawla",
+        "affiliation": []
+      }
+    ],
+    "member": "221",
+    "container-title": "Science",
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          10,
+          7
+        ]
+      ],
+      "date-time": "2017-10-07T01:10:08Z",
+      "timestamp": 1507338608000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          10,
+          6
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.1126/science.aaq1560",
+    "relation": {},
+    "subject": [
+      "Multidisciplinary"
+    ],
+    "container-title-short": "Science",
+    "short_url": "https://doi.org/gbxtxg",
+    "id": "nVGhXBcX"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          10,
+          4
+        ]
+      ],
+      "date-time": "2017-10-04T13:42:14Z",
+      "timestamp": 1507124534120
+    },
+    "reference-count": 35,
+    "publisher": "Springer Nature",
+    "issue": "1",
+    "license": [
+      {
+        "URL": "http://www.springer.com/tdm",
+        "start": {
+          "date-parts": [
+            [
+              2015,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2015-10-01T00:00:00Z",
+          "timestamp": 1443657600000
+        },
+        "delay-in-days": 0,
+        "content-version": "vor"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2015,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1186/s12916-015-0469-2",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2015,
+          10,
+          1
+        ]
+      ],
+      "date-time": "2015-10-01T17:13:15Z",
+      "timestamp": 1443719595000
+    },
+    "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 84,
+    "title": "‘Predatory’ open access: a longitudinal study of article volumes and market characteristics",
+    "prefix": "10.1186",
+    "volume": "13",
+    "author": [
+      {
+        "given": "Cenyu",
+        "family": "Shen",
+        "affiliation": []
+      },
+      {
+        "given": "Bo-Christer",
+        "family": "Björk",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2015,
+          10,
+          1
+        ]
+      ]
+    },
+    "container-title": "BMC Medicine",
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1186/s12916-015-0469-2.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://link.springer.com/article/10.1186/s12916-015-0469-2/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1186/s12916-015-0469-2.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          23
+        ]
+      ],
+      "date-time": "2017-06-23T20:35:44Z",
+      "timestamp": 1498250144000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          10,
+          1
+        ]
+      ]
+    },
+    "references-count": 35,
+    "alternative-id": [
+      "469"
+    ],
+    "URL": "https://doi.org/10.1186/s12916-015-0469-2",
+    "relation": {
+      "cites": []
+    },
+    "subject": [
+      "General Medicine"
+    ],
+    "container-title-short": "BMC Med",
+    "article-number": "230",
+    "short_url": "https://doi.org/f7sqrn",
+    "id": "K29A7oBE"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          8,
           11
         ]
       ],
@@ -3443,6 +5068,107 @@
         [
           2017,
           8,
+          9
+        ]
+      ],
+      "date-time": "2017-08-09T05:48:27Z",
+      "timestamp": 1502257707298
+    },
+    "reference-count": 0,
+    "publisher": "Informa UK Limited",
+    "issue": "1-2",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          1990,
+          8,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1300/j123v18n01_09",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2005,
+          10,
+          19
+        ]
+      ],
+      "date-time": "2005-10-19T14:56:19Z",
+      "timestamp": 1129733779000
+    },
+    "page": "123-129",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": "The Serials Crisis Revisited",
+    "prefix": "10.1080",
+    "volume": "18",
+    "author": [
+      {
+        "given": "Dana L.",
+        "family": "Roth",
+        "affiliation": []
+      }
+    ],
+    "member": "301",
+    "container-title": "The Serials Librarian",
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://www.tandfonline.com/doi/pdf/10.1300/J123v18n01_09",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2016,
+          12,
+          18
+        ]
+      ],
+      "date-time": "2016-12-18T21:02:21Z",
+      "timestamp": 1482094941000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          1990,
+          8,
+          2
+        ]
+      ]
+    },
+    "references-count": 0,
+    "alternative-id": [
+      "10.1300/J123v18n01_09"
+    ],
+    "URL": "https://doi.org/10.1300/j123v18n01_09",
+    "relation": {},
+    "subject": [
+      "Library and Information Sciences"
+    ],
+    "container-title-short": "The Serials Librarian",
+    "short_url": "https://doi.org/dvwb7f",
+    "id": "18zoY6Ild"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          8,
           21
         ]
       ],
@@ -3577,6 +5303,316 @@
       "date-parts": [
         [
           2017,
+          10,
+          6
+        ]
+      ],
+      "date-time": "2017-10-06T12:22:11Z",
+      "timestamp": 1507292531230
+    },
+    "reference-count": 48,
+    "publisher": "Public Library of Science (PLoS)",
+    "issue": "6",
+    "license": [
+      {
+        "URL": "http://creativecommons.org/licenses/by/4.0/",
+        "start": {
+          "date-parts": [
+            [
+              2015,
+              6,
+              10
+            ]
+          ],
+          "date-time": "2015-06-10T00:00:00Z",
+          "timestamp": 1433894400000
+        },
+        "delay-in-days": 0,
+        "content-version": "vor"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.plosone.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "DOI": "10.1371/journal.pone.0127502",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2015,
+          6,
+          10
+        ]
+      ],
+      "date-time": "2015-06-10T18:07:40Z",
+      "timestamp": 1433959660000
+    },
+    "page": "e0127502",
+    "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 57,
+    "title": "The Oligopoly of Academic Publishers in the Digital Era",
+    "prefix": "10.1371",
+    "volume": "10",
+    "author": [
+      {
+        "given": "Vincent",
+        "family": "Larivière",
+        "affiliation": []
+      },
+      {
+        "given": "Stefanie",
+        "family": "Haustein",
+        "affiliation": []
+      },
+      {
+        "given": "Philippe",
+        "family": "Mongeon",
+        "affiliation": []
+      }
+    ],
+    "member": "340",
+    "published-online": {
+      "date-parts": [
+        [
+          2015,
+          6,
+          10
+        ]
+      ]
+    },
+    "container-title": "PLOS ONE",
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://dx.plos.org/10.1371/journal.pone.0127502",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          23
+        ]
+      ],
+      "date-time": "2017-06-23T13:22:29Z",
+      "timestamp": 1498224149000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "editor": [
+      {
+        "given": "Wolfgang",
+        "family": "Glanzel",
+        "affiliation": []
+      }
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          6,
+          10
+        ]
+      ]
+    },
+    "references-count": 48,
+    "URL": "https://doi.org/10.1371/journal.pone.0127502",
+    "relation": {
+      "cites": []
+    },
+    "subject": [
+      "General Biochemistry, Genetics and Molecular Biology",
+      "General Agricultural and Biological Sciences",
+      "General Medicine"
+    ],
+    "container-title-short": "PLoS ONE",
+    "short_url": "https://doi.org/56f",
+    "id": "OGMKPsIG"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          10,
+          5
+        ]
+      ],
+      "date-time": "2017-10-05T18:10:43Z",
+      "timestamp": 1507227043884
+    },
+    "reference-count": 19,
+    "publisher": "Public Library of Science (PLoS)",
+    "issue": "10",
+    "license": [
+      {
+        "URL": "http://creativecommons.org/licenses/by/4.0/",
+        "start": {
+          "date-parts": [
+            [
+              2017,
+              10,
+              5
+            ]
+          ],
+          "date-time": "2017-10-05T00:00:00Z",
+          "timestamp": 1507161600000
+        },
+        "delay-in-days": 0,
+        "content-version": "vor"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.plosone.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "DOI": "10.1371/journal.pone.0185673",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          10,
+          5
+        ]
+      ],
+      "date-time": "2017-10-05T17:43:14Z",
+      "timestamp": 1507225394000
+    },
+    "page": "e0185673",
+    "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "Use, knowledge, and perception of the scientific contribution of Sci-Hub in medical students: Study in six countries in Latin America",
+    "prefix": "10.1371",
+    "volume": "12",
+    "author": [
+      {
+        "given": "Christian R.",
+        "family": "Mejia",
+        "affiliation": []
+      },
+      {
+        "given": "Mario J.",
+        "family": "Valladares-Garrido",
+        "affiliation": []
+      },
+      {
+        "given": "Armando",
+        "family": "Miñan-Tapia",
+        "affiliation": []
+      },
+      {
+        "given": "Felipe T.",
+        "family": "Serrano",
+        "affiliation": []
+      },
+      {
+        "given": "Liz E.",
+        "family": "Tobler-Gómez",
+        "affiliation": []
+      },
+      {
+        "given": "William",
+        "family": "Pereda-Castro",
+        "affiliation": []
+      },
+      {
+        "given": "Cynthia R.",
+        "family": "Mendoza-Flores",
+        "affiliation": []
+      },
+      {
+        "given": "Maria Y.",
+        "family": "Mundaca-Manay",
+        "affiliation": []
+      },
+      {
+        "given": "Danai",
+        "family": "Valladares-Garrido",
+        "affiliation": []
+      }
+    ],
+    "member": "340",
+    "published-online": {
+      "date-parts": [
+        [
+          2017,
+          10,
+          5
+        ]
+      ]
+    },
+    "container-title": "PLOS ONE",
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://dx.plos.org/10.1371/journal.pone.0185673",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          10,
+          5
+        ]
+      ],
+      "date-time": "2017-10-05T17:43:32Z",
+      "timestamp": 1507225412000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "editor": [
+      {
+        "given": "Frank",
+        "family": "Havemann",
+        "affiliation": []
+      }
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          10,
+          5
+        ]
+      ]
+    },
+    "references-count": 19,
+    "URL": "https://doi.org/10.1371/journal.pone.0185673",
+    "relation": {
+      "cites": []
+    },
+    "subject": [
+      "General Biochemistry, Genetics and Molecular Biology",
+      "General Agricultural and Biological Sciences",
+      "General Medicine"
+    ],
+    "container-title-short": "PLoS ONE",
+    "short_url": "https://doi.org/gbxtgv",
+    "id": "3kbMq39u"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
           8,
           9
         ]
@@ -3636,6 +5672,108 @@
     "relation": {},
     "short_url": "https://doi.org/gbqrbd",
     "id": "uBm4Sor6"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          8,
+          11
+        ]
+      ],
+      "date-time": "2017-08-11T03:01:13Z",
+      "timestamp": 1502420473612
+    },
+    "reference-count": 7,
+    "publisher": "Ubiquity Press, Ltd.",
+    "issue": "1",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2011,
+          3,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1629/2460",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2011,
+          3,
+          8
+        ]
+      ],
+      "date-time": "2011-03-08T11:55:42Z",
+      "timestamp": 1299585342000
+    },
+    "page": "60-63",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": "Reassessing the value proposition: first steps towards a fair(er) price for scholarly journals",
+    "prefix": "10.1629",
+    "volume": "24",
+    "author": [
+      {
+        "given": "David C",
+        "family": "Prosser",
+        "affiliation": []
+      }
+    ],
+    "member": "3285",
+    "published-online": {
+      "date-parts": [
+        [
+          2011,
+          3,
+          7
+        ]
+      ]
+    },
+    "container-title": "Serials: The Journal for the Serials Community",
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2015,
+          10,
+          30
+        ]
+      ],
+      "date-time": "2015-10-30T13:43:37Z",
+      "timestamp": 1446212617000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2011,
+          3,
+          1
+        ]
+      ]
+    },
+    "references-count": 7,
+    "alternative-id": [
+      "G849J76241787320"
+    ],
+    "URL": "https://doi.org/10.1629/2460",
+    "relation": {},
+    "subject": [
+      "Library and Information Sciences"
+    ],
+    "container-title-short": "Serials: The Journal for the Serials Community",
+    "short_url": "https://doi.org/ftq2b7",
+    "id": "VC6kWHG2"
   },
   {
     "indexed": {
@@ -3936,6 +6074,229 @@
     "id": "LS0mB1CD"
   },
   {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          8,
+          30
+        ]
+      ],
+      "date-time": "2017-08-30T14:46:00Z",
+      "timestamp": 1504104360180
+    },
+    "reference-count": 24,
+    "publisher": "Pensoft Publishers",
+    "license": [
+      {
+        "URL": "http://creativecommons.org/licenses/by/4.0/",
+        "start": {
+          "date-parts": [
+            [
+              2017,
+              8,
+              31
+            ]
+          ],
+          "date-time": "2017-08-31T00:00:00Z",
+          "timestamp": 1504137600000
+        },
+        "delay-in-days": 0,
+        "content-version": "vor"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "DOI": "10.3897/jhr.58.12919",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          8,
+          30
+        ]
+      ],
+      "date-time": "2017-08-30T08:27:55Z",
+      "timestamp": 1504081675000
+    },
+    "page": "17-27",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "\n          Ichneumonidae (Hymenoptera) associated with xyelid sawflies (Hymenoptera, Xyelidae) in Mexico",
+    "prefix": "10.3897",
+    "volume": "58",
+    "author": [
+      {
+        "given": "Andrey I.",
+        "family": "Khalaim",
+        "affiliation": []
+      },
+      {
+        "given": "Enrique",
+        "family": "Ruíz-Cancino",
+        "affiliation": []
+      }
+    ],
+    "member": "2258",
+    "published-online": {
+      "date-parts": [
+        [
+          2017,
+          8,
+          31
+        ]
+      ]
+    },
+    "container-title": "Journal of Hymenoptera Research",
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://jhr.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_pdf&item_id=12919",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://jhr.pensoft.net/lib/ajax_srv/article_elements_srv.php?action=download_xml&item_id=12919",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://jhr.pensoft.net/article_preview.php?id=12919&skip_redirect=1",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          8,
+          30
+        ]
+      ],
+      "date-time": "2017-08-30T08:27:58Z",
+      "timestamp": 1504081678000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          8,
+          31
+        ]
+      ]
+    },
+    "references-count": 24,
+    "URL": "https://doi.org/10.3897/jhr.58.12919",
+    "relation": {
+      "cites": []
+    },
+    "subject": [
+      "Insect Science",
+      "Ecology, Evolution, Behavior and Systematics"
+    ],
+    "container-title-short": "JHR",
+    "short_url": "https://doi.org/gbv38b",
+    "id": "1Fdmn0XsW"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          8,
+          18
+        ]
+      ],
+      "date-time": "2017-08-18T16:10:06Z",
+      "timestamp": 1503072606181
+    },
+    "reference-count": 0,
+    "publisher": "University of Michigan Library",
+    "issue": "3",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "DOI": "10.3998/3336451.0018.301",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2015,
+          6,
+          17
+        ]
+      ],
+      "date-time": "2015-06-17T15:23:13Z",
+      "timestamp": 1434554593000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "Beyond Open: Expanding Access to Scholarly Content",
+    "prefix": "10.3998",
+    "volume": "18",
+    "author": [
+      {
+        "given": "Alice",
+        "family": "Meadows",
+        "affiliation": []
+      }
+    ],
+    "member": "2393",
+    "published-online": {
+      "date-parts": [
+        [
+          2015,
+          6,
+          17
+        ]
+      ]
+    },
+    "container-title": "The Journal of Electronic Publishing",
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          8,
+          18
+        ]
+      ],
+      "date-time": "2017-08-18T15:44:49Z",
+      "timestamp": 1503071089000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          6,
+          17
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.3998/3336451.0018.301",
+    "relation": {},
+    "subject": [
+      "Information Systems"
+    ],
+    "short_url": "https://doi.org/gbw28c",
+    "id": "16BrOMxI0"
+  },
+  {
     "type": "dataset",
     "id": "kQFQ8EaO",
     "author": [
@@ -3964,32 +6325,26 @@
     "short_url": "https://doi.org/gbqrbn"
   },
   {
-    "type": "dataset",
-    "id": "AeHqdtRV",
+    "type": "report",
+    "id": "SuZ30LxR",
     "author": [
       {
-        "family": "Elbakyan",
-        "given": "Alexandra"
-      },
-      {
-        "family": "Bohannon",
-        "given": "John"
+        "family": "Jeanine Williamson",
+        "given": "Peter Fernandez"
       }
     ],
     "issued": {
       "date-parts": [
         [
-          2016
+          2014
         ]
       ]
     },
-    "abstract": "IPython Notebook used to process the raw server log data (processing the GIS files into CSV, scraping DOI metadata, etc.).",
-    "DOI": "10.5061/dryad.q447c/2",
-    "publisher": "Dryad Digital Repository",
-    "title": "IPython Notebook for Sci-Hub raw data",
-    "URL": "https://doi.org/10.5061/dryad.q447c/2",
-    "version": "1",
-    "short_url": "https://doi.org/gbqrbp"
+    "DOI": "10.5062/f4g73bp3",
+    "publisher": "Issues in Science and Technology Librarianship",
+    "title": "Factors in Science Journal Cancellation Projects: The Roles of Faculty Consultations and Data",
+    "URL": "https://doi.org/10.5062/f4g73bp3",
+    "short_url": "https://doi.org/gbxtg3"
   },
   {
     "type": "dataset",
@@ -4015,6 +6370,279 @@
     "title": "Data And Scripts For Looking Into Pandora'S Box: The Content Of Sci-Hub And Its Usage",
     "URL": "https://doi.org/10.5281/zenodo.472493",
     "short_url": "https://doi.org/gbqrbq"
+  },
+  {
+    "type": "dataset",
+    "id": "1D9l2pC2b",
+    "author": [
+      {
+        "family": "Piwowar",
+        "given": "Heather"
+      },
+      {
+        "family": "Priem",
+        "given": "Jason"
+      },
+      {
+        "family": "Larivière",
+        "given": "Vincent"
+      },
+      {
+        "family": "Alperin",
+        "given": "Juan Pablo"
+      },
+      {
+        "family": "Matthias",
+        "given": "Lisa"
+      },
+      {
+        "family": "Norlander",
+        "given": "Bree"
+      },
+      {
+        "family": "Farley",
+        "given": "Ashley"
+      },
+      {
+        "family": "West",
+        "given": "Jevin"
+      },
+      {
+        "family": "Haustein",
+        "given": "Stefanie"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          8,
+          1
+        ]
+      ]
+    },
+    "abstract": "This is the raw data behind the publication: \n\n<strong>The State of OA: A large-scale analysis of the prevalence and impact of Open Access articles.</strong>\n\nDespite growing interest in Open Access (OA) to scholarly literature, there is an unmet need for large-scale, up-to-date, and reproducible studies assessing the prevalence and characteristics of OA. We address this need using oaDOI, an open online service that determines OA status for 67 million articles. We use three samples, each of 100,000 articles, to investigate OA in three populations: 1) all journal articles assigned a Crossref DOI, 2) recent journal articles indexed in Web of Science, and 3) articles viewed by users of Unpaywall, an open-source browser extension that lets users find OA articles using oaDOI. We estimate that at least 28% of the scholarly literature is OA (19M in total) and that this proportion is growing, driven particularly by growth in Gold and Hybrid. The most recent year analyzed (2015) also has the highest percentage of OA (45%). Because of this growth, and the fact that readers disproportionately access newer articles, we find that Unpaywall users encounter OA quite frequently: 47% of articles they view are OA. Notably, the most common mechanism for OA is not Gold, Green, or Hybrid OA, but rather an under-discussed category we dub Bronze: articles made free-to-read on the publisher website, without an explicit Open license.  We also examine the citation impact of OA articles, corroborating the so-called open-access citation advantage: accounting for age and discipline, OA articles receive 18% more citations than average, an effect driven primarily by Green and Hybrid OA. We encourage further research using the free oaDOI service, as a way to inform OA policy and practice.",
+    "DOI": "10.5281/zenodo.837902",
+    "publisher": "Zenodo",
+    "title": "Data From: The State Of Oa: A Large-Scale Analysis Of The Prevalence And Impact Of Open Access Articles",
+    "URL": "https://doi.org/10.5281/zenodo.837902",
+    "short_url": "https://doi.org/gbr3n5"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          10,
+          5
+        ]
+      ],
+      "date-time": "2017-10-05T02:42:16Z",
+      "timestamp": 1507171336871
+    },
+    "reference-count": 0,
+    "publisher": "American Library Association",
+    "issue": "5",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "abstract": "<jats:p>Open access (OA) is an alternative business model for the publication of scholarly journals. It makes articles freely available to readers on the Internet and covers the costs associated with publication through means other than subscriptions. This article argues that Gold OA, where all of the articles of a journal are available at the time of publication, is a disruptive innovation as defined by business theorist Clayton Christensen. Using methods described by Christensen, we can predict the growth of Gold OA. This analysis suggests that Gold OA could account for 50 percent of the scholarly journal articles sometime between 2017 and 2021, and 90 percent of articles as soon as 2020 and more conservatively by 2025.</jats:p>",
+    "DOI": "10.5860/crl-299",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          6,
+          4
+        ]
+      ],
+      "date-time": "2014-06-04T05:04:13Z",
+      "timestamp": 1401858253000
+    },
+    "page": "493-506",
+    "source": "Crossref",
+    "is-referenced-by-count": 38,
+    "title": "The Inevitability of Open Access",
+    "prefix": "10.5860",
+    "volume": "73",
+    "author": [
+      {
+        "given": "David W.",
+        "family": "Lewis",
+        "affiliation": []
+      }
+    ],
+    "member": "3932",
+    "published-online": {
+      "date-parts": [
+        [
+          2012,
+          9,
+          1
+        ]
+      ]
+    },
+    "container-title": "College & Research Libraries",
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://crl.acrl.org/index.php/crl/article/viewFile/16255/17701",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://crl.acrl.org/index.php/crl/article/viewFile/16255/17701",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          21
+        ]
+      ],
+      "date-time": "2017-06-21T11:37:54Z",
+      "timestamp": 1498045074000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2012,
+          9,
+          1
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.5860/crl-299",
+    "relation": {},
+    "subject": [
+      "Library and Information Sciences"
+    ],
+    "container-title-short": "CRL",
+    "short_url": "https://doi.org/gbxr74",
+    "id": "8RacTmaJ"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          8,
+          11
+        ]
+      ],
+      "date-time": "2017-08-11T17:53:37Z",
+      "timestamp": 1502474017540
+    },
+    "reference-count": 0,
+    "publisher": "American Library Association",
+    "issue": "11",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "DOI": "10.5860/crln.72.11.8671",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          26
+        ]
+      ],
+      "date-time": "2017-06-26T13:08:05Z",
+      "timestamp": 1498482485000
+    },
+    "page": "642-645",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "Is free inevitable in scholarly communication?: The economics of open access",
+    "prefix": "10.5860",
+    "volume": "72",
+    "author": [
+      {
+        "given": "Caroline",
+        "family": "Sutton",
+        "affiliation": []
+      }
+    ],
+    "member": "3932",
+    "published-online": {
+      "date-parts": [
+        [
+          2011,
+          12,
+          1
+        ]
+      ]
+    },
+    "container-title": "College & Research Libraries News",
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://crln.acrl.org/index.php/crlnews/article/viewFile/8671/9129",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://crln.acrl.org/index.php/crlnews/article/viewFile/8671/9130",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://crln.acrl.org/index.php/crlnews/article/viewFile/8671/9130",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          26
+        ]
+      ],
+      "date-time": "2017-06-26T13:11:30Z",
+      "timestamp": 1498482690000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2011,
+          12,
+          1
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.5860/crln.72.11.8671",
+    "relation": {},
+    "subject": [
+      "Education",
+      "Library and Information Sciences"
+    ],
+    "container-title-short": "crln",
+    "short_url": "https://doi.org/gbxr75",
+    "id": "1BSPYL8jl"
   },
   {
     "type": "dataset",
@@ -4046,6 +6674,33 @@
     "title": "Journal subscription costs - FOIs to UK universities",
     "URL": "https://doi.org/10.6084/m9.figshare.1186832.v23",
     "short_url": "https://doi.org/bhmh"
+  },
+  {
+    "type": "dataset",
+    "id": "n73t9GPC",
+    "author": [
+      {
+        "family": "Peroni",
+        "given": "Silvio"
+      },
+      {
+        "family": "Shotton",
+        "given": "David"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "abstract": "This document describe the full metadata schema used by the OpenCitations Corpus (OCC), i.e. an open access corpus of scholarly citation data, namely information about the author-created bibliographic references present in publications that cite other publications.<br>",
+    "DOI": "10.6084/m9.figshare.3443876.v3",
+    "publisher": "Figshare",
+    "title": "Metadata for the OpenCitations Corpus",
+    "URL": "https://doi.org/10.6084/m9.figshare.3443876.v3",
+    "short_url": "https://doi.org/gbqtw9"
   },
   {
     "type": "dataset",
@@ -4151,6 +6806,50 @@
     "title": "A user-friendly extract of the LibGen scimag metadata SQL dump on 2017-04-07",
     "URL": "https://doi.org/10.6084/m9.figshare.5231245.v1",
     "short_url": "https://doi.org/gbqrbv"
+  },
+  {
+    "type": "article",
+    "id": "10hS1L2vZ",
+    "author": [
+      {
+        "literal": "OpenCitations ​"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "abstract": "This archive contains the dump of the OpenCitation Corpus (OCC, http://opencitations.net) dataset about bibliographic resources, created regularly every month.<br><br>After unzipping the archive, Disk ARchive (DAR, http://dar.linux.free.fr/, a multi-platform archive tool for managing huge amount of data) is needed for recreating the whole structure. For extracting the DAR archive, please run the command<br><br>dar -x [archive-name]<br><br>Where \"[archive-name\"] is the name of the DAR file without final package number and extension. E.g.:<br><br>dar -x 2016-09-23-corpus_re<br><br>For further questions, comments, and suggestions please don't hesitate to contact Silvio Peroni at essepuntato@opencitations.net.",
+    "DOI": "10.6084/m9.figshare.5255365.v1",
+    "publisher": "Figshare",
+    "title": "OCC dataset of all the bibliographic resources, made on 2017-07-25",
+    "URL": "https://doi.org/10.6084/m9.figshare.5255365.v1",
+    "short_url": "https://doi.org/gbqtxb"
+  },
+  {
+    "type": "article",
+    "id": "1EcDRAPGi",
+    "author": [
+      {
+        "literal": "OpenCitations ​"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "abstract": "This archive contains the dump of the OpenCitation Corpus (OCC, http://opencitations.net) dataset about identifiers, created regularly every month.<br><br>After unzipping the archive, Disk ARchive (DAR, http://dar.linux.free.fr/, a multi-platform archive tool for managing huge amount of data) is needed for recreating the whole structure. For extracting the DAR archive, please run the command<br><br>dar -x [archive-name]<br><br>Where \"[archive-name\"] is the name of the DAR file without final package number and extension. E.g.:<br><br>dar -x 2016-09-23-corpus_re<br><br>For further questions, comments, and suggestions please don't hesitate to contact Silvio Peroni at essepuntato@opencitations.net.",
+    "DOI": "10.6084/m9.figshare.5255368.v1",
+    "publisher": "Figshare",
+    "title": "OCC dataset of all the identifiers, made on 2017-07-25",
+    "URL": "https://doi.org/10.6084/m9.figshare.5255368.v1",
+    "short_url": "https://doi.org/gbqtxc"
   },
   {
     "indexed": {
@@ -4301,6 +7000,134 @@
     "id": "Eq78IAX4"
   },
   {
+    "type": "report",
+    "id": "11cb5HXoY",
+    "language": "eng",
+    "author": [
+      {
+        "family": "Himmelstein",
+        "given": "Daniel S"
+      },
+      {
+        "family": "Romero",
+        "given": "Ariel R"
+      },
+      {
+        "family": "McLaughlin",
+        "given": "Stephen R"
+      },
+      {
+        "family": "Tzovaras",
+        "given": "Bastian Greshake"
+      },
+      {
+        "family": "Greene",
+        "given": "Casey S"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          7,
+          20
+        ]
+      ]
+    },
+    "abstract": "The website Sci-Hub provides access to scholarly literature via full text PDF downloads. The site enables users to access articles that would otherwise be paywalled. Since its creation in 2011, Sci-Hub has grown rapidly in popularity. However, until now, the extent of Sci-Hub's coverage was unclear. As of March 2017, we find that Sci-Hub's database contains 68.9% of all 81.6 million scholarly articles, which rises to 85.2% for those published in closed access journals. Furthermore, Sci-Hub contains 77.0% of the 5.2 million articles published by inactive journals. Coverage varies by discipline, with 92.8% coverage of articles in chemistry journals compared to 76.3% for computer science. Coverage also varies by publisher, with the coverage of the largest publisher, Elsevier, at 97.3%. Our interactive browser at https://greenelab.github.io/scihub allows users to explore these findings in more detail. Finally, we estimate that over a six-month period in 2015–2016, Sci-Hub provided access for 99.3% of valid incoming requests. Hence, the scope of this resource suggests the subscription publishing model is becoming unsustainable. For the first time, the overwhelming majority of scholarly literature is available gratis to anyone with an Internet connection.",
+    "DOI": "10.7287/peerj.preprints.3100v1",
+    "publisher": "PeerJ Preprints",
+    "title": "Sci-Hub provides access to nearly all scholarly literature",
+    "URL": "https://doi.org/10.7287/peerj.preprints.3100v1",
+    "version": "1",
+    "short_url": "https://doi.org/b9s6"
+  },
+  {
+    "type": "report",
+    "id": "eOi5pOoT",
+    "language": "eng",
+    "author": [
+      {
+        "family": "Piwowar",
+        "given": "Heather"
+      },
+      {
+        "family": "Priem",
+        "given": "Jason"
+      },
+      {
+        "family": "Larivière",
+        "given": "Vincent"
+      },
+      {
+        "family": "Alperin",
+        "given": "Juan Pablo"
+      },
+      {
+        "family": "Matthias",
+        "given": "Lisa"
+      },
+      {
+        "family": "Norlander",
+        "given": "Bree"
+      },
+      {
+        "family": "Farley",
+        "given": "Ashley"
+      },
+      {
+        "literal": "Jevin West"
+      },
+      {
+        "family": "Haustein",
+        "given": "Stefanie"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          8,
+          2
+        ]
+      ]
+    },
+    "abstract": "Despite growing interest in Open Access (OA) to scholarly literature, there is an unmet need for large-scale, up-to-date, and reproducible studies assessing the prevalence and characteristics of OA. We address this need using oaDOI, an open online service that determines OA status for 67 million articles.We use three samples, each of 100,000 articles, to investigate OA in three populations: 1) all journal articles assigned a Crossref DOI, 2) recent journal articles indexed in Web of Science, and 3) articles viewed by users of Unpaywall, an open-source browser extension that lets users find OA articles using oaDOI.We estimate that at least 28% of the scholarly literature is OA (19M in total) and that this proportion is growing, driven particularly by growth in Gold and Hybrid. The most recent year analyzed (2015) also has the highest percentage of OA (45%). Because of this growth, and the fact that readers disproportionately access newer articles, we find that Unpaywall users encounter OA quite frequently: 47% of articles they view are OA. Notably, the most common mechanism for OA is not Gold, Green, or Hybrid OA, but rather an under-discussed category we dub Bronze: articles made free-to-read on the publisher website, without an explicit Open license.We also examine the citation impact of OA articles, corroborating the so-called open-access citation advantage: accounting for age and discipline, OA articles receive 18% more citations than average, an effect driven primarily by Green and Hybrid OA. We encourage further research using the free oaDOI service, as a way to inform OA policy and practice.",
+    "DOI": "10.7287/peerj.preprints.3119v1",
+    "publisher": "PeerJ Preprints",
+    "title": "The State of OA: A large-scale analysis of the prevalence and impact of Open Access articles",
+    "URL": "https://doi.org/10.7287/peerj.preprints.3119v1",
+    "version": "1",
+    "short_url": "https://doi.org/gbqtxd"
+  },
+  {
+    "URL": "http://alla-astakhova.ru/sci-hub/",
+    "title": "Вернуть Sci-Hub",
+    "container-title": "Status Prаеsens",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          9,
+          12
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Астахова",
+        "given": "Алла"
+      }
+    ],
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-09-20 21:33:09",
+    "archives": [
+      "http://wayback.archive.org/web/http://alla-astakhova.ru/sci-hub/"
+    ],
+    "type": "webpage",
+    "id": "GLDH745f"
+  },
+  {
     "URL": "http://bigthink.com/neurobonkers/a-pirate-bay-for-science",
     "title": "Meet the Robin Hood of Science",
     "container-title": "Big Think",
@@ -4353,6 +7180,33 @@
     ],
     "type": "webpage",
     "id": "7aXVorCC"
+  },
+  {
+    "URL": "http://blog.impactstory.org/introducting-oadoi/",
+    "title": "Introducing oaDOI: resolve a DOI straight to OA",
+    "container-title": "Impactstory blog",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          10,
+          25
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Heather",
+        "given": ""
+      }
+    ],
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-08-24 19:32:08",
+    "archives": [
+      "http://wayback.archive.org/web/http://blog.impactstory.org/introducting-oadoi/"
+    ],
+    "type": "webpage",
+    "id": "GhX9kmM1"
   },
   {
     "URL": "http://cen.acs.org/articles/92/web/2014/04/Online-Access-ACS-Publications-Restored.html",
@@ -4456,8 +7310,101 @@
     "id": "n1xo9kJ7"
   },
   {
+    "URL": "http://foreignpolicy.com/2017/09/06/the-worlds-largest-free-scientific-resource-is-now-blocked-in-russia/",
+    "title": "The World’s Largest Free Scientific Resource Is Now Blocked in Russia",
+    "container-title": "Foreign Policy",
+    "author": [
+      {
+        "family": "Standish",
+        "given": "Reid"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          9,
+          6
+        ]
+      ]
+    },
+    "type": "webpage",
+    "id": "PxpGmdxJ"
+  },
+  {
+    "URL": "http://lj.libraryjournal.com/2017/04/publishing/new-world-same-model-periodicals-price-survey-2017/",
+    "title": "New World, Same Model | Periodicals Price Survey 2017",
+    "container-title": "Library Journal",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          4,
+          19
+        ]
+      ]
+    },
+    "type": "webpage",
+    "author": [
+      {
+        "given": "Stephen",
+        "family": "Bosch"
+      },
+      {
+        "given": "Kittie",
+        "family": "Henderson"
+      }
+    ],
+    "id": "AgjD0tTw"
+  },
+  {
+    "URL": "http://summit.sfu.ca/item/12537",
+    "title": "Freedom for scholarship in the internet age",
+    "issued": {
+      "date-parts": [
+        [
+          2012,
+          11,
+          21
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Morrison",
+        "given": "Heather Grace"
+      }
+    ],
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-10-02 19:44:07",
+    "type": "webpage",
+    "id": "bGUjzQuG"
+  },
+  {
+    "URL": "http://www.arl.org/storage/documents/expenditure-trends.pdf",
+    "title": "Graph 4: Expenditure Trends in ARL Libraries, 1986-2015",
+    "container-title": "ARL Statistics 2014–2015",
+    "author": [
+      {
+        "literal": "Association of Research Libraries"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          3,
+          17
+        ]
+      ]
+    },
+    "note": "Date issued from press release at http://www.arl.org/news/arl-news/4246-arl-statistics-2014-2015-and-updated-trends-graphs-published",
+    "type": "graphic",
+    "id": "PR3qioJB"
+  },
+  {
     "URL": "http://www.atlasobscura.com/articles/the-rise-of-illegal-pirate-libraries",
-    "title": " The Rise of Pirate Libraries",
+    "title": "The Rise of Pirate Libraries",
     "container-title": "Atlas Obscura",
     "author": [
       {
@@ -4476,6 +7423,50 @@
     },
     "type": "webpage",
     "id": "xkkXadRh"
+  },
+  {
+    "URL": "http://www.attemptingelegance.com/?p=1765",
+    "title": "Walking away from the American Chemical Society",
+    "container-title": "Attempting Elegance",
+    "author": [
+      {
+        "given": "Jenica",
+        "family": "Rogers"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2012,
+          9,
+          12
+        ]
+      ]
+    },
+    "type": "post-weblog",
+    "id": "9Uk1lLUa"
+  },
+  {
+    "URL": "http://www.bib.umontreal.ca/communiques/20170504-DC-annulation-taylor-francis-va.htm",
+    "title": "UdeM Libraries cancel Big Deal subscription to 2,231 periodical titles published by Taylor & Francis Group",
+    "container-title": "Communiqués, Bibliothèques, Université de Montréal",
+    "author": [
+      {
+        "given": "Stéphanie",
+        "family": "Gagnon"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          5,
+          4
+        ]
+      ]
+    },
+    "type": "webpage",
+    "id": "RkpJBRo6"
   },
   {
     "URL": "http://www.dtic.mil/docs/citations/ADA465464",
@@ -4681,6 +7672,33 @@
     "id": "5gyFSQse"
   },
   {
+    "URL": "https://mitpress.mit.edu/books/open-access",
+    "title": "Open Access",
+    "container-title": "MIT Press",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          10,
+          2
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Suber",
+        "given": "Peter"
+      }
+    ],
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-10-02 18:40:08",
+    "archives": [
+      "http://wayback.archive.org/web/https://mitpress.mit.edu/books/open-access"
+    ],
+    "type": "webpage",
+    "id": "LgXhvEw7"
+  },
+  {
     "URL": "https://redd.it/2raea8",
     "title": "Libgen down • r/Scholar",
     "issued": {
@@ -4701,6 +7719,60 @@
     "redirects-to": "https://www.reddit.com/r/Scholar/comments/2raea8/libgen_down/",
     "type": "webpage",
     "id": "Hz2uRUJS"
+  },
+  {
+    "URL": "https://scholarlykitchen.sspnet.org/2016/03/02/sci-hub-and-the-four-horsemen-of-the-internet/",
+    "title": "Sci-Hub and the Four Horsemen of the Internet - The Scholarly Kitchen",
+    "container-title": "The Scholarly Kitchen",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          3,
+          2
+        ]
+      ]
+    },
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-10-06 22:07:22",
+    "type": "webpage",
+    "id": "C3J6AH5V"
+  },
+  {
+    "URL": "https://scholarlykitchen.sspnet.org/2016/06/21/two-step-authentication-finally-coming-to-a-university-near-you/",
+    "title": "Two-step Authentication: Finally Coming to a University Near You - The Scholarly Kitchen",
+    "container-title": "The Scholarly Kitchen",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          6,
+          21
+        ]
+      ]
+    },
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-10-06 22:07:28",
+    "type": "webpage",
+    "id": "2Vc1UrtB"
+  },
+  {
+    "URL": "https://scholarlykitchen.sspnet.org/2017/09/05/sci-hub-moves-center-ecosystem/",
+    "title": "Sci-Hub Moves to the Center of the Ecosystem - The Scholarly Kitchen",
+    "container-title": "The Scholarly Kitchen",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          9,
+          5
+        ]
+      ]
+    },
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-09-27 22:05:24",
+    "type": "webpage",
+    "id": "YX9zq2ZF"
   },
   {
     "URL": "https://torrentfreak.com/court-orders-shutdown-of-libgen-bookfi-and-sci-hub-151102/",
@@ -4894,6 +7966,38 @@
   },
   {
     "type": "legal-case",
+    "title": "Memorandum of Law in Support of Motion – Document #6 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS",
+    "author": [
+      {
+        "given": "Joseph V.",
+        "family": "DeMarco"
+      },
+      {
+        "given": "David M.",
+        "family": "Hirschberg"
+      },
+      {
+        "given": "Urvashi",
+        "family": "Sen"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          6,
+          11
+        ]
+      ]
+    },
+    "container-title": "Southern District Court of New York",
+    "authority": "Southern District Court of New York",
+    "number": "1:15-cv-04282-RWS",
+    "URL": "https://www.courtlistener.com/docket/4355308/6/elsevier-inc-v-sci-hub/",
+    "id": "3noVfYfJ"
+  },
+  {
+    "type": "legal-case",
     "title": "Declaration in Support of Motion – Document #8 Attachment #23 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS",
     "author": [
       {
@@ -4915,30 +8019,6 @@
     "number": "1:15-cv-04282-RWS",
     "URL": "https://www.courtlistener.com/docket/4355308/8/23/elsevier-inc-v-sci-hub/",
     "id": "1EZBJN9ej"
-  },
-  {
-    "type": "legal-case",
-    "title": "Judgement – Document #87 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS",
-    "author": [
-      {
-        "family": "Sweet",
-        "given": "Robert W."
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          2017,
-          6,
-          21
-        ]
-      ]
-    },
-    "container-title": "Southern District Court of New York",
-    "authority": "Southern District Court of New York",
-    "number": "1:15-cv-04282-RWS",
-    "URL": "https://www.documentcloud.org/documents/3878258-2017-06-21-Elsevier-Sci-Hub-Final-Judgement.html",
-    "id": "17drH57zs"
   },
   {
     "type": "legal-case",
@@ -4970,8 +8050,75 @@
     "container-title": "Eastern District Court of Virginia",
     "authority": "Eastern District Court of Virginia",
     "number": "1:17-cv-00726-LMB-JFA",
-    "URL": "https://www.documentcloud.org/documents/3879464-2017-06-23-ACS-Sci-Hub-Complaint.html",
-    "id": "POar53EX"
+    "URL": "https://www.courtlistener.com/docket/6146630/1/american-chemical-society-v-does-1-99/",
+    "id": "Ia7JSsBI"
+  },
+  {
+    "type": "legal-case",
+    "title": "Judgement – Document #87 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS",
+    "author": [
+      {
+        "family": "Sweet",
+        "given": "Robert W."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          21
+        ]
+      ]
+    },
+    "container-title": "Southern District Court of New York",
+    "authority": "Southern District Court of New York",
+    "number": "1:15-cv-04282-RWS",
+    "URL": "https://www.documentcloud.org/documents/3878258-2017-06-21-Elsevier-Sci-Hub-Final-Judgement.html",
+    "id": "17drH57zs"
+  },
+  {
+    "URL": "https://www.ebscohost.com/promoMaterials/Five_Year_Journal_Price_Increase_History_EBSCO_2013-2017.pdf",
+    "title": "Five Year Journal Price Increase History (2013-2017)",
+    "author": [
+      {
+        "literal": "EBSCO"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          9,
+          27
+        ]
+      ]
+    },
+    "abstract": "This report shows price fluctuations over the last five years for typical library lists invoiced in U.S. dollars. Data for each library type is based on a merged list of titles ordered by representative libraries purchasing in U.S. dollars.",
+    "type": "report",
+    "id": "5e9PbvWY"
+  },
+  {
+    "URL": "https://www.insidehighered.com/blogs/library-babel-fish/inevitably-open",
+    "title": "Library Babel Fish Blog: Inevitably Open",
+    "container-title": "Inside Higher Ed",
+    "author": [
+      {
+        "family": "Fister",
+        "given": "Barbara"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          8,
+          1
+        ]
+      ]
+    },
+    "type": "webpage",
+    "id": "NIBjp6R1"
   },
   {
     "URL": "https://www.nytimes.com/2016/03/13/opinion/sunday/should-all-research-papers-be-free.html",
@@ -4995,5 +8142,83 @@
     ],
     "type": "article-newspaper",
     "id": "tMPCGeuL"
+  },
+  {
+    "URL": "https://www.theguardian.com/science/2012/jun/08/open-access-research-inevitable-nature-editor",
+    "greycite-canonical-uri": "http://www.theguardian.com/science/2012/jun/08/open-access-research-inevitable-nature-editor",
+    "title": "Open access to research is inevitable, says Nature editor-in-chief",
+    "container-title": "the Guardian",
+    "issued": {
+      "date-parts": [
+        [
+          2012,
+          6,
+          8
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Jha",
+        "given": "Alok"
+      }
+    ],
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-09-29 16:37:29",
+    "archives": [
+      "http://wayback.archive.org/web/https://www.theguardian.com/science/2012/jun/08/open-access-research-inevitable-nature-editor"
+    ],
+    "type": "webpage",
+    "id": "Bj1n4rGt"
+  },
+  {
+    "URL": "https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science",
+    "greycite-canonical-uri": "http://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science",
+    "title": "Is the staggeringly profitable business of scientific publishing bad for science?",
+    "container-title": "the Guardian",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          27
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Buranyi",
+        "given": "Stephen"
+      },
+      {
+        "family": "Buranyi",
+        "given": "Stephen"
+      }
+    ],
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-10-02 19:44:09",
+    "archives": [
+      "http://wayback.archive.org/web/https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science"
+    ],
+    "type": "webpage",
+    "id": "D9un8JYo"
+  },
+  {
+    "URL": "https://www.timeshighereducation.com/news/dutch-lose-access-oup-journals-subscription-standoff",
+    "title": "Dutch lose access to OUP journals in subscription standoff",
+    "container-title": "Times Higher Education (THE)",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          5,
+          6
+        ]
+      ]
+    },
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-09-28 17:51:08",
+    "type": "webpage",
+    "id": "hOBvHaW9"
   }
 ]
