@@ -27,7 +27,7 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.72
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@3c1a665](https://github.com/greenelab/scihub-manuscript/tree/3c1a665016bf2a553789168b7414c8e3d5979bbd)
+from [greenelab/scihub-manuscript@b0b4b87](https://github.com/greenelab/scihub-manuscript/tree/b0b4b873fc2ca0c2f5026db1ca939a2e0f3c6f74)
 on October 10, 2017.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
@@ -515,7 +515,7 @@ In the words of Alexandra Elbakyan [@DCZkZXsz]:
 
 Sci-Hub is poised to fundamentally disrupt scholarly publishing.
 The transition to gratis availability of scholarly articles is currently underway, and such a model may be inevitable in the long term [@8RacTmaJ; @1BSPYL8jl; @Bj1n4rGt].
-However, we urge the community to take this opportunity to fully liberate scholarly articles, as well as explore more constructive business models for publishing [@cunYx7X4; @1F2Ri1rrL].
+However, we urge the community to take this opportunity to fully liberate scholarly articles, as well as explore more constructive business models for publishing [@cunYx7X4; @1F2Ri1rrL; @Akbe7cNV].
 Only libre access, enabled by [open licensing](http://opendefinition.org/), allows building applications on top of scholarly literature without fear of legal consequences [@7aXVorCC].
 For example, fulltext mining of scholarly literature is an area of great potential [@1BW4FtNLl], but is currently impractical due to the lack of a large-scale preprocessed corpus of articles.
 The barriers here are legal, not technological [@llK8SMam; @I6O7IKP7].

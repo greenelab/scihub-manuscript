@@ -4831,6 +4831,246 @@
       "date-parts": [
         [
           2017,
+          8,
+          11
+        ]
+      ],
+      "date-time": "2017-08-11T16:31:37Z",
+      "timestamp": 1502469097126
+    },
+    "update-to": [
+      {
+        "updated": {
+          "date-parts": [
+            [
+              2017,
+              6,
+              9
+            ]
+          ],
+          "date-time": "2017-06-09T00:00:00Z",
+          "timestamp": 1496966400000
+        },
+        "DOI": "10.12688/f1000research.11415.1",
+        "type": "new_version",
+        "label": "New version"
+      }
+    ],
+    "reference-count": 26,
+    "publisher": "F1000 Research, Ltd.",
+    "funder": [
+      {
+        "DOI": "10.13039/501100004815",
+        "name": "Isaac Newton Trust",
+        "doi-asserted-by": "publisher",
+        "award": []
+      },
+      {
+        "DOI": "10.13039/501100000275",
+        "name": "Leverhulme Trust",
+        "doi-asserted-by": "publisher",
+        "award": []
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "f1000research.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "DOI": "10.12688/f1000research.11415.2",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          9
+        ]
+      ],
+      "date-time": "2017-06-09T09:05:06Z",
+      "timestamp": 1496999106000
+    },
+    "page": "518",
+    "update-policy": "http://dx.doi.org/10.12688/f1000research.crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "We can shift academic culture through publishing choices",
+    "prefix": "10.12688",
+    "volume": "6",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0002-5944-906X",
+        "authenticated-orcid": false,
+        "given": "Corina J",
+        "family": "Logan",
+        "affiliation": []
+      }
+    ],
+    "member": "4950",
+    "published-online": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          9
+        ]
+      ]
+    },
+    "container-title": "F1000Research",
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://f1000research.com/articles/6-518/v2/iparadigms",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          12
+        ]
+      ],
+      "date-time": "2017-06-12T15:05:13Z",
+      "timestamp": 1497279913000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          9
+        ]
+      ]
+    },
+    "references-count": 26,
+    "URL": "https://doi.org/10.12688/f1000research.11415.2",
+    "relation": {
+      "cites": []
+    },
+    "container-title-short": "F1000Res",
+    "assertion": [
+      {
+        "value": "Indexed",
+        "URL": "https://f1000research.com/articles/6-518/v2#article-reports",
+        "order": 0,
+        "name": "referee-status",
+        "label": "Referee status",
+        "group": {
+          "name": "current-referee-status",
+          "label": "Current Referee Status"
+        }
+      },
+      {
+        "value": "10.5256/f1000research.12324.r22021, Björn Brembs, Institute of Zoology - Neurogenetics, Universität Regensburg, Regensburg, Germany, 24 Apr 2017, version 1, indexed",
+        "URL": "https://f1000research.com/articles/6-518/v1#referee-response-22021",
+        "order": 0,
+        "name": "referee-response-22021",
+        "label": "Referee Report",
+        "group": {
+          "name": "article-reports",
+          "label": "Article Reports"
+        }
+      },
+      {
+        "value": "<b>Corina Logan</b>; \n<i>Posted: 05 Jun 2017</i>; Dear Bj&ouml;rn, Thank you very much for taking the time to read and comment on my article. I really appreciate the time you invested in helping me make the piece better. Please see my responses (marked by &gt;&gt;&gt;) to your comments below.  Many thanks, Corina  1) In this manuscript, the author proposes a more ethical publishing system compared to the one we have today. The author starts by explaining, in simple and broadly understandable terms the current parasitic relationship between corporate publishers and academia today. She correctly notes that the main driver for these developments on the academic side was &quot;pursuing prestige&quot;. &nbsp;&nbsp; &nbsp;However, from reading the article, the reader is forced to conclude that the author believes that today, scientists do not strive to pursue prestige any more, as essentially every single suggestion the author puts forth asks scientists to do the opposite of pursuing prestige, by asking them to &quot;publish ethically&quot;, regardless of the consequences for their salary, funding or other career aspects. &nbsp;&nbsp; &nbsp;Such a text constitutes a laudable appeal to the selflessness of scholars, echoing many similar appeals that have been formulated over the last 20+ years. Clearly, those are lofty ideals, but I have strong reservations as to the mass applicability of such a plan. After all, her predecessors have asked their colleagues exactly the same thing without much tangible effect for the last 20+ years. I doubt that more of the same will drastically alter anything. &nbsp;&nbsp; &nbsp;In contrast to what the author (and this reviewer) might hope for, it is highly unlikely that the prestige factor historically and currently dominating publication practices everywhere will disappear tomorrow. Thus, at the very least, this article needs to deal with how scholars either a) may be convinced more effectively to adjust their publication practices against their own self-interest (and if one needs to refer to &quot;changing the incentive structure&quot;, please explain how this could be done in realistic steps without brainwashing of about 7 million 'full-time equivalent' researchers) or b) remove the current source of prestige differential: journal rank. Without such an explanation, I see no value in adding this article to the already bulging literature on this topic.  &gt;&gt;&gt; One confusing aspect of version 1 was that I phrased the aim of my paper as changing the incentive structure; however, as Chris Hartgerink pointed out, this wasn’t actually the aim of the paper. I agree because I don’t focus on incentives or prestige in this article. The focus of my paper is to explain how the current publishing landscape works because this is what researchers always find surprising when I give this paper as a talk. After my talks, researchers often approach me saying how they want to change something about their publishing choices. So it seems that researchers don’t generally know much about how publishing works (it’s no wonder, we are so removed from it when we submit papers. And this kind of understanding isn’t taught or mentored unless their mentor is an expert in this topic). For me, if the information in this paper is able to change the publishing choices of even a few researchers, I will consider it a success (it has already influenced at least one researcher: https://twitter.com/van_tho/status/855317905759547392). Indeed, it is only because a colleague questioned me about why I publish where I publish that I started learning how publishing works in the first place, which caused me to change my publishing choices. There is some evidence that researchers at universities with increased awareness of OA policies also have more experience publishing OA (Zhy 2017). This suggests that education about OA has the potential to change behavior. I changed the aim of the paper to reflect its actual aim: \n<i>My aim here is to explain how the current publishing landscape works and to highlight ethical and exploitative aspects that are not always obvious. I argue that it is in the best interest of researchers, academia, the public, and research rigor to adopt ethical publishing choices. Adopting such choices will instigate a cultural shift in academia.</i> &nbsp;&nbsp; &nbsp;Addressing prestige and incentive structures is beyond the scope of this article; however, to elaborate on how individual publishing choices can result in a culture change, I added: \n<i>academia is made up of individuals, and the values of these individuals create academic culture. If researchers align their publishing choices with ethical publishing practices, then academic culture changes. We can all easily change our values and actions right now.</i>   2) First paragraph and Figure 1: It makes little sense to compare the subscription costs of a subset of libraries of a single country with the online archiving costs of some file on the internet. There is no relation at all between such two completely arbitrary numbers.  &gt;&gt;&gt; Good point. For a cost per article comparison, I added:&nbsp; \n<i>The global average cost of publishing a paywalled article is $5000 ( </i>\n<i>van Noorden, 2013</i>\n<i>).&nbsp;</i>   3) We do know what the annual cost of publishing scholarly articles is: several sources mention converging ballpark figures just under US$10b. With the number of articles per year at about 2m, we arrive at a current consensus figure of ~US$5k per article the taxpayer is currently paying.&nbsp; We also know that a whole slew of publishers operate on per-article costs of just under ~US$100 up to ~US$500, which constitute the lower bound of actual per article costs. In other words, anything above ~US$500 requires an explanation (in some cases even costs above US$100). In the case of current subscription publishers, this difference includes (but is not limited to) profit and paywalls. In the case of gold publishers, it is not at all clear where the difference to 100-500 goes. Hence, in Fig. 1A there is a lot missing and in Fig. 1B, it is not at all clear why charging $2900 should not be similarly exploitative as in Fig. 1A. &nbsp;&nbsp; &nbsp;I suggest to drop all the numbers in Fig. 1 and just show profit and paywalls in A as excluding scholarship, while whatever costs accrue in B are investments and not lost.  &gt;&gt;&gt; Regarding the difference between the actual cost of publishing an article and the wide range of APCs on the ethical route in Figure 1B, I added: \n<i>Given that the actual cost of publishing an article is $1.30–318 ( </i>\n<i>Bogich et al., 2016</i>\n<i>), it is important to consider where the additional money goes when paying APCs. Some journals charge higher APCs to cover their additional costs, which might involve paying staff for editorial services, promoting the journal, writing news stories, or developing new publishing technology (e.g., see eLife’s cost breakdown at: </i>\n<i>https://elifesciences.org/elife-news/inside-elife-what-it-costs-publish</i>\n<i>). For some journals, their higher APCs also provide income for the publisher’s shareholders (see the Exploitative route to publication). If you choose to pay a higher APC, make sure the activities the public’s money will be invested in are aligned with the three ethical principles above.</i> &nbsp;&nbsp; &nbsp;I want to keep the numbers in Figure 1 because I think it is important to directly connect researchers with the costs of publishing. If readers can see price tags for the different routes to publishing, it will help connect them with the reality of their choices.   4) Exploitative route: The author writes: &quot;Publishers obtain the product (the journal article) for free, as well as many of the services involved in the peer review of the product (e.g., volunteer editor and peer reviewer time).&quot; This wording invites misunderstandings: scholars don't work for free, many if not most of them earn a (in some cases more than decent) wage. They provide their services mostly for the authors, which coincidentally means at no cost for the publishers. This is not to be confused with &quot;free&quot; - it is actually a coincidental subsidy of publishers inasmuch as the scholars' salary is paid out of the public purse.  &gt;&gt;&gt; Thanks for pointing this out. I clarified the sentence to: \n<i>Publishers pay nothing for the product (the journal article) or the services involved in the peer review of the product&nbsp;</i> &nbsp;&nbsp; &nbsp;In the next sentence, I replaced the word “free” with “publicly-funded” products and services.   5) ”When the paper is published, only individuals at institutions that can afford journal subscriptions can read the research.&quot; In principle, this is correct. However, this statement is complicated by, e.g., the fact that some institutions may be able to afford subscriptions, but choose not to subscribe to certain journals and that most publishers offer reduced or even waived subscription fees to developing countries on the IUGG or UNDP lists.  &gt;&gt;&gt; Regarding waived subscription fees to some developing countries, I added: \n<i>What’s more, publishers breach these agreements by denying previously-promised access (Perez Koehlmoos &amp; Smith 2011).</i>   6) The author also cited an &quot;impact factor&quot; without reference. In the case of Clarivate Analytics' Impact Factor, the author cannot cite the IF as if it were computed rather than, at least in part, negotiated, without clarifying citations.  &gt;&gt;&gt; I added a reference and changed the sentence to: \n<i>If a generalist journal in the sciences accepts papers from less cited fields, their journal’s Thomson Reuters impact factor would decrease (PLoS Medicine Editors 2006).</i>   7) In this section, the author also neglects the standard acquisition rules in academia (and indeed in the entire public sector!) that acquisitions need to follow a bidding process. Subscriptions these days, especially the &quot;Big Deal&quot; bought by large public institutions, are negotiated behind closed doors, commonly with professional publisher negotiators completely outmaneuvering their hapless librarian counterparts. Any mention of costs should reasonably also mention the way academia pays for them: by breaking or at least bending commonplace rules.  &gt;&gt;&gt; Great point. I added: \n<i>Additionally, universities breach their standard practice of choosing the most competitive bid: publishers do not compete with each other to obtain university subscriptions on the premise that each publisher’s goods are unique (Eve 2016).</i>   8) Ethical route to publication: Already in the first paragraph, the author paints a misleading picture, contradicting her own text until this point. Above, the author stated: &quot; researchers have played a key role because they pursue prestige &quot; Indeed: researchers pursue prestige. Even if all journals were OA provided by NP organizations, they would still pursue prestige, all else being equal. Hence, the authors would *not* choose a journal with an &quot;APC they can afford&quot;, but with a *prestige* they can afford. This, of course, makes all the difference in the world: if a lab can afford, say, 50k for a Nature article, of course they will pay for it. If a lab cannot, then the authors will have to pay out of their pocket what is required to secure a permanent position. Hence, without eliminating prestige, the injustice and discrimination so rightfully called out by the author above, will simply be transferred from reading to publishing: today, the scholarly poor can't read. In a gold-OA world as described in the article so far, the scholarly poor can't publish (at least not where they get noticed). Given sci-hub et al., the gold-OA route described so far seems even less ethical than the exploitative publishing system where the rich subsidize an obscenely expensive anachronism, such that at least the poorest countries can read and publish for free. &nbsp;&nbsp; &nbsp;There remains much work for the author to convince anyone that just because there are no profits and no paywalls, the proposed system will be any fairer.  &gt;&gt;&gt; I agree that incentive structures need to change to address the massive prestige issue. The Smaldino and McElreath (2017) paper is particularly useful for providing the incentive to change incentives because their model indicates that selective journals actually select for bad science. Since prestigious journals are selective, they are more likely to have selected for bad science than a journal that selects papers based on scientific validity and ignores subjectively determined potential impact. A nuanced treatment of the prestige issue is beyond the scope of this opinion piece, but I added: \n<i>Academia is made up of individuals, and the values of these individuals create academic culture. If researchers align their publishing choices with ethical publishing practices, then academic culture changes. We can all easily change our values and actions right now.</i> &nbsp;&nbsp; &nbsp;Regarding discriminating against who can pay to publish, I added: \n<i>There is a further argument to be made that no money should be exchanged when publishing research products, neither via journal subscriptions nor APCs, because the public has already paid for the research. Any costs that are charged in addition to the initial funding creates inequalities in who can pay to publish or read (Fuchs &amp; Sandoval 2013), and violates ethical principle 1.</i>   9) Table 1: Likewise, there is little to convince at least this reviewer that all the journals listed here are really that much more ethical than the current corporate parasites. Certainly, the RoySoc journal looks perfect, but the reader doesn't know where the money is coming from and has to trust the name of the publisher in terms of functionalities, such as, e.g. digital long-term preservation, TDM, data and code requirements, and many more. PeerJ (which I support) are a business where we have to trust their founders that they really use our money wisely. eLife is published by the MPG and only publishes a small fraction of submitted articles at a cost prohibitive for most scholarly poor. In terms of reproducibility, we do not have any data, yet, but if eLife can be lumped in with the GlamMagz in this regard, the statistics tell us that eLife will be part of the problem, rather than the solution - and who wants the public to have access to unreliable research? CCBR publishes with a very restrictive license, which can hardly be called &quot;OA&quot; (e.g., no TDM allowed!), PLoS APCs are also much higher than they need to be in case of P1 due to this journal subsidizing their community journals and for the community journals due to their selectivity, which increases unreliability (statistically, on average). Neither ScienceOpen nor Biology Open (nor any of the other journals!) offer competitors to take over their services in case users are not pleased with what they get. &nbsp;&nbsp; &nbsp;Thus, in brief, the list in Table 1 looks like a half-hearted attempt at saving a 20th century industry from obsolescence and badly mangling product functionality and market effectiveness as unintended consequences.  &gt;&gt;&gt; It is my intent with this paper to list the most ethical journals that are available right now so researchers can go out tomorrow and change their publishing choices without having to wait for the infrastructure to change. This doesn’t mean that all of the journals in the list are ideal models for how publishing should work, nor does it mean that they will remain ethical (according to the criteria in the paper) in the future if they are, for example, sold to Elsevier. PeerJ is pretty open about where they spend their money (e.g., https://peerj.com/blog/post/115284878682/new-publication-prices-at-peerj/), and eLife provides APC waivers (https://elifesciences.org/articles/21230). I contacted CCBR, bringing it to their attention that they should use a CC-BY licence instead - thanks for pointing that out! &nbsp;&nbsp; &nbsp;I agree with you that selective journals are part of the problem (see Smaldino &amp; McElreath 2016), which is why I make it clear which journals select based on subjective impact in Table 1. Since I do not address the prestige issue in this paper, I’m not going to go into the details about the difference between selective and non-selective journals. I lay out the options for people so they can make their own choices based on information about these options.   10) Availability to read by everyone leads to additional benefits: Actually, PDF is probably among the worst formats for TDM. What would be required is a scholarly mark-up language that can be easily converted into any format the user desires. Just flipping our existing journals to ethical publishers and hoping that the &quot;invisible hand&quot; of the market will then automagically create such scholarly standards will likely not be sufficient.  &gt;&gt;&gt; I agree with you and have been learning about reproducible manuscripts (see Hartgerink 2017 http://onsnetwork.org/chartgerink/2017/03/30/reproducible-manuscripts-are-the-future/). Depending on the publishing platform a publisher uses, it could be very easy for a journal to change from publishing PDFs to reproducible manuscripts. Indeed, eLife is considering doing so in response to a conversation a few of us researchers had with one of their staff members (https://elifesciences.org/labs/cad57bcf/composing-reproducible-manuscripts-using-r-markdown). In contrast, it would likely be difficult for a publisher like the Royal Society to switch because they use ScholarOne, which is inflexible and expensive. If journals are aware that their researchers want to publish reproducible manuscripts, then they can adapt accordingly, but we need to speak directly to the journals to make this happen.   11) Researchers can change the incentive structure by changing publishing choices: While the author is merely simplistic and/or naive in her approach thus far, this last paragraph borders on wishful thinking. For more than 20 years we have had the possibility to make our work OA at point of publication with just a few clicks and haven't done so: as long as hypercompetition demands that we publish in certain venues, just making people pay won't change a thing. If I'm an early-career researcher and Nature has accepted my manuscript, I will publish there, as long as it carries the prospect of getting a job. In that case (and this is how it still is), this researcher will publish there if it is TA, hybrid or OA, (almost) regardless of cost. In the US (and increasingly in the UK and other countries as well), people go into debt for the prestige of a degree from certain universities. Surely they will go a little more into debt for the prestige of a certain journal? No, scholars are not free to choose where they publish and just making it expensive for them won't change that - other than making the procedure more hateful than it already is.  &gt;&gt;&gt; I removed references to incentives (see my response to comment 1). I have found that by educating researchers about how publishing works and how we exploit ourselves and discriminate against others in the process, many are interested in making changes. I know researchers who only publish OA and in non-glamorous journals and they have gotten excellent jobs (including myself). Additionally, there is growing evidence that publishing OA gives researchers an advantage in their careers (McKiernan et al 2016 https://elifesciences.org/articles/16800).   12) In conclusion, I'm far from convinced that the world the author describes will be neither more ethical nor fairer than today. In fact, from most relevant aspects, it seems it will make things even worse than what we have today, as bad as it currently is. Other than from a historical perspective, the author completely fails to account for the main driver of publication practices: prestige. For her suggestion to actually improve anything, she needs to explain why the prestige factor should completely disintegrate overnight, which seems highly implausible. I hence cannot see anything that this article could possibly contribute to the debate on this topic that hasn't already been said elsewhere, with more competence and persuasion.  &gt;&gt;&gt; Please see my responses to comments 1 and 8.   References Zhu, Y. (2017). Who support open access publishing? Gender, discipline, seniority and other factors associated with academics’ OA practice. \n<i>Scientometrics</i>, \n<i>111</i>(2), 557-579.",
+        "URL": "https://f1000research.com/articles/6-518/v2#referee-comment-2752",
+        "order": 1,
+        "name": "referee-comment-2752",
+        "label": "Referee Comment",
+        "group": {
+          "name": "article-reports",
+          "label": "Article Reports"
+        }
+      },
+      {
+        "value": "10.5256/f1000research.12324.r22132, Anthony Dart, Department of Cardiovascular Medicine, BakerIDI Heart and Diabetes Research Institute and Alfred Hospital, Prahran, VIC, 8008, Australia, 04 May 2017, version 1, indexed",
+        "URL": "https://f1000research.com/articles/6-518/v1#referee-response-22132",
+        "order": 2,
+        "name": "referee-response-22132",
+        "label": "Referee Report",
+        "group": {
+          "name": "article-reports",
+          "label": "Article Reports"
+        }
+      },
+      {
+        "value": "<b>Corina Logan</b>; \n<i>Posted: 05 Jun 2017</i>; Dear Anthony, I greatly appreciate your taking the time to read and review this paper! Your comments really helped me improve the manuscript. Below, I indicate how I addressed each of your comments (marked by &gt;&gt;&gt;).  Thank you again! My best, Corina  1. As one solution the author suggests that researchers should elect to use an ethical route to publication.&nbsp; One of the features of this would be that ‘any profit’ would be returned to academia and this would be most readily achieved through learned societies or institutions publishing in their own right.&nbsp; As the author indicates the true nature of the finances behind publications can be opaque and it would be a big burden on researchers to undertake and keep up-to-date with the financial arrangement of the myriad of publishing vehicles now available.&nbsp; In relation to this, and perhaps a little over looked in the article, is in indeed the gross proliferation of journals now touting their business to the academic community.&nbsp; Almost all these journals require an article processing charge to be paid and it is usually not evident how much of this contributes to the publishers profit margin.&nbsp; &nbsp; &gt;&gt;&gt; There are definitely lots of journals out there to filter through, which is time consuming. I added: \n<i>It is time consuming to investigate all available journals to determine which are more ethical. Lists, such as the Directory of Open Access Journals (DOAJ), can help determine which journals are reputable, but further criteria are needed about a journal and publisher’s business model to evaluate their ethical or exploitative practices. I provide such a list for the field of animal behavior in</i>\n<i> </i>\n<i>Table 1</i>\n<i>.</i>\n<i> If a similar list does not exist for your field, consider making one and sharing it</i>\n<i>.</i> \n<i>&nbsp;&nbsp; &nbsp;</i>I made sure to describe that the DOAJ is a way of quality-checking OA journals. Researchers investigating the other criteria in Table 1 for a particular journal will likely be able to answer the question about where the publisher’s profits go.   2. The authors suggestion that researchers could elect to publish with the publishers whose charges are within their means is not really going to help with issues of equitability.&nbsp; Researchers, certainly under the current usual means of performance evaluation, will have an overriding desire to publish in the most prestigious journal available. This is specially so with the proliferation of journals situation has been reached whereby almost anything could be published providing that authors persevere!&nbsp; Therefore there needs to be other ways to overcome the perception that impact factor is a surrogate measure of important and validity of data.&nbsp; Certainly publications of original data and comprehensive methods etc, generally in a supplementary or appendix, can help in this regard.&nbsp; &nbsp; &gt;&gt;&gt; I agree that incentive structures need to change to address the prestige issue. The Smaldino and McElreath (2017) paper is particularly useful for providing the incentive to change incentives because their model indicates that selective journals actually select for bad science. Since prestigious journals are selective, they are more likely to have selected for bad science than a journal that selects papers based on scientific validity and ignores subjectively determined potential impact. A nuanced treatment of the prestige issue is beyond the scope of this opinion piece, but I added: \n<i>Academia is made up of individuals, and the values of these individuals create academic culture. If researchers align their publishing choices with ethical publishing practices, then academic culture changes. We can all easily change our values and actions right now.&nbsp;</i>   3. Although not the subject of this article, there is no doubt that real reform in this sector thus requires a change in the wide academic careers are evaluated.&nbsp; The reliance on the numbers of publications and the impact of the publications become so important in most institutions that real reform could only happen once this reliance measures is reduced.  &gt;&gt;&gt; I completely agree that evaluation structures need to change to effectively evaluate the quality of someone’s research. There are many good summaries of the problem (e.g., http://www.nature.com/news/the-focus-on-bibliometrics-makes-papers-less-useful-1.16706, https://www.nature.com/news/bibliometrics-the-leiden-manifesto-for-research-metrics-1.17351), so I don’t feel I can add much there. Of course, talking about it doesn’t necessarily change people’s actions, which is what we really need. Perhaps change is beginning to happen at institutions that sign the Declaration on Research Assessment (DORA, http://www.ascb.org/dora/). However, I don’t know of case studies that indicate academic culture is moving away from bibliometrics.",
+        "URL": "https://f1000research.com/articles/6-518/v2#referee-comment-2751",
+        "order": 3,
+        "name": "referee-comment-2751",
+        "label": "Referee Comment",
+        "group": {
+          "name": "article-reports",
+          "label": "Article Reports"
+        }
+      },
+      {
+        "value": "10.5256/f1000research.12324.r22316, Chris. H. J. Hartgerink, Department Methodology and Statistics, Tilburg University, Tilburg, Netherlands, 08 May 2017, version 1, indexed",
+        "URL": "https://f1000research.com/articles/6-518/v1#referee-response-22316",
+        "order": 4,
+        "name": "referee-response-22316",
+        "label": "Referee Report",
+        "group": {
+          "name": "article-reports",
+          "label": "Article Reports"
+        }
+      },
+      {
+        "value": "<b>Corina Logan</b>; \n<i>Posted: 05 Jun 2017</i>; Dear Chris, Thank you so much for bringing up excellent discussion points on my opinion piece! Your comments were spot on and really helped me improve the message in the revised version. Please see my responses (marked by &gt;&gt;&gt;) to your comments below.  All my best, Corina  1. In general, this opinion piece aims to incentivize a shift towards more Open Access (OA) publishing, and specifically more ethical OA publishing. In the first two sections (&quot;The problem&quot; and &quot;Exploitative route to publication&quot;) the author aptly summarizes the current situation, albeit sometimes implying that the reader is familiar with certain aspects of the discussion.  &gt;&gt;&gt; I hope I clarified the parts of the discussion that assumed familiarity by addressing your comments below. I also identified sentences that could benefit from references and added the relevant references.   2. Moreover, in the first section, the author makes quite a promising statement: &quot;I will focus on how researchers can instigate a cultural shift to change the incentive structure by valuing the improvement of research rigor through ethical publishing.&quot; However, in the sections following, I was disappointed to see that the author primarily focusing on describing the landscape instead of actually providing ways to instigate cultural change. Understanding the landscape is important, but what the effective, actionable aspect of the piece that was offered in the beginning remains absent. As such, the piece does not deliver.  &gt;&gt;&gt; This is a good point: I don’t focus on incentives or prestige in this article. The focus of my paper is to explain how the current publishing landscape works because this is what researchers always find surprising when I give this paper as a talk. After my talks, researchers often approach me saying how they want to change something about their publishing choices. So it seems that researchers don’t generally know much about how publishing works (it’s no wonder, we are so removed from it when we submit papers. And this kind of understanding isn’t taught or mentored unless their mentor is an expert in this topic). I changed the sentence to:\n<i> My aim here is to explain how the current publishing landscape works and to highlight ethical and exploitative aspects that are not always obvious. I argue that it is in the best interest of researchers, academia, the public, and research rigor to adopt ethical publishing choices. Adopting such choices will instigate a cultural shift in academia.</i>   3. In the next section on exploitation, the author mentions exploitative and ethical publishing. Although I tend to agree that OA is less exploitative, calling it ethical is rather difficult without an explanation as to what normative framework is being applied to judge this. Why, for example, is the APC range of 0-2900 USD seen as ethical, when in the first paragraph it is mentioned that publishing costs range between 1.30-318USD? I understand many of the underlying principles, but I think the discussion of these issues can be honed and would make it much more convincing for people unfamiliar with many of the underlying principles that are implicit for OA proponents. E.g., is the ethical statement made from a Kantian viewpoint that OA is more sustainable? If so, please make it more explicit so it can show the underlying logic instead of just the conclusions.  &gt;&gt;&gt; I can see where this was confusing. Regarding the difference between the actual cost of publishing an article and the wide range of APCs on the ethical route in Figure 1B, I added: \n<i>Given that the actual cost of publishing an article is $1.30–318 ( </i>\n<i>Bogich et al., 2016</i>\n<i>), it is important to consider where the additional money goes when paying APCs. Some journals charge higher APCs to cover their additional costs, which might involve paying staff for editorial services, promoting the journal, writing news stories, or developing new publishing technology (e.g., see eLife’s cost breakdown at: </i>\n<i>https://elifesciences.org/elife-news/inside-elife-what-it-costs-publish</i>\n<i>). For some journals, their higher APCs also provide income for the publisher’s shareholders (see the Exploitative route to publication). If you choose to pay a higher APC, make sure the activities the public’s money will be invested in are aligned with the three ethical principles above.</i>  Excellent point about the paper lacking an ethical framework. At the beginning of the paper I added: In this ethical framework, I rely on three principles: 1)&nbsp;&nbsp; &nbsp;Researchers and publishers have a responsibility to the public to provide them with free access to publicly funded products, which are a common good (Woodward 1990, Stilgoe et al. 2013) 2)&nbsp;&nbsp; &nbsp;Publishers of research products have a responsibility to researchers to value the generation and packaging of knowledge (Fuchs &amp; Sandoval 2013) 3)&nbsp;&nbsp; &nbsp;Researchers have a responsibility to the public to conduct rigorous research because it will serve as the foundation for the advancement of discoveries, it provides the best value for money, and earns public trust (Nosek &amp; Bar-Anan 2012) I added references to which principles were broken or upheld throughout the paper.   4. Continuing with providing explanations as to why certain things are considered ethical, I think the piece could really benefit from justification as to why keeping money inside academia would be considered more ethical. For-profit businesses can very much contribute ethically to the knowledge ecosystem and retain the profits, albeit it would require some changes in how the system is setup (e.g., knowledge should no longer be commodified). It is rather narrow to state that keeping money within academia is beneficial to academia more so than a combination of inside and outside, at least without thorough analysis as to why that would be the case. The premises seem to be implied now, which makes it rather unconvincing (despite that I somewhat agree with the outcome).  &gt;&gt;&gt; I added an explanation about why keeping money inside academia is ethical: \n<i>To uphold ethical principle 2, researchers must be valued for their innovation and labor. Keeping publishing profits inside academia values researchers by making more money available to them, for example, by increasing grant funding and freeing up money for their universities to invest more in research, teaching, and new faculty positions.&nbsp;</i>  I agree that for-profit publishers can be ethical. I hope this is clear from my statement that: \n<i>Ethical publishers are academic non-profit organizations, which ensure that profits are reinvested in academia, and for-profit corporations that charge no or low APCs and/or heavily invest profits in academia and/or are working to modernize the publishing infrastructure for researchers.</i>   5. As such, it seems to me that the perspective proposed here is lacking in thoroughness of the reasoning proposed (despite that I am a proponent of OA). As such, I would encourage the author to make the implicit steps taken in the reasoning more explicit. Moreover, calling something ethical without providing a framework is, to me, rather difficult. Deeming something ethical is always subject to cultural context and the normative framework.  &gt;&gt;&gt; I agree and thank you very much for pointing this out! I hope that my responses to comments 2-4 sufficiently address this.   6. Finally, I would like to ask the author whether she thinks that philanthropic efforts to increase OA are ethical in themselves. For example, OA is promoted by the Bill and Melinda Gates Foundation (BMGF), but recent efforts that put pressure on publishers have created an OA privilege so it seems. Researchers funded by the BMGF now have the possibility to publish gold-OA in Science for example 1, but non-BMGF financed researchers do not. As such, considering the Merton's ethical framework for science, this decreases equality between researchers and could be considered unethical. If OA is deemed ethical, are the means to an end here deemed ethical as well? It seems that this is a crucial question that is being neglected throughout this opinion piece.  &gt;&gt;&gt; I would argue that creating inequalities in who can pay to publish is unethical because it inhibits the sharing of knowledge as a common good. I added: \n<i>There is a further argument to be made that no money should be exchanged when publishing research products, neither via journal subscriptions nor APCs, because the public has already paid for the research. Any costs that are charged in addition to the initial funding creates inequalities in who can pay to publish or read (Fuchs &amp; Sandoval 2013), and violates ethical principle 1.</i>  I don’t endorse the BMGF approach as a way to transition to 100% OA. We have already seen such exploitative transitory approaches fail. For example, hybrid OA was supposed to be a transition stage to gold OA (Bj&ouml;rk 2012); however, publishers now exploit the hybrid OA business model by charging higher APCs than those of 100% OA journals (Pinfield et al. 2015, Kingsley 2016, Laakso &amp; Bj&ouml;rk 2016, Solomon &amp; Bj&ouml;rk 2016). Given this increased monetary gain, there is no incentive for publishers of hybrid journals to switch them to 100% OA. It seems that funders are one of the only groups that are able to make effective changes in the current publishing landscape, as evidenced by their requirement that all of the research products they fund are published gold OA (e.g., RCUK http://www.rcuk.ac.uk/research/openaccess/, Wellcome Trust https://wellcome.ac.uk/funding/managing-grant/open-access-policy, Open Access Statements from many institutions http://www.digital- scholarship.org/oab/2statements.htm). I think the only way publishers will change to 100% OA is if funders refuse to pay for hybrid OA APCs and only fund APCs at journals that are 100% OA. Adopting such a policy would address the inequality issue that BMGF created with their transitory policy by forcing researchers to publish in more ethical venues. Some researchers might object to being restricted from publishing in some journals that are subjectively considered prestigious; however, I think this is a necessary part of the transition because the prestige issue is massive and leads to bad science (Smaldino &amp; McElreath 2016).  I added: \n<i>The hybrid business model was originally implemented as one step in the transition to a 100% OA publishing landscape. However, the goal was never achieved because publishers make more money off of the hybrid business model (Bj&ouml;rk 2012)</i>   References Bj&ouml;rk, B. C. (2012). The hybrid model for open access publication of scholarly articles: A failed experiment?. \n<i>Journal of the American Society for Information Science and Technology</i>, \n<i>63</i>(8), 1496-1504. http://www.openaccesspublishing.org/hybrid/hybrid.pdf&nbsp;  Kingsley. 2016. Unlocking Research. https://unlockingresearch.blog.lib.cam.ac.uk/?p=969 Laakso, M., &amp; Bj&ouml;rk, B. C. (2016). Hybrid open access—A longitudinal study. \n<i>Journal of Informetrics</i>, \n<i>10</i>(4), 919-932.  Pinfield, S., Salter, J., &amp; Bath, P. A. (2015). The “total cost of publication” in a hybrid open‐access environment: Institutional approaches to funding journal article‐processing charges in combination with subscriptions. \n<i>Journal of the Association for Information Science and Technology</i>.  Smaldino, P. E., &amp; McElreath, R. (2016). The natural selection of bad science. \n<i>Royal Society Open Science</i>, \n<i>3</i>(9), 160384. http://rsos.royalsocietypublishing.org/content/3/9/160384&nbsp;  Solomon D, Bj&ouml;rk B. (2016) Article processing charges for open access publication—the situation for research intensive universities in the USA and Canada. \n<i>PeerJ</i> 4:e2264 https://doi.org/10.7717/peerj.2264",
+        "URL": "https://f1000research.com/articles/6-518/v2#referee-comment-2750",
+        "order": 5,
+        "name": "referee-comment-2750",
+        "label": "Referee Comment",
+        "group": {
+          "name": "article-reports",
+          "label": "Article Reports"
+        }
+      },
+      {
+        "value": "<b>F1000 Research</b>; \n<i>Posted: 12 Jun 2017</i>; F1000Research publishes opinions, which - like all other content - are peer-reviewed to ensure that they are discussed accurately in the context of the literature, with sufficient evidence where needed. This article adheres fully to F1000Research’s public publishing criteria and policies, and the referees’ comments provided in the open peer review capture valuable discussion around the topic presented by the author. We encourage commenting on articles that focuses on the content of articles and tries to further discussion of an article’s topic in a constructive manner.",
+        "URL": "https://f1000research.com/articles/6-518/v2#article-response-2777",
+        "order": 6,
+        "name": "article-response-2777",
+        "label": "Article Comment",
+        "group": {
+          "name": "article-comments",
+          "label": "Article Comments"
+        }
+      },
+      {
+        "value": "<b>Leonid Schneider</b>; \n<i>Posted: 10 Jun 2017</i>; I do not understand why this (very useful and helpful) opinion piece needs to be peer reviewed.&nbsp;The academic community seeks ways out of its current crisis of irreproducibility and waste, where metrics- and vanity-driven for-profit scholarly publishing plays a major role as culprit.&nbsp;We need all possible fresh ideas on the table, and we need to discuss them. We do not need some academics to pre-approve those ideas for publication, by measuring them against their own world-views.Those are neither scientific results nor is it a review of research literature. There is nothing to peer review, but there is a lot to comment and discuss.So my comment on this article is: yes, put these ideas into young scientists heads. Bring them to the debate about ethical publishing. There is no need to have a pay-to-publish journal (yes, F1000R) to host this debate, or that useless peer review.",
+        "URL": "https://f1000research.com/articles/6-518/v2#article-response-2773",
+        "order": 7,
+        "name": "article-response-2773",
+        "label": "Article Comment",
+        "group": {
+          "name": "article-comments",
+          "label": "Article Comments"
+        }
+      },
+      {
+        "value": "This is an open access article distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.",
+        "order": 0,
+        "name": "copyright-info",
+        "label": "Copyright"
+      }
+    ],
+    "short_url": "https://doi.org/gbxt6f",
+    "id": "Akbe7cNV"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
           9,
           29
         ]
