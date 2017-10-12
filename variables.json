@@ -1,5 +1,5 @@
 {
-  "date": "October 10, 2017",
+  "date": "October 12, 2017",
   "authors": [
     {
       "github": "dhimmel",
@@ -51,7 +51,7 @@
   ],
   "ci_source": {
     "repo_slug": "greenelab/scihub-manuscript",
-    "commit": "b0b4b873fc2ca0c2f5026db1ca939a2e0f3c6f74"
+    "commit": "b5649c136d46dd1df88539201a40cf7f4e19a07d"
   },
   "manuscript_stats": {
     "reference_counts": {
