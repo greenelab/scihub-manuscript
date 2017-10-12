@@ -27,7 +27,7 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.72
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@b5649c1](https://github.com/greenelab/scihub-manuscript/tree/b5649c136d46dd1df88539201a40cf7f4e19a07d)
+from [greenelab/scihub-manuscript@aeedc5b](https://github.com/greenelab/scihub-manuscript/tree/aeedc5bffe50e53fc617513192596300cd1a68ba)
 on October 12, 2017.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
@@ -101,7 +101,7 @@ The website Sci-Hub provides access to scholarly literature via full text PDF do
 The site enables users to access articles that would otherwise be paywalled.
 Since its creation in 2011, Sci-Hub has grown rapidly in popularity.
 However, until now, the extent of Sci-Hub's coverage was unclear.
-As of March 2017, we find that Sci-Hub's database contains 68.9% of all 81.6 million scholarly articles, which rises to 85.2% for those published in closed access journals.
+As of March 2017, we find that Sci-Hub's database contains 68.9% of all 81.6 million scholarly articles, which rises to 85.2% for those published in toll access journals.
 Coverage varies by discipline, with 92.8% coverage of articles in chemistry journals compared to 76.3% for computer science.
 Coverage also varies by publisher, with the coverage of the largest publisher, Elsevier, at 97.3%.
 Our interactive browser at [greenelab.github.io/scihub](https://greenelab.github.io/scihub) allows users to explore these findings in more detail.
