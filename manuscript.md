@@ -27,7 +27,7 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.72
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@aeedc5b](https://github.com/greenelab/scihub-manuscript/tree/aeedc5bffe50e53fc617513192596300cd1a68ba)
+from [greenelab/scihub-manuscript@51678a7](https://github.com/greenelab/scihub-manuscript/tree/51678a7ea24b4923dc6d96e1b793f31a88c421d0)
 on October 12, 2017.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
@@ -105,7 +105,7 @@ As of March 2017, we find that Sci-Hub's database contains 68.9% of all 81.6 mil
 Coverage varies by discipline, with 92.8% coverage of articles in chemistry journals compared to 76.3% for computer science.
 Coverage also varies by publisher, with the coverage of the largest publisher, Elsevier, at 97.3%.
 Our interactive browser at [greenelab.github.io/scihub](https://greenelab.github.io/scihub) allows users to explore these findings in more detail.
-We find Sci-Hub preferentially covers popular, paywalled content, containing 96.2% of citations to subscription journals since 2015.
+We find Sci-Hub preferentially covers popular, paywalled content, containing 96.2% of citations to toll access journals since 2015.
 For recently requested articles by Unpaywall users, oaDOI provided access to 48.8% whereas Sci-Hub contained 81.5%.
 Together, oaDOI and Sci-Hub covered 94.1%, demonstrating that gaps in Sci-Hub's coverage, especially for open access articles, can be filled using licit services.
 For the first time, nearly all scholarly literature is available gratis to anyone with an Internet connection.
