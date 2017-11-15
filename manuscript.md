@@ -5,7 +5,7 @@ author-meta:
 - Stephen Reid McLaughlin
 - Bastian Greshake Tzovaras
 - Casey S. Greene
-date-meta: '2017-10-12'
+date-meta: '2017-11-15'
 keywords:
 - Sci-Hub
 - publishing
@@ -27,8 +27,8 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.72
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@51678a7](https://github.com/greenelab/scihub-manuscript/tree/51678a7ea24b4923dc6d96e1b793f31a88c421d0)
-on October 12, 2017.
+from [greenelab/scihub-manuscript@36ddc92](https://github.com/greenelab/scihub-manuscript/tree/36ddc92ce9a0ff2720f31dbdda57013ea4f7e59c)
+on November 15, 2017.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
 
@@ -406,7 +406,7 @@ Therefore, we used recent citations to estimate Sci-Hub's coverage of articles w
 We identified 7,312,607 outgoing citations from articles published since 2015.
 6,657,410 of the recent citations (91.0%) referenced an article that is in Sci-Hub.
 However, if only considering the 6,252,279 citations to articles in toll access journals, Sci-Hub covers 96.2% of recent citations.
-On the other, for the 858,583 citations to articles in open access journals, Sci-Hub's covers only 62.4%.
+On the other hand, for the 858,583 citations to articles in open access journals, Sci-Hub covers only 62.4%.
 
 ### Sci-Hub access logs
 

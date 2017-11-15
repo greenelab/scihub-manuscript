@@ -43,12 +43,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          10
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-10T00:54:51Z",
-      "timestamp": 1502326491987
+      "date-time": "2017-10-27T05:31:10Z",
+      "timestamp": 1509082270606
     },
     "reference-count": 36,
     "publisher": "Wiley-Blackwell",
@@ -174,12 +174,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          10
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-10T03:18:59Z",
-      "timestamp": 1502335139077
+      "date-time": "2017-10-27T14:36:34Z",
+      "timestamp": 1509114994870
     },
     "publisher-location": "Cham",
     "reference-count": 22,
@@ -303,11 +303,11 @@
         [
           2017,
           10,
-          4
+          27
         ]
       ],
-      "date-time": "2017-10-04T10:22:21Z",
-      "timestamp": 1507112541048
+      "date-time": "2017-10-27T19:03:38Z",
+      "timestamp": 1509131018296
     },
     "reference-count": 26,
     "publisher": "Springer Nature",
@@ -360,7 +360,7 @@
     "page": "213-228",
     "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 50,
+    "is-referenced-by-count": 54,
     "title": "The journal coverage of Web of Science and Scopus: a comparative analysis",
     "prefix": "10.1007",
     "volume": "106",
@@ -453,12 +453,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          10
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-10T14:07:59Z",
-      "timestamp": 1502374079418
+      "date-time": "2017-10-27T20:27:30Z",
+      "timestamp": 1509136050017
     },
     "reference-count": 50,
     "publisher": "Springer Nature",
@@ -606,12 +606,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          10
+          10,
+          28
         ]
       ],
-      "date-time": "2017-08-10T23:43:10Z",
-      "timestamp": 1502408590160
+      "date-time": "2017-10-28T01:32:35Z",
+      "timestamp": 1509154355245
     },
     "reference-count": 51,
     "publisher": "Springer Nature",
@@ -757,11 +757,11 @@
         [
           2017,
           10,
-          4
+          28
         ]
       ],
-      "date-time": "2017-10-04T07:22:17Z",
-      "timestamp": 1507101737960
+      "date-time": "2017-10-28T00:08:06Z",
+      "timestamp": 1509149286537
     },
     "reference-count": 25,
     "publisher": "Elsevier BV",
@@ -815,7 +815,7 @@
     "page": "98-109",
     "update-policy": "http://dx.doi.org/10.1016/elsevier_cm_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 3,
+    "is-referenced-by-count": 4,
     "title": "Availability of digital object identifiers (DOIs) in Web of Science and Scopus",
     "prefix": "10.1016",
     "volume": "10",
@@ -931,12 +931,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          11
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-11T05:04:47Z",
-      "timestamp": 1502427887621
+      "date-time": "2017-10-27T09:29:32Z",
+      "timestamp": 1509096572130
     },
     "reference-count": 9,
     "publisher": "Informa UK Limited",
@@ -1041,12 +1041,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          14
+          10,
+          28
         ]
       ],
-      "date-time": "2017-08-14T19:43:11Z",
-      "timestamp": 1502739791965
+      "date-time": "2017-10-28T04:51:58Z",
+      "timestamp": 1509166318672
     },
     "reference-count": 5,
     "publisher": "Elsevier BV",
@@ -1112,7 +1112,7 @@
     },
     "page": "e608",
     "source": "Crossref",
-    "is-referenced-by-count": 1,
+    "is-referenced-by-count": 2,
     "title": "Sci-Hub and medical practice: an ethical dilemma in Peru",
     "prefix": "10.1016",
     "volume": "4",
@@ -1195,12 +1195,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          10
+          10,
+          26
         ]
       ],
-      "date-time": "2017-08-10T04:43:00Z",
-      "timestamp": 1502340180681
+      "date-time": "2017-10-26T14:43:40Z",
+      "timestamp": 1509029020288
     },
     "reference-count": 0,
     "publisher": "Springer Nature",
@@ -1289,11 +1289,11 @@
         [
           2017,
           10,
-          10
+          26
         ]
       ],
-      "date-time": "2017-10-10T06:02:11Z",
-      "timestamp": 1507615331693
+      "date-time": "2017-10-26T05:53:31Z",
+      "timestamp": 1508997211094
     },
     "reference-count": 0,
     "publisher": "Springer Nature",
@@ -1317,7 +1317,7 @@
     },
     "page": "426-429",
     "source": "Crossref",
-    "is-referenced-by-count": 85,
+    "is-referenced-by-count": 86,
     "title": "Open access: The true cost of science publishing",
     "prefix": "10.1038",
     "volume": "495",
@@ -1381,12 +1381,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          9
+          10,
+          26
         ]
       ],
-      "date-time": "2017-08-09T20:20:36Z",
-      "timestamp": 1502310036717
+      "date-time": "2017-10-26T13:44:57Z",
+      "timestamp": 1509025497129
     },
     "reference-count": 0,
     "publisher": "Springer Nature",
@@ -1474,12 +1474,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          9
+          10,
+          28
         ]
       ],
-      "date-time": "2017-08-09T13:20:08Z",
-      "timestamp": 1502284808886
+      "date-time": "2017-10-28T01:36:13Z",
+      "timestamp": 1509154573363
     },
     "reference-count": 0,
     "publisher": "Springer Nature",
@@ -1567,12 +1567,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          10
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-10T05:13:19Z",
-      "timestamp": 1502341999463
+      "date-time": "2017-10-27T19:31:11Z",
+      "timestamp": 1509132671090
     },
     "reference-count": 0,
     "publisher": "Springer Nature",
@@ -1653,12 +1653,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          9
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-09T19:00:31Z",
-      "timestamp": 1502305231774
+      "date-time": "2017-10-27T05:58:47Z",
+      "timestamp": 1509083927552
     },
     "reference-count": 0,
     "publisher": "Springer Nature",
@@ -1743,12 +1743,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          11
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-11T03:24:31Z",
-      "timestamp": 1502421871103
+      "date-time": "2017-10-27T21:56:31Z",
+      "timestamp": 1509141391381
     },
     "reference-count": 0,
     "publisher": "Springer Nature",
@@ -1833,12 +1833,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          9
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-09T08:19:27Z",
-      "timestamp": 1502266767741
+      "date-time": "2017-10-27T20:13:19Z",
+      "timestamp": 1509135199519
     },
     "reference-count": 0,
     "publisher": "Springer Nature",
@@ -1923,12 +1923,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          10
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-10T05:46:40Z",
-      "timestamp": 1502344000141
+      "date-time": "2017-10-27T17:54:49Z",
+      "timestamp": 1509126889656
     },
     "reference-count": 0,
     "publisher": "Springer Nature",
@@ -2021,12 +2021,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          10
+          10,
+          28
         ]
       ],
-      "date-time": "2017-08-10T23:23:30Z",
-      "timestamp": 1502407410235
+      "date-time": "2017-10-28T01:13:13Z",
+      "timestamp": 1509153193532
     },
     "reference-count": 0,
     "publisher": "Springer Nature",
@@ -2111,12 +2111,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          11
+          10,
+          28
         ]
       ],
-      "date-time": "2017-08-11T03:21:46Z",
-      "timestamp": 1502421706875
+      "date-time": "2017-10-28T04:19:18Z",
+      "timestamp": 1509164358130
     },
     "reference-count": 0,
     "publisher": "Springer Nature",
@@ -2209,12 +2209,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          11
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-11T17:35:03Z",
-      "timestamp": 1502472903160
+      "date-time": "2017-10-27T17:39:24Z",
+      "timestamp": 1509125964719
     },
     "reference-count": 0,
     "publisher": "Springer Nature",
@@ -2307,12 +2307,12 @@
       "date-parts": [
         [
           2017,
-          9,
-          11
+          11,
+          15
         ]
       ],
-      "date-time": "2017-09-11T12:22:11Z",
-      "timestamp": 1505132531877
+      "date-time": "2017-11-15T05:22:14Z",
+      "timestamp": 1510723334826
     },
     "reference-count": 33,
     "publisher": "Springer Nature",
@@ -2336,7 +2336,7 @@
     },
     "page": "342-346",
     "source": "Crossref",
-    "is-referenced-by-count": 3,
+    "is-referenced-by-count": 6,
     "title": "Reproducibility of computational workflows is automated using continuous analysis",
     "prefix": "10.1038",
     "volume": "35",
@@ -2420,12 +2420,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          9
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-09T14:35:58Z",
-      "timestamp": 1502289358150
+      "date-time": "2017-10-27T03:45:17Z",
+      "timestamp": 1509075917798
     },
     "reference-count": 0,
     "publisher": "CNRI Acct",
@@ -2517,12 +2517,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          24
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-24T09:23:02Z",
-      "timestamp": 1503566582608
+      "date-time": "2017-10-27T09:03:07Z",
+      "timestamp": 1509094987298
     },
     "reference-count": 25,
     "publisher": "Proceedings of the National Academy of Sciences",
@@ -2558,7 +2558,7 @@
     "page": "9425-9430",
     "update-policy": "http://dx.doi.org/10.1073/pnas.cm10313",
     "source": "Crossref",
-    "is-referenced-by-count": 19,
+    "is-referenced-by-count": 20,
     "title": "Evaluating big deal journal bundles",
     "prefix": "10.1073",
     "volume": "111",
@@ -2647,12 +2647,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          11
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-11T04:59:26Z",
-      "timestamp": 1502427566520
+      "date-time": "2017-10-27T09:29:21Z",
+      "timestamp": 1509096561095
     },
     "reference-count": 35,
     "publisher": "Informa UK Limited",
@@ -2762,12 +2762,12 @@
       "date-parts": [
         [
           2017,
-          9,
-          26
+          10,
+          25
         ]
       ],
-      "date-time": "2017-09-26T00:22:10Z",
-      "timestamp": 1506385330745
+      "date-time": "2017-10-25T07:04:25Z",
+      "timestamp": 1508915065756
     },
     "reference-count": 0,
     "publisher": "The Royal Society",
@@ -2800,7 +2800,7 @@
     },
     "page": "821-831",
     "source": "Crossref",
-    "is-referenced-by-count": 39,
+    "is-referenced-by-count": 38,
     "title": "Observations, Communicated to the Publisher by Mr. Antony van Leewenhoeck, in a Dutch Letter of the 9th of Octob. 1676. Here English'd: concerning Little Animals by Him Observed in Rain-Well-Sea. and Snow Water; as Also in Water Wherein Pepper Had Lain Infused",
     "prefix": "10.1098",
     "volume": "12",
@@ -2849,12 +2849,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          11
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-11T15:31:27Z",
-      "timestamp": 1502465487706
+      "date-time": "2017-10-27T14:10:46Z",
+      "timestamp": 1509113446464
     },
     "posted": {
       "date-parts": [
@@ -2896,7 +2896,7 @@
       "timestamp": 1496034615000
     },
     "source": "Crossref",
-    "is-referenced-by-count": 0,
+    "is-referenced-by-count": 1,
     "title": "Opportunities And Obstacles For Deep Learning In Biology And Medicine",
     "prefix": "10.1101",
     "author": [
@@ -3135,12 +3135,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          11
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-11T19:33:11Z",
-      "timestamp": 1502479991833
+      "date-time": "2017-10-27T19:23:46Z",
+      "timestamp": 1509132226539
     },
     "posted": {
       "date-parts": [
@@ -3266,11 +3266,11 @@
         [
           2017,
           10,
-          4
+          27
         ]
       ],
-      "date-time": "2017-10-04T08:42:17Z",
-      "timestamp": 1507106537605
+      "date-time": "2017-10-27T06:54:11Z",
+      "timestamp": 1509087251852
     },
     "reference-count": 40,
     "publisher": "Emerald",
@@ -3409,11 +3409,11 @@
         [
           2017,
           10,
-          3
+          28
         ]
       ],
-      "date-time": "2017-10-03T02:22:22Z",
-      "timestamp": 1506997342166
+      "date-time": "2017-10-28T04:38:20Z",
+      "timestamp": 1509165500415
     },
     "reference-count": 31,
     "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
@@ -3463,7 +3463,7 @@
     },
     "page": "341-350",
     "source": "Crossref",
-    "is-referenced-by-count": 9,
+    "is-referenced-by-count": 12,
     "title": "Vega-Lite: A Grammar of Interactive Graphics",
     "prefix": "10.1109",
     "volume": "23",
@@ -3541,11 +3541,11 @@
         [
           2017,
           10,
-          10
+          27
         ]
       ],
-      "date-time": "2017-10-10T11:42:14Z",
-      "timestamp": 1507635734529
+      "date-time": "2017-10-27T20:08:24Z",
+      "timestamp": 1509134904931
     },
     "reference-count": 0,
     "publisher": "American Association for the Advancement of Science (AAAS)",
@@ -3578,7 +3578,7 @@
     },
     "page": "508-512",
     "source": "Crossref",
-    "is-referenced-by-count": 9,
+    "is-referenced-by-count": 10,
     "title": "Who's downloading pirated papers? Everyone",
     "prefix": "10.1126",
     "volume": "352",
@@ -3647,12 +3647,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          10
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-10T14:36:54Z",
-      "timestamp": 1502375814823
+      "date-time": "2017-10-27T20:35:26Z",
+      "timestamp": 1509136526797
     },
     "reference-count": 0,
     "publisher": "American Association for the Advancement of Science (AAAS)",
@@ -3757,12 +3757,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          9
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-09T08:15:24Z",
-      "timestamp": 1502266524361
+      "date-time": "2017-10-27T18:00:09Z",
+      "timestamp": 1509127209599
     },
     "reference-count": 0,
     "publisher": "American Association for the Advancement of Science (AAAS)",
@@ -3852,12 +3852,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          9
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-09T08:24:49Z",
-      "timestamp": 1502267089960
+      "date-time": "2017-10-27T20:18:17Z",
+      "timestamp": 1509135497170
     },
     "reference-count": 0,
     "publisher": "American Association for the Advancement of Science (AAAS)",
@@ -3947,12 +3947,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          9
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-09T09:03:10Z",
-      "timestamp": 1502269390511
+      "date-time": "2017-10-27T20:45:07Z",
+      "timestamp": 1509137107437
     },
     "reference-count": 0,
     "publisher": "American Association for the Advancement of Science (AAAS)",
@@ -4042,12 +4042,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          10
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-10T05:53:47Z",
-      "timestamp": 1502344427742
+      "date-time": "2017-10-27T17:57:03Z",
+      "timestamp": 1509127023648
     },
     "reference-count": 0,
     "publisher": "American Association for the Advancement of Science (AAAS)",
@@ -4137,12 +4137,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          11
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-11T20:50:14Z",
-      "timestamp": 1502484614466
+      "date-time": "2017-10-27T16:36:20Z",
+      "timestamp": 1509122180347
     },
     "reference-count": 0,
     "publisher": "American Association for the Advancement of Science (AAAS)",
@@ -4224,12 +4224,12 @@
       "date-parts": [
         [
           2017,
-          8,
+          10,
           27
         ]
       ],
-      "date-time": "2017-08-27T11:42:26Z",
-      "timestamp": 1503834146432
+      "date-time": "2017-10-27T23:06:32Z",
+      "timestamp": 1509145592976
     },
     "reference-count": 0,
     "publisher": "American Association for the Advancement of Science (AAAS)",
@@ -4311,12 +4311,12 @@
       "date-parts": [
         [
           2017,
-          9,
-          22
+          10,
+          28
         ]
       ],
-      "date-time": "2017-09-22T01:40:19Z",
-      "timestamp": 1506044419967
+      "date-time": "2017-10-28T01:03:23Z",
+      "timestamp": 1509152603264
     },
     "reference-count": 0,
     "publisher": "American Association for the Advancement of Science (AAAS)",
@@ -4399,11 +4399,11 @@
         [
           2017,
           10,
-          7
+          28
         ]
       ],
-      "date-time": "2017-10-07T01:40:28Z",
-      "timestamp": 1507340428985
+      "date-time": "2017-10-28T01:36:37Z",
+      "timestamp": 1509154597878
     },
     "reference-count": 0,
     "publisher": "American Association for the Advancement of Science (AAAS)",
@@ -4486,11 +4486,11 @@
         [
           2017,
           10,
-          4
+          27
         ]
       ],
-      "date-time": "2017-10-04T13:42:14Z",
-      "timestamp": 1507124534120
+      "date-time": "2017-10-27T18:15:27Z",
+      "timestamp": 1509128127062
     },
     "reference-count": 35,
     "publisher": "Springer Nature",
@@ -4542,7 +4542,7 @@
     },
     "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 84,
+    "is-referenced-by-count": 86,
     "title": "‘Predatory’ open access: a longitudinal study of article volumes and market characteristics",
     "prefix": "10.1186",
     "volume": "13",
@@ -4634,12 +4634,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          11
+          10,
+          28
         ]
       ],
-      "date-time": "2017-08-11T05:00:59Z",
-      "timestamp": 1502427659000
+      "date-time": "2017-10-28T05:39:08Z",
+      "timestamp": 1509169148038
     },
     "reference-count": 26,
     "publisher": "F1000 Research, Ltd.",
@@ -4831,12 +4831,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          11
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-11T16:31:37Z",
-      "timestamp": 1502469097126
+      "date-time": "2017-10-27T16:51:21Z",
+      "timestamp": 1509123081418
     },
     "update-to": [
       {
@@ -5071,12 +5071,12 @@
       "date-parts": [
         [
           2017,
-          9,
-          29
+          10,
+          27
         ]
       ],
-      "date-time": "2017-09-29T16:42:13Z",
-      "timestamp": 1506703333992
+      "date-time": "2017-10-27T11:57:46Z",
+      "timestamp": 1509105466571
     },
     "update-to": [
       {
@@ -5136,7 +5136,7 @@
     "page": "632",
     "update-policy": "http://dx.doi.org/10.12688/f1000research.crossmark-policy",
     "source": "Crossref",
-    "is-referenced-by-count": 12,
+    "is-referenced-by-count": 14,
     "title": "The academic, economic and societal impacts of Open Access: an evidence-based review",
     "prefix": "10.12688",
     "volume": "5",
@@ -5307,12 +5307,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          9
+          10,
+          25
         ]
       ],
-      "date-time": "2017-08-09T05:48:27Z",
-      "timestamp": 1502257707298
+      "date-time": "2017-10-25T14:55:06Z",
+      "timestamp": 1508943306991
     },
     "reference-count": 0,
     "publisher": "Informa UK Limited",
@@ -5408,12 +5408,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          21
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-21T05:02:15Z",
-      "timestamp": 1503291735365
+      "date-time": "2017-10-27T07:07:24Z",
+      "timestamp": 1509088044845
     },
     "reference-count": 17,
     "publisher": "Public Library of Science (PLoS)",
@@ -5458,7 +5458,7 @@
     "page": "e93949",
     "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 52,
+    "is-referenced-by-count": 53,
     "title": "The Number of Scholarly Documents on the Public Web",
     "prefix": "10.1371",
     "volume": "9",
@@ -5544,11 +5544,11 @@
         [
           2017,
           10,
-          6
+          27
         ]
       ],
-      "date-time": "2017-10-06T12:22:11Z",
-      "timestamp": 1507292531230
+      "date-time": "2017-10-27T10:45:25Z",
+      "timestamp": 1509101125046
     },
     "reference-count": 48,
     "publisher": "Public Library of Science (PLoS)",
@@ -5593,7 +5593,7 @@
     "page": "e0127502",
     "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 57,
+    "is-referenced-by-count": 60,
     "title": "The Oligopoly of Academic Publishers in the Digital Era",
     "prefix": "10.1371",
     "volume": "10",
@@ -5684,11 +5684,11 @@
         [
           2017,
           10,
-          5
+          28
         ]
       ],
-      "date-time": "2017-10-05T18:10:43Z",
-      "timestamp": 1507227043884
+      "date-time": "2017-10-28T01:34:30Z",
+      "timestamp": 1509154470927
     },
     "reference-count": 19,
     "publisher": "Public Library of Science (PLoS)",
@@ -5853,12 +5853,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          9
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-09T11:53:29Z",
-      "timestamp": 1502279609817
+      "date-time": "2017-10-27T22:46:40Z",
+      "timestamp": 1509144400731
     },
     "reference-count": 0,
     "publisher": "Authorea, Inc.",
@@ -5918,12 +5918,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          11
+          10,
+          26
         ]
       ],
-      "date-time": "2017-08-11T03:01:13Z",
-      "timestamp": 1502420473612
+      "date-time": "2017-10-26T18:19:56Z",
+      "timestamp": 1509041996810
     },
     "reference-count": 7,
     "publisher": "Ubiquity Press, Ltd.",
@@ -6020,12 +6020,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          11
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-11T01:15:00Z",
-      "timestamp": 1502414100985
+      "date-time": "2017-10-27T23:37:35Z",
+      "timestamp": 1509147455760
     },
     "reference-count": 29,
     "publisher": "Ubiquity Press, Ltd.",
@@ -6163,12 +6163,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          11
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-11T00:46:57Z",
-      "timestamp": 1502412417734
+      "date-time": "2017-10-27T06:27:21Z",
+      "timestamp": 1509085641073
     },
     "reference-count": 31,
     "publisher": "JMIR Publications Inc.",
@@ -6192,7 +6192,7 @@
     },
     "page": "e112",
     "source": "Crossref",
-    "is-referenced-by-count": 4,
+    "is-referenced-by-count": 5,
     "title": "Is Biblioleaks Inevitable?",
     "prefix": "10.2196",
     "volume": "16",
@@ -6318,12 +6318,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          30
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-30T14:46:00Z",
-      "timestamp": 1504104360180
+      "date-time": "2017-10-27T23:26:44Z",
+      "timestamp": 1509146804174
     },
     "reference-count": 24,
     "publisher": "Pensoft Publishers",
@@ -6453,12 +6453,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          18
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-18T16:10:06Z",
-      "timestamp": 1503072606181
+      "date-time": "2017-10-27T11:09:32Z",
+      "timestamp": 1509102572313
     },
     "reference-count": 0,
     "publisher": "University of Michigan Library",
@@ -6558,10 +6558,11 @@
     },
     "abstract": "These data include 28 million download request events from the server logs of Sci-Hub from 1 September 2015 through 29 February 2016. The uncompressed 2.7 gigabytes of data are separated into 6 data files, one for each month, in tab-delimited text format.",
     "DOI": "10.5061/dryad.q447c/1",
+    "page": "-",
     "publisher": "Dryad Digital Repository",
     "title": "Sci-Hub download data",
-    "URL": "https://doi.org/10.5061/dryad.q447c/1",
     "version": "1",
+    "URL": "https://doi.org/10.5061/dryad.q447c/1",
     "short_url": "https://doi.org/gbqrbn"
   },
   {
@@ -6581,6 +6582,7 @@
       ]
     },
     "DOI": "10.5062/f4g73bp3",
+    "page": "-",
     "publisher": "Issues in Science and Technology Librarianship",
     "title": "Factors in Science Journal Cancellation Projects: The Roles of Faculty Consultations and Data",
     "URL": "https://doi.org/10.5062/f4g73bp3",
@@ -6606,6 +6608,7 @@
     },
     "abstract": "The data and scripts used in <em>Looking into Pandora's Box: The Content of Sci-Hub and its Usage.</em> See README.md for details.",
     "DOI": "10.5281/zenodo.472493",
+    "page": "-",
     "publisher": "Zenodo",
     "title": "Data And Scripts For Looking Into Pandora'S Box: The Content Of Sci-Hub And Its Usage",
     "URL": "https://doi.org/10.5281/zenodo.472493",
@@ -6663,6 +6666,7 @@
     },
     "abstract": "This is the raw data behind the publication: \n\n<strong>The State of OA: A large-scale analysis of the prevalence and impact of Open Access articles.</strong>\n\nDespite growing interest in Open Access (OA) to scholarly literature, there is an unmet need for large-scale, up-to-date, and reproducible studies assessing the prevalence and characteristics of OA. We address this need using oaDOI, an open online service that determines OA status for 67 million articles. We use three samples, each of 100,000 articles, to investigate OA in three populations: 1) all journal articles assigned a Crossref DOI, 2) recent journal articles indexed in Web of Science, and 3) articles viewed by users of Unpaywall, an open-source browser extension that lets users find OA articles using oaDOI. We estimate that at least 28% of the scholarly literature is OA (19M in total) and that this proportion is growing, driven particularly by growth in Gold and Hybrid. The most recent year analyzed (2015) also has the highest percentage of OA (45%). Because of this growth, and the fact that readers disproportionately access newer articles, we find that Unpaywall users encounter OA quite frequently: 47% of articles they view are OA. Notably, the most common mechanism for OA is not Gold, Green, or Hybrid OA, but rather an under-discussed category we dub Bronze: articles made free-to-read on the publisher website, without an explicit Open license.  We also examine the citation impact of OA articles, corroborating the so-called open-access citation advantage: accounting for age and discipline, OA articles receive 18% more citations than average, an effect driven primarily by Green and Hybrid OA. We encourage further research using the free oaDOI service, as a way to inform OA policy and practice.",
     "DOI": "10.5281/zenodo.837902",
+    "page": "-",
     "publisher": "Zenodo",
     "title": "Data From: The State Of Oa: A Large-Scale Analysis Of The Prevalence And Impact Of Open Access Articles",
     "URL": "https://doi.org/10.5281/zenodo.837902",
@@ -6674,11 +6678,11 @@
         [
           2017,
           10,
-          5
+          26
         ]
       ],
-      "date-time": "2017-10-05T02:42:16Z",
-      "timestamp": 1507171336871
+      "date-time": "2017-10-26T22:53:09Z",
+      "timestamp": 1509058389513
     },
     "reference-count": 0,
     "publisher": "American Library Association",
@@ -6778,12 +6782,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          11
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-11T17:53:37Z",
-      "timestamp": 1502474017540
+      "date-time": "2017-10-27T17:55:00Z",
+      "timestamp": 1509126900730
     },
     "reference-count": 0,
     "publisher": "American Library Association",
@@ -6910,6 +6914,7 @@
     },
     "abstract": "This dataset contains the amount of money paid by UK higher education institutions to ten major publishers (Elsevier, Wiley, Springer, Taylor &amp; Francis, Sage, Oxford University Press, Cambridge University Press, Nature Publishing Group, Royal Society of Chemistry, and Institute of Physics Publishing) for academic journals from 2010-14. The data was obtained by sending FOI requests to each institution through the website whatdotheyknow.com. It now represents over £430m of expenditure.\nThese are ten of the largest academic publishers but do not represent the total spend of these institutions on academic journals.\nPlease see the F1000 data note (http://f1000research.com/articles/3-274/v3) for a full description of the data collection process. For a visualisation of the data go to http://shiny.retr0.me/journal_costs/, and for updated 2015/16 figures go to https://figshare.com/articles/Journal_subscription_expenditure_in_the_UK_2015-16/4542433/3<br>\n<strong>UPDATE 08/10/2014</strong>: Added figures for 13 more institutions.\n<strong>UPDATE 22/10/2014</strong>: Added figures for subscriptions to Elsevier journals. Also includes additional figures for other publishers for 16 institutions.\n<strong>UPDATE 24/10/2014</strong>: Added figures for subscriptions to Elsevier journals for 13 more institutions.\n<strong>UPDATE 27/10/2014</strong>: Added figures for subscriptions to Elsevier journals for 5 more institutions.\n<strong>UPDATE 29/10/2014</strong>: Added figures for subscriptions to Elsevier journals for 25 more institutions.\n<strong>UPDATE 5/11/2014</strong>: Added figures for subscriptions to Elsevier journals for 14 more institutions.\n<strong>UPDATE 25/11/2014</strong>: Added figures for Wiley, Springer, and OUP for 20 Russell Group institutions from Michelle Brook's FOI data (http://dx.doi.org/10.6084/m9.figshare.1250073) as well as further figures for around 20 other institutions.\n<strong>UPDATE 03/12/2014</strong>: Added figures for subscriptions to various publishers for 13 institutions.\n<strong>UPDATE 09/12/2014</strong>: Added figures for subscriptions to various publishers for 15 institutions.\n<strong>UPDATE 23/12/2014</strong>: Added figures for subscriptions to various publishers for 12 institutions.\n<strong>Note on the data 16/01/2015</strong>: It has been brought to my attention that the way I have added VAT to some figures may not be 100% accurate. I have added VAT to those figures for which it was not provided (a minority), but since VAT is only applied to electronic and not print publications in the UK, the figures I have added may not be completely accurate. Electronic subscriptions make up the majority of journal expenditure now but not all of it. Please bear this is mind when directly comparing different institutions' figures. I will see revisit the data at some point to see if I can rectify the problem.\n<strong>UPDATE 22/01/2015</strong>: Added figures for subscriptions to various publishers for 16 institutions.\n<strong>UPDATE 20/03/2015</strong>: Added figures for subscriptions to various publishers for 16 institutions. I have also removed the VAT (17.5% in 2010, 20% in 2011-14) which I had previously added to those figures which excluded VAT. This is to address the issue raised above - in the UK, VAT is only charged on electronic publications and not print. Since I don't know which proportion of the expenditure is on print and which is on electronic, I have decided not to add VAT. This may not make the figures more accurate but at least I can be sure that I am not inflating them. The total is now around £5m lower than before.\n<strong>UPDATE 05/06/2015</strong>: Data for three more publishers added (NPG, RSC, and IOP) for 70 institutions. Added figures for various other publishers for three institutions.\n<strong>UPDATES 10/06/2015</strong>: Added figures for subscriptions to NPG, RSC, and IOP for 17 institutions. Fixed two formatting errors as noted by D. Himmelstein in the comments.\n<strong>UPDATE 12/06/2015</strong>: Added figures for subscriptions to NPG, RSC, and IOP for 20 institutions.\n<strong>UPDATE 17/06/2015</strong>: Added figures for subscriptions to NPG, RSC, and IOP for 27 institutions.\n<strong>UPDATE 29/06/2015</strong>: Added figures for subscriptions to NPG, RSC, and IOP for 7 institutions.\n<strong>UPDATE 29/07/2015</strong>: Added figures for subscriptions to NPG, RSC, and IOP for 5 institutions.",
     "DOI": "10.6084/m9.figshare.1186832.v23",
+    "page": "-",
     "publisher": "Figshare",
     "title": "Journal subscription costs - FOIs to UK universities",
     "URL": "https://doi.org/10.6084/m9.figshare.1186832.v23",
@@ -6937,6 +6942,7 @@
     },
     "abstract": "This document describe the full metadata schema used by the OpenCitations Corpus (OCC), i.e. an open access corpus of scholarly citation data, namely information about the author-created bibliographic references present in publications that cite other publications.<br>",
     "DOI": "10.6084/m9.figshare.3443876.v3",
+    "page": "-",
     "publisher": "Figshare",
     "title": "Metadata for the OpenCitations Corpus",
     "URL": "https://doi.org/10.6084/m9.figshare.3443876.v3",
@@ -6960,6 +6966,7 @@
     },
     "abstract": "This dataset contains payments made by UK higher education institutions for access to academic journals from eight publishers in 2015 and 2016. The data was obtained by sending Freedom of Information requests to 153 institutions through the website whatdotheyknow.com.<br><br>The total expenditure on these eight publishers in 2016 was £103m.<br><br>* Updated 24 January 2017 with data for five institutions.<br>* Updated 20 February 2017 with data for nine institutions.<br>* Updated 19 April 2017 with data for two institutions.<br>* Updated 26 April 2017 after checking all figures for inclusion of VAT and currency conversion from EUR to GBP.<br>* Updated 9 May 2017 with figures for Elsevier expenditure by University of Leeds. <br>",
     "DOI": "10.6084/m9.figshare.4542433.v6",
+    "page": "-",
     "publisher": "Figshare",
     "title": "Journal subscription expenditure in the UK 2015-16",
     "URL": "https://doi.org/10.6084/m9.figshare.4542433.v6",
@@ -6991,6 +6998,7 @@
     },
     "abstract": "crossref-works.json.xz contains Crossref metadata for 87,542,370 DOIs retrieved by querying works from the Crossref API.<br>Queries began on 2017-03-21 and completed on 2017-04-02. The process died or stalled several times, but was restarted using the API's cursor. Accordingly, the works should represent the Crossref database as of 2017-03-21.<code><br></code><code>crossref-works.json.xz</code> is an xz-compressed file of exported works from MongoDB. It was created using <code>mongoexport</code> and can be imported into MongoDB using <code>mongoimport</code>. The file as a whole is not actually valid JSON. However, each line of the file is valid JSON and encodes a single work retrieved from the Crossref API. Accordingly, you can read this file without <code>mongoimport</code> by splitting at newlines and parsing each line as JSON.<br><br>See https://git.io/vSzIU for more information. The versioned shortDOI for this figshare article is https://doi.org/b48h.<br>",
     "DOI": "10.6084/m9.figshare.4816720.v1",
+    "page": "-",
     "publisher": "Figshare",
     "title": "Metadata for all DOIs in Crossref: JSON MongoDB exports of all works from the Crossref API",
     "URL": "https://doi.org/10.6084/m9.figshare.4816720.v1",
@@ -7042,6 +7050,7 @@
     },
     "abstract": "This dataset contains the metadata for the LibGen scimag database of full-text scholarly documents. Each row of this dataset corresponds to a scholarly document in the LibGen scimag database, as identified by its DOI.<br>scimag_dbbackup-2017-04-07.rar was downloaded from http://libgen.io/dbdumps/backup_archive/scimag_dbbackup-2017-04-07.rar. It's a compressed SQL dump of the LibGen scimag metadata database on 2017-04-07. This is the unmodified file downloaded from libgen.io. It encodes a single table named scimag.<br><br>libgen-scimag-2017-04-07.tsv.xz contains a TSV version of the scimag table from scimag_dbbackup-2017-04-07.rar. It's more user-friendly because it provides access to the data without requiring MySQL, is UTF-8 encoded, and has null bytes removed.<br>The code that downloaded and processed these datasets is at https://git.io/v7Uh4. Users should note that the TimeAdded column appears to store the modification rather than the creation date for each DOI. As discussed in https://doi.org/b9s5, this field should not be mistaken for the date of first upload to LibGen scimag.",
     "DOI": "10.6084/m9.figshare.5231245.v1",
+    "page": "-",
     "publisher": "Figshare",
     "title": "A user-friendly extract of the LibGen scimag metadata SQL dump on 2017-04-07",
     "URL": "https://doi.org/10.6084/m9.figshare.5231245.v1",
@@ -7064,6 +7073,7 @@
     },
     "abstract": "This archive contains the dump of the OpenCitation Corpus (OCC, http://opencitations.net) dataset about bibliographic resources, created regularly every month.<br><br>After unzipping the archive, Disk ARchive (DAR, http://dar.linux.free.fr/, a multi-platform archive tool for managing huge amount of data) is needed for recreating the whole structure. For extracting the DAR archive, please run the command<br><br>dar -x [archive-name]<br><br>Where \"[archive-name\"] is the name of the DAR file without final package number and extension. E.g.:<br><br>dar -x 2016-09-23-corpus_re<br><br>For further questions, comments, and suggestions please don't hesitate to contact Silvio Peroni at essepuntato@opencitations.net.",
     "DOI": "10.6084/m9.figshare.5255365.v1",
+    "page": "-",
     "publisher": "Figshare",
     "title": "OCC dataset of all the bibliographic resources, made on 2017-07-25",
     "URL": "https://doi.org/10.6084/m9.figshare.5255365.v1",
@@ -7086,6 +7096,7 @@
     },
     "abstract": "This archive contains the dump of the OpenCitation Corpus (OCC, http://opencitations.net) dataset about identifiers, created regularly every month.<br><br>After unzipping the archive, Disk ARchive (DAR, http://dar.linux.free.fr/, a multi-platform archive tool for managing huge amount of data) is needed for recreating the whole structure. For extracting the DAR archive, please run the command<br><br>dar -x [archive-name]<br><br>Where \"[archive-name\"] is the name of the DAR file without final package number and extension. E.g.:<br><br>dar -x 2016-09-23-corpus_re<br><br>For further questions, comments, and suggestions please don't hesitate to contact Silvio Peroni at essepuntato@opencitations.net.",
     "DOI": "10.6084/m9.figshare.5255368.v1",
+    "page": "-",
     "publisher": "Figshare",
     "title": "OCC dataset of all the identifiers, made on 2017-07-25",
     "URL": "https://doi.org/10.6084/m9.figshare.5255368.v1",
@@ -7096,12 +7107,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          10
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-10T17:58:43Z",
-      "timestamp": 1502387923798
+      "date-time": "2017-10-27T03:03:54Z",
+      "timestamp": 1509073434884
     },
     "reference-count": 1,
     "publisher": "Korean Council of Science Editors",
@@ -7276,10 +7287,11 @@
     },
     "abstract": "The website Sci-Hub provides access to scholarly literature via full text PDF downloads. The site enables users to access articles that would otherwise be paywalled. Since its creation in 2011, Sci-Hub has grown rapidly in popularity. However, until now, the extent of Sci-Hub's coverage was unclear. As of March 2017, we find that Sci-Hub's database contains 68.9% of all 81.6 million scholarly articles, which rises to 85.2% for those published in closed access journals. Furthermore, Sci-Hub contains 77.0% of the 5.2 million articles published by inactive journals. Coverage varies by discipline, with 92.8% coverage of articles in chemistry journals compared to 76.3% for computer science. Coverage also varies by publisher, with the coverage of the largest publisher, Elsevier, at 97.3%. Our interactive browser at https://greenelab.github.io/scihub allows users to explore these findings in more detail. Finally, we estimate that over a six-month period in 2015–2016, Sci-Hub provided access for 99.3% of valid incoming requests. Hence, the scope of this resource suggests the subscription publishing model is becoming unsustainable. For the first time, the overwhelming majority of scholarly literature is available gratis to anyone with an Internet connection.",
     "DOI": "10.7287/peerj.preprints.3100v1",
+    "page": "-",
     "publisher": "PeerJ Preprints",
     "title": "Sci-Hub provides access to nearly all scholarly literature",
-    "URL": "https://doi.org/10.7287/peerj.preprints.3100v1",
     "version": "1",
+    "URL": "https://doi.org/10.7287/peerj.preprints.3100v1",
     "short_url": "https://doi.org/b9s6"
   },
   {
@@ -7334,10 +7346,11 @@
     },
     "abstract": "Despite growing interest in Open Access (OA) to scholarly literature, there is an unmet need for large-scale, up-to-date, and reproducible studies assessing the prevalence and characteristics of OA. We address this need using oaDOI, an open online service that determines OA status for 67 million articles.We use three samples, each of 100,000 articles, to investigate OA in three populations: 1) all journal articles assigned a Crossref DOI, 2) recent journal articles indexed in Web of Science, and 3) articles viewed by users of Unpaywall, an open-source browser extension that lets users find OA articles using oaDOI.We estimate that at least 28% of the scholarly literature is OA (19M in total) and that this proportion is growing, driven particularly by growth in Gold and Hybrid. The most recent year analyzed (2015) also has the highest percentage of OA (45%). Because of this growth, and the fact that readers disproportionately access newer articles, we find that Unpaywall users encounter OA quite frequently: 47% of articles they view are OA. Notably, the most common mechanism for OA is not Gold, Green, or Hybrid OA, but rather an under-discussed category we dub Bronze: articles made free-to-read on the publisher website, without an explicit Open license.We also examine the citation impact of OA articles, corroborating the so-called open-access citation advantage: accounting for age and discipline, OA articles receive 18% more citations than average, an effect driven primarily by Green and Hybrid OA. We encourage further research using the free oaDOI service, as a way to inform OA policy and practice.",
     "DOI": "10.7287/peerj.preprints.3119v1",
+    "page": "-",
     "publisher": "PeerJ Preprints",
     "title": "The State of OA: A large-scale analysis of the prevalence and impact of Open Access articles",
-    "URL": "https://doi.org/10.7287/peerj.preprints.3119v1",
     "version": "1",
+    "URL": "https://doi.org/10.7287/peerj.preprints.3119v1",
     "short_url": "https://doi.org/gbqtxd"
   },
   {
