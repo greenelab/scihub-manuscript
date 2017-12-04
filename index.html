@@ -1,18 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
 <head>
-  <meta charset="utf-8">
-  <meta name="generator" content="pandoc">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <meta name="author" content="Daniel S. Himmelstein">
-  <meta name="author" content="Ariel Rodriguez Romero">
-  <meta name="author" content="Stephen Reid McLaughlin">
-  <meta name="author" content="Bastian Greshake Tzovaras">
-  <meta name="author" content="Casey S. Greene">
-  <meta name="dcterms.date" content="2017-11-27">
-  <meta name="keywords" content="Sci-Hub, publishing, literature, piracy, data-science, LibGen, journals, open-data, copyright, paywalls">
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Daniel S. Himmelstein" />
+  <meta name="author" content="Ariel Rodriguez Romero" />
+  <meta name="author" content="Stephen Reid McLaughlin" />
+  <meta name="author" content="Bastian Greshake Tzovaras" />
+  <meta name="author" content="Casey S. Greene" />
+  <meta name="dcterms.date" content="2017-12-04" />
+  <meta name="keywords" content="Sci-Hub, publishing, literature, piracy, data-science, LibGen, journals, open-data, copyright, paywalls" />
   <title>Sci-Hub provides access to nearly all scholarly literature</title>
-  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.line-block{white-space: pre-line;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
   <link rel="stylesheet" href="github-pandoc.css">
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
@@ -39,7 +45,7 @@
 <h1 class="title">Sci-Hub provides access to nearly all scholarly literature</h1>
 </header>
 <p><em>A DOI-citable version of this manuscript is available at <a href="https://doi.org/10.7287/peerj.preprints.3100" class="uri">https://doi.org/10.7287/peerj.preprints.3100</a></em>.</p>
-<p><small><em> This manuscript was automatically generated from <a href="https://github.com/greenelab/scihub-manuscript/tree/408aa3ca46377f7a16725af1fe4163eac2f66d64">greenelab/scihub-manuscript@408aa3c</a> on November 27, 2017. Submit feedback on the manuscript at <a href="https://git.io/v7feh">git.io/v7feh</a> or on the analyses at <a href="https://git.io/v7fvJ">git.io/v7fvJ</a>. </em></small></p>
+<p><small><em> This manuscript was automatically generated from <a href="https://github.com/greenelab/scihub-manuscript/tree/467cc5fa37197b48f52a39596a804e57aada5a29">greenelab/scihub-manuscript@467cc5f</a> on December 4, 2017. Submit feedback on the manuscript at <a href="https://git.io/v7feh">git.io/v7feh</a> or on the analyses at <a href="https://git.io/v7fvJ">git.io/v7fvJ</a>. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><p><strong>Daniel S. Himmelstein</strong><br> <img src="images/orcid.svg" alt="ORCID icon" width="13" height="13" /> <a href="https://orcid.org/0000-0002-3012-7446">0000-0002-3012-7446</a> · <img src="images/github.svg" alt="GitHub icon" width="13" height="13" /> <a href="https://github.com/dhimmel">dhimmel</a> · <img src="images/twitter.svg" alt="Twitter icon" width="13" height="13" /> <a href="https://twitter.com/dhimmel">dhimmel</a><br> <small> Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania · Funded by GBMF4552 </small></p></li>
@@ -63,7 +69,7 @@
 </blockquote>
 <p>One method Sci-Hub uses to bypass paywalls is by obtaining leaked authentication credentials for educational institutions <span class="citation" data-cites="1H8x8f4Y7">[<a href="#ref-1H8x8f4Y7">30</a>]</span>. These credentials enable Sci-Hub to use institutional networks as proxies and gain subscription journal access. While the open access movement has progressed slowly <span class="citation" data-cites="KDvO1ctK">[<a href="#ref-KDvO1ctK">31</a>]</span>, Sci-Hub represents a seismic shift in access to scholarly literature. Since its inception, Sci-Hub has experienced sustained growth, with spikes in interest and awareness driven by legal proceedings, news coverage, and social media (Figure <a href="#fig:history">1</a>). Here we investigate the extent to which Sci-Hub provides access to scholarly literature. If Sci-Hub’s coverage is sufficiently broad, then a radical shift may be underway in how individuals access scholarly literature.</p>
 <figure>
-<img src="https://cdn.rawgit.com/greenelab/scihub/02851bfad35f08ab4d64b9b5a671eebac951cdb9/explore/trends/google-trends.png" alt="Figure 1: The history of Sci-Hub. Weekly interest from Google Trends is plotted over time for the search terms Sci-Hub and LibGen. The light green period indicates when Sci-Hub used LibGen as its database for storing articles [30]. The light blue period indicates the public availability of access logs from Sci-Hub [32]. The first pink dotted line represents the collection date of the LibGen metadata used in Cabanac’s study [33,34]. The second pink dotted line shows the date of Sci-Hub’s Tweeted DOI catalog used in this study." id="fig:history" style="width:100.0%" /><figcaption>Figure 1: <strong>The history of Sci-Hub.</strong> Weekly interest from Google Trends is plotted over time for the search terms “Sci-Hub” and “LibGen”. The light green period indicates when Sci-Hub used LibGen as its database for storing articles <span class="citation" data-cites="1H8x8f4Y7">[<a href="#ref-1H8x8f4Y7">30</a>]</span>. The light blue period indicates the public availability of access logs from Sci-Hub <span class="citation" data-cites="kQFQ8EaO">[<a href="#ref-kQFQ8EaO">32</a>]</span>. The first pink dotted line represents the collection date of the LibGen metadata used in Cabanac’s study <span class="citation" data-cites="18KKRwlN6 GxWkjeN2">[<a href="#ref-18KKRwlN6">33</a>,<a href="#ref-GxWkjeN2">34</a>]</span>. The second pink dotted line shows the date of Sci-Hub’s Tweeted DOI catalog used in this study.</figcaption>
+<img src="https://cdn.rawgit.com/greenelab/scihub/02851bfad35f08ab4d64b9b5a671eebac951cdb9/explore/trends/google-trends.png" alt="Figure 1: The history of Sci-Hub. Weekly interest from Google Trends is plotted over time for the search terms “Sci-Hub” and “LibGen”. The light green period indicates when Sci-Hub used LibGen as its database for storing articles [30]. The light blue period indicates the public availability of access logs from Sci-Hub [32]. The first pink dotted line represents the collection date of the LibGen metadata used in Cabanac’s study [33,34]. The second pink dotted line shows the date of Sci-Hub’s Tweeted DOI catalog used in this study." id="fig:history" style="width:100.0%" /><figcaption>Figure 1: <strong>The history of Sci-Hub.</strong> Weekly interest from Google Trends is plotted over time for the search terms “Sci-Hub” and “LibGen”. The light green period indicates when Sci-Hub used LibGen as its database for storing articles <span class="citation" data-cites="1H8x8f4Y7">[<a href="#ref-1H8x8f4Y7">30</a>]</span>. The light blue period indicates the public availability of access logs from Sci-Hub <span class="citation" data-cites="kQFQ8EaO">[<a href="#ref-kQFQ8EaO">32</a>]</span>. The first pink dotted line represents the collection date of the LibGen metadata used in Cabanac’s study <span class="citation" data-cites="18KKRwlN6 GxWkjeN2">[<a href="#ref-18KKRwlN6">33</a>,<a href="#ref-GxWkjeN2">34</a>]</span>. The second pink dotted line shows the date of Sci-Hub’s Tweeted DOI catalog used in this study.</figcaption>
 </figure>
 <p>In Figure <a href="#fig:history">1</a>, The ⓛⓔⓣⓣⓔⓡⓢ refer to the following events:</p>
 <ul>
@@ -87,7 +93,7 @@
 <h3 id="coverage-by-article-type">Coverage by article type</h3>
 <p>Each article in Crossref’s database is assigned a type. Figure <a href="#fig:types">2</a> shows coverage by article type. The scholarly literature consisted primarily of journal articles, for which Sci-Hub had 77.8% coverage. Sci-Hub’s coverage was also strong for the 5 million proceedings articles at 79.7%. Overall coverage suffered from the 10 million book chapters, where coverage was poor (14.2%). The remaining Crossref types were uncommon, and hence contributed little to overall coverage.</p>
 <figure>
-<img src="https://cdn.rawgit.com/greenelab/scihub/02851bfad35f08ab4d64b9b5a671eebac951cdb9/figure/coverage-by-type.svg" alt="Figure 2: Coverage by article type. Coverage is plotted for the Crossref work types included by this study. We refer to all of these types as articles." id="fig:types" width="384" /><figcaption>Figure 2: <strong>Coverage by article type.</strong> Coverage is plotted for the Crossref work types included by this study. We refer to all of these types as “articles”.</figcaption>
+<img src="https://cdn.rawgit.com/greenelab/scihub/02851bfad35f08ab4d64b9b5a671eebac951cdb9/figure/coverage-by-type.svg" alt="Figure 2: Coverage by article type. Coverage is plotted for the Crossref work types included by this study. We refer to all of these types as “articles”." id="fig:types" style="width:4in" /><figcaption>Figure 2: <strong>Coverage by article type.</strong> Coverage is plotted for the Crossref work types included by this study. We refer to all of these types as “articles”.</figcaption>
 </figure>
 <h3 id="coverage-by-journal">Coverage by journal</h3>
 <p>We defined a comprehensive set of scholarly publishing venues, referred to as “journals”, based on the Scopus database. In reality, these include conferences with proceedings as well as book series. For inclusion in this analysis, each required an ISSN and at least one article as part of the Crossref-derived catalog of scholarly literature. Accordingly, our catalog consisted of 22,193 journals encompassing 57,074,208 articles. Of these journals, 4,345 (19.6%) were inactive (i.e. no longer publishing articles), and 2,650 were open access (11.9%). Only two journals were inactive and also open access.</p>
@@ -168,7 +174,7 @@
 </table>
 <p>In general, a journal’s coverage was either nearly complete or nearly entirely absent (Figure <a href="#fig:distributions">3</a>). As a result, relatively few journals had coverage between 5–75%. At the extremes, 2,342 journals had zero coverage in Sci-Hub, whereas 2,067 journals had perfect coverage. Of zero-coverage journals, 22.3% were inactive, and 27.2% were open access. Of perfect-coverage journals, 80.3% were inactive, and 1.9% were open access. Hence, inactive, toll access journals make up the bulk of perfect-coverage journals.</p>
 <figure>
-<img src="https://cdn.rawgit.com/greenelab/scihub/02851bfad35f08ab4d64b9b5a671eebac951cdb9/figure/coverage-distributions.svg" alt="Figure 3: Distributions of journal &amp; publisher coverages. The histograms show the distribution of Sci-Hub’s coverage for journals and publishers. Each bin spans 2.5 percentage points." id="fig:distributions" width="480" /><figcaption>Figure 3: <strong>Distributions of journal &amp; publisher coverages.</strong> The histograms show the distribution of Sci-Hub’s coverage for journals and publishers. Each bin spans 2.5 percentage points.</figcaption>
+<img src="https://cdn.rawgit.com/greenelab/scihub/02851bfad35f08ab4d64b9b5a671eebac951cdb9/figure/coverage-distributions.svg" alt="Figure 3: Distributions of journal &amp; publisher coverages. The histograms show the distribution of Sci-Hub’s coverage for journals and publishers. Each bin spans 2.5 percentage points." id="fig:distributions" style="width:5in" /><figcaption>Figure 3: <strong>Distributions of journal &amp; publisher coverages.</strong> The histograms show the distribution of Sci-Hub’s coverage for journals and publishers. Each bin spans 2.5 percentage points.</figcaption>
 </figure>
 <p>Next, we explored article coverage according to journal attributes (Figure <a href="#fig:attributes">4</a>). Sci-Hub covered 83.4% of the 57,074,208 articles that were attributable to an academic journal. Articles from inactive journals had slightly lower coverage than active journals (77.0% versus 84.3%). Strikingly, coverage was substantially higher for articles from toll rather than open access journals (85.2% versus 49.1%). Coverage did vary by subject area, with the highest coverage in chemistry at 92.8% and the lowest coverage in computer science at 76.3%. Accordingly, no discipline had coverage below 75%. See Figure <a href="#fig:countries">S1</a> for coverage according to a journal’s country of publication.</p>
 <figure>
@@ -215,7 +221,7 @@
 <p>Nonetheless, Sci-Hub’s catalog contains 72.4% of the 510,760 distinct book chapters that were accessed according to the logs. Therefore, on a chapter-by-chapter basis, Sci-Hub does already possess many of the requested scholarly books available from LibGen.</p>
 <p>We computed journal-level metrics based on average article downloads. The “visitors” metric assesses the average number of IP addresses that accessed each article published by a journal during the 20 months preceding September 2015 (the start date of the Sci-Hub logs). In aggregate, articles from toll access journals averaged 1.30 visitors, whereas articles from open access journals averaged 0.27 visitors. Figure <a href="#fig:citescore">9</a>B shows that articles from highly cited journals were visited much more frequently on average. Articles in the least cited toll access journals averaged almost zero visitors, compared to approximately 15 visitors for the most cited journals. In addition, Figure <a href="#fig:citescore">9</a>B shows that articles in toll access journals received many times more visitors than those in open access journals, even after accounting for journal impact. One limitation of using this analysis to judge Sci-Hub’s usage patterns is that we do not know to what extent certain categories of articles were resolved (and thus logged) at different rates.</p>
 <figure>
-<img src="https://cdn.rawgit.com/greenelab/scihub/02851bfad35f08ab4d64b9b5a671eebac951cdb9/figure/citescore.svg" alt="Figure 9: Relation to journal impact. A) Average coverage for journals divided into 2015 CiteScore deciles. The CiteScore range defining each decile is shown by the x-axis labels. The ticks represent 99% confidence intervals of the mean. This is the only analysis where Sci-Hub Coverage refers to journal-level rather than article-level averages. B) The association between 2015 CiteScore and average visitors per article is plotted for open and toll access journals. Curves show the 95% confidence band from a Generalized Additive Model." id="fig:citescore" style="width:100.0%" /><figcaption>Figure 9: <strong>Relation to journal impact.</strong> <strong>A)</strong> Average coverage for journals divided into 2015 CiteScore deciles. The CiteScore range defining each decile is shown by the x-axis labels. The ticks represent 99% confidence intervals of the mean. This is the only analysis where “Sci-Hub Coverage” refers to journal-level rather than article-level averages. <strong>B)</strong> The association between 2015 CiteScore and average visitors per article is plotted for open and toll access journals. Curves show the 95% confidence band from a Generalized Additive Model.</figcaption>
+<img src="https://cdn.rawgit.com/greenelab/scihub/02851bfad35f08ab4d64b9b5a671eebac951cdb9/figure/citescore.svg" alt="Figure 9: Relation to journal impact. A) Average coverage for journals divided into 2015 CiteScore deciles. The CiteScore range defining each decile is shown by the x-axis labels. The ticks represent 99% confidence intervals of the mean. This is the only analysis where “Sci-Hub Coverage” refers to journal-level rather than article-level averages. B) The association between 2015 CiteScore and average visitors per article is plotted for open and toll access journals. Curves show the 95% confidence band from a Generalized Additive Model." id="fig:citescore" style="width:100.0%" /><figcaption>Figure 9: <strong>Relation to journal impact.</strong> <strong>A)</strong> Average coverage for journals divided into 2015 CiteScore deciles. The CiteScore range defining each decile is shown by the x-axis labels. The ticks represent 99% confidence intervals of the mean. This is the only analysis where “Sci-Hub Coverage” refers to journal-level rather than article-level averages. <strong>B)</strong> The association between 2015 CiteScore and average visitors per article is plotted for open and toll access journals. Curves show the 95% confidence band from a Generalized Additive Model.</figcaption>
 </figure>
 <h2 id="discussion" class="page_break_before">Discussion</h2>
 <p>Sci-Hub’s repository contains 69% of all scholarly articles with DOIs. Coverage for the 54.3 million articles attributed to toll access journals — which some users may not otherwise be able to access — was 85.2%. Since Sci-Hub can retrieve, in real time, requested articles that are not in its database, our coverage figures are a lower bound. Furthermore, Sci-Hub preferentially covers popular, paywalled articles. We find that citations since 2015 were 91.0% present in Sci-Hub’s repository, which increased to 96.2% when excluding citations to articles in open access journals. Journals with very low (including zero) coverage tended to be obscure, less cited venues, while coverage of the most cited journals exceeded 90%.</p>
@@ -289,16 +295,16 @@
 <p>Next, we calculated journal-level access metrics based on articles published from January 1, 2014 until the start of the Sci-Hub access log records on September 1, 2015. For each journal, we calculated the average values for the five access log metrics described above. Interestingly, the journal <em>Medicine - Programa de Formación Médica Continuada Acreditado</em> <a href="https://greenelab.github.io/scihub/#/journal/21100213100" title="Sci-Hub Stats Browser page for the journal Medicine">received</a> the most visitors per article, averaging 33.4 visitors for each of its 326 articles.</p>
 <h2 id="supplementary-information">Supplementary Information</h2>
 <figure>
-<img src="https://cdn.rawgit.com/greenelab/scihub/02851bfad35f08ab4d64b9b5a671eebac951cdb9/figure/coverage-by-country.svg" alt="Figure S1: Coverage by country of publication. Scopus assigns each journal a country of publication. Sci-Hub’s coverage is shown for countries with at least 100,000 articles." id="fig:countries" tag="S1" style="width:100.0%" /><figcaption>Figure S1: <strong>Coverage by country of publication.</strong> Scopus assigns each journal a country of publication. Sci-Hub’s coverage is shown for countries with at least 100,000 articles.</figcaption>
+<img src="https://cdn.rawgit.com/greenelab/scihub/02851bfad35f08ab4d64b9b5a671eebac951cdb9/figure/coverage-by-country.svg" alt="Figure S1: Coverage by country of publication. Scopus assigns each journal a country of publication. Sci-Hub’s coverage is shown for countries with at least 100,000 articles." id="fig:countries" data-tag="S1" style="width:100.0%" /><figcaption>Figure S1: <strong>Coverage by country of publication.</strong> Scopus assigns each journal a country of publication. Sci-Hub’s coverage is shown for countries with at least 100,000 articles.</figcaption>
 </figure>
 <figure>
-<img src="https://cdn.rawgit.com/greenelab/scihub/02851bfad35f08ab4d64b9b5a671eebac951cdb9/explore/bitcoin/monthly-donations-faceted.svg" alt="Figure S2: Bitcoin donations to Sci-Hub per month. For months since June 2015, total bitcoin donations (deposits to known Sci-Hub addresses) are assessed. Donations in USD refers to the United States dollar value at time of transaction confirmation." id="fig:bitcoin-all" tag="S2" width="480" /><figcaption>Figure S2: <strong>Bitcoin donations to Sci-Hub per month.</strong> For months since June 2015, total bitcoin donations (deposits to known Sci-Hub addresses) are assessed. Donations in USD refers to the United States dollar value at time of transaction confirmation.</figcaption>
+<img src="https://cdn.rawgit.com/greenelab/scihub/02851bfad35f08ab4d64b9b5a671eebac951cdb9/explore/bitcoin/monthly-donations-faceted.svg" alt="Figure S2: Bitcoin donations to Sci-Hub per month. For months since June 2015, total bitcoin donations (deposits to known Sci-Hub addresses) are assessed. Donations in USD refers to the United States dollar value at time of transaction confirmation." id="fig:bitcoin-all" data-tag="S2" style="width:5in" /><figcaption>Figure S2: <strong>Bitcoin donations to Sci-Hub per month.</strong> For months since June 2015, total bitcoin donations (deposits to known Sci-Hub addresses) are assessed. Donations in USD refers to the United States dollar value at time of transaction confirmation.</figcaption>
 </figure>
 <figure>
-<img src="https://cdn.rawgit.com/greenelab/scihub/02851bfad35f08ab4d64b9b5a671eebac951cdb9/figure/libgen-cumulative-works.svg" alt="Figure S3: Number of articles in LibGen scimag over time. The figure shows the cumulative number of articles versus the LibGen scimag TimeAdded field. When comparing this plot to Figure 1 of Cabanac 2015 [33], we noticed a major discrepancy. We hypothesize that the TimeAdded field is replaced upon modification, making it impossible to assess date of first upload." id="fig:libgen-size" tag="S3" width="384" /><figcaption>Figure S3: <strong>Number of articles in LibGen scimag over time.</strong> The figure shows the cumulative number of articles versus the LibGen scimag <code>TimeAdded</code> field. When comparing this plot to Figure 1 of Cabanac 2015 <span class="citation" data-cites="18KKRwlN6">[<a href="#ref-18KKRwlN6">33</a>]</span>, we noticed a major discrepancy. We hypothesize that the <code>TimeAdded</code> field is replaced upon modification, making it impossible to assess date of first upload.</figcaption>
+<img src="https://cdn.rawgit.com/greenelab/scihub/02851bfad35f08ab4d64b9b5a671eebac951cdb9/figure/libgen-cumulative-works.svg" alt="Figure S3: Number of articles in LibGen scimag over time. The figure shows the cumulative number of articles versus the LibGen scimag TimeAdded field. When comparing this plot to Figure 1 of Cabanac 2015 [33], we noticed a major discrepancy. We hypothesize that the TimeAdded field is replaced upon modification, making it impossible to assess date of first upload." id="fig:libgen-size" data-tag="S3" style="width:4in" /><figcaption>Figure S3: <strong>Number of articles in LibGen scimag over time.</strong> The figure shows the cumulative number of articles versus the LibGen scimag <code>TimeAdded</code> field. When comparing this plot to Figure 1 of Cabanac 2015 <span class="citation" data-cites="18KKRwlN6">[<a href="#ref-18KKRwlN6">33</a>]</span>, we noticed a major discrepancy. We hypothesize that the <code>TimeAdded</code> field is replaced upon modification, making it impossible to assess date of first upload.</figcaption>
 </figure>
 <figure>
-<img src="https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/figure/libgen-monthly-lagtimes.svg" alt="Figure S4: Lag-time from publication to LibGen upload. For each year of publication from 2010–2017, we plot the relationship between lag-time and LibGen scimag’s coverage. For example, this plot shows that 75% of articles published in 2011 were uploaded to LibGen within 60 months. This analysis only considers articles for which a month of publication can reliably be extracted, which excludes all articles that are allegedly published on the first day of each year. This plot portrays lag-times as decreasing over time, with maximum coverage declining. For example, coverage for 2016 articles exceeded 50% within 6 months, but appears to have reached an asymptote around 60%. Alternatively, coverage for 2014 took 15 months to exceed 50%, but has since reached 75%. However, this signal could result from post-dated LibGen upload timestamps. Therefore, we caution against drawing any conclusions from the TimeAdded field in LibGen scimag until its accuracy can be established more reliably." id="fig:libgen-lag" tag="S4" style="width:100.0%" /><figcaption>Figure S4: <strong>Lag-time from publication to LibGen upload.</strong> For each year of publication from 2010–2017, we plot the relationship between lag-time and LibGen scimag’s coverage. For example, this plot shows that 75% of articles published in 2011 were uploaded to LibGen within 60 months. This analysis only considers articles for which a month of publication can reliably be extracted, which excludes all articles that are allegedly published on the first day of each year. This plot portrays lag-times as decreasing over time, with maximum coverage declining. For example, coverage for 2016 articles exceeded 50% within 6 months, but appears to have reached an asymptote around 60%. Alternatively, coverage for 2014 took 15 months to exceed 50%, but has since reached 75%. However, this signal could result from post-dated LibGen upload timestamps. Therefore, we caution against drawing any conclusions from the <code>TimeAdded</code> field in LibGen scimag until its accuracy can be established more reliably.</figcaption>
+<img src="https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/figure/libgen-monthly-lagtimes.svg" alt="Figure S4: Lag-time from publication to LibGen upload. For each year of publication from 2010–2017, we plot the relationship between lag-time and LibGen scimag’s coverage. For example, this plot shows that 75% of articles published in 2011 were uploaded to LibGen within 60 months. This analysis only considers articles for which a month of publication can reliably be extracted, which excludes all articles that are allegedly published on the first day of each year. This plot portrays lag-times as decreasing over time, with maximum coverage declining. For example, coverage for 2016 articles exceeded 50% within 6 months, but appears to have reached an asymptote around 60%. Alternatively, coverage for 2014 took 15 months to exceed 50%, but has since reached 75%. However, this signal could result from post-dated LibGen upload timestamps. Therefore, we caution against drawing any conclusions from the TimeAdded field in LibGen scimag until its accuracy can be established more reliably." id="fig:libgen-lag" data-tag="S4" style="width:100.0%" /><figcaption>Figure S4: <strong>Lag-time from publication to LibGen upload.</strong> For each year of publication from 2010–2017, we plot the relationship between lag-time and LibGen scimag’s coverage. For example, this plot shows that 75% of articles published in 2011 were uploaded to LibGen within 60 months. This analysis only considers articles for which a month of publication can reliably be extracted, which excludes all articles that are allegedly published on the first day of each year. This plot portrays lag-times as decreasing over time, with maximum coverage declining. For example, coverage for 2016 articles exceeded 50% within 6 months, but appears to have reached an asymptote around 60%. Alternatively, coverage for 2014 took 15 months to exceed 50%, but has since reached 75%. However, this signal could result from post-dated LibGen upload timestamps. Therefore, we caution against drawing any conclusions from the <code>TimeAdded</code> field in LibGen scimag until its accuracy can be established more reliably.</figcaption>
 </figure>
 <h2 id="acknowledgements">Acknowledgements</h2>
 <p>We’d like to thank the individuals, not listed as authors, who provided comments on <a href="https://github.com/search?utf8=%E2%9C%93&amp;q=repo%3Agreenelab%2Fscihub+repo%3Agreenelab%2Fscihub-manuscript+repo%3Agreenelab%2Fscihub-browser-data+repo%3Adhimmel%2Fjournalmetrics&amp;type=Issues" title="GitHub Issues in Project Repositories">GitHub issues</a> or pull requests. Specifically, the following individuals provided valuable input while the study was underway: <a href="https://github.com/tamunro">Thomas Munro</a> (Deakin University), <a href="https://github.com/rossmounce">Ross Mounce</a>, <a href="https://github.com/blahah">Richard Smith-Unna</a>, and <a href="https://github.com/gcabanac">Guillaume Cabanac</a>. In addition, we’re grateful to GitHub for offering gratis Large File Storage as part of their education program.</p>
@@ -321,14 +327,10 @@ Jonathan P. Tennant, François Waldner, Damien C. Jacques, Paola Masuzzo, Lauren
 <em>F1000Research</em> (2016-09-21) <a href="https://doi.org/10.12688/f1000research.8460.3" class="uri">https://doi.org/10.12688/f1000research.8460.3</a></p>
 </div>
 <div id="ref-3k6GM8o4">
-<p>4. <strong>A Brief History of Open Access</strong><br />
-Paul Royster<br />
-<em>Library Conference Presentations and Speeches</em> (2016) <a href="http://digitalcommons.unl.edu/library_talks/123" class="uri">http://digitalcommons.unl.edu/library_talks/123</a></p>
+<p>4. <a href="http://digitalcommons.unl.edu/library_talks/123" class="uri">http://digitalcommons.unl.edu/library_talks/123</a></p>
 </div>
 <div id="ref-n1xo9kJ7">
-<p>5. <strong>Proportion of Open Access Papers Published in Peer-Reviewed Journals at the European and World Levels—1996–2013</strong><br />
-Éric Archambault, Didier Amyot, Philippe Deschamps, Aurore Nicol, Françoise Provencher, Lise Rebout, Guillaume Roberge<br />
-<em>Copyright, Fair Use, Scholarly Communication, etc.</em> (2014) <a href="http://digitalcommons.unl.edu/scholcom/8" class="uri">http://digitalcommons.unl.edu/scholcom/8</a></p>
+<p>5. <a href="http://digitalcommons.unl.edu/scholcom/8" class="uri">http://digitalcommons.unl.edu/scholcom/8</a></p>
 </div>
 <div id="ref-NE5AByb0">
 <p>6. <strong>Half of 2011 papers now free to read</strong><br />
@@ -371,14 +373,10 @@ Theodore C. Bergstrom, Paul N. Courant, R. Preston McAfee, Michael A. Williams<b
 <em>Proceedings of the National Academy of Sciences</em> (2014-06-16) <a href="https://doi.org/10.1073/pnas.1403006111" class="uri">https://doi.org/10.1073/pnas.1403006111</a></p>
 </div>
 <div id="ref-bGUjzQuG">
-<p>14. <strong>Freedom for scholarship in the internet age</strong><br />
-Heather Grace Morrison<br />
-(2012-11-21) <a href="http://summit.sfu.ca/item/12537" class="uri">http://summit.sfu.ca/item/12537</a></p>
+<p>14. <a href="http://summit.sfu.ca/item/12537" class="uri">http://summit.sfu.ca/item/12537</a></p>
 </div>
 <div id="ref-D9un8JYo">
-<p>15. <strong>Is the staggeringly profitable business of scientific publishing bad for science?</strong><br />
-Stephen Buranyi, Stephen Buranyi<br />
-<em>the Guardian</em> (2017-06-27) <a href="https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science" class="uri">https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science</a></p>
+<p>15. <a href="https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science" class="uri">https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science</a></p>
 </div>
 <div id="ref-xDn5v2f3">
 <p>16. <strong>Open access: The true cost of science publishing</strong><br />
@@ -406,19 +404,13 @@ EBSCO<br />
 (2017-09-27) <a href="https://www.ebscohost.com/promoMaterials/Five_Year_Journal_Price_Increase_History_EBSCO_2013-2017.pdf" class="uri">https://www.ebscohost.com/promoMaterials/Five_Year_Journal_Price_Increase_History_EBSCO_2013-2017.pdf</a></p>
 </div>
 <div id="ref-LgXhvEw7">
-<p>21. <strong>Open Access</strong><br />
-Peter Suber<br />
-<em>MIT Press</em> (2017-10-02) <a href="https://mitpress.mit.edu/books/open-access" class="uri">https://mitpress.mit.edu/books/open-access</a></p>
+<p>21. <a href="https://mitpress.mit.edu/books/open-access" class="uri">https://mitpress.mit.edu/books/open-access</a></p>
 </div>
 <div id="ref-tSEdUvgK">
-<p>22. <strong>Gratis and libre open access</strong><br />
-Peter Suber<br />
-<em>Peter Suber, Gratis and libre open access, SPARC Open Access Newsletter, August 2, 2008.</em> (2008) <a href="https://dash.harvard.edu/handle/1/4322580" class="uri">https://dash.harvard.edu/handle/1/4322580</a></p>
+<p>22. <a href="https://dash.harvard.edu/handle/1/4322580" class="uri">https://dash.harvard.edu/handle/1/4322580</a></p>
 </div>
 <div id="ref-7aXVorCC">
-<p>23. <strong>The licensing of bioRxiv preprints</strong><br />
-Daniel Himmelstein<br />
-<em>Satoshi Village</em> (2016-12-05) <a href="http://blog.dhimmel.com/biorxiv-licenses/" class="uri">http://blog.dhimmel.com/biorxiv-licenses/</a></p>
+<p>23. <a href="http://blog.dhimmel.com/biorxiv-licenses/" class="uri">http://blog.dhimmel.com/biorxiv-licenses/</a></p>
 </div>
 <div id="ref-JVjciZPv">
 <p>24. <strong>The frustrated science student behind Sci-Hub</strong><br />
@@ -446,9 +438,7 @@ Elena Milova<br />
 <em>Life Extension Advocacy Foundation</em> (2017-06-27) <a href="http://www.leafscience.org/alexandra-elbakyan/" class="uri">http://www.leafscience.org/alexandra-elbakyan/</a></p>
 </div>
 <div id="ref-zvVsLNxf">
-<p>29. <strong>Tor: The Second-Generation Onion Router</strong><br />
-Roger Dingledine, Nick Mathewson, Paul Syverson<br />
-(2004) <a href="http://www.dtic.mil/docs/citations/ADA465464" class="uri">http://www.dtic.mil/docs/citations/ADA465464</a></p>
+<p>29. <a href="http://www.dtic.mil/docs/citations/ADA465464" class="uri">http://www.dtic.mil/docs/citations/ADA465464</a></p>
 </div>
 <div id="ref-1H8x8f4Y7">
 <p>30. <strong>Some facts on Sci-Hub that Wikipedia gets wrong</strong><br />
@@ -476,9 +466,7 @@ Guillaume Cabanac<br />
 <em>Figshare</em> (2017-04-28) <a href="https://doi.org/10.6084/m9.figshare.4906367.v1" class="uri">https://doi.org/10.6084/m9.figshare.4906367.v1</a></p>
 </div>
 <div id="ref-Hz2uRUJS">
-<p>35. <strong>Libgen down • r/Scholar</strong><br />
-/u/BitterCoffeeMan<br />
-() <a href="https://redd.it/2raea8" class="uri">https://redd.it/2raea8</a></p>
+<p>35. <a href="https://redd.it/2raea8" class="uri">https://redd.it/2raea8</a></p>
 </div>
 <div id="ref-6ZrZVv6E">
 <p>36. <strong>Elsevier Cracks Down on Pirated Scientific Articles</strong><br />
@@ -506,9 +494,7 @@ Ernesto Van der Sar<br />
 <em>TorrentFreak</em> (2015-11-21) <a href="https://torrentfreak.com/sci-hub-and-libgen-resurface-after-being-shut-down-151121/" class="uri">https://torrentfreak.com/sci-hub-and-libgen-resurface-after-being-shut-down-151121/</a></p>
 </div>
 <div id="ref-SlcfPQQQ">
-<p>41. <strong>Meet the Robin Hood of Science</strong><br />
-Simon Oxenham<br />
-<em>Big Think</em> (2016-02-09) <a href="http://bigthink.com/neurobonkers/a-pirate-bay-for-science" class="uri">http://bigthink.com/neurobonkers/a-pirate-bay-for-science</a></p>
+<p>41. <a href="http://bigthink.com/neurobonkers/a-pirate-bay-for-science" class="uri">http://bigthink.com/neurobonkers/a-pirate-bay-for-science</a></p>
 </div>
 <div id="ref-tMPCGeuL">
 <p>42. <strong>Should All Research Papers Be Free?</strong><br />
@@ -589,9 +575,7 @@ Andrey I. Khalaim, Enrique Ruíz-Cancino<br />
 <em>Journal of Hymenoptera Research</em> (2017-08-31) <a href="https://doi.org/10.3897/jhr.58.12919" class="uri">https://doi.org/10.3897/jhr.58.12919</a></p>
 </div>
 <div id="ref-GLDH745f">
-<p>58. <strong>Вернуть Sci-Hub</strong><br />
-Алла Астахова<br />
-<em>Status Prаеsens</em> (2017-09-12) <a href="http://alla-astakhova.ru/sci-hub/" class="uri">http://alla-astakhova.ru/sci-hub/</a></p>
+<p>58. <a href="http://alla-astakhova.ru/sci-hub/" class="uri">http://alla-astakhova.ru/sci-hub/</a></p>
 </div>
 <div id="ref-ynhlmOBH">
 <p>59. <strong>Nature owner merges with publishing giant</strong><br />
@@ -599,9 +583,7 @@ Richard Van Noorden<br />
 <em>Nature</em> (2015-01-15) <a href="https://doi.org/10.1038/nature.2015.16731" class="uri">https://doi.org/10.1038/nature.2015.16731</a></p>
 </div>
 <div id="ref-17rORqxsI">
-<p>60. <strong>Shadow Libraries and You: Sci-Hub Usage and the Future of ILL</strong><br />
-Gabriel J. Gardner, Stephen R. McLaughlin, Andrew D. Asher<br />
-(2017-03-25) <a href="https://hdl.handle.net/10760/30981" class="uri">https://hdl.handle.net/10760/30981</a></p>
+<p>60. <a href="https://hdl.handle.net/10760/30981" class="uri">https://hdl.handle.net/10760/30981</a></p>
 </div>
 <div id="ref-uBm4Sor6">
 <p>61. <strong>Correlating the Sci-Hub data with World Bank Indicators and Identifying Academic Use</strong><br />
@@ -619,9 +601,7 @@ Bastian Greshake<br />
 <em>Zenodo</em> (2017-04-05) <a href="https://doi.org/10.5281/zenodo.472493" class="uri">https://doi.org/10.5281/zenodo.472493</a></p>
 </div>
 <div id="ref-xn59qVAG">
-<p>64. <strong>Online Access To ACS Publications Is Restored After Some Customers Were Unintentionally Blocked | Chemical &amp; Engineering News</strong><br />
-Sophie L. Rovner<br />
-(2014-04) <a href="http://cen.acs.org/articles/92/web/2014/04/Online-Access-ACS-Publications-Restored.html" class="uri">http://cen.acs.org/articles/92/web/2014/04/Online-Access-ACS-Publications-Restored.html</a></p>
+<p>64. <a href="http://cen.acs.org/articles/92/web/2014/04/Online-Access-ACS-Publications-Restored.html" class="uri">http://cen.acs.org/articles/92/web/2014/04/Online-Access-ACS-Publications-Restored.html</a></p>
 </div>
 <div id="ref-d9g1ZhPz">
 <p>65. <strong>Publisher under fire for fake article webpages</strong><br />
@@ -659,9 +639,7 @@ Juan Benet<br />
 <em>arXiv</em> (2014-07-14) <a href="https://arxiv.org/abs/1407.3561v1" class="uri">https://arxiv.org/abs/1407.3561v1</a></p>
 </div>
 <div id="ref-5gyFSQse">
-<p>72. <strong>Decentralized Storage: The Backbone of the Third Web</strong><br />
-ConsenSys<br />
-<em>ConsenSys Media</em> (2016-06-30) <a href="https://media.consensys.net/decentralized-storage-the-backbone-of-the-third-web-d4bc54e79700" class="uri">https://media.consensys.net/decentralized-storage-the-backbone-of-the-third-web-d4bc54e79700</a></p>
+<p>72. <a href="https://media.consensys.net/decentralized-storage-the-backbone-of-the-third-web-d4bc54e79700" class="uri">https://media.consensys.net/decentralized-storage-the-backbone-of-the-third-web-d4bc54e79700</a></p>
 </div>
 <div id="ref-2TjdrEPp">
 <p>73. <strong>Pirates in the Library – An Inquiry into the Guerilla Open Access Movement</strong><br />
@@ -684,10 +662,10 @@ Christian R. Mejia, Mario J. Valladares-Garrido, Armando Miñan-Tapia, Felipe T.
 <em>PLOS ONE</em> (2017-10-05) <a href="https://doi.org/10.1371/journal.pone.0185673" class="uri">https://doi.org/10.1371/journal.pone.0185673</a></p>
 </div>
 <div id="ref-2Vc1UrtB">
-<p>77. <strong>Two-step Authentication: Finally Coming to a University Near You - The Scholarly Kitchen</strong><em>The Scholarly Kitchen</em> (2016-06-21) <a href="https://scholarlykitchen.sspnet.org/2016/06/21/two-step-authentication-finally-coming-to-a-university-near-you/" class="uri">https://scholarlykitchen.sspnet.org/2016/06/21/two-step-authentication-finally-coming-to-a-university-near-you/</a></p>
+<p>77. <a href="https://scholarlykitchen.sspnet.org/2016/06/21/two-step-authentication-finally-coming-to-a-university-near-you/" class="uri">https://scholarlykitchen.sspnet.org/2016/06/21/two-step-authentication-finally-coming-to-a-university-near-you/</a></p>
 </div>
 <div id="ref-C3J6AH5V">
-<p>78. <strong>Sci-Hub and the Four Horsemen of the Internet - The Scholarly Kitchen</strong><em>The Scholarly Kitchen</em> (2016-03-02) <a href="https://scholarlykitchen.sspnet.org/2016/03/02/sci-hub-and-the-four-horsemen-of-the-internet/" class="uri">https://scholarlykitchen.sspnet.org/2016/03/02/sci-hub-and-the-four-horsemen-of-the-internet/</a></p>
+<p>78. <a href="https://scholarlykitchen.sspnet.org/2016/03/02/sci-hub-and-the-four-horsemen-of-the-internet/" class="uri">https://scholarlykitchen.sspnet.org/2016/03/02/sci-hub-and-the-four-horsemen-of-the-internet/</a></p>
 </div>
 <div id="ref-1BKBt9JRq">
 <p>79. <strong>Publishers go after networking site for illicit sharing of journal papers</strong><br />
@@ -700,7 +678,7 @@ Dalmeet Chawla<br />
 <em>Science</em> (2017-10-06) <a href="https://doi.org/10.1126/science.aaq1560" class="uri">https://doi.org/10.1126/science.aaq1560</a></p>
 </div>
 <div id="ref-YX9zq2ZF">
-<p>81. <strong>Sci-Hub Moves to the Center of the Ecosystem - The Scholarly Kitchen</strong><em>The Scholarly Kitchen</em> (2017-09-05) <a href="https://scholarlykitchen.sspnet.org/2017/09/05/sci-hub-moves-center-ecosystem/" class="uri">https://scholarlykitchen.sspnet.org/2017/09/05/sci-hub-moves-center-ecosystem/</a></p>
+<p>81. <a href="https://scholarlykitchen.sspnet.org/2017/09/05/sci-hub-moves-center-ecosystem/" class="uri">https://scholarlykitchen.sspnet.org/2017/09/05/sci-hub-moves-center-ecosystem/</a></p>
 </div>
 <div id="ref-SuZ30LxR">
 <p>82. <strong>Factors in Science Journal Cancellation Projects: The Roles of Faculty Consultations and Data</strong><br />
@@ -718,7 +696,7 @@ David C Prosser<br />
 <em>Serials: The Journal for the Serials Community</em> (2011-03-01) <a href="https://doi.org/10.1629/2460" class="uri">https://doi.org/10.1629/2460</a></p>
 </div>
 <div id="ref-hOBvHaW9">
-<p>85. <strong>Dutch lose access to OUP journals in subscription standoff</strong><em>Times Higher Education (THE)</em> (2017-05-06) <a href="https://www.timeshighereducation.com/news/dutch-lose-access-oup-journals-subscription-standoff" class="uri">https://www.timeshighereducation.com/news/dutch-lose-access-oup-journals-subscription-standoff</a></p>
+<p>85. <a href="https://www.timeshighereducation.com/news/dutch-lose-access-oup-journals-subscription-standoff" class="uri">https://www.timeshighereducation.com/news/dutch-lose-access-oup-journals-subscription-standoff</a></p>
 </div>
 <div id="ref-RkpJBRo6">
 <p>86. <strong>UdeM Libraries cancel Big Deal subscription to 2,231 periodical titles published by Taylor &amp; Francis Group</strong><br />
@@ -766,9 +744,7 @@ Caroline Sutton<br />
 <em>College &amp; Research Libraries News</em> (2011-12-01) <a href="https://doi.org/10.5860/crln.72.11.8671" class="uri">https://doi.org/10.5860/crln.72.11.8671</a></p>
 </div>
 <div id="ref-Bj1n4rGt">
-<p>95. <strong>Open access to research is inevitable, says Nature editor-in-chief</strong><br />
-Alok Jha<br />
-<em>the Guardian</em> (2012-06-08) <a href="https://www.theguardian.com/science/2012/jun/08/open-access-research-inevitable-nature-editor" class="uri">https://www.theguardian.com/science/2012/jun/08/open-access-research-inevitable-nature-editor</a></p>
+<p>95. <a href="https://www.theguardian.com/science/2012/jun/08/open-access-research-inevitable-nature-editor" class="uri">https://www.theguardian.com/science/2012/jun/08/open-access-research-inevitable-nature-editor</a></p>
 </div>
 <div id="ref-cunYx7X4">
 <p>96. <strong>The Transition to Open Access: The State of the Market, Offsetting Deals, and a Demonstrated Model for Fair Open Access with the Open Library of Humanities</strong><br />
@@ -862,9 +838,7 @@ Daniel Himmelstein, Stephen McLaughlin<br />
 <em>Figshare</em> (2017) <a href="https://doi.org/10.6084/m9.figshare.5231245.v1" class="uri">https://doi.org/10.6084/m9.figshare.5231245.v1</a></p>
 </div>
 <div id="ref-GhX9kmM1">
-<p>115. <strong>Introducing oaDOI: resolve a DOI straight to OA</strong><br />
-Heather<br />
-<em>Impactstory blog</em> (2016-10-25) <a href="http://blog.impactstory.org/introducting-oadoi/" class="uri">http://blog.impactstory.org/introducting-oadoi/</a></p>
+<p>115. <a href="http://blog.impactstory.org/introducting-oadoi/" class="uri">http://blog.impactstory.org/introducting-oadoi/</a></p>
 </div>
 <div id="ref-1D9l2pC2b">
 <p>116. <strong>Data From: The State Of Oa: A Large-Scale Analysis Of The Prevalence And Impact Of Open Access Articles</strong><br />
