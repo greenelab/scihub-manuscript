@@ -5,7 +5,7 @@ author-meta:
 - Stephen Reid McLaughlin
 - Bastian Greshake Tzovaras
 - Casey S. Greene
-date-meta: '2017-11-27'
+date-meta: '2017-12-04'
 keywords:
 - Sci-Hub
 - publishing
@@ -17,6 +17,7 @@ keywords:
 - open-data
 - copyright
 - paywalls
+lang: en-US
 title: Sci-Hub provides access to nearly all scholarly literature
 ...
 
@@ -27,8 +28,8 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.72
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@408aa3c](https://github.com/greenelab/scihub-manuscript/tree/408aa3ca46377f7a16725af1fe4163eac2f66d64)
-on November 27, 2017.
+from [greenelab/scihub-manuscript@467cc5f](https://github.com/greenelab/scihub-manuscript/tree/467cc5fa37197b48f52a39596a804e57aada5a29)
+on December  4, 2017.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
 
