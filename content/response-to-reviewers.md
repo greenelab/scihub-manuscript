@@ -44,7 +44,20 @@ Was another clustering method used?
 Is this just for convenience?
 (Giving the percentages of coverage to 3rd order seems to imply a sample and not a complete comparison).
 
-TODO
+We thank the reviewers for their interest in the computational methods used for our coverage calculations.
+Python [includes](https://docs.python.org/3.6/tutorial/datastructures.html#sets) a set data type to store unordered collections with no duplicate elements.
+Set operations [enable](https://wiki.python.org/moin/TimeComplexity#set) efficient membership testing and intersection with other sets.
+As a result, we do not need to apply a list intersection algorithm, as described by the reviewers, that would scale quadratically due to nested iteration.
+
+We evaluate each Crossref DOI for membership in the set of Sci-Hub DOIs in [`01.catalog-dois.ipynb`](https://github.com/greenelab/scihub/blob/ca4d523e149f30be7fd3d3ae6551a26d1c625313/01.catalog-dois.ipynb).
+The specific implementation we apply passes a set of Sci-Hub DOIs to the [`pandas.Series.isin`](http://pandas.pydata.org/pandas-docs/version/0.20.1/generated/pandas.Series.isin.html) function.
+This function [uses](https://github.com/pandas-dev/pandas/blob/v0.20.1/pandas/core/algorithms.py#L399) a hash table, the formative data structure behind sets, to enable an efficient comparison of DOIs.
+The `01.catalog-dois.ipynb` notebook does take considerable time (perhaps up to an hour) to execute.
+However, much of this time is spend on file input/output, which requires reading/writing to disk and (de)compressing streams, both of which can be runtime intensive.
+
+We create a tabular file [`doi.tsv.xz`](https://github.com/greenelab/scihub/blob/ca4d523e149f30be7fd3d3ae6551a26d1c625313/data/doi.tsv.xz) that contains a binary indicator (coded as 0/1) of whether each Crossref DOI is in Sci-Hub's repository.
+The general workflow we followed to compute coverage was to subset the DOI dataset for the relevant DOIs (e.g. all DOIs published in 2016) and take the sum/mean of the binary membership column.
+These operations made heavy use of [`pandas.DataFrame.join`](http://pandas.pydata.org/pandas-docs/version/0.20.1/generated/pandas.DataFrame.join.html) to incorporate additional information about DOIs and [`pandas.DataFrame.groupby`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.groupby.html) to compute coverage for all possible subsets at once.
 
 > 3. I believe if the authors compare Figure 4 with Table 2 in Reference 1, a strong negative correlation can be observed whereby the more likely a paper is to be found on the web, the less likely it is in SciHub.
 
