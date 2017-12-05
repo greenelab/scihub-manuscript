@@ -19,6 +19,10 @@ They have allowed the analysis to speak for itself.
 
 TODO: briefly summarize additional major changes since version 2 that are part of the `preprint-v3` [milestone](https://github.com/greenelab/scihub-manuscript/milestone/2).
 
+We updated our journal information to the October 2017 release of Scopus.
+In addition, we created patches to standardize publisher names in Scopus.
+As a result, many of the numbers reported in the manuscript have changed slightly.
+
 ## ESSENTIAL REVISIONS
 
 > 1. The authors make one claim that seems to me not supported by the evidence.
