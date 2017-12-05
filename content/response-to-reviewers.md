@@ -61,7 +61,16 @@ These operations made heavy use of [`pandas.DataFrame.join`](http://pandas.pydat
 
 > 3. I believe if the authors compare Figure 4 with Table 2 in Reference 1, a strong negative correlation can be observed whereby the more likely a paper is to be found on the web, the less likely it is in SciHub.
 
-TODO
+We believe this comment is comparing [Figure 4](https://peerj.com/preprints/3119v1.pdf#page=16) of the State of OA study (titled "Percentage of different access types … per NSF discipline", also see [Figure A5](https://peerj.com/preprints/3119v1.pdf#page=32)) with [Figure 4](https://peerj.com/preprints/3100v2.pdf#page=10) of our study (titled "Coverage by journal attributes").
+For example, among plotted disciplines, Sci-Hub coverage is highest for chemistry, whearas oaDOI's coverage is lowest for chemistry.
+On the other hand, oaDOI exceeds 50% coverage of mathematics, whereas mathematics coverage is relatively low in Sci-Hub.
+
+Regarding the hypothesis, "the more likely a paper is to be found on the web, the less likely it is in SciHub", we evaluate this directly in the "Coverage by category of access status" section.
+This hypothesis appears true for most types of gratis web access.
+Compared to closed articles, bronze, hybrid, and gold OA articles are less likely to be in Sci-Hub.
+However, green articles (available without charge, but not from the publisher) do not seem have lower coverage than closed articles in Sci-Hub.
+The conclusion from the reviewers' comparison could therefore be rephrased as "the less gratis availability of a discipline's articles on the web (according to oaDOI), the greater the coverage on Sci-Hub."
+One possibility is that researchers from disciplines with poor oaDOI coverage more frequently encounter access problems, leading to greater awareness and usage of Sci-Hub.
 
 ## MINOR POINTS
 
