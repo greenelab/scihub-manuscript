@@ -86,7 +86,7 @@ TODO
 
 > 6. Table 1 would benefit from a short caption to explain what is being shown in this table.
 
-TODO
+Completed.
 
 > 7. Figure 3 would benefit from a longer caption to better explain what is being shown in this figure.
 
