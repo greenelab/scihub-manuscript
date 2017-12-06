@@ -95,7 +95,7 @@ We also updated the histogram bins so that none exceed 0% or 100%.
 
 > 8. Figure 4 would benefit from a longer caption to better explain what is being shown in this figure.
 
-TODO
+Completed.
 
 > 9. Figure 8 would benefit from a longer caption to better explain what is being shown in this figure.
 
