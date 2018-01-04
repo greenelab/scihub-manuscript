@@ -30,7 +30,27 @@ They claim that their paper shows that toll-based publishing is becoming unsusta
 But they also point to a recent study that estimates that the ratio of the number of times papers are downloaded from the publisher to downloaded from SciHub is 48:1 for Elsevier and 20:1 for Royal Society of Chemistry.
 This suggests that SciHub so far has very little influence on the subscription demand for journal articles.
 
-TODO
+In light of this reviewer feedback, we recently [discussed](https://github.com/greenelab/scihub-manuscript/issues/35) the effect of Sci-Hub on the toll access business model in greater depth.
+While there is disagreement on the matter, we have added additional evidence and reasoning to the manuscript regarding these claims.
+
+The 48:1 and 20:1 estimates from [Gardner et al.](https://hdl.handle.net/10760/30981) assess Sci-Hub's usage at the start of 2016.
+These numbers are, of course, small.
+However, awareness of Sci-Hub was also low at that time.
+For example, a survey conducted in the first half of 2016, [found that](https://doi.org/10.1371/journal.pone.0185673) only 19% of Latin American medical students were aware of Sci-Hub.
+An online survey by _Science_ in May 2016 [found](https://www.surveymonkey.com/results/SM-PQX56R8R/) 59% of 10,874 respondents had used Sci-Hub, although it [noted](https://doi.org/10.1126/science.aaf5704) "the survey sample is likely biased heavily toward fans of the site".
+Incidentally, the 62% of respondents thought "SciHub will disrupt the traditional science publishing industry".
+
+An important factor here is the rate at which Sci-Hub adoption will grow.
+Our manuscript now includes two distinct metrics for assessing Sci-Hub's annual growth:
+79% according to download statistics provided by Sci-Hub and 88% according to peak Google search interest following service outage. 
+We now discuss how Sci-Hub usage could lead to subscription cancellations by affecting the usage metrics and feedback librarians use to evaluate subscriptions.
+Finally, we discuss the growth of green open access, composed of preprints and postprints, which may also diminish the need for subscription access.
+
+These developments are happening in the context of library budgets that are increasingly burdened by subscription costs, as mentioned in our Introduction.
+Since our manuscript submission, SPARC released a [Big Deal Cancellation Tracker](https://sparcopen.org/our-work/big-deal-cancellation-tracking/), which supports our observation that large-scale subscription cancellations are becoming more prevalent.
+We now reference this resource as well as the latest coverage of the Project DEAL negations with Elsevier in Germany.
+We also cover the domain name suspensions following the ACS suit judgment and Sci-Hub's re-emergence at several new domains.
+We modified a few sentences to make it clear that our assessment of Sci-Hub's disruptive influence is a prediction and not a certainty.
 
 > 2. To calculate coverage, DOIs from Crossref and SciHub for over 56M records are compared.
 Please give details of the algorithm used to compare the DOIs.
