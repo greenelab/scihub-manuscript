@@ -107,7 +107,8 @@ For clarity, we do not expect hyperlinks to be created on URLs that do not speci
 We modified the manuscript so that the only Sci-Hub URLs that specify a scheme are in the sentence listing active Sci-Hub domains.
 If the publication system doesn't support any inline code (i.e. the HTML `<code>` tag), they can safely be stripped/ignored.
 
-TODO blockquotes
+The lack of support for blockquotes (i.e. the HTML `<blockquote>` tag) is unfortunate as they help differentiate longer quotes from original content.
+We have replaced blockquotes with inline quotes wrapped in quotation marks, but would be happy to revert this change should blockquotes become supported.
 
 > 6. Table 1 would benefit from a short caption to explain what is being shown in this table.
 
