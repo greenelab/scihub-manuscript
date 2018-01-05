@@ -102,7 +102,12 @@ TODO
 > 5. Please note that we cannot display URLs as you have done for sci-hub.cc, sci-hub.io etc in the introduction to your article, so please use regular text for these URLs.
 Also, we are unable to display text, as you have done for the passage that starts "Sci-Hub technically is by itself . . ", so again please use regular text.
 
-TODO
+We have removed instances of inline code that contains URLs or is hyperlinked.
+For clarity, we do not expect hyperlinks to be created on URLs that do not specify a scheme (i.e. HTTP or HTTPS).
+We modified the manuscript so that the only Sci-Hub URLs that specify a scheme are in the sentence listing active Sci-Hub domains.
+If the publication system doesn't support any inline code (i.e. the HTML `<code>` tag), they can safely be stripped/ignored.
+
+TODO blockquotes
 
 > 6. Table 1 would benefit from a short caption to explain what is being shown in this table.
 
