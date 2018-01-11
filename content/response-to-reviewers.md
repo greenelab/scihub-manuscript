@@ -130,4 +130,5 @@ TODO
 > 10. eLife does not publish Supplementary Information so Figures S1, S2, S3 and S4 either need to become full figures in their own right, or supplements to existing figures.
 For example, Figure S2 could become Figure 10-Figure Supplement 1.
 
-TODO
+We converted supplementary figures into figure supplements.
+We moved Figure S4 into the Methods section of the main text.
