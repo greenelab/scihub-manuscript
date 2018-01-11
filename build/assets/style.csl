@@ -55,8 +55,6 @@
         <text macro="venue" font-style="italic"/>
         <date variable="issued" prefix="(" suffix=")">
           <date-part name="year"/>
-          <date-part name="month" form="numeric-leading-zeros" prefix="-"/>
-          <date-part name="day" form="numeric-leading-zeros" prefix="-"/>
         </date>
         <text variable="URL"/>
       </group>
