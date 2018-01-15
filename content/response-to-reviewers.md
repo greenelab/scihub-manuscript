@@ -97,7 +97,8 @@ One possibility is that researchers from disciplines with poor oaDOI coverage mo
 > 4. The figure of 81.6 million that is given in the abstract is not mentioned/explained elsewhere in the manuscript.
 Please explain where this figure comes from at an appropriate place in the manuscript.
 
-TODO
+The abstract now clarifies the 81.6 million articles are from Crossref.
+The main text specifies the exact number, which is 81,609,016.
 
 > 5. Please note that we cannot display URLs as you have done for sci-hub.cc, sci-hub.io etc in the introduction to your article, so please use regular text for these URLs.
 Also, we are unable to display text, as you have done for the passage that starts "Sci-Hub technically is by itself . . ", so again please use regular text.
