@@ -1475,6 +1475,192 @@
         [
           2017,
           10,
+          27
+        ]
+      ],
+      "date-time": "2017-10-27T05:45:25Z",
+      "timestamp": 1509083125874
+    },
+    "reference-count": 0,
+    "publisher": "Springer Nature",
+    "issue": "7495",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "DOI": "10.1038/508161a",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          4,
+          7
+        ]
+      ],
+      "date-time": "2014-04-07T19:01:42Z",
+      "timestamp": 1396897302000
+    },
+    "page": "161-161",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": "Funders punish open-access dodgers",
+    "prefix": "10.1038",
+    "volume": "508",
+    "author": [
+      {
+        "given": "Richard",
+        "family": "Van Noorden",
+        "affiliation": []
+      }
+    ],
+    "member": "339",
+    "published-online": {
+      "date-parts": [
+        [
+          2014,
+          4,
+          9
+        ]
+      ]
+    },
+    "container-title": "Nature",
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2014,
+          6,
+          3
+        ]
+      ],
+      "date-time": "2014-06-03T12:48:20Z",
+      "timestamp": 1401799700000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          4,
+          9
+        ]
+      ]
+    },
+    "references-count": 0,
+    "alternative-id": [
+      "508161a"
+    ],
+    "URL": "https://doi.org/10.1038/508161a",
+    "relation": {},
+    "subject": [
+      "Multidisciplinary"
+    ],
+    "container-title-short": "Nature",
+    "short_url": "https://doi.org/r8p",
+    "id": "HGqCqC3H"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          9
+        ]
+      ],
+      "date-time": "2018-01-09T15:02:27Z",
+      "timestamp": 1515510147537
+    },
+    "reference-count": 0,
+    "publisher": "Springer Nature",
+    "issue": "7589",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "DOI": "10.1038/530148a",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          2,
+          8
+        ]
+      ],
+      "date-time": "2016-02-08T13:03:55Z",
+      "timestamp": 1454936635000
+    },
+    "page": "148-151",
+    "source": "Crossref",
+    "is-referenced-by-count": 33,
+    "title": "Does it take too long to publish research?",
+    "prefix": "10.1038",
+    "volume": "530",
+    "author": [
+      {
+        "given": "Kendall",
+        "family": "Powell",
+        "affiliation": []
+      }
+    ],
+    "member": "339",
+    "published-online": {
+      "date-parts": [
+        [
+          2016,
+          2,
+          10
+        ]
+      ]
+    },
+    "container-title": "Nature",
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2016,
+          9,
+          28
+        ]
+      ],
+      "date-time": "2016-09-28T18:34:48Z",
+      "timestamp": 1475087688000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          2,
+          10
+        ]
+      ]
+    },
+    "references-count": 0,
+    "alternative-id": [
+      "530148a"
+    ],
+    "URL": "https://doi.org/10.1038/530148a",
+    "relation": {},
+    "subject": [
+      "Multidisciplinary"
+    ],
+    "container-title-short": "Nature",
+    "short_url": "https://doi.org/f3mn4t",
+    "id": "PZA0cOT1"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          10,
           28
         ]
       ],
@@ -1647,6 +1833,201 @@
     "container-title-short": "Nature",
     "short_url": "https://doi.org/gbqq9z",
     "id": "cUfIvWm6"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          17
+        ]
+      ],
+      "date-time": "2017-11-17T05:10:07Z",
+      "timestamp": 1510895407874
+    },
+    "reference-count": 0,
+    "publisher": "Springer Nature",
+    "issue": "7680",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          16
+        ]
+      ]
+    },
+    "DOI": "10.1038/d41586-017-05922-9",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          14
+        ]
+      ],
+      "date-time": "2017-11-14T17:06:48Z",
+      "timestamp": 1510679208000
+    },
+    "page": "399-400",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "Need a paper? Get a plug-in",
+    "prefix": "10.1038",
+    "volume": "551",
+    "member": "339",
+    "container-title": "Nature",
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://www.nature.com/doifinder/10.1038/d41586-017-05922-9",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          16
+        ]
+      ],
+      "date-time": "2017-11-16T13:30:39Z",
+      "timestamp": 1510839039000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          16
+        ]
+      ]
+    },
+    "references-count": 0,
+    "alternative-id": [
+      "d41586-017-05922-9"
+    ],
+    "URL": "https://doi.org/10.1038/d41586-017-05922-9",
+    "relation": {},
+    "subject": [
+      "Multidisciplinary"
+    ],
+    "container-title-short": "Nature",
+    "short_url": "https://doi.org/cf98",
+    "id": "u69TZrHD"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          8
+        ]
+      ],
+      "date-time": "2017-12-08T14:40:47Z",
+      "timestamp": 1512744047577
+    },
+    "reference-count": 0,
+    "publisher": "Springer Nature",
+    "issue": "7683",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          7
+        ]
+      ]
+    },
+    "DOI": "10.1038/d41586-017-07817-1",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          6
+        ]
+      ],
+      "date-time": "2017-12-06T12:45:20Z",
+      "timestamp": 1512564320000
+    },
+    "page": "17-18",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "Hundreds of German universities set to lose access to Elsevier journals",
+    "prefix": "10.1038",
+    "volume": "552",
+    "author": [
+      {
+        "given": "Quirin",
+        "family": "Schiermeier",
+        "affiliation": []
+      }
+    ],
+    "member": "339",
+    "container-title": "Nature",
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://www.nature.com/doifinder/10.1038/d41586-017-07817-1",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          8
+        ]
+      ],
+      "date-time": "2017-12-08T14:18:03Z",
+      "timestamp": 1512742683000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          7
+        ]
+      ]
+    },
+    "references-count": 0,
+    "alternative-id": [
+      "d41586-017-07817-1"
+    ],
+    "URL": "https://doi.org/10.1038/d41586-017-07817-1",
+    "relation": {},
+    "subject": [
+      "Multidisciplinary"
+    ],
+    "container-title-short": "Nature",
+    "short_url": "https://doi.org/gcmdrs",
+    "id": "I5vVmgFo"
   },
   {
     "indexed": {
@@ -2301,6 +2682,104 @@
     "container-title-short": "Nature",
     "short_url": "https://doi.org/gbqq94",
     "id": "b5B01CbS"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          24
+        ]
+      ],
+      "date-time": "2017-11-24T14:40:10Z",
+      "timestamp": 1511534410165
+    },
+    "reference-count": 0,
+    "publisher": "Springer Nature",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "DOI": "10.1038/nature.2017.22971",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          7
+        ]
+      ],
+      "date-time": "2017-11-07T14:13:30Z",
+      "timestamp": 1510064010000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "Pirate paper website Sci-Hub dealt another blow by US courts",
+    "prefix": "10.1038",
+    "author": [
+      {
+        "given": "Quirin",
+        "family": "Schiermeier",
+        "affiliation": []
+      }
+    ],
+    "member": "339",
+    "published-online": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          7
+        ]
+      ]
+    },
+    "container-title": "Nature",
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://www.nature.com/doifinder/10.1038/nature.2017.22971",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          24
+        ]
+      ],
+      "date-time": "2017-11-24T14:09:04Z",
+      "timestamp": 1511532544000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          7
+        ]
+      ]
+    },
+    "references-count": 0,
+    "alternative-id": [
+      "nature.2017.22971"
+    ],
+    "URL": "https://doi.org/10.1038/nature.2017.22971",
+    "relation": {},
+    "subject": [
+      "Multidisciplinary"
+    ],
+    "container-title-short": "Nature",
+    "short_url": "https://doi.org/gcmdbk",
+    "id": "WBnZqVXT"
   },
   {
     "indexed": {
@@ -4434,6 +4913,93 @@
     "container-title-short": "Science",
     "short_url": "https://doi.org/gbxtg2",
     "id": "1BKBt9JRq"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          10,
+          28
+        ]
+      ],
+      "date-time": "2017-10-28T01:23:19Z",
+      "timestamp": 1509153799328
+    },
+    "reference-count": 0,
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          9,
+          29
+        ]
+      ]
+    },
+    "DOI": "10.1126/science.aaq0747",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          9,
+          30
+        ]
+      ],
+      "date-time": "2017-09-30T01:10:06Z",
+      "timestamp": 1506733806000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "Are preprints the future of biology? A survival guide for scientists",
+    "prefix": "10.1126",
+    "author": [
+      {
+        "given": "Jocelyn",
+        "family": "Kaiser",
+        "affiliation": []
+      }
+    ],
+    "member": "221",
+    "container-title": "Science",
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          9,
+          30
+        ]
+      ],
+      "date-time": "2017-09-30T01:10:08Z",
+      "timestamp": 1506733808000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          9,
+          29
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.1126/science.aaq0747",
+    "relation": {},
+    "subject": [
+      "Multidisciplinary"
+    ],
+    "container-title-short": "Science",
+    "short_url": "https://doi.org/gcp3dm",
+    "id": "pehBllPA"
   },
   {
     "indexed": {
@@ -7704,6 +8270,161 @@
     "id": "eOi5pOoT"
   },
   {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          11
+        ]
+      ],
+      "date-time": "2018-01-11T03:11:15Z",
+      "timestamp": 1515640275047
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          11
+        ]
+      ]
+    },
+    "group-title": "PeerJ Preprints",
+    "reference-count": 0,
+    "publisher": "PeerJ",
+    "license": [
+      {
+        "URL": "http://creativecommons.org/licenses/by/4.0/",
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              1,
+              11
+            ]
+          ],
+          "date-time": "2018-01-11T00:00:00Z",
+          "timestamp": 1515628800000
+        },
+        "delay-in-days": 0,
+        "content-version": "unspecified"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "accepted": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          11
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Across the world there is growing interest in open access publishing among researchers, institutions, funders and publishers alike. It is assumed that open access levels are growing, but hitherto the exact levels and patterns of open access have been hard to determine and detailed quantitative studies are scarce. Using newly available open access status data from oaDOI in Web of Science we are now able to explore year-on-year open access levels across research fields, languages, countries, institutions, funders and topics, and try to relate the resulting patterns to disciplinary, national and institutional contexts. With data from the oaDOI API we also look at the detailed breakdown of open access by types of gold open access (pure gold, hybrid and bronze), using universities in the Netherlands as an example. There is huge diversity in open access levels on all dimensions, with unexpected levels for e.g. Portuguese as language, Astronomy &amp; Astrophysics as research field, countries like Tanzania, Peru and Latvia, and Zika as topic. We explore methodological issues and offer suggestions to improve conditions for tracking open access status of research output. Finally, we suggest potential future applications for research and policy development. We have shared all data and code openly.</jats:p>",
+    "DOI": "10.7287/peerj.preprints.3520v1",
+    "type": "manuscript",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          11
+        ]
+      ],
+      "date-time": "2018-01-11T02:55:48Z",
+      "timestamp": 1515639348000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "Open access levels: a quantitative exploration using Web of Science and oaDOI data",
+    "prefix": "10.7287",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0001-5796-2727",
+        "authenticated-orcid": true,
+        "given": "Jeroen",
+        "family": "Bosman",
+        "affiliation": [
+          {
+            "name": "Library, Utrecht University, Utrecht, The Netherlands"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-5965-6560",
+        "authenticated-orcid": true,
+        "given": "Bianca",
+        "family": "Kramer",
+        "affiliation": [
+          {
+            "name": "Library, Utrecht University, Utrecht, The Netherlands"
+          }
+        ]
+      }
+    ],
+    "member": "4443",
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://peerj.com/preprints/3520.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://peerj.com/preprints/3520.xml",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://peerj.com/preprints/3520.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://peerj.com/preprints/3520.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          11
+        ]
+      ],
+      "date-time": "2018-01-11T02:55:49Z",
+      "timestamp": 1515639349000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          11
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.7287/peerj.preprints.3520v1",
+    "relation": {},
+    "short_url": "https://doi.org/gcsfxc",
+    "id": "9JroGcRn"
+  },
+  {
     "URL": "http://alla-astakhova.ru/sci-hub/",
     "title": "Вернуть Sci-Hub",
     "container-title": "Status Prаеsens",
@@ -8124,6 +8845,25 @@
     "id": "K6n65WB0"
   },
   {
+    "URL": "http://www.theregister.co.uk/2017/11/23/scihubs_become_inactive_following_court_order/",
+    "greycite-canonical-uri": "https://www.theregister.co.uk/2017/11/23/scihubs_become_inactive_following_court_order/",
+    "title": "Sci-Hub domains inactive following court order",
+    "container-title": "@TheRegister",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          23
+        ]
+      ]
+    },
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2018-01-11 16:33:54",
+    "type": "webpage",
+    "id": "pmrIfHRq"
+  },
+  {
     "URL": "https://dash.harvard.edu/handle/1/4322580",
     "title": "Gratis and libre open access",
     "container-title": "Peter Suber, Gratis and libre open access, SPARC Open Access Newsletter, August 2, 2008.",
@@ -8324,6 +9064,30 @@
     "id": "Hz2uRUJS"
   },
   {
+    "type": "legal-case",
+    "title": "Order – Document #37 of American Chemical Society v. Sci-Hub – Case 1:17-cv-00726-LMB-JFA",
+    "author": [
+      {
+        "family": "Leonie M.",
+        "given": "Brinkema"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          3
+        ]
+      ]
+    },
+    "container-title": "Eastern District Court of Virginia",
+    "authority": "Eastern District Court of Virginia",
+    "number": "1:17-cv-00726-LMB-JFA",
+    "URL": "https://regmedia.co.uk/2017/11/07/sci_hub_block_order_short.pdf",
+    "id": "XI4kiPR4"
+  },
+  {
     "URL": "https://scholarlykitchen.sspnet.org/2016/03/02/sci-hub-and-the-four-horsemen-of-the-internet/",
     "title": "Sci-Hub and the Four Horsemen of the Internet - The Scholarly Kitchen",
     "container-title": "The Scholarly Kitchen",
@@ -8376,6 +9140,21 @@
     "greycite-scanned": "2017-09-27 22:05:24",
     "type": "webpage",
     "id": "YX9zq2ZF"
+  },
+  {
+    "URL": "https://sparcopen.org/our-work/big-deal-cancellation-tracking/",
+    "title": "Big Deal Cancellation Tracking - SPARC",
+    "container-title": "SPARC",
+    "author": [
+      {
+        "family": "@nshockey",
+        "given": ""
+      }
+    ],
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2018-01-11 16:33:59",
+    "type": "webpage",
+    "id": "cHL7ycpV"
   },
   {
     "URL": "https://torrentfreak.com/court-orders-shutdown-of-libgen-bookfi-and-sci-hub-151102/",

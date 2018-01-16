@@ -12,8 +12,12 @@ string	citation	standard_citation	citation_id
 @doi:10.1038/483134a	doi:10.1038/483134a	doi:10.1038/483134a	I6O7IKP7
 @doi:10.1038/495426a	doi:10.1038/495426a	doi:10.1038/495426a	xDn5v2f3
 @doi:10.1038/500386a	doi:10.1038/500386a	doi:10.1038/500386a	NE5AByb0
+@doi:10.1038/508161a	doi:10.1038/508161a	doi:10.1038/508161a	HGqCqC3H
+@doi:10.1038/530148a	doi:10.1038/530148a	doi:10.1038/530148a	PZA0cOT1
 @doi:10.1038/535011f	doi:10.1038/535011f	doi:10.1038/535011f	d9g1ZhPz
 @doi:10.1038/540507a	doi:10.1038/540507a	doi:10.1038/540507a	cUfIvWm6
+@doi:10.1038/d41586-017-05922-9	doi:10.1038/d41586-017-05922-9	doi:10.1038/d41586-017-05922-9	u69TZrHD
+@doi:10.1038/d41586-017-07817-1	doi:10.1038/d41586-017-07817-1	doi:10.1038/d41586-017-07817-1	I5vVmgFo
 @doi:10.1038/nature.2015.16731	doi:10.1038/nature.2015.16731	doi:10.1038/nature.2015.16731	ynhlmOBH
 @doi:10.1038/nature.2015.18876	doi:10.1038/nature.2015.18876	doi:10.1038/nature.2015.18876	sR4uAYxB
 @doi:10.1038/nature.2016.19841	doi:10.1038/nature.2016.19841	doi:10.1038/nature.2016.19841	Zp0s36X0
@@ -21,6 +25,7 @@ string	citation	standard_citation	citation_id
 @doi:10.1038/nature.2017.21482	doi:10.1038/nature.2017.21482	doi:10.1038/nature.2017.21482	xehij8U0
 @doi:10.1038/nature.2017.21765	doi:10.1038/nature.2017.21765	doi:10.1038/nature.2017.21765	8AIp1E7j
 @doi:10.1038/nature.2017.22196	doi:10.1038/nature.2017.22196	doi:10.1038/nature.2017.22196	b5B01CbS
+@doi:10.1038/nature.2017.22971	doi:10.1038/nature.2017.22971	doi:10.1038/nature.2017.22971	WBnZqVXT
 @doi:10.1038/nbt.3780	doi:10.1038/nbt.3780	doi:10.1038/nbt.3780	Qh7xTLwz
 @doi:10.1045/november14-brook	doi:10.1045/november14-brook	doi:10.1045/november14-brook	llK8SMam
 @doi:10.1073/pnas.1403006111	doi:10.1073/pnas.1403006111	doi:10.1073/pnas.1403006111	7oTLbigW
@@ -39,6 +44,7 @@ string	citation	standard_citation	citation_id
 @doi:10.1126/science.aan7164	doi:10.1126/science.aan7164	doi:10.1126/science.aan7164	sheBR4X4
 @doi:10.1126/science.aap7562	doi:10.1126/science.aap7562	doi:10.1126/science.aap7562	1F2Ri1rrL
 @doi:10.1126/science.aaq0132	doi:10.1126/science.aaq0132	doi:10.1126/science.aaq0132	1BKBt9JRq
+@doi:10.1126/science.aaq0747	doi:10.1126/science.aaq0747	doi:10.1126/science.aaq0747	pehBllPA
 @doi:10.1126/science.aaq1560	doi:10.1126/science.aaq1560	doi:10.1126/science.aaq1560	nVGhXBcX
 @doi:10.1186/s12916-015-0469-2	doi:10.1186/s12916-015-0469-2	doi:10.1186/s12916-015-0469-2	K29A7oBE
 @doi:10.12688/f1000research.11366.1	doi:10.12688/f1000research.11366.1	doi:10.12688/f1000research.11366.1	iLKgjFDu
@@ -75,6 +81,7 @@ string	citation	standard_citation	citation_id
 @doi:10.6087/kcse.2014.1.13	doi:10.6087/kcse.2014.1.13	doi:10.6087/kcse.2014.1.13	Eq78IAX4
 @doi:10.7287/peerj.preprints.3100v1	doi:10.7287/peerj.preprints.3100v1	doi:10.7287/peerj.preprints.3100v1	11cb5HXoY
 @doi:10.7287/peerj.preprints.3119v1	doi:10.7287/peerj.preprints.3119v1	doi:10.7287/peerj.preprints.3119v1	eOi5pOoT
+@doi:10.7287/peerj.preprints.3520v1	doi:10.7287/peerj.preprints.3520v1	doi:10.7287/peerj.preprints.3520v1	9JroGcRn
 @url:http://alla-astakhova.ru/sci-hub/	url:http://alla-astakhova.ru/sci-hub/	url:http://alla-astakhova.ru/sci-hub/	GLDH745f
 @url:http://bigthink.com/neurobonkers/a-pirate-bay-for-science	url:http://bigthink.com/neurobonkers/a-pirate-bay-for-science	url:http://bigthink.com/neurobonkers/a-pirate-bay-for-science	SlcfPQQQ
 @url:http://blog.dhimmel.com/biorxiv-licenses/	url:http://blog.dhimmel.com/biorxiv-licenses/	url:http://blog.dhimmel.com/biorxiv-licenses/	7aXVorCC
@@ -91,6 +98,7 @@ string	citation	standard_citation	citation_id
 @url:http://www.bib.umontreal.ca/communiques/20170504-DC-annulation-taylor-francis-va.htm	url:http://www.bib.umontreal.ca/communiques/20170504-DC-annulation-taylor-francis-va.htm	url:http://www.bib.umontreal.ca/communiques/20170504-DC-annulation-taylor-francis-va.htm	RkpJBRo6
 @url:http://www.dtic.mil/docs/citations/ADA465464	url:http://www.dtic.mil/docs/citations/ADA465464	url:http://www.dtic.mil/docs/citations/ADA465464	zvVsLNxf
 @url:http://www.leafscience.org/alexandra-elbakyan/	url:http://www.leafscience.org/alexandra-elbakyan/	url:http://www.leafscience.org/alexandra-elbakyan/	K6n65WB0
+@url:http://www.theregister.co.uk/2017/11/23/scihubs_become_inactive_following_court_order/	url:http://www.theregister.co.uk/2017/11/23/scihubs_become_inactive_following_court_order/	url:http://www.theregister.co.uk/2017/11/23/scihubs_become_inactive_following_court_order/	pmrIfHRq
 @url:https://dash.harvard.edu/handle/1/4322580	url:https://dash.harvard.edu/handle/1/4322580	url:https://dash.harvard.edu/handle/1/4322580	tSEdUvgK
 @url:https://engineuring.wordpress.com/2016/02/24/why-sci-hub-is-the-true-solution-for-open-access-reply-to-criticism/	url:https://engineuring.wordpress.com/2016/02/24/why-sci-hub-is-the-true-solution-for-open-access-reply-to-criticism/	url:https://engineuring.wordpress.com/2016/02/24/why-sci-hub-is-the-true-solution-for-open-access-reply-to-criticism/	DCZkZXsz
 @url:https://engineuring.wordpress.com/2016/03/11/sci-hub-is-a-goal-changing-the-system-is-a-method/	url:https://engineuring.wordpress.com/2016/03/11/sci-hub-is-a-goal-changing-the-system-is-a-method/	url:https://engineuring.wordpress.com/2016/03/11/sci-hub-is-a-goal-changing-the-system-is-a-method/	nZZjs6T6
@@ -99,9 +107,11 @@ string	citation	standard_citation	citation_id
 @url:https://media.consensys.net/decentralized-storage-the-backbone-of-the-third-web-d4bc54e79700	url:https://media.consensys.net/decentralized-storage-the-backbone-of-the-third-web-d4bc54e79700	url:https://media.consensys.net/decentralized-storage-the-backbone-of-the-third-web-d4bc54e79700	5gyFSQse
 @url:https://mitpress.mit.edu/books/open-access	url:https://mitpress.mit.edu/books/open-access	url:https://mitpress.mit.edu/books/open-access	LgXhvEw7
 @url:https://redd.it/2raea8	url:https://redd.it/2raea8	url:https://redd.it/2raea8	Hz2uRUJS
+@url:https://regmedia.co.uk/2017/11/07/sci_hub_block_order_short.pdf	url:https://regmedia.co.uk/2017/11/07/sci_hub_block_order_short.pdf	url:https://regmedia.co.uk/2017/11/07/sci_hub_block_order_short.pdf	XI4kiPR4
 @url:https://scholarlykitchen.sspnet.org/2016/03/02/sci-hub-and-the-four-horsemen-of-the-internet/	url:https://scholarlykitchen.sspnet.org/2016/03/02/sci-hub-and-the-four-horsemen-of-the-internet/	url:https://scholarlykitchen.sspnet.org/2016/03/02/sci-hub-and-the-four-horsemen-of-the-internet/	C3J6AH5V
 @url:https://scholarlykitchen.sspnet.org/2016/06/21/two-step-authentication-finally-coming-to-a-university-near-you/	url:https://scholarlykitchen.sspnet.org/2016/06/21/two-step-authentication-finally-coming-to-a-university-near-you/	url:https://scholarlykitchen.sspnet.org/2016/06/21/two-step-authentication-finally-coming-to-a-university-near-you/	2Vc1UrtB
 @url:https://scholarlykitchen.sspnet.org/2017/09/05/sci-hub-moves-center-ecosystem/	url:https://scholarlykitchen.sspnet.org/2017/09/05/sci-hub-moves-center-ecosystem/	url:https://scholarlykitchen.sspnet.org/2017/09/05/sci-hub-moves-center-ecosystem/	YX9zq2ZF
+@url:https://sparcopen.org/our-work/big-deal-cancellation-tracking/	url:https://sparcopen.org/our-work/big-deal-cancellation-tracking/	url:https://sparcopen.org/our-work/big-deal-cancellation-tracking/	cHL7ycpV
 @url:https://torrentfreak.com/court-orders-shutdown-of-libgen-bookfi-and-sci-hub-151102/	url:https://torrentfreak.com/court-orders-shutdown-of-libgen-bookfi-and-sci-hub-151102/	url:https://torrentfreak.com/court-orders-shutdown-of-libgen-bookfi-and-sci-hub-151102/	9GOM6WEw
 @url:https://torrentfreak.com/elsevier-cracks-down-on-pirated-scientific-articles-150609/	url:https://torrentfreak.com/elsevier-cracks-down-on-pirated-scientific-articles-150609/	url:https://torrentfreak.com/elsevier-cracks-down-on-pirated-scientific-articles-150609/	6ZrZVv6E
 @url:https://torrentfreak.com/new-lawsuit-demands-isp-blockades-against-pirate-site-sci-hub-170629/	url:https://torrentfreak.com/new-lawsuit-demands-isp-blockades-against-pirate-site-sci-hub-170629/	url:https://torrentfreak.com/new-lawsuit-demands-isp-blockades-against-pirate-site-sci-hub-170629/	17REO8hrA
