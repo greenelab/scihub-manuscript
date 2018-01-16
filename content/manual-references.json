@@ -247,6 +247,30 @@
   "URL": "https://www.courtlistener.com/docket/6146630/1/american-chemical-society-v-does-1-99/"
 },
 {
+  "standard_citation": "url:https://regmedia.co.uk/2017/11/07/sci_hub_block_order_short.pdf",
+  "type": "legal-case",
+  "title": "Order – Document #37 of American Chemical Society v. Sci-Hub – Case 1:17-cv-00726-LMB-JFA",
+  "author": [
+    {
+      "family": "Leonie M.",
+      "given": "Brinkema"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2017,
+        11,
+        3
+      ]
+    ]
+  },
+  "container-title": "Eastern District Court of Virginia",
+  "authority": "Eastern District Court of Virginia",
+  "number": "1:17-cv-00726-LMB-JFA",
+  "URL": "https://regmedia.co.uk/2017/11/07/sci_hub_block_order_short.pdf"
+},
+{
   "standard_citation": "url:http://www.leafscience.org/alexandra-elbakyan/",
   "type": "post",
   "title": "Alexandra Elbakyan – Science Should be Open to all Not Behind Paywalls",
