@@ -7,7 +7,7 @@ dependencies:
   - conda-forge::ghp-import=0.5.5
   - conda-forge::jinja2=2.10
   - conda-forge::pandas=0.22.0
-  - conda-forge::pandoc=2.1
+  - conda-forge::pandoc=2.0.5
   - conda-forge::python=3.6.4
   - conda-forge::pyyaml=3.12
   - conda-forge::requests=2.18.4
