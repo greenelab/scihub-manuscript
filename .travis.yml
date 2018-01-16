@@ -7,7 +7,7 @@ branches:
 env:
   - BUILD_DOCX=true
 before_install:
-  - wget https://repo.continuum.io/miniconda/Miniconda3-4.3.30-Linux-x86_64.sh
+  - wget https://repo.continuum.io/miniconda/Miniconda3-4.3.31-Linux-x86_64.sh
     --output-document miniconda.sh
   - bash miniconda.sh -b -p $HOME/miniconda
   - export PATH="$HOME/miniconda/bin:$PATH"
