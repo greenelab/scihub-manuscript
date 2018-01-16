@@ -301,13 +301,13 @@
     "indexed": {
       "date-parts": [
         [
-          2017,
-          12,
-          4
+          2018,
+          1,
+          12
         ]
       ],
-      "date-time": "2017-12-04T12:42:15Z",
-      "timestamp": 1512391335535
+      "date-time": "2018-01-12T05:42:26Z",
+      "timestamp": 1515735746380
     },
     "reference-count": 26,
     "publisher": "Springer Nature",
@@ -360,7 +360,7 @@
     "page": "213-228",
     "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 67,
+    "is-referenced-by-count": 72,
     "title": "The journal coverage of Web of Science and Scopus: a comparative analysis",
     "prefix": "10.1007",
     "volume": "106",
@@ -1287,13 +1287,13 @@
     "indexed": {
       "date-parts": [
         [
-          2017,
-          11,
-          29
+          2018,
+          1,
+          9
         ]
       ],
-      "date-time": "2017-11-29T02:42:15Z",
-      "timestamp": 1511923335634
+      "date-time": "2018-01-09T17:22:27Z",
+      "timestamp": 1515518547388
     },
     "reference-count": 0,
     "publisher": "Springer Nature",
@@ -1317,7 +1317,7 @@
     },
     "page": "426-429",
     "source": "Crossref",
-    "is-referenced-by-count": 87,
+    "is-referenced-by-count": 90,
     "title": "Open access: The true cost of science publishing",
     "prefix": "10.1038",
     "volume": "495",
@@ -2307,19 +2307,47 @@
       "date-parts": [
         [
           2017,
-          11,
-          15
+          12,
+          27
         ]
       ],
-      "date-time": "2017-11-15T05:22:14Z",
-      "timestamp": 1510723334826
+      "date-time": "2017-12-27T16:10:33Z",
+      "timestamp": 1514391033375
     },
     "reference-count": 33,
     "publisher": "Springer Nature",
     "issue": "4",
+    "license": [
+      {
+        "URL": "http://www.springer.com/tdm",
+        "start": {
+          "date-parts": [
+            [
+              2017,
+              3,
+              13
+            ]
+          ],
+          "date-time": "2017-03-13T00:00:00Z",
+          "timestamp": 1489363200000
+        },
+        "delay-in-days": 0,
+        "content-version": "unspecified"
+      }
+    ],
     "content-domain": {
-      "domain": [],
+      "domain": [
+        "link.springer.com"
+      ],
       "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          4
+        ]
+      ]
     },
     "DOI": "10.1038/nbt.3780",
     "type": "article-journal",
@@ -2335,8 +2363,9 @@
       "timestamp": 1489421013000
     },
     "page": "342-346",
+    "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 6,
+    "is-referenced-by-count": 0,
     "title": "Reproducibility of computational workflows is automated using continuous analysis",
     "prefix": "10.1038",
     "volume": "35",
@@ -2366,16 +2395,36 @@
     },
     "container-title": "Nature Biotechnology",
     "original-title": [],
+    "link": [
+      {
+        "URL": "http://www.nature.com/articles/nbt.3780.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://www.nature.com/articles/nbt.3780",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://www.nature.com/articles/nbt.3780.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
     "deposited": {
       "date-parts": [
         [
           2017,
-          6,
-          25
+          12,
+          27
         ]
       ],
-      "date-time": "2017-06-25T12:32:14Z",
-      "timestamp": 1498393934000
+      "date-time": "2017-12-27T15:37:33Z",
+      "timestamp": 1514389053000
     },
     "score": 1.0,
     "subtitle": [],
@@ -2391,17 +2440,10 @@
     },
     "references-count": 33,
     "alternative-id": [
-      "nbt.3780"
+      "BFnbt3780"
     ],
     "URL": "https://doi.org/10.1038/nbt.3780",
     "relation": {
-      "has-preprint": [
-        {
-          "id-type": "doi",
-          "id": "10.1101/056473",
-          "asserted-by": "object"
-        }
-      ],
       "cites": []
     },
     "subject": [
@@ -2647,12 +2689,12 @@
       "date-parts": [
         [
           2017,
-          10,
-          27
+          12,
+          8
         ]
       ],
-      "date-time": "2017-10-27T09:29:21Z",
-      "timestamp": 1509096561095
+      "date-time": "2017-12-08T19:42:17Z",
+      "timestamp": 1512762137901
     },
     "reference-count": 35,
     "publisher": "Informa UK Limited",
@@ -2684,7 +2726,7 @@
     },
     "page": "246-255",
     "source": "Crossref",
-    "is-referenced-by-count": 4,
+    "is-referenced-by-count": 5,
     "title": "Transforming Access to Research Literature for Developing Countries",
     "prefix": "10.1080",
     "volume": "31",
@@ -2849,12 +2891,12 @@
       "date-parts": [
         [
           2017,
-          10,
-          27
+          12,
+          29
         ]
       ],
-      "date-time": "2017-10-27T14:10:46Z",
-      "timestamp": 1509113446464
+      "date-time": "2017-12-29T09:02:39Z",
+      "timestamp": 1514538159105
     },
     "posted": {
       "date-parts": [
@@ -2896,7 +2938,7 @@
       "timestamp": 1496034615000
     },
     "source": "Crossref",
-    "is-referenced-by-count": 1,
+    "is-referenced-by-count": 2,
     "title": "Opportunities And Obstacles For Deep Learning In Biology And Medicine",
     "prefix": "10.1101",
     "author": [
@@ -3265,12 +3307,12 @@
       "date-parts": [
         [
           2017,
-          10,
-          27
+          12,
+          20
         ]
       ],
-      "date-time": "2017-10-27T06:54:11Z",
-      "timestamp": 1509087251852
+      "date-time": "2017-12-20T17:42:45Z",
+      "timestamp": 1513791765985
     },
     "reference-count": 40,
     "publisher": "Emerald",
@@ -3321,7 +3363,7 @@
     },
     "page": "253-277",
     "source": "Crossref",
-    "is-referenced-by-count": 7,
+    "is-referenced-by-count": 8,
     "title": "Setting our bibliographic references free: towards open citation data",
     "prefix": "10.1108",
     "volume": "71",
@@ -3408,12 +3450,12 @@
       "date-parts": [
         [
           2017,
-          10,
-          28
+          12,
+          18
         ]
       ],
-      "date-time": "2017-10-28T04:38:20Z",
-      "timestamp": 1509165500415
+      "date-time": "2017-12-18T21:42:22Z",
+      "timestamp": 1513633342756
     },
     "reference-count": 31,
     "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
@@ -3463,7 +3505,7 @@
     },
     "page": "341-350",
     "source": "Crossref",
-    "is-referenced-by-count": 12,
+    "is-referenced-by-count": 16,
     "title": "Vega-Lite: A Grammar of Interactive Graphics",
     "prefix": "10.1109",
     "volume": "23",
@@ -4484,13 +4526,13 @@
     "indexed": {
       "date-parts": [
         [
-          2017,
-          11,
-          29
+          2018,
+          1,
+          5
         ]
       ],
-      "date-time": "2017-11-29T02:42:15Z",
-      "timestamp": 1511923335635
+      "date-time": "2018-01-05T14:02:27Z",
+      "timestamp": 1515160947826
     },
     "reference-count": 35,
     "publisher": "Springer Nature",
@@ -4542,7 +4584,7 @@
     },
     "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 91,
+    "is-referenced-by-count": 97,
     "title": "‘Predatory’ open access: a longitudinal study of article volumes and market characteristics",
     "prefix": "10.1186",
     "volume": "13",
@@ -5071,12 +5113,12 @@
       "date-parts": [
         [
           2017,
-          11,
-          29
+          12,
+          22
         ]
       ],
-      "date-time": "2017-11-29T14:22:14Z",
-      "timestamp": 1511965334154
+      "date-time": "2017-12-22T05:02:56Z",
+      "timestamp": 1513918976689
     },
     "update-to": [
       {
@@ -5136,7 +5178,7 @@
     "page": "632",
     "update-policy": "http://dx.doi.org/10.12688/f1000research.crossmark-policy",
     "source": "Crossref",
-    "is-referenced-by-count": 18,
+    "is-referenced-by-count": 20,
     "title": "The academic, economic and societal impacts of Open Access: an evidence-based review",
     "prefix": "10.12688",
     "volume": "5",
@@ -5407,13 +5449,13 @@
     "indexed": {
       "date-parts": [
         [
-          2017,
-          12,
-          2
+          2018,
+          1,
+          11
         ]
       ],
-      "date-time": "2017-12-02T15:42:15Z",
-      "timestamp": 1512229335399
+      "date-time": "2018-01-11T10:02:27Z",
+      "timestamp": 1515664947391
     },
     "reference-count": 17,
     "publisher": "Public Library of Science (PLoS)",
@@ -5458,7 +5500,7 @@
     "page": "e93949",
     "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 59,
+    "is-referenced-by-count": 62,
     "title": "The Number of Scholarly Documents on the Public Web",
     "prefix": "10.1371",
     "volume": "9",
@@ -5542,13 +5584,13 @@
     "indexed": {
       "date-parts": [
         [
-          2017,
-          11,
-          29
+          2018,
+          1,
+          9
         ]
       ],
-      "date-time": "2017-11-29T14:22:14Z",
-      "timestamp": 1511965334137
+      "date-time": "2018-01-09T17:22:27Z",
+      "timestamp": 1515518547381
     },
     "reference-count": 48,
     "publisher": "Public Library of Science (PLoS)",
@@ -5593,7 +5635,7 @@
     "page": "e0127502",
     "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 65,
+    "is-referenced-by-count": 68,
     "title": "The Oligopoly of Academic Publishers in the Digital Era",
     "prefix": "10.1371",
     "volume": "10",
@@ -7251,31 +7293,167 @@
     "id": "Eq78IAX4"
   },
   {
-    "type": "report",
-    "id": "11cb5HXoY",
-    "language": "eng",
-    "author": [
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          13
+        ]
+      ],
+      "date-time": "2018-01-13T14:40:08Z",
+      "timestamp": 1515854408688
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2017,
+          7,
+          20
+        ]
+      ]
+    },
+    "group-title": "PeerJ Preprints",
+    "reference-count": 0,
+    "publisher": "PeerJ",
+    "license": [
       {
-        "family": "Himmelstein",
-        "given": "Daniel S"
-      },
-      {
-        "family": "Romero",
-        "given": "Ariel R"
-      },
-      {
-        "family": "McLaughlin",
-        "given": "Stephen R"
-      },
-      {
-        "family": "Tzovaras",
-        "given": "Bastian Greshake"
-      },
-      {
-        "family": "Greene",
-        "given": "Casey S"
+        "URL": "http://creativecommons.org/licenses/by/4.0/",
+        "start": {
+          "date-parts": [
+            [
+              2017,
+              7,
+              20
+            ]
+          ],
+          "date-time": "2017-07-20T00:00:00Z",
+          "timestamp": 1500508800000
+        },
+        "delay-in-days": 0,
+        "content-version": "unspecified"
       }
     ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "abstract": "<jats:p>The website Sci-Hub provides access to scholarly literature via full text PDF downloads. The site enables users to access articles that would otherwise be paywalled. Since its creation in 2011, Sci-Hub has grown rapidly in popularity. However, until now, the extent of Sci-Hub's coverage was unclear. As of March 2017, we find that Sci-Hub's database contains 68.9% of all 81.6 million scholarly articles, which rises to 85.2% for those published in closed access journals. Furthermore, Sci-Hub contains 77.0% of the 5.2 million articles published by inactive journals. Coverage varies by discipline, with 92.8% coverage of articles in chemistry journals compared to 76.3% for computer science. Coverage also varies by publisher, with the coverage of the largest publisher, Elsevier, at 97.3%. Our interactive browser at <jats:uri>https://greenelab.github.io/scihub</jats:uri> allows users to explore these findings in more detail. Finally, we estimate that over a six-month period in 2015–2016, Sci-Hub provided access for 99.3% of valid incoming requests. Hence, the scope of this resource suggests the subscription publishing model is becoming unsustainable. For the first time, the overwhelming majority of scholarly literature is available gratis to anyone with an Internet connection.</jats:p>",
+    "DOI": "10.7287/peerj.preprints.3100v1",
+    "type": "manuscript",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          13
+        ]
+      ],
+      "date-time": "2018-01-13T14:11:34Z",
+      "timestamp": 1515852694000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "Sci-Hub provides access to nearly all scholarly literature",
+    "prefix": "10.7287",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0002-3012-7446",
+        "authenticated-orcid": true,
+        "given": "Daniel S",
+        "family": "Himmelstein",
+        "affiliation": [
+          {
+            "name": "Systems Pharmacology & Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States"
+          }
+        ]
+      },
+      {
+        "given": "Ariel R",
+        "family": "Romero",
+        "affiliation": [
+          {
+            "name": "Bidwise, Inc, Miami, Florida, United States"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-9888-3168",
+        "authenticated-orcid": true,
+        "given": "Stephen R",
+        "family": "McLaughlin",
+        "affiliation": [
+          {
+            "name": "School of Information, University of Texas at Austin, Austin, Texas, United States"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-9925-9623",
+        "authenticated-orcid": true,
+        "given": "Bastian",
+        "family": "Greshake Tzovaras",
+        "affiliation": [
+          {
+            "name": "Department of Applied Bioinformatics, Goethe University Frankfurt, Frankfurt, Germany"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-8713-9213",
+        "authenticated-orcid": true,
+        "given": "Casey S",
+        "family": "Greene",
+        "affiliation": [
+          {
+            "name": "Systems Pharmacology & Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States"
+          }
+        ]
+      }
+    ],
+    "member": "4443",
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://peerj.com/preprints/3100.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://peerj.com/preprints/3100.xml",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://peerj.com/preprints/3100.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://peerj.com/preprints/3100.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          13
+        ]
+      ],
+      "date-time": "2018-01-13T14:11:34Z",
+      "timestamp": 1515852694000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
     "issued": {
       "date-parts": [
         [
@@ -7285,56 +7463,231 @@
         ]
       ]
     },
-    "abstract": "The website Sci-Hub provides access to scholarly literature via full text PDF downloads. The site enables users to access articles that would otherwise be paywalled. Since its creation in 2011, Sci-Hub has grown rapidly in popularity. However, until now, the extent of Sci-Hub's coverage was unclear. As of March 2017, we find that Sci-Hub's database contains 68.9% of all 81.6 million scholarly articles, which rises to 85.2% for those published in closed access journals. Furthermore, Sci-Hub contains 77.0% of the 5.2 million articles published by inactive journals. Coverage varies by discipline, with 92.8% coverage of articles in chemistry journals compared to 76.3% for computer science. Coverage also varies by publisher, with the coverage of the largest publisher, Elsevier, at 97.3%. Our interactive browser at https://greenelab.github.io/scihub allows users to explore these findings in more detail. Finally, we estimate that over a six-month period in 2015–2016, Sci-Hub provided access for 99.3% of valid incoming requests. Hence, the scope of this resource suggests the subscription publishing model is becoming unsustainable. For the first time, the overwhelming majority of scholarly literature is available gratis to anyone with an Internet connection.",
-    "DOI": "10.7287/peerj.preprints.3100v1",
-    "page": "-",
-    "publisher": "PeerJ Preprints",
-    "title": "Sci-Hub provides access to nearly all scholarly literature",
-    "version": "1",
+    "references-count": 0,
     "URL": "https://doi.org/10.7287/peerj.preprints.3100v1",
-    "short_url": "https://doi.org/b9s6"
+    "relation": {
+      "is-replaced-by": [
+        {
+          "id-type": "doi",
+          "id": "10.7287/peerj.preprints.3100v2",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "short_url": "https://doi.org/b9s6",
+    "id": "11cb5HXoY"
   },
   {
-    "type": "report",
-    "id": "eOi5pOoT",
-    "language": "eng",
-    "author": [
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          13
+        ]
+      ],
+      "date-time": "2018-01-13T13:40:27Z",
+      "timestamp": 1515850827303
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2017,
+          8,
+          2
+        ]
+      ]
+    },
+    "group-title": "PeerJ Preprints",
+    "reference-count": 0,
+    "publisher": "PeerJ",
+    "license": [
       {
-        "family": "Piwowar",
-        "given": "Heather"
-      },
-      {
-        "family": "Priem",
-        "given": "Jason"
-      },
-      {
-        "family": "Larivière",
-        "given": "Vincent"
-      },
-      {
-        "family": "Alperin",
-        "given": "Juan Pablo"
-      },
-      {
-        "family": "Matthias",
-        "given": "Lisa"
-      },
-      {
-        "family": "Norlander",
-        "given": "Bree"
-      },
-      {
-        "family": "Farley",
-        "given": "Ashley"
-      },
-      {
-        "literal": "Jevin West"
-      },
-      {
-        "family": "Haustein",
-        "given": "Stefanie"
+        "URL": "http://creativecommons.org/licenses/by/4.0/",
+        "start": {
+          "date-parts": [
+            [
+              2017,
+              8,
+              2
+            ]
+          ],
+          "date-time": "2017-08-02T00:00:00Z",
+          "timestamp": 1501632000000
+        },
+        "delay-in-days": 0,
+        "content-version": "unspecified"
       }
     ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "abstract": "<jats:p>Despite growing interest in Open Access (OA) to scholarly literature, there is an unmet need for large-scale, up-to-date, and reproducible studies assessing the prevalence and characteristics of OA. We address this need using oaDOI, an open online service that determines OA status for 67 million articles.</jats:p>\n        <jats:p>We use three samples, each of 100,000 articles, to investigate OA in three populations: 1) all journal articles assigned a Crossref DOI, 2) recent journal articles indexed in Web of Science, and 3) articles viewed by users of Unpaywall, an open-source browser extension that lets users find OA articles using oaDOI.</jats:p>\n        <jats:p>We estimate that at least 28% of the scholarly literature is OA (19M in total) and that this proportion is growing, driven particularly by growth in Gold and Hybrid. The most recent year analyzed (2015) also has the highest percentage of OA (45%). Because of this growth, and the fact that readers disproportionately access newer articles, we find that Unpaywall users encounter OA quite frequently: 47% of articles they view are OA. Notably, the most common mechanism for OA is not Gold, Green, or Hybrid OA, but rather an under-discussed category we dub Bronze: articles made free-to-read on the publisher website, without an explicit Open license.</jats:p>\n        <jats:p>We also examine the citation impact of OA articles, corroborating the so-called open-access citation advantage: accounting for age and discipline, OA articles receive 18% more citations than average, an effect driven primarily by Green and Hybrid OA. We encourage further research using the free oaDOI service, as a way to inform OA policy and practice.</jats:p>",
+    "DOI": "10.7287/peerj.preprints.3119v1",
+    "type": "manuscript",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          13
+        ]
+      ],
+      "date-time": "2018-01-13T13:14:15Z",
+      "timestamp": 1515849255000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "The State of OA: A large-scale analysis of the prevalence and impact of Open Access articles",
+    "prefix": "10.7287",
+    "author": [
+      {
+        "given": "Heather",
+        "family": "Piwowar",
+        "affiliation": [
+          {
+            "name": "Impactstory, Sanford, USA"
+          }
+        ]
+      },
+      {
+        "given": "Jason",
+        "family": "Priem",
+        "affiliation": [
+          {
+            "name": "Impactstory, Sanford, USA"
+          }
+        ]
+      },
+      {
+        "given": "Vincent",
+        "family": "Larivière",
+        "affiliation": [
+          {
+            "name": "École de bibliothéconomie et des sciences de l’information, Université de Montréal, Montréal, QC, Canada"
+          },
+          {
+            "name": "Observatoire des Sciences et des Technologies (OST), Centre Interuniversitaire de Recherche sur la Science et la Technologie (CIRST),, Université du Québec à Montréal, Montréal, QC, Canada"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-9344-7439",
+        "authenticated-orcid": true,
+        "given": "Juan Pablo",
+        "family": "Alperin",
+        "affiliation": [
+          {
+            "name": "Canadian Institute for Studies in Publishing, Simon Fraser University, Vancouver, BC, Canada"
+          },
+          {
+            "name": "Public Knowledge Project"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-2612-2132",
+        "authenticated-orcid": true,
+        "given": "Lisa",
+        "family": "Matthias",
+        "affiliation": [
+          {
+            "name": "Independent Scholar, Berlin, Germany"
+          }
+        ]
+      },
+      {
+        "given": "Bree",
+        "family": "Norlander",
+        "affiliation": [
+          {
+            "name": "Information School, University of Washington, Seattle, USA"
+          },
+          {
+            "name": "FlourishOA"
+          }
+        ]
+      },
+      {
+        "given": "Ashley",
+        "family": "Farley",
+        "affiliation": [
+          {
+            "name": "Information School, University of Washington, Seattle, USA"
+          },
+          {
+            "name": "FlourishOA"
+          }
+        ]
+      },
+      {
+        "given": "Jevin",
+        "family": "West",
+        "affiliation": [
+          {
+            "name": "Information School, University of Washington, Seattle, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-0157-1430",
+        "authenticated-orcid": true,
+        "given": "Stefanie",
+        "family": "Haustein",
+        "affiliation": [
+          {
+            "name": "Observatoire des Sciences et des Technologies (OST), Centre Interuniversitaire de Recherche sur la Science et la Technologie (CIRST),, Université du Québec à Montréal, Montréal, QC, Canada"
+          },
+          {
+            "name": "School of Information Studies, University of Ottawa, Ottawa, ON, Canada"
+          }
+        ]
+      }
+    ],
+    "member": "4443",
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://peerj.com/preprints/3119.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://peerj.com/preprints/3119.xml",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://peerj.com/preprints/3119.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://peerj.com/preprints/3119.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          13
+        ]
+      ],
+      "date-time": "2018-01-13T13:14:15Z",
+      "timestamp": 1515849255000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
     "issued": {
       "date-parts": [
         [
@@ -7344,47 +7697,218 @@
         ]
       ]
     },
-    "abstract": "Despite growing interest in Open Access (OA) to scholarly literature, there is an unmet need for large-scale, up-to-date, and reproducible studies assessing the prevalence and characteristics of OA. We address this need using oaDOI, an open online service that determines OA status for 67 million articles.We use three samples, each of 100,000 articles, to investigate OA in three populations: 1) all journal articles assigned a Crossref DOI, 2) recent journal articles indexed in Web of Science, and 3) articles viewed by users of Unpaywall, an open-source browser extension that lets users find OA articles using oaDOI.We estimate that at least 28% of the scholarly literature is OA (19M in total) and that this proportion is growing, driven particularly by growth in Gold and Hybrid. The most recent year analyzed (2015) also has the highest percentage of OA (45%). Because of this growth, and the fact that readers disproportionately access newer articles, we find that Unpaywall users encounter OA quite frequently: 47% of articles they view are OA. Notably, the most common mechanism for OA is not Gold, Green, or Hybrid OA, but rather an under-discussed category we dub Bronze: articles made free-to-read on the publisher website, without an explicit Open license.We also examine the citation impact of OA articles, corroborating the so-called open-access citation advantage: accounting for age and discipline, OA articles receive 18% more citations than average, an effect driven primarily by Green and Hybrid OA. We encourage further research using the free oaDOI service, as a way to inform OA policy and practice.",
-    "DOI": "10.7287/peerj.preprints.3119v1",
-    "page": "-",
-    "publisher": "PeerJ Preprints",
-    "title": "The State of OA: A large-scale analysis of the prevalence and impact of Open Access articles",
-    "version": "1",
+    "references-count": 0,
     "URL": "https://doi.org/10.7287/peerj.preprints.3119v1",
-    "short_url": "https://doi.org/gbqtxd"
+    "relation": {},
+    "short_url": "https://doi.org/gbqtxd",
+    "id": "eOi5pOoT"
   },
   {
     "URL": "http://alla-astakhova.ru/sci-hub/",
+    "title": "Вернуть Sci-Hub",
+    "container-title": "Status Prаеsens",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          9,
+          12
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Астахова",
+        "given": "Алла"
+      }
+    ],
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-09-20 21:33:09",
+    "archives": [
+      "http://wayback.archive.org/web/http://alla-astakhova.ru/sci-hub/"
+    ],
     "type": "webpage",
     "id": "GLDH745f"
   },
   {
     "URL": "http://bigthink.com/neurobonkers/a-pirate-bay-for-science",
+    "title": "Meet the Robin Hood of Science",
+    "container-title": "Big Think",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          2,
+          9
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Oxenham",
+        "given": "Simon"
+      }
+    ],
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-07-11 21:24:01",
+    "archives": [
+      "http://wayback.archive.org/web/http://bigthink.com/neurobonkers/a-pirate-bay-for-science"
+    ],
     "type": "webpage",
     "id": "SlcfPQQQ"
   },
   {
     "URL": "http://blog.dhimmel.com/biorxiv-licenses/",
+    "title": "The licensing of bioRxiv preprints",
+    "container-title": "Satoshi Village",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          12,
+          5
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Himmelstein",
+        "given": "Daniel"
+      }
+    ],
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-07-11 21:24:06",
+    "archives": [
+      "http://wayback.archive.org/web/http://blog.dhimmel.com/biorxiv-licenses/"
+    ],
     "type": "webpage",
     "id": "7aXVorCC"
   },
   {
     "URL": "http://blog.impactstory.org/introducting-oadoi/",
+    "title": "Introducing oaDOI: resolve a DOI straight to OA",
+    "container-title": "Impactstory blog",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          10,
+          25
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Heather",
+        "given": ""
+      }
+    ],
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-08-24 19:32:08",
+    "archives": [
+      "http://wayback.archive.org/web/http://blog.impactstory.org/introducting-oadoi/"
+    ],
     "type": "webpage",
     "id": "GhX9kmM1"
   },
   {
     "URL": "http://cen.acs.org/articles/92/web/2014/04/Online-Access-ACS-Publications-Restored.html",
+    "greycite-canonical-uri": null,
+    "title": "Online Access To ACS Publications Is Restored After Some Customers Were Unintentionally Blocked | Chemical & Engineering News",
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Rovner",
+        "given": "Sophie L."
+      }
+    ],
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-07-11 21:24:10",
     "type": "webpage",
     "id": "xn59qVAG"
   },
   {
     "URL": "http://digitalcommons.unl.edu/library_talks/123",
+    "greycite-canonical-uri": null,
+    "title": "A Brief History of Open Access",
+    "container-title": "Library Conference Presentations and Speeches",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Royster",
+        "given": "Paul"
+      }
+    ],
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-07-11 21:24:14",
+    "redirects-to": "http://digitalcommons.unl.edu/library_talks/123/",
+    "archives": [
+      "http://wayback.archive.org/web/http://digitalcommons.unl.edu/library_talks/123"
+    ],
     "type": "webpage",
     "id": "3k6GM8o4"
   },
   {
     "URL": "http://digitalcommons.unl.edu/scholcom/8",
+    "greycite-canonical-uri": null,
+    "title": "Proportion of Open Access Papers Published in Peer-Reviewed Journals at the European and World Levels—1996&ndash;2013",
+    "container-title": "Copyright, Fair Use, Scholarly Communication, etc.",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Archambault",
+        "given": "Éric"
+      },
+      {
+        "family": "Amyot",
+        "given": "Didier"
+      },
+      {
+        "family": "Deschamps",
+        "given": "Philippe"
+      },
+      {
+        "family": "Nicol",
+        "given": "Aurore"
+      },
+      {
+        "family": "Provencher",
+        "given": "Françoise"
+      },
+      {
+        "family": "Rebout",
+        "given": "Lise"
+      },
+      {
+        "family": "Roberge",
+        "given": "Guillaume"
+      }
+    ],
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-07-11 21:24:21",
+    "redirects-to": "http://digitalcommons.unl.edu/scholcom/8/",
+    "archives": [
+      "http://wayback.archive.org/web/http://digitalcommons.unl.edu/scholcom/8"
+    ],
     "type": "webpage",
     "id": "n1xo9kJ7"
   },
@@ -7438,6 +7962,24 @@
   },
   {
     "URL": "http://summit.sfu.ca/item/12537",
+    "title": "Freedom for scholarship in the internet age",
+    "issued": {
+      "date-parts": [
+        [
+          2012,
+          11,
+          21
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Morrison",
+        "given": "Heather Grace"
+      }
+    ],
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-10-02 19:44:07",
     "type": "webpage",
     "id": "bGUjzQuG"
   },
@@ -7531,6 +8073,31 @@
   },
   {
     "URL": "http://www.dtic.mil/docs/citations/ADA465464",
+    "greycite-canonical-uri": null,
+    "title": "Tor: The Second-Generation Onion Router",
+    "issued": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Dingledine",
+        "given": "Roger"
+      },
+      {
+        "family": "Mathewson",
+        "given": "Nick"
+      },
+      {
+        "family": "Syverson",
+        "given": "Paul"
+      }
+    ],
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-07-11 21:24:26",
     "type": "webpage",
     "id": "zvVsLNxf"
   },
@@ -7558,6 +8125,26 @@
   },
   {
     "URL": "https://dash.harvard.edu/handle/1/4322580",
+    "title": "Gratis and libre open access",
+    "container-title": "Peter Suber, Gratis and libre open access, SPARC Open Access Newsletter, August 2, 2008.",
+    "issued": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Suber",
+        "given": "Peter"
+      }
+    ],
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-07-11 21:24:36",
+    "archives": [
+      "http://wayback.archive.org/web/https://dash.harvard.edu/handle/1/4322580"
+    ],
     "type": "webpage",
     "id": "tSEdUvgK"
   },
@@ -7629,36 +8216,164 @@
   },
   {
     "URL": "https://hdl.handle.net/10760/30981",
+    "title": "Shadow Libraries and You: Sci-Hub Usage and the Future of ILL",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          3,
+          25
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Gardner",
+        "given": "Gabriel J."
+      },
+      {
+        "family": "McLaughlin",
+        "given": "Stephen R."
+      },
+      {
+        "family": "Asher",
+        "given": "Andrew D."
+      }
+    ],
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-05-09 20:23:45",
+    "redirects-to": "http://eprints.rclis.org/30981/",
     "type": "webpage",
     "id": "17rORqxsI"
   },
   {
     "URL": "https://media.consensys.net/decentralized-storage-the-backbone-of-the-third-web-d4bc54e79700",
+    "title": "Decentralized Storage: The Backbone of the Third Web",
+    "container-title": "ConsenSys Media",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          6,
+          30
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "ConsenSys",
+        "given": ""
+      }
+    ],
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-07-11 21:25:09",
+    "redirects-to": "https://media.consensys.net/decentralized-storage-the-backbone-of-the-third-web-d4bc54e79700?gi=622f16ea2b83",
+    "archives": [
+      "http://wayback.archive.org/web/https://media.consensys.net/decentralized-storage-the-backbone-of-the-third-web-d4bc54e79700"
+    ],
     "type": "webpage",
     "id": "5gyFSQse"
   },
   {
     "URL": "https://mitpress.mit.edu/books/open-access",
+    "title": "Open Access",
+    "container-title": "MIT Press",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          10,
+          2
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Suber",
+        "given": "Peter"
+      }
+    ],
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-10-02 18:40:08",
+    "archives": [
+      "http://wayback.archive.org/web/https://mitpress.mit.edu/books/open-access"
+    ],
     "type": "webpage",
     "id": "LgXhvEw7"
   },
   {
     "URL": "https://redd.it/2raea8",
+    "title": "Libgen down • r/Scholar",
+    "issued": {
+      "date-parts": [
+        [
+          0
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "/u/BitterCoffeeMan",
+        "given": ""
+      }
+    ],
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-07-11 21:25:18",
+    "redirects-to": "https://www.reddit.com/r/Scholar/comments/2raea8/libgen_down/",
     "type": "webpage",
     "id": "Hz2uRUJS"
   },
   {
     "URL": "https://scholarlykitchen.sspnet.org/2016/03/02/sci-hub-and-the-four-horsemen-of-the-internet/",
+    "title": "Sci-Hub and the Four Horsemen of the Internet - The Scholarly Kitchen",
+    "container-title": "The Scholarly Kitchen",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          3,
+          2
+        ]
+      ]
+    },
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-10-06 22:07:22",
     "type": "webpage",
     "id": "C3J6AH5V"
   },
   {
     "URL": "https://scholarlykitchen.sspnet.org/2016/06/21/two-step-authentication-finally-coming-to-a-university-near-you/",
+    "title": "Two-step Authentication: Finally Coming to a University Near You - The Scholarly Kitchen",
+    "container-title": "The Scholarly Kitchen",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          6,
+          21
+        ]
+      ]
+    },
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-10-06 22:07:28",
     "type": "webpage",
     "id": "2Vc1UrtB"
   },
   {
     "URL": "https://scholarlykitchen.sspnet.org/2017/09/05/sci-hub-moves-center-ecosystem/",
+    "title": "Sci-Hub Moves to the Center of the Ecosystem - The Scholarly Kitchen",
+    "container-title": "The Scholarly Kitchen",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          9,
+          5
+        ]
+      ]
+    },
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-09-27 22:05:24",
     "type": "webpage",
     "id": "YX9zq2ZF"
   },
@@ -8033,16 +8748,79 @@
   },
   {
     "URL": "https://www.theguardian.com/science/2012/jun/08/open-access-research-inevitable-nature-editor",
+    "greycite-canonical-uri": "http://www.theguardian.com/science/2012/jun/08/open-access-research-inevitable-nature-editor",
+    "title": "Open access to research is inevitable, says Nature editor-in-chief",
+    "container-title": "the Guardian",
+    "issued": {
+      "date-parts": [
+        [
+          2012,
+          6,
+          8
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Jha",
+        "given": "Alok"
+      }
+    ],
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-09-29 16:37:29",
+    "archives": [
+      "http://wayback.archive.org/web/https://www.theguardian.com/science/2012/jun/08/open-access-research-inevitable-nature-editor"
+    ],
     "type": "webpage",
     "id": "Bj1n4rGt"
   },
   {
     "URL": "https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science",
+    "greycite-canonical-uri": "http://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science",
+    "title": "Is the staggeringly profitable business of scientific publishing bad for science?",
+    "container-title": "the Guardian",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          27
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Buranyi",
+        "given": "Stephen"
+      },
+      {
+        "family": "Buranyi",
+        "given": "Stephen"
+      }
+    ],
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-10-02 19:44:09",
+    "archives": [
+      "http://wayback.archive.org/web/https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science"
+    ],
     "type": "webpage",
     "id": "D9un8JYo"
   },
   {
     "URL": "https://www.timeshighereducation.com/news/dutch-lose-access-oup-journals-subscription-standoff",
+    "title": "Dutch lose access to OUP journals in subscription standoff",
+    "container-title": "Times Higher Education (THE)",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          5,
+          6
+        ]
+      ]
+    },
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-09-28 17:51:08",
     "type": "webpage",
     "id": "hOBvHaW9"
   }

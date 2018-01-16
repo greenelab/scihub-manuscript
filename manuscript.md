@@ -5,7 +5,7 @@ author-meta:
 - Stephen Reid McLaughlin
 - Bastian Greshake Tzovaras
 - Casey S. Greene
-date-meta: '2017-12-04'
+date-meta: '2018-01-16'
 keywords:
 - Sci-Hub
 - publishing
@@ -28,8 +28,8 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.72
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@10504dc](https://github.com/greenelab/scihub-manuscript/tree/10504dc2b036494af3da5b0bb6c8b3dc7f32fbdf)
-on December  4, 2017.
+from [greenelab/scihub-manuscript@5cb1245](https://github.com/greenelab/scihub-manuscript/tree/5cb1245ca3e68c425b1364317e2496c17e20353c)
+on January 16, 2018.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
 

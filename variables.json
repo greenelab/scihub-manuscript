@@ -1,5 +1,5 @@
 {
-  "date": "December  4, 2017",
+  "date": "January 16, 2018",
   "authors": [
     {
       "github": "dhimmel",
@@ -8,8 +8,13 @@
       "orcid": "0000-0002-3012-7446",
       "twitter": "dhimmel",
       "email": "daniel.himmelstein@gmail.com",
-      "affiliations": "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania",
-      "funders": "GBMF4552"
+      "affiliations": [
+        "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania"
+      ],
+      "funders": "GBMF4552",
+      "affiliation_numbers": [
+        1
+      ]
     },
     {
       "github": "arielsvn",
@@ -18,7 +23,12 @@
       "orcid": "0000-0003-2290-4927",
       "twitter": "arielswn",
       "email": "arielsvn@gmail.com",
-      "affiliations": "Bidwise, Inc"
+      "affiliations": [
+        "Bidwise, Inc"
+      ],
+      "affiliation_numbers": [
+        2
+      ]
     },
     {
       "github": "stevemclaugh",
@@ -27,7 +37,12 @@
       "orcid": "0000-0002-9888-3168",
       "twitter": "SteveMcLaugh",
       "email": "stephen.mclaughlin@utexas.edu",
-      "affiliations": "School of Information, University of Texas at Austin"
+      "affiliations": [
+        "School of Information, University of Texas at Austin"
+      ],
+      "affiliation_numbers": [
+        3
+      ]
     },
     {
       "github": "gedankenstuecke",
@@ -36,7 +51,12 @@
       "orcid": "0000-0002-9925-9623",
       "twitter": "gedankenstuecke",
       "email": "bgreshake@googlemail.com",
-      "affiliations": "Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt"
+      "affiliations": [
+        "Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt"
+      ],
+      "affiliation_numbers": [
+        4
+      ]
     },
     {
       "github": "cgreene",
@@ -45,13 +65,36 @@
       "orcid": "0000-0001-8713-9213",
       "twitter": "GreeneScientist",
       "email": "csgreene@upenn.edu",
-      "affiliations": "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania",
-      "funders": "GBMF4552"
+      "affiliations": [
+        "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania"
+      ],
+      "funders": "GBMF4552",
+      "affiliation_numbers": [
+        1
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "affiliation": "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania",
+      "affiliation_number": 1
+    },
+    {
+      "affiliation": "Bidwise, Inc",
+      "affiliation_number": 2
+    },
+    {
+      "affiliation": "School of Information, University of Texas at Austin",
+      "affiliation_number": 3
+    },
+    {
+      "affiliation": "Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt",
+      "affiliation_number": 4
     }
   ],
   "ci_source": {
     "repo_slug": "greenelab/scihub-manuscript",
-    "commit": "10504dc2b036494af3da5b0bb6c8b3dc7f32fbdf"
+    "commit": "5cb1245ca3e68c425b1364317e2496c17e20353c"
   },
   "manuscript_stats": {
     "reference_counts": {
@@ -60,6 +103,6 @@
       "url": 45,
       "total": 121
     },
-    "word_count": 8489
+    "word_count": 8492
   }
 }
