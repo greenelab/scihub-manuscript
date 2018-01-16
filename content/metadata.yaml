@@ -20,7 +20,8 @@ author_info:
     orcid: 0000-0002-3012-7446
     twitter: dhimmel
     email: daniel.himmelstein@gmail.com
-    affiliations: Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
+    affiliations:
+      - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
     funders: GBMF4552
   -
     github: arielsvn
@@ -29,7 +30,8 @@ author_info:
     orcid: 0000-0003-2290-4927
     twitter: arielswn
     email: arielsvn@gmail.com
-    affiliations: Bidwise, Inc
+    affiliations:
+      - Bidwise, Inc
   -
     github: stevemclaugh
     name: Stephen Reid McLaughlin
@@ -37,7 +39,8 @@ author_info:
     orcid: 0000-0002-9888-3168
     twitter: SteveMcLaugh
     email: stephen.mclaughlin@utexas.edu
-    affiliations: School of Information, University of Texas at Austin
+    affiliations:
+      - School of Information, University of Texas at Austin
   -
     github: gedankenstuecke
     name: Bastian Greshake Tzovaras
@@ -45,7 +48,8 @@ author_info:
     orcid: 0000-0002-9925-9623
     twitter: gedankenstuecke
     email: bgreshake@googlemail.com
-    affiliations: Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt
+    affiliations:
+      - Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt
   -
     github: cgreene
     name: Casey S. Greene
@@ -53,5 +57,6 @@ author_info:
     orcid: 0000-0001-8713-9213
     twitter: GreeneScientist
     email: csgreene@upenn.edu
-    affiliations: Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
+    affiliations:
+      - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
     funders: GBMF4552
