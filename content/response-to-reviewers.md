@@ -132,4 +132,4 @@ TODO
 For example, Figure S2 could become Figure 10-Figure Supplement 1.
 
 We converted supplementary figures into figure supplements.
-We moved Figure S4 into the Methods section of the main text.
+We moved Figure S3 into the Methods section of the main text.
