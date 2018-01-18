@@ -33,6 +33,14 @@ author_info:
     affiliations:
       - Bidwise, Inc
   -
+    github: tamunro
+    name: Thomas Anthony Munro
+    initials: TAM
+    orcid: 0000-0002-3366-7149
+    email: thomas@munro.com
+    affiliations:
+      - School of Life and Environmental Sciences, Deakin University, Melbourne, Australia
+  -
     github: stevemclaugh
     name: Stephen Reid McLaughlin
     initials: SRM
