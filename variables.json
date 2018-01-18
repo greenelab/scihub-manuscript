@@ -1,5 +1,5 @@
 {
-  "date": "January 16, 2018",
+  "date": "January 18, 2018",
   "authors": [
     {
       "github": "dhimmel",
@@ -31,6 +31,19 @@
       ]
     },
     {
+      "github": "tamunro",
+      "name": "Thomas Anthony Munro",
+      "initials": "TAM",
+      "orcid": "0000-0002-3366-7149",
+      "email": "thomas@munro.com",
+      "affiliations": [
+        "School of Life and Environmental Sciences, Deakin University, Melbourne, Australia"
+      ],
+      "affiliation_numbers": [
+        3
+      ]
+    },
+    {
       "github": "stevemclaugh",
       "name": "Stephen Reid McLaughlin",
       "initials": "SRM",
@@ -41,7 +54,7 @@
         "School of Information, University of Texas at Austin"
       ],
       "affiliation_numbers": [
-        3
+        4
       ]
     },
     {
@@ -55,7 +68,7 @@
         "Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt"
       ],
       "affiliation_numbers": [
-        4
+        5
       ]
     },
     {
@@ -84,17 +97,21 @@
       "affiliation_number": 2
     },
     {
-      "affiliation": "School of Information, University of Texas at Austin",
+      "affiliation": "School of Life and Environmental Sciences, Deakin University, Melbourne, Australia",
       "affiliation_number": 3
     },
     {
-      "affiliation": "Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt",
+      "affiliation": "School of Information, University of Texas at Austin",
       "affiliation_number": 4
+    },
+    {
+      "affiliation": "Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt",
+      "affiliation_number": 5
     }
   ],
   "ci_source": {
     "repo_slug": "greenelab/scihub-manuscript",
-    "commit": "343d4dbf41312f3b2a4a192732fd222947c3305b"
+    "commit": "93a43f7d372ad466ac35c5cf370d6b904dac0e59"
   },
   "manuscript_stats": {
     "reference_counts": {

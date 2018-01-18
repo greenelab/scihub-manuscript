@@ -2,10 +2,11 @@
 author-meta:
 - Daniel S. Himmelstein
 - Ariel Rodriguez Romero
+- Thomas Anthony Munro
 - Stephen Reid McLaughlin
 - Bastian Greshake Tzovaras
 - Casey S. Greene
-date-meta: '2018-01-16'
+date-meta: '2018-01-18'
 keywords:
 - Sci-Hub
 - publishing
@@ -28,8 +29,8 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.72
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@343d4db](https://github.com/greenelab/scihub-manuscript/tree/343d4dbf41312f3b2a4a192732fd222947c3305b)
-on January 16, 2018.
+from [greenelab/scihub-manuscript@93a43f7](https://github.com/greenelab/scihub-manuscript/tree/93a43f7d372ad466ac35c5cf370d6b904dac0e59)
+on January 18, 2018.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
 
@@ -58,6 +59,15 @@ Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on 
     [arielswn](https://twitter.com/arielswn)<br>
   <small>
      Bidwise, Inc
+  </small>
+
++ **Thomas Anthony Munro**<br>
+    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    [0000-0002-3366-7149](https://orcid.org/0000-0002-3366-7149)
+    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    [tamunro](https://github.com/tamunro)<br>
+  <small>
+     School of Life and Environmental Sciences, Deakin University, Melbourne, Australia
   </small>
 
 + **Stephen Reid McLaughlin**<br>
