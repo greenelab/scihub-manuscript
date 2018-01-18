@@ -29,7 +29,7 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.72
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@93a43f7](https://github.com/greenelab/scihub-manuscript/tree/93a43f7d372ad466ac35c5cf370d6b904dac0e59)
+from [greenelab/scihub-manuscript@207caa3](https://github.com/greenelab/scihub-manuscript/tree/207caa373e7e3044b2f22df746abd3fcc8d1d434)
 on January 18, 2018.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
@@ -769,8 +769,7 @@ We hypothesize that the `TimeAdded` field is replaced upon modification, making 
 ## Acknowledgements
 
 We'd like to thank the individuals, not listed as authors, who provided comments on [GitHub issues](https://github.com/search?utf8=%E2%9C%93&q=repo%3Agreenelab%2Fscihub+repo%3Agreenelab%2Fscihub-manuscript+repo%3Agreenelab%2Fscihub-browser-data+repo%3Adhimmel%2Fjournalmetrics&type=Issues "GitHub Issues in Project Repositories") or pull requests.
-Specifically, the following individuals provided valuable input while the study was underway:
-[Thomas Munro](https://github.com/tamunro) (Deakin University), [Ross Mounce](https://github.com/rossmounce), [Richard Smith-Unna](https://github.com/blahah), and [Guillaume Cabanac](https://github.com/gcabanac).
+Specifically, the following individuals provided valuable input while the study was underway: [Ross Mounce](https://github.com/rossmounce), [Richard Smith-Unna](https://github.com/blahah), and [Guillaume Cabanac](https://github.com/gcabanac).
 In addition, we're grateful to GitHub for offering gratis Large File Storage as part of their education program.
 
 ## References {.page_break_before}
