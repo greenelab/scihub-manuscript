@@ -1,5 +1,5 @@
 {
-  "date": "January 18, 2018",
+  "date": "January 19, 2018",
   "authors": [
     {
       "github": "dhimmel",
@@ -31,6 +31,19 @@
       ]
     },
     {
+      "github": "publicus",
+      "name": "Jacob G. Levernier",
+      "initials": "JGL",
+      "orcid": "0000-0003-1563-7314",
+      "email": "jlevern@upenn.edu",
+      "affiliations": [
+        "Library Technology Services and Strategic Initiatives, University of Pennsylvania Libraries"
+      ],
+      "affiliation_numbers": [
+        3
+      ]
+    },
+    {
       "github": "tamunro",
       "name": "Thomas Anthony Munro",
       "initials": "TAM",
@@ -40,7 +53,7 @@
         "School of Life and Environmental Sciences, Deakin University, Melbourne, Australia"
       ],
       "affiliation_numbers": [
-        3
+        4
       ]
     },
     {
@@ -54,7 +67,7 @@
         "School of Information, University of Texas at Austin"
       ],
       "affiliation_numbers": [
-        4
+        5
       ]
     },
     {
@@ -68,7 +81,7 @@
         "Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt"
       ],
       "affiliation_numbers": [
-        5
+        6
       ]
     },
     {
@@ -97,21 +110,25 @@
       "affiliation_number": 2
     },
     {
-      "affiliation": "School of Life and Environmental Sciences, Deakin University, Melbourne, Australia",
+      "affiliation": "Library Technology Services and Strategic Initiatives, University of Pennsylvania Libraries",
       "affiliation_number": 3
     },
     {
-      "affiliation": "School of Information, University of Texas at Austin",
+      "affiliation": "School of Life and Environmental Sciences, Deakin University, Melbourne, Australia",
       "affiliation_number": 4
     },
     {
-      "affiliation": "Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt",
+      "affiliation": "School of Information, University of Texas at Austin",
       "affiliation_number": 5
+    },
+    {
+      "affiliation": "Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt",
+      "affiliation_number": 6
     }
   ],
   "ci_source": {
     "repo_slug": "greenelab/scihub-manuscript",
-    "commit": "7f31a907bb896740531db90fe5d97ea454a03658"
+    "commit": "5300acadfc35ea8f9566d5735004cd145a1b0179"
   },
   "manuscript_stats": {
     "reference_counts": {

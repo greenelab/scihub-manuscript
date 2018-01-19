@@ -2,11 +2,12 @@
 author-meta:
 - Daniel S. Himmelstein
 - Ariel Rodriguez Romero
+- Jacob G. Levernier
 - Thomas Anthony Munro
 - Stephen Reid McLaughlin
 - Bastian Greshake Tzovaras
 - Casey S. Greene
-date-meta: '2018-01-18'
+date-meta: '2018-01-19'
 keywords:
 - Sci-Hub
 - publishing
@@ -29,8 +30,8 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.72
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@7f31a90](https://github.com/greenelab/scihub-manuscript/tree/7f31a907bb896740531db90fe5d97ea454a03658)
-on January 18, 2018.
+from [greenelab/scihub-manuscript@5300aca](https://github.com/greenelab/scihub-manuscript/tree/5300acadfc35ea8f9566d5735004cd145a1b0179)
+on January 19, 2018.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
 
@@ -59,6 +60,15 @@ Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on 
     [arielswn](https://twitter.com/arielswn)<br>
   <small>
      Bidwise, Inc
+  </small>
+
++ **Jacob G. Levernier**<br>
+    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    [0000-0003-1563-7314](https://orcid.org/0000-0003-1563-7314)
+    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    [publicus](https://github.com/publicus)<br>
+  <small>
+     Library Technology Services and Strategic Initiatives, University of Pennsylvania Libraries
   </small>
 
 + **Thomas Anthony Munro**<br>
