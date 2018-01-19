@@ -33,6 +33,14 @@ author_info:
     affiliations:
       - Bidwise, Inc
   -
+    github: publicus
+    name: Jacob G. Levernier
+    initials: JGL
+    orcid: 0000-0003-1563-7314
+    email: jlevern@upenn.edu
+    affiliations:
+      - Library Technology Services and Strategic Initiatives, University of Pennsylvania Libraries
+  -
     github: tamunro
     name: Thomas Anthony Munro
     initials: TAM
