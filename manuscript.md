@@ -7,7 +7,7 @@ author-meta:
 - Stephen Reid McLaughlin
 - Bastian Greshake Tzovaras
 - Casey S. Greene
-date-meta: '2018-01-19'
+date-meta: '2018-01-23'
 keywords:
 - Sci-Hub
 - publishing
@@ -30,8 +30,8 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.72
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@5300aca](https://github.com/greenelab/scihub-manuscript/tree/5300acadfc35ea8f9566d5735004cd145a1b0179)
-on January 19, 2018.
+from [greenelab/scihub-manuscript@a1865ad](https://github.com/greenelab/scihub-manuscript/tree/a1865ad3c7f170723f9cdbe7f3b8aaf8926e1eec)
+on January 23, 2018.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
 
@@ -640,7 +640,7 @@ Note that Scopus does not index every scholarly journal [@QyHSyHo3], which is on
 We tidied the Scopus Journal Metrics, which evaluate journals based on the number of citations their articles receive.
 Specifically, we extracted a 2015 CiteScore for 22,256 titles, 17,336 of which were included in our journal catalog.
 Finally, we queried the Elsevier API to [retrieve](https://github.com/dhimmel/journalmetrics/issues/2) homepage URLs for 20,992 Scopus titles.
-See [dhimmel/journalmetrics](https://github.com/dhimmel/journalmetrics) for the source code and data relating to Scopus.
+See [dhimmel/scopus](https://github.com/dhimmel/scopus) for the source code and data relating to Scopus.
 
 ### LibGen scimag's catalog of articles
 
