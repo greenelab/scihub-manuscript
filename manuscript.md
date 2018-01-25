@@ -30,7 +30,7 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.72
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@241fe15](https://github.com/greenelab/scihub-manuscript/tree/241fe15f68dfdd29f7440a1d14d1f47f0d5d1793)
+from [greenelab/scihub-manuscript@dd862fb](https://github.com/greenelab/scihub-manuscript/tree/dd862fb82a4351c5ed245a37855c56341cf37315)
 on January 25, 2018.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
@@ -372,7 +372,7 @@ We speculate this discrepancy results from the proliferation of obscure, low-qua
 In addition to having limited readership demand, these journals are generally open access, and thus less targeted by Sci-Hub.
 
 Sci-Hub's coverage of 2016 articles in open access journals was just 32.7% compared to 78.8% for articles in toll access journals (Figure @fig:years-by-access).
-Upon further investigation, we discovered that in June 2015, Sci-Hub ceased archiving articles in [_PeerJ_](https://greenelab.github.io/scihub/#/journal/21100239256), [_eLife_](https://greenelab.github.io/scihub/#/journal/21100242814), and [PLOS journals](https://greenelab.github.io/scihub/#/publisher/public-library-of-science), although they continued archiving articles in other open access journals such as [_Scientific Reports_](https://greenelab.github.io/scihub/#/journal/21100200805), [_Nature Communications_](https://greenelab.github.io/scihub/#/journal/19700182758), and BMC-series journals (`13.oa-journal-dropoffs.ipynb`).
+Upon further [investigation](https://github.com/greenelab/scihub/blob/58a60ffef1443d42eab9f163f9bb652ca2ddde25/13.oa-journal-dropoffs.ipynb), we discovered that in June 2015, Sci-Hub ceased archiving articles in [_PeerJ_](https://greenelab.github.io/scihub/#/journal/21100239256), [_eLife_](https://greenelab.github.io/scihub/#/journal/21100242814), and [PLOS journals](https://greenelab.github.io/scihub/#/publisher/public-library-of-science), although they continued archiving articles in other open access journals such as [_Scientific Reports_](https://greenelab.github.io/scihub/#/journal/21100200805), [_Nature Communications_](https://greenelab.github.io/scihub/#/journal/19700182758), and BMC-series journals.
 Sci-Hub currently redirects requests for these delisted journals to the publisher's site, unless it already possesses the article, in which case it serves the PDF.
 These findings are consistent with an explicit decision by Sci-Hub to prioritize its resources on circumventing access barriers rather than creating a single repository containing every scholarly article.
 
