@@ -22,6 +22,12 @@ TODO: briefly summarize additional major changes since version 2 that are part o
 We updated our journal information to the October 2017 release of Scopus.
 In addition, we created patches to standardize publisher names in Scopus.
 As a result, many of the numbers reported in the manuscript have changed slightly.
+Thomas Munro assisted with the Scopus enhancements, as well as providing feedback in other areas, and has been added as an author.
+
+We investigated the level of access provided by the University of Pennsylvania Libraries.
+This is a major addition to the study, since it allows us to compare Sci-Hub's database with the access of a major research university.
+Furthermore, the data for this analysis are openly available, making it the most comprehensive public analysis of a university's coverage of the scholarly literature (that we're aware of).
+Jacob Levernier, who helped perform these analyses, has been added as an author.
 
 ## ESSENTIAL REVISIONS
 
