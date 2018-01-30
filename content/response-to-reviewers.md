@@ -48,7 +48,10 @@ Incidentally, the 62% of respondents thought "SciHub will disrupt the traditiona
 
 An important factor here is the rate at which Sci-Hub adoption will grow.
 Our manuscript now includes two distinct metrics for assessing Sci-Hub's annual growth:
-79% according to download statistics provided by Sci-Hub and 88% according to peak Google search interest following service outage. 
+79% according to download statistics provided by Sci-Hub and 88% according to peak Google search interest following service outage.
+In addition, Sci-Hub released access logs for 2017, which we analyze in Figure 1—figure supplement 1 to show how Sci-Hub downloads per days have increased over time.
+We observe rapid growth in 2017, peaking in July 2017 with an average of 593,880 downloads per day.
+Combining the new Sci-Hub log data with information from the Penn Libraries, we calculate that Sci-Hub usage for electronic access to scholarly articles exceeds Penn's usage by a ratio of 20:1.
 We now discuss how Sci-Hub usage could lead to subscription cancellations by affecting the usage metrics and feedback librarians use to evaluate subscriptions.
 Finally, we discuss the growth of green open access, composed of preprints and postprints, which may also diminish the need for subscription access.
 
