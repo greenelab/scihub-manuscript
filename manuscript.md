@@ -7,7 +7,7 @@ author-meta:
 - Stephen Reid McLaughlin
 - Bastian Greshake Tzovaras
 - Casey S. Greene
-date-meta: '2018-01-25'
+date-meta: '2018-01-30'
 keywords:
 - Sci-Hub
 - publishing
@@ -30,8 +30,8 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.72
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@04ab47b](https://github.com/greenelab/scihub-manuscript/tree/04ab47bd6caf19bf81c79a6479e5718748e20972)
-on January 25, 2018.
+from [greenelab/scihub-manuscript@941af6f](https://github.com/greenelab/scihub-manuscript/tree/941af6f47755b882a153ab80e805a2f8df0dd927)
+on January 30, 2018.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
 
@@ -220,7 +220,7 @@ Later, Bohannon analyzed six months of Sci-Hub's server access logs, starting in
 He found a global pattern of usage.
 Based on these logs, Gardner, McLaughlin, and Asher estimated the ratio of publisher downloads to Sci-Hub downloads within the U.S. for several publishers [@17rORqxsI].
 They estimated this ratio at 20:1 for the Royal Society of Chemistry and 48:1 for Elsevier.
-They also noted that 25% of article downloads in the U.S. are in fields related to clinical medicine.
+They also noted that 25% of Sci-Hub downloads in the U.S. were for articles related to clinical medicine.
 Greshake also analyzed the logs to identify per capita Sci-Hub usage [@uBm4Sor6].
 Portugal, Iran, Tunisia, and Greece had the highest usage, suggesting Sci-Hub is preferentially used in countries with poor institutional access to scholarly literature.
 In a subsequent study, Greshake found especially high Sci-Hub usage in chemistry, with 12 of the top 20 requested journals specializing in chemistry [@iLKgjFDu; @nnSxBFFr].
@@ -407,15 +407,20 @@ However, hybrid and bronze articles, which are available gratis from their publi
 
 As a benchmark, we decided to compare Sci-Hub's coverage to the access provided by a major research library.
 Since we were unaware of any studies that comprehensively profiled library access to scholarly articles, we collaborated with Penn Libraries to assess the extent of access available at the University of Pennsylvania (Penn).
-Penn is a private research university located in Philadelphia, which was founded by the open science pioneer Benjamin Franklin in 1749.
+Penn is a private research university located in Philadelphia and founded by the open science pioneer Benjamin Franklin in 1749.
 According to the Higher Education Research and Development Survey, [R&D expenditures](https://ncsesdata.nsf.gov/herd/2016/html/HERD2016_DST_21.html "Table 21. Higher education R&D expenditures, ranked by all R&D expenditures, by source of funds: FY 2016") at Penn totaled $1.29 billion in 2016, placing it third among U.S. colleges and universities.
 In 2017, Penn Libraries [approximates](https://github.com/greenelab/library-access/issues/23) that it spent $13.13 million on electronic resources, which includes subscriptions to journals and ebooks.
 During this year, its users accessed 7.3 million articles and 860 thousand ebook chapters, averaging a per-download cost of $1.61.
 
-Penn Libraries uses the Ex Libris collection management software to provide a service called [PennText](https://upenn.alma.exlibrisgroup.com/discovery/citationlinker?vid=01UPENN_INST:Services&lang=en) for looking up scholarly articles.
-The service indicates whether an article's fulltext is available online, taking into account Penn's digital subscriptions.
+Penn Libraries uses the Alma library resource management system from Ex Libris.
+Alma includes an
+<span title="OpenURL is a WWW standard for looking up and returning locations of articles and other content based on metadata supplied by a user — in this case, a DOI.
+The metadata supplied by a user or library resource management system is encoded and sent to a central link resolver, which returns a link to the document or a webpage associated with it.">
+OpenURL</span>
+resolver, which the Penn Libraries use to provide a service called [PennText](https://upenn.alma.exlibrisgroup.com/discovery/citationlinker?vid=01UPENN_INST:Services&lang=en) for looking up scholarly articles.
+PennText indicates whether an article's fulltext is available online, taking into account Penn's digital subscriptions.
 Using API calls to PennText's OpenURL resolver, we retrieved Penn's access status for the 290,120 articles analyzed by the State of OA study (see the [greenelab/library-access](https://github.com/greenelab/library-access) repository).
-We randomly selected 500 of these articles for manual evaluation and assessed whether their fulltexts were available within Penn's network as well as outside of any institutional network.
+We randomly selected 500 of these articles to evaluate manually and assessed whether their fulltexts were available from within Penn's network as well as outside of any institutional network.
 We defined access as fulltext availability at the location redirected to by an article's DOI, without providing any payment, credentials, or login information.
 This definition is analogous to the union of oaDOI's gold, hybrid, and bronze categories.
 
@@ -439,7 +444,7 @@ This remained true on the full set of 208,786 toll access articles from the Stat
 Although oaDOI's overall access rate was 37.0%, this access consisted largely of gold, hybrid, and bronze articles, whereby gratis access is provided by the publisher.
 
 Sci-Hub and Penn had similar coverage on all articles:
-85.2% versus 87.4% on the manual article set and 84.8% versus 84.4% on larger but automated set.
+85.2% versus 87.4% on the manual article set and 84.8% versus 84.4% on the larger but automated set.
 However, when considering only toll access articles, Sci-Hub's coverage exceeds Penn's: 
 94.2% versus 80.7% on the manual set and 90.7% versus 83.5% on the automated set.
 This reflects Sci-Hub's focus on paywalled articles.
@@ -452,18 +457,18 @@ Specifically when including open access articles, combining Sci-Hub's repository
 The benefits of oaDOI are reduced when only considering toll access articles, where oaDOI only improves Sci-Hub's or Penn's coverage by approximately 1%.
 On toll access articles, Penn's access appeared to complement Sci-Hub's.
 Together, Sci-Hub's repositories and Penn's access covered approximately 97% of toll access articles.
-Our findings suggest that users with institutional subscriptions and knowledge of oaDOI and Sci-Hub, are able to access over 97% of all articles, online and without payment.
+Our findings suggest that users with institutional subscriptions comparable to those at Penn as well as knowledge of oaDOI and Sci-Hub are able to access over 97% of all articles, online and without payment.
 
 ![
 **Coverage of several access methods and their combinations.**
 This figure compares datasets of article coverage corresponding to various access methods.
 These article sets refer to manually evaluated access via the publisher's site from outside of an institutional network (labeled None) or from inside Penn's network (labeled Penn);
 access according to Penn's library system (labeled PennText);
-access via oaDOI (labeled oaDOI);
+access via the oaDOI utility (labeled oaDOI);
 and inclusion in Sci-Hub's database (labeled Sci-Hub).
 Each diagram shows the coverage of three access methods and their possible combinations.
 Within a diagram, each section notes the percent coverage achieved by the corresponding combination of access methods.
-Contrary to traditional Venn diagrams, each section does not indicate disjoint sets of articles.
+**Contrary to traditional Venn diagrams**, each section does not indicate disjoint sets of articles.
 Instead, each section shows coverage on the same set of articles, whose total number is reported in the diagram's title.
 The top two diagrams show coverage on a small set of manually evaluated articles.
 The bottom two diagrams show coverage on a larger set of automatically evaluated articles.
@@ -741,7 +746,6 @@ Accordingly, we hypothesize that the `TimeAdded` field is replaced upon modifica
 
 On March 19, 2017, Sci-Hub [tweeted](https://twitter.com/Sci_Hub/status/843546352219017218):
 "If you like the list of all DOI collected on Sci-Hub, here it is: sci-hub.cc/downloads/doi.7z … 62,835,101 DOI in alphabetical order".
-
 The tweet included a download link for a file with the 62,835,101 DOIs that Sci-Hub claims to provide access to.
 Of these DOIs, 56,246,220 were part of the Crossref-derived catalog of scholarly articles.
 99.5% of the DOIs from Sci-Hub's list were in the LibGen scimag repository (after filtering).
@@ -764,11 +768,13 @@ We describe the collections below and report the number of articles after inters
 [Unpaywall](http://unpaywall.org/) is a web-browser extension that notifies its user if an article is available via oaDOI [@8AIp1E7j].
 Since the Unpaywall collection is based on articles that users visited, it's a better reflection of the actual access needs of contemporary scholars.
 Unfortunately, since the number of visits per article is not preserved by this dataset, fulfillment rate estimates are biased against highly-visited articles and become scale-variant (affected by the popularity of Unpaywall).
-Nonetheless, the Unpaywall collection is the best benchmark we have for which articles scholars actually visit.
 
 @eOi5pOoT ascertained the accessibility status of each DOI in each collection using oaDOI [@1D9l2pC2b].
 Articles for which oaDOI did not identify a full-text were considered "closed".
 Otherwise, articles were assigned a color/status of bronze, green, hybrid, or gold [@eOi5pOoT].
+oaDOI classifies articles not available from their publisher's site as either green or closed.
+The version of oaDOI used in the State of OA study identified green articles by searching PubMed Central and <abbr title="Bielefeld Academic Search Engine">BASE</abbr>.
+Readers should note that this implementation [likely undercounts](https://github.com/greenelab/scihub-manuscript/issues/36) green articles, especially if considering articles available from academic social networks as green.
 
 ### Recent citation catalog
 
@@ -824,6 +830,7 @@ The Sci-Hub section of the Combined panel is the same as Figure @fig:oadoi.
 Impressively, Sci-Hub’s coverage of the closed articles in the Web of Science collection was 97.8%.
 This remarkable coverage likely reflects that these articles were published from 2009–2015 and classified as citable items by Web of Science, which is selective when indexing journals [@QyHSyHo3].
 Note that PennText does not have complete coverage of bronze, hybrid, and gold articles, which should be the case were all metadata systems perfect.
+These anomalies likely result from errors in both PennText (whose accuracy we estimated at 88.2%) and oaDOI (whose accuracy the State of OA study estimated at 90.4%, i.e. Table 1 of @eOi5pOoT reports 5 false positives and 43 false negatives on oaDOI calls for 500 articles).
 ](https://cdn.rawgit.com/greenelab/scihub/58a60ffef1443d42eab9f163f9bb652ca2ddde25/figure/state-of-oa-colors-large.svg){#fig:oadoi-large tag="7—figure supplement 1" width="100%"}
 
 ![
