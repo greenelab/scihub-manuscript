@@ -30,7 +30,7 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.72
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@941af6f](https://github.com/greenelab/scihub-manuscript/tree/941af6f47755b882a153ab80e805a2f8df0dd927)
+from [greenelab/scihub-manuscript@54c27eb](https://github.com/greenelab/scihub-manuscript/tree/54c27ebfafe8351ba2fe3b0c017536e241096ecb)
 on January 30, 2018.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
@@ -172,7 +172,7 @@ But of course, the most important part in Sci-Hub is not a repository, but the s
 One method Sci-Hub uses to bypass paywalls is by obtaining leaked authentication credentials for educational institutions [@1H8x8f4Y7].
 These credentials enable Sci-Hub to use institutional networks as proxies and gain subscription journal access.
 While the open access movement has progressed slowly [@KDvO1ctK], Sci-Hub represents a seismic shift in access to scholarly literature.
-Since its inception, Sci-Hub has experienced sustained growth, with spikes in interest and awareness driven by legal proceedings, service outages, news coverage, and social media (Figure @fig:history).
+Since its inception, Sci-Hub has experienced sustained growth, with spikes in interest and awareness driven by legal proceedings, service outages, news coverage, and social media (Figure @fig:history and @fig:downloads).
 Here we investigate the extent to which Sci-Hub provides access to scholarly literature.
 If Sci-Hub's coverage is sufficiently broad, then a radical shift may be underway in how individuals access scholarly literature.
 
@@ -180,7 +180,8 @@ If Sci-Hub's coverage is sufficiently broad, then a radical shift may be underwa
 **The history of Sci-Hub.**
 Weekly interest from Google Trends is plotted over time for the search terms "Sci-Hub" and "LibGen".
 The light green period indicates when Sci-Hub used LibGen as its database for storing articles [@1H8x8f4Y7].
-The light blue period indicates the public availability of access logs from Sci-Hub [@kQFQ8EaO].
+Light blue indicates the collection period of the Sci-Hub access logs that we analyze throughout this study [@kQFQ8EaO].
+Based on these logs and newly released logs for 2017, Figure @fig:downloads shows the number of articles downloaded from Sci-Hub over time, providing an alternative look into Sci-Hub's growth.
 The first pink dotted line represents the collection date of the LibGen scimag metadata used in Cabanac's study [@18KKRwlN6; @GxWkjeN2].
 The second pink dotted line shows the date of Sci-Hub's tweeted DOI catalog used in this study.
 ](https://cdn.rawgit.com/greenelab/scihub/db8866f8ba629a74dc5779698dc5f451571d8b4c/explore/trends/google-trends.png){#fig:history width="100%"}
@@ -577,6 +578,8 @@ Surveys from 2016 suggest awareness and usage of Sci-Hub was not yet commonplace
 However, adoption appears to be growing.
 According to Elbakyan, the number of Sci-Hub downloads increased from 42 million in 2015 to 75 million in 2016, equating to a 79% gain [@cUfIvWm6].
 Comparing the search interest peaks following Ⓓ and Ⓛ in Figure @fig:history, which both correspond to domain outages and hence existing users searching how to access Sci-Hub, we [estimate](https://github.com/greenelab/scihub-manuscript/issues/35#issuecomment-355171030) annual growth of 88%.
+As per Figure @fig:downloads, Sci-Hub averaged 185,243 downloads per day in January–February 2016, whereas in 2017 daily downloads averaged 458,589.
+Accordingly, the ratio of Sci-Hub to Penn Libraries downloads in 2017 was 20:1.
 In addition, adoption of Sci-Hub or similar sites could accelerate due to new technical burdens on authorized access (the flip side of anti-piracy measures) [@2Vc1UrtB; @C3J6AH5V], crackdowns on article sharing via academic social networks [@1BKBt9JRq; @nVGhXBcX], or large-scale subscription cancellations by libraries [@YX9zq2ZF].
 
 Historically, libraries have often canceled individual journal subscriptions or switched from bundled to à-la-carte selections [@cHL7ycpV; @SuZ30LxR; @18zoY6Ild; @9Uk1lLUa].
@@ -809,7 +812,24 @@ Next, we calculated journal-level access metrics based on articles published fro
 For each journal, we calculated the average values for the five access log metrics described above.
 Interestingly, the journal _Medicine - Programa de Formación Médica Continuada Acreditado_ [received](https://greenelab.github.io/scihub/#/journal/21100213100 "Sci-Hub Stats Browser page for the journal Medicine") the most visitors per article, averaging 33.4 visitors for each of its 326 articles.
 
+Note that these analyses do not include Sci-Hub's access logs for 2017 [@D6wP8q7K], which were [released](https://twitter.com/Sci_Hub/status/954095639859814402) on January 18, 2018.
+Unfortunately, at that time we had already adopted a freeze on major new analyses.
+Nonetheless, we did a quick analysis to assess growth in Sci-Hub downloads over time that combined the 2015–2016 and 2017 access log data (Figure @fig:downloads).
+
 ## Supplementary Information
+
+![
+**Downloads per day on Sci-Hub for months with access logs.**
+The number of articles downloaded from Sci-Hub is shown over time.
+Sci-Hub access logs were combined from two releases: @kQFQ8EaO covering 27,819,963 downloads from September 2015 to February 2016 and @D6wP8q7K covering 150,875,862 downloads from 2017.
+The plot shows the average number of downloads per day for months with data.
+There were 54 days within the collection periods without any logged access events, due presumably to service outages or server misconfiguration.
+Hence, we ignored days without logs when computing monthly averages.
+Point color indicates the proportion of days with logs for a given month.
+For example, November 2015 and October 2017, which were missing logs for 17 and 23 days respectively, are thus lighter.
+The December 2017 dropoff in downloads likely reflects the effect of domain suspensions that occurred in late November [@pmrIfHRq].
+Unlike the Sci-Hub log analyses elsewhere in this study, this plot does not filter for valid articles (i.e. DOIs in our Crossref-derived catalog of scholarly literature).
+](https://cdn.rawgit.com/greenelab/scihub/64a01fce1032fdb42facb56633e5056b431fa267/download/scihub-logs-2017/scihub-log-downloads.png){#fig:downloads tag="1—figure supplement 1" width="65%"}
 
 ![
 **Coverage by country of publication.**

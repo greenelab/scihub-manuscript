@@ -7198,6 +7198,32 @@
   },
   {
     "type": "dataset",
+    "id": "D6wP8q7K",
+    "author": [
+      {
+        "family": "Tzovaras",
+        "given": "Bastian Greshake"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          18
+        ]
+      ]
+    },
+    "abstract": "The full 2017 download log of Sci-Hub. Originally published on the Sci-Hub Twitter account at https://twitter.com/Sci_Hub/status/954095639859814402\n\nRepublished here to provide a stable mirror of the data. The gunzipped file is ~14 GB in size. MD5 sum for gzipped file is 53c8a599e6467c8f4a62a32249c7e63c\n\nColumns in the data file:\n\n\n\tTimestamp (yyyy-MM-dd HH:mm:ss)\n\tDOI\n\tIP identifier\n\tUser identifier\n\tCountry according to GeoIP\n\tCity according to GeoIP\n\tLatitude\n\tLongitude",
+    "DOI": "10.5281/zenodo.1158301",
+    "page": "-",
+    "publisher": "Zenodo",
+    "title": "Sci-Hub Download Log Of 2017",
+    "URL": "https://doi.org/10.5281/zenodo.1158301",
+    "short_url": "https://doi.org/gcvjtk"
+  },
+  {
+    "type": "dataset",
     "id": "nnSxBFFr",
     "author": [
       {
