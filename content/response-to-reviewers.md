@@ -1,12 +1,7 @@
 # Response to Reviewers
 
 We submitted [preprint version 2](https://doi.org/10.7287/peerj.preprints.3100v2) of the Sci-Hub Coverage Study to the journal [_eLife_](https://elifesciences.org/).
-We have now received the peer reviews and are working on addressing the comments.
-When submitting a pull request to revise the Deep Review in response to reviewers, please also comment on the relevant section in this document.
-The comments should respond to the reviewer comments and should link to the pull requests or issues where they are addressed.
-After each reviewer criticism, there is a TODO.
-Replace the TODO with the relevant response.
-Feel free to also break up paragraphs as necessary, but remember to keep the reviews formatted as blockquotes.
+This document contains the consolidated peer reviews and our responses.
 
 ***
 
@@ -17,7 +12,14 @@ It outlines, for I think the first time, the shear size and scope of SciHub and 
 It is perhaps a little early to say with any certainly what the effect of SciHub will be on subscriptions and I am pleased that the authors have highlighted the issue, but not moved too far into the space of prediction.
 They have allowed the analysis to speak for itself.
 
-TODO: briefly summarize additional major changes since version 2 that are part of the `preprint-v3` [milestone](https://github.com/greenelab/scihub-manuscript/milestone/2).
+We'd like to thank the reviewers and editors for their feedback, which we have aimed to address in our revised manuscript, corresponding to [version 3](https://doi.org/10.7287/peerj.preprints.3100v3) of the study's preprint.
+Sci-Hub and scholarly publishing are both rapidly developing topics.
+As such, the revised manuscript contains additions resulting from new developments since [version 2](https://doi.org/10.7287/peerj.preprints.3100v2).
+These include the judgment in the ACS suit and the subsequent suspension of four Sci-Hub domains;
+the release of Sci-Hub download logs for 2017, which we visualize in Figure 1—figure supplement 1;
+and additional withdrawals from Sci-Hub's bitcoin addresses.
+As such, we extended the Google trends and Bitcoin analyses through the end of 2017.
+The revised version contains [many enhancements](https://github.com/greenelab/scihub-manuscript/milestone/2), of which the major ones are summarized here.
 
 We updated our journal information to the October 2017 release of Scopus.
 In addition, we created patches to standardize publisher names in Scopus.
@@ -28,6 +30,12 @@ We investigated the level of access provided by the University of Pennsylvania L
 This is a major addition to the study, since it allows us to compare Sci-Hub's database with the access of a major research university.
 Furthermore, the data for this analysis are openly available, making it the most comprehensive public analysis of a university's coverage of the scholarly literature (that we're aware of).
 Jacob Levernier, who helped perform these analyses, has been added as an author.
+
+Finally, we revised the abstract and reference formatting as per [editorial comments](https://github.com/greenelab/scihub-manuscript/issues/34) from _eLife_.
+One request was to add date accessed information for non-journal references.
+While we hadn't been tracking this information, we took [snapshots](https://github.com/greenelab/scihub-manuscript/blob/54c27ebfafe8351ba2fe3b0c017536e241096ecb/custom/reference-snapshots.tsv) of every reference on January 25, 2018 using the Internet Archive's Wayback machine.
+Hence, the date accessed can be set to 2018-01-25, wherever the production system requires an access date.
+Note that snapshots for some references failed, mostly because a site's `robots.txt` disallowed access from bots.
 
 ## ESSENTIAL REVISIONS
 
@@ -135,10 +143,12 @@ Completed.
 
 > 9. Figure 8 would benefit from a longer caption to better explain what is being shown in this figure.
 
-TODO
+Figure 8 has been split into two figures (Figure 7 and Figure 8), which now include more detailed captions.
 
 > 10. eLife does not publish Supplementary Information so Figures S1, S2, S3 and S4 either need to become full figures in their own right, or supplements to existing figures.
 For example, Figure S2 could become Figure 10-Figure Supplement 1.
 
-We converted supplementary figures into figure supplements.
-We moved Figure S3 into the Methods section of the main text.
+We removed all supplementary figures and included them in either the main text or as figure supplements.
+We changed Figure 7, titled "Coverage of articles by year published and journal access status", into a figure supplement.
+We moved Figure S3, titled "Number of articles in LibGen scimag over time", into the Methods section of the main text.
+We also added a line showing the number of articles over time from the January 2014 LibGen database dump analyzed by Cabanac, making the discrepancy with the April 2017 database dump more apparent.
