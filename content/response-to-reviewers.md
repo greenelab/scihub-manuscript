@@ -17,7 +17,7 @@ Sci-Hub and scholarly publishing are both rapidly developing topics.
 As such, the revised manuscript contains additions resulting from new developments since [version 2](https://doi.org/10.7287/peerj.preprints.3100v2).
 These include the judgment in the ACS suit and the subsequent suspension of four Sci-Hub domains;
 the release of Sci-Hub download logs for 2017, which we visualize in Figure 1—figure supplement 1;
-withdrawals from Sci-Hub's bitcoin addresses.
+and additional withdrawals from Sci-Hub's bitcoin addresses.
 As such, we extended the Google trends and Bitcoin analyses through the end of 2017.
 The revised version contains [many enhancements](https://github.com/greenelab/scihub-manuscript/milestone/2), of which the major ones are summarized here.
 
