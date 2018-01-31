@@ -49,7 +49,6 @@
   },
   "title": "BS ISO 26324:2012. Information and documentation. Digital object identifier system",
   "container-title": "BSI British Standards",
-  "original-title": [],
   "URL": "https://doi.org/10.3403/30177056",
   "standard_citation": "doi:10.3403/30177056"
 },
@@ -741,6 +740,186 @@
         2017,
         5,
         4
+      ]
+    ]
+  },
+  "type": "webpage"
+},
+{
+  "URL": "http://blog.impactstory.org/introducting-oadoi/",
+  "standard_citation": "url:http://blog.impactstory.org/introducting-oadoi/",
+  "title": "Introducing oaDOI: resolve a DOI straight to OA",
+  "container-title": "Impactstory blog",
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        10,
+        25
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Heather",
+      "family": "Piwowar"
+    }
+  ],
+  "type": "webpage"
+},
+{
+  "URL": "https://www.timeshighereducation.com/news/dutch-lose-access-oup-journals-subscription-standoff",
+  "standard_citation": "url:https://www.timeshighereducation.com/news/dutch-lose-access-oup-journals-subscription-standoff",
+  "title": "Dutch lose access to OUP journals in subscription standoff",
+  "container-title": "Times Higher Education",
+  "author": [
+    {
+      "given": "Holly",
+      "family": "Else"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2017,
+        5,
+        6
+      ]
+    ]
+  },
+  "type": "webpage"
+},
+{
+  "URL": "https://scholarlykitchen.sspnet.org/2017/09/05/sci-hub-moves-center-ecosystem/",
+  "standard_citation": "url:https://scholarlykitchen.sspnet.org/2017/09/05/sci-hub-moves-center-ecosystem/",
+  "title": "Sci-Hub Moves to the Center of the Ecosystem",
+  "container-title": "The Scholarly Kitchen",
+  "author": [
+    {
+      "given": "Joseph J.",
+      "family": "Esposito"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2017,
+        9,
+        5
+      ]
+    ]
+  },
+  "type": "webpage"
+},
+{
+  "URL": "https://scholarlykitchen.sspnet.org/2016/03/02/sci-hub-and-the-four-horsemen-of-the-internet/",
+  "standard_citation": "url:https://scholarlykitchen.sspnet.org/2016/03/02/sci-hub-and-the-four-horsemen-of-the-internet/",
+  "title": "Sci-Hub and the Four Horsemen of the Internet",
+  "container-title": "The Scholarly Kitchen",
+  "author": [
+    {
+      "given": "Joseph J.",
+      "family": "Esposito"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        3,
+        2
+      ]
+    ]
+  },
+  "type": "webpage"
+},
+{
+  "URL": "https://scholarlykitchen.sspnet.org/2016/06/21/two-step-authentication-finally-coming-to-a-university-near-you/",
+  "standard_citation": "url:https://scholarlykitchen.sspnet.org/2016/06/21/two-step-authentication-finally-coming-to-a-university-near-you/",
+  "title": "Two-step Authentication: Finally Coming to a University Near You",
+  "container-title": "The Scholarly Kitchen",
+  "author": [
+    {
+      "given": "Phil",
+      "family": "Davis"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        6,
+        21
+      ]
+    ]
+  },
+  "type": "webpage"
+},
+{
+  "URL": "https://redd.it/2raea8",
+  "standard_citation": "url:https://redd.it/2raea8",
+  "title": "Scholar Subreddit: Libgen down",
+  "container-title": "Reddit",
+  "issued": {
+    "date-parts": [
+      [
+        2016,
+        1,
+        4
+      ]
+    ]
+  },
+  "author": [
+    {"family": "BitterCoffeeMan"},
+    {"family": "BigHogBalls"}
+  ],
+  "type": "webpage"
+},
+{
+  "standard_citation": "doi:10.1038/d41586-017-05922-9",
+  "DOI": "10.1038/d41586-017-05922-9",
+  "URL": "https://doi.org/10.1038/d41586-017-05922-9",
+  "short_url": "https://doi.org/cf98",
+  "type": "article-journal",
+  "title": "Need a paper? Get a plug-in",
+  "container-title": "Nature",
+  "author": [
+    {
+      "given": "Dalmeet Singh",
+      "family": "Chawla"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2017,
+        11,
+        16
+      ]
+    ]
+  },
+  "publisher": "Springer Nature",
+  "volume": "551",
+  "issue": "7680",
+  "page": "399-400"
+},
+{
+  "URL": "http://www.theregister.co.uk/2017/11/23/scihubs_become_inactive_following_court_order/",
+  "standard_citation": "url:http://www.theregister.co.uk/2017/11/23/scihubs_become_inactive_following_court_order/",
+  "title": "Sci-Hub domains inactive following court order",
+  "container-title": "The Register",
+  "author": [
+    {
+      "given": "Andrew",
+      "family": "Silver"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2017,
+        11,
+        23
       ]
     ]
   },
