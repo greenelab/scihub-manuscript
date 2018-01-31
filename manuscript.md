@@ -30,7 +30,7 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.72
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@ab9ca60](https://github.com/greenelab/scihub-manuscript/tree/ab9ca6055e80a083e3ff2cb53b7b0af9c8e929f9)
+from [greenelab/scihub-manuscript@fe753fb](https://github.com/greenelab/scihub-manuscript/tree/fe753fbc976ab74a794720fd499c4e6ce7b77e41)
 on January 31, 2018.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
@@ -184,7 +184,7 @@ Light blue indicates the collection period of the Sci-Hub access logs that we an
 Based on these logs and newly released logs for 2017, Figure @fig:downloads shows the number of articles downloaded from Sci-Hub over time, providing an alternative look into Sci-Hub's growth.
 The first pink dotted line represents the collection date of the LibGen scimag metadata used in Cabanac's study [@18KKRwlN6; @GxWkjeN2].
 The second pink dotted line shows the date of Sci-Hub's tweeted DOI catalog used in this study.
-](https://cdn.rawgit.com/greenelab/scihub/db8866f8ba629a74dc5779698dc5f451571d8b4c/explore/trends/google-trends.png){#fig:history width="100%"}
+](https://cdn.rawgit.com/greenelab/scihub/e35cc7b0d3b6dd65bf8ce18945007d2b44a6be1e/explore/trends/google-trends.png){#fig:history width="100%"}
 
 In Figure @fig:history, The ⓛⓔⓣⓣⓔⓡⓢ refer to the following events:
 
@@ -257,7 +257,7 @@ The remaining Crossref types were uncommon, and hence contributed little to over
 **Coverage by article type.**
 Coverage is plotted for the Crossref work types included by this study.
 We refer to all of these types as "articles".
-](https://cdn.rawgit.com/greenelab/scihub/ca4d523e149f30be7fd3d3ae6551a26d1c625313/figure/coverage-by-type.svg){#fig:types width="4in"}
+](https://cdn.rawgit.com/greenelab/scihub/e35cc7b0d3b6dd65bf8ce18945007d2b44a6be1e/figure/coverage-by-type.svg){#fig:types width="4in"}
 
 ### Coverage by journal
 
@@ -302,7 +302,7 @@ Hence, inactive, toll access journals make up the bulk of perfect-coverage journ
 The histograms show the distribution of Sci-Hub's coverage for all 23,037 journals (top) and 3,832 publishers (bottom).
 Each bin spans 2.5 percentage points.
 For example, the top-left bar indicates Sci-Hub's coverage is between 0.0–2.5% for 3,892 journals.
-](https://cdn.rawgit.com/greenelab/scihub/7a165c00b1569ca85a694098fc502df21e0a5169/figure/coverage-distributions.svg){#fig:distributions width="5in"}
+](https://cdn.rawgit.com/greenelab/scihub/e35cc7b0d3b6dd65bf8ce18945007d2b44a6be1e/figure/coverage-distributions.svg){#fig:distributions width="5in"}
 
 Next, we explored article coverage according to journal attributes (Figure @fig:attributes).
 Sci-Hub covered 83.1% of the 56,755,671 articles that were attributable to an academic journal.
@@ -321,7 +321,7 @@ Subject area refers to a journal's discipline.
 Note that some journals are assigned to multiple subject areas.
 As an example, we identified 588 neuroscience journals, which contained 1.8 million articles.
 Sci-Hub possessed 87.7% of these articles.
-](https://cdn.rawgit.com/greenelab/scihub/ca4d523e149f30be7fd3d3ae6551a26d1c625313/figure/coverage.svg){#fig:attributes width="100%"}
+](https://cdn.rawgit.com/greenelab/scihub/e35cc7b0d3b6dd65bf8ce18945007d2b44a6be1e/figure/coverage.svg){#fig:attributes width="100%"}
 
 We also evaluated whether journal coverage varied by journal impact.
 We assessed journal impact using the 2015 CiteScore, which measures the average number of citations that articles published in 2012–2014 received during 2015.
@@ -349,7 +349,7 @@ Sci-Hub had zero coverage for 1,249 publishers, and complete coverage for 341 pu
 ![
 **Coverage by publisher.**
 Article coverage is shown for all Scopus publishers with at least 200,000 articles.
-](https://cdn.rawgit.com/greenelab/scihub/ca4d523e149f30be7fd3d3ae6551a26d1c625313/figure/coverage-by-publisher.svg){#fig:publishers width="100%"}
+](https://cdn.rawgit.com/greenelab/scihub/e35cc7b0d3b6dd65bf8ce18945007d2b44a6be1e/figure/coverage-by-publisher.svg){#fig:publishers width="100%"}
 
 ### Coverage by year
 
@@ -363,7 +363,7 @@ Another possible factor is that some publishers are now deploying more aggressiv
 ![
 **Coverage of articles by year published.**
 Sci-Hub's article coverage is shown for each year since 1850.
-](https://cdn.rawgit.com/greenelab/scihub/ca4d523e149f30be7fd3d3ae6551a26d1c625313/figure/coverage-by-year.svg){#fig:years width="100%"}
+](https://cdn.rawgit.com/greenelab/scihub/e35cc7b0d3b6dd65bf8ce18945007d2b44a6be1e/figure/coverage-by-year.svg){#fig:years width="100%"}
 
 In addition, the prevalence of open access has been increasing, while Sci-Hub preferentially covers articles in toll access journals.
 Figure @fig:years-by-access tracks yearly coverage separately for articles in toll and open access journals.
@@ -373,7 +373,7 @@ We speculate this discrepancy results from the proliferation of obscure, low-qua
 In addition to having limited readership demand, these journals are generally open access, and thus less targeted by Sci-Hub.
 
 Sci-Hub's coverage of 2016 articles in open access journals was just 32.7% compared to 78.8% for articles in toll access journals (Figure @fig:years-by-access).
-Upon further [investigation](https://github.com/greenelab/scihub/blob/58a60ffef1443d42eab9f163f9bb652ca2ddde25/13.oa-journal-dropoffs.ipynb), we discovered that in June 2015, Sci-Hub ceased archiving articles in [_PeerJ_](https://greenelab.github.io/scihub/#/journal/21100239256), [_eLife_](https://greenelab.github.io/scihub/#/journal/21100242814), and [PLOS journals](https://greenelab.github.io/scihub/#/publisher/public-library-of-science), although they continued archiving articles in other open access journals such as [_Scientific Reports_](https://greenelab.github.io/scihub/#/journal/21100200805), [_Nature Communications_](https://greenelab.github.io/scihub/#/journal/19700182758), and BMC-series journals.
+Upon further [investigation](https://github.com/greenelab/scihub/blob/e35cc7b0d3b6dd65bf8ce18945007d2b44a6be1e/13.oa-journal-dropoffs.ipynb), we discovered that in June 2015, Sci-Hub ceased archiving articles in [_PeerJ_](https://greenelab.github.io/scihub/#/journal/21100239256), [_eLife_](https://greenelab.github.io/scihub/#/journal/21100242814), and [PLOS journals](https://greenelab.github.io/scihub/#/publisher/public-library-of-science), although they continued archiving articles in other open access journals such as [_Scientific Reports_](https://greenelab.github.io/scihub/#/journal/21100200805), [_Nature Communications_](https://greenelab.github.io/scihub/#/journal/19700182758), and BMC-series journals.
 Sci-Hub currently redirects requests for these delisted journals to the publisher's site, unless it already possesses the article, in which case it serves the PDF.
 These findings are consistent with an explicit decision by Sci-Hub to prioritize its resources on circumventing access barriers rather than creating a single repository containing every scholarly article.
 
@@ -396,7 +396,7 @@ Using oaDOI calls from the State of OA study, we show Sci-Hub's coverage on each
 Gray indicates articles that were not accessible via oaDOI (referred to as closed).
 Here, all three State of OA collections were combined, yielding 290,120 articles.
 Figure @fig:oadoi-large shows coverage separately for the three State of OA collections.
-](https://cdn.rawgit.com/greenelab/scihub/58a60ffef1443d42eab9f163f9bb652ca2ddde25/figure/state-of-oa-colors-small.svg){#fig:oadoi width="60%"}
+](https://cdn.rawgit.com/greenelab/scihub/e35cc7b0d3b6dd65bf8ce18945007d2b44a6be1e/figure/state-of-oa-colors-small.svg){#fig:oadoi width="60%"}
 
 Sci-Hub's coverage was higher for closed and green articles than for hybrid or bronze articles.
 Furthermore, Sci-Hub's coverage of closed articles was similar to its coverage of green articles (Figure @fig:oadoi).
@@ -476,7 +476,7 @@ The bottom two diagrams show coverage on a larger set of automatically evaluated
 The two lefthand diagrams show coverage on all articles, whereas the two righthand diagrams show coverage on toll access articles only.
 Specifically, the top-right diagram assesses coverage on articles that were inaccessible from outside of an institutional network.
 Similarly, the bottom-right diagram assesses coverage of articles that were classified as closed or green by oaDOI, and thus excludes gold, hybrid, and bronze articles (those available gratis from their publisher).
-](https://cdn.rawgit.com/greenelab/scihub/58a60ffef1443d42eab9f163f9bb652ca2ddde25/figure/library-access-venns-small.svg){#fig:combinations width="60%"}
+](https://cdn.rawgit.com/greenelab/scihub/e35cc7b0d3b6dd65bf8ce18945007d2b44a6be1e/figure/library-access-venns-small.svg){#fig:combinations width="60%"}
 
 ### Coverage of recently cited articles
 
@@ -527,7 +527,7 @@ This is the only analysis where "Sci-Hub Coverage" refers to journal-level rathe
 **B)**
 The association between 2015 CiteScore and average visitors per article is plotted for open and toll access journals.
 Curves show the 95% confidence band from a Generalized Additive Model.
-](https://cdn.rawgit.com/greenelab/scihub/ca4d523e149f30be7fd3d3ae6551a26d1c625313/figure/citescore.svg){#fig:citescore width="100%"}
+](https://cdn.rawgit.com/greenelab/scihub/e35cc7b0d3b6dd65bf8ce18945007d2b44a6be1e/figure/citescore.svg){#fig:citescore width="100%"}
 
 ## Discussion {.page_break_before}
 
@@ -564,7 +564,7 @@ The number of bitcoin donations to Sci-Hub is shown for each month from June 201
 Since February 2016, Sci-Hub has received over 25 donations per month.
 Each donation corresponds to an incoming transaction to a known Sci-Hub address.
 See Figure @fig:bitcoin-all for the amount donated each month, valued in BTC or USD.
-](https://cdn.rawgit.com/greenelab/scihub/357ddf3153b7897ba5a443c7cb241cf3eb65e8cb/explore/bitcoin/monthly-donations-count.svg){#fig:bitcoin width="100%"}
+](https://cdn.rawgit.com/greenelab/scihub/e35cc7b0d3b6dd65bf8ce18945007d2b44a6be1e/explore/bitcoin/monthly-donations-count.svg){#fig:bitcoin width="100%"}
 
 The largest, most prominent academic publishers are thoroughly covered by Sci-Hub, and these publishers have taken note.
 Elsevier (whose 13.5 million works are 96.9% covered by Sci-Hub) and the American Chemical Society (whose 1.4 million works are 98.8% covered) have both filed suit against Sci-Hub, despite the limited enforcement options of United States courts.
@@ -743,7 +743,7 @@ The figure shows the number of articles in LibGen scimag, according to its `Time
 The number of articles added per day for the January 1, 2014 LibGen database dump was [provided](https://github.com/greenelab/scihub/issues/8#issuecomment-296719787) by Cabanac and corresponds to Figure 1 of @18KKRwlN6.
 Notice the major discrepancy whereby articles from the April 7, 2017 database dump were added at later dates.
 Accordingly, we hypothesize that the `TimeAdded` field is replaced upon modification, making it impossible to assess date of first upload.
-](https://cdn.rawgit.com/greenelab/scihub/db8866f8ba629a74dc5779698dc5f451571d8b4c/figure/libgen-cumulative-works.svg){#fig:libgen-size width="4in"}
+](https://cdn.rawgit.com/greenelab/scihub/e35cc7b0d3b6dd65bf8ce18945007d2b44a6be1e/figure/libgen-cumulative-works.svg){#fig:libgen-size width="4in"}
 
 ### Sci-Hub's catalog of articles
 
@@ -829,18 +829,18 @@ Point color indicates the proportion of days with logs for a given month.
 For example, November 2015 and October 2017, which were missing logs for 17 and 23 days respectively, are thus lighter.
 The December 2017 dropoff in downloads likely reflects the effect of domain suspensions that occurred in late November [@pmrIfHRq].
 Unlike the Sci-Hub log analyses elsewhere in this study, this plot does not filter for valid articles (i.e. DOIs in our Crossref-derived catalog of scholarly literature).
-](https://cdn.rawgit.com/greenelab/scihub/64a01fce1032fdb42facb56633e5056b431fa267/download/scihub-logs-2017/scihub-log-downloads.png){#fig:downloads tag="1—figure supplement 1" width="65%"}
+](https://cdn.rawgit.com/greenelab/scihub/e35cc7b0d3b6dd65bf8ce18945007d2b44a6be1e/download/scihub-logs-2017/scihub-log-downloads.png){#fig:downloads tag="1—figure supplement 1" width="65%"}
 
 ![
 **Coverage by country of publication.**
 Scopus assigns each journal a country of publication.
 Sci-Hub's coverage is shown for countries with at least 100,000 articles.
-](https://cdn.rawgit.com/greenelab/scihub/ca4d523e149f30be7fd3d3ae6551a26d1c625313/figure/coverage-by-country.svg){#fig:countries tag="4—figure supplement 1" width="100%"}
+](https://cdn.rawgit.com/greenelab/scihub/e35cc7b0d3b6dd65bf8ce18945007d2b44a6be1e/figure/coverage-by-country.svg){#fig:countries tag="4—figure supplement 1" width="100%"}
 
 ![
 **Coverage of articles by year published and journal access status.**
 Sci-Hub's coverage is shown, separately for articles in open versus toll access journals, for each year since 1950.
-](https://cdn.rawgit.com/greenelab/scihub/ca4d523e149f30be7fd3d3ae6551a26d1c625313/figure/coverage-by-year-and-access.svg){#fig:years-by-access tag="6—figure supplement 1" width="100%"}
+](https://cdn.rawgit.com/greenelab/scihub/e35cc7b0d3b6dd65bf8ce18945007d2b44a6be1e/figure/coverage-by-year-and-access.svg){#fig:years-by-access tag="6—figure supplement 1" width="100%"}
 
 ![
 **Coverage by oaDOI access status on each State of OA collection.**
@@ -851,13 +851,13 @@ Impressively, Sci-Hub’s coverage of the closed articles in the Web of Science 
 This remarkable coverage likely reflects that these articles were published from 2009–2015 and classified as citable items by Web of Science, which is selective when indexing journals [@QyHSyHo3].
 Note that PennText does not have complete coverage of bronze, hybrid, and gold articles, which should be the case were all metadata systems perfect.
 These anomalies likely result from errors in both PennText (whose accuracy we estimated at 88.2%) and oaDOI (whose accuracy the State of OA study estimated at 90.4%, i.e. Table 1 of @eOi5pOoT reports 5 false positives and 43 false negatives on oaDOI calls for 500 articles).
-](https://cdn.rawgit.com/greenelab/scihub/58a60ffef1443d42eab9f163f9bb652ca2ddde25/figure/state-of-oa-colors-large.svg){#fig:oadoi-large tag="7—figure supplement 1" width="100%"}
+](https://cdn.rawgit.com/greenelab/scihub/e35cc7b0d3b6dd65bf8ce18945007d2b44a6be1e/figure/state-of-oa-colors-large.svg){#fig:oadoi-large tag="7—figure supplement 1" width="100%"}
 
 ![
 **Bitcoin donations to Sci-Hub per month.**
 For months since June 2015, total bitcoin donations (deposits to known Sci-Hub addresses) are assessed.
 Donations in USD refers to the United States dollar value at time of transaction confirmation.
-](https://cdn.rawgit.com/greenelab/scihub/357ddf3153b7897ba5a443c7cb241cf3eb65e8cb/explore/bitcoin/monthly-donations-faceted.svg){#fig:bitcoin-all tag="10—figure supplement 1" width="5in"}
+](https://cdn.rawgit.com/greenelab/scihub/e35cc7b0d3b6dd65bf8ce18945007d2b44a6be1e/explore/bitcoin/monthly-donations-faceted.svg){#fig:bitcoin-all tag="10—figure supplement 1" width="5in"}
 
 ![
 **Lag-time from publication to LibGen upload.**
@@ -869,7 +869,7 @@ For example, coverage for 2016 articles exceeded 50% within 6 months, but appear
 Alternatively, coverage for 2014 took 15 months to exceed 50%, but has since reached 75%.
 However, this signal could result from post-dated LibGen upload timestamps.
 Therefore, we caution against drawing any conclusions from the `TimeAdded` field in LibGen scimag until its accuracy can be established more reliably.
-](https://cdn.rawgit.com/greenelab/scihub/db8866f8ba629a74dc5779698dc5f451571d8b4c/figure/libgen-monthly-lagtimes.svg){#fig:libgen-lag tag="11—figure supplement 1" width="100%"}
+](https://cdn.rawgit.com/greenelab/scihub/e35cc7b0d3b6dd65bf8ce18945007d2b44a6be1e/figure/libgen-monthly-lagtimes.svg){#fig:libgen-lag tag="11—figure supplement 1" width="100%"}
 
 
 ## Acknowledgements
