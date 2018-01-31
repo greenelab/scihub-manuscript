@@ -30,7 +30,7 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.72
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@a3fcb93](https://github.com/greenelab/scihub-manuscript/tree/a3fcb930f25813297352ba3c1ce428b64dc09b97)
+from [greenelab/scihub-manuscript@bb7244b](https://github.com/greenelab/scihub-manuscript/tree/bb7244bbedc7179129c7cfa3634890ed297611fc)
 on January 31, 2018.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
@@ -582,7 +582,7 @@ As per Figure @fig:downloads, Sci-Hub averaged 185,243 downloads per day in Janu
 Accordingly, the ratio of Sci-Hub to Penn Libraries downloads in 2017 was 20:1.
 In addition, adoption of Sci-Hub or similar sites could accelerate due to new technical burdens on authorized access (the flip side of anti-piracy measures) [@2Vc1UrtB; @C3J6AH5V], crackdowns on article sharing via academic social networks [@1BKBt9JRq; @nVGhXBcX], or large-scale subscription cancellations by libraries [@YX9zq2ZF].
 
-Historically, libraries have often canceled individual journal subscriptions or switched from bundled to à-la-carte selections [@cHL7ycpV; @SuZ30LxR; @18zoY6Ild; @9Uk1lLUa].
+Historically, libraries have [often canceled](https://sparcopen.org/our-work/big-deal-cancellation-tracking/) individual journal subscriptions or switched from bundled to à-la-carte selections [@SuZ30LxR; @18zoY6Ild; @9Uk1lLUa].
 More recently, library consortia have threatened wholesale cancellation of specific publishers.
 In 2010, Research Libraries of the UK threatened to let Elsevier contracts expire [@VC6kWHG2; @7oTLbigW], while the University of California raised the possibility of boycotting Nature Publishing Group.
 But these disputes were ultimately resolved before major cancellations transpired.
