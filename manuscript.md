@@ -7,7 +7,7 @@ author-meta:
 - Stephen Reid McLaughlin
 - Bastian Greshake Tzovaras
 - Casey S. Greene
-date-meta: '2018-01-30'
+date-meta: '2018-01-31'
 keywords:
 - Sci-Hub
 - publishing
@@ -30,8 +30,8 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.72
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@0bdaafd](https://github.com/greenelab/scihub-manuscript/tree/0bdaafd3f2925a14fea9f9b4c1c554e2a87a1379)
-on January 30, 2018.
+from [greenelab/scihub-manuscript@a3fcb93](https://github.com/greenelab/scihub-manuscript/tree/a3fcb930f25813297352ba3c1ce428b64dc09b97)
+on January 31, 2018.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
 
@@ -587,7 +587,7 @@ More recently, library consortia have threatened wholesale cancellation of speci
 In 2010, Research Libraries of the UK threatened to let Elsevier contracts expire [@VC6kWHG2; @7oTLbigW], while the University of California raised the possibility of boycotting Nature Publishing Group.
 But these disputes were ultimately resolved before major cancellations transpired.
 But in 2017, researchers began losing access to entire publishers.
-Universities in the Netherlands are without subscription access to articles published by Oxford University Press since May 2017 [@hOBvHaW9].
+Universities in the Netherlands canceled all Oxford University Press subscriptions in May 2017 [@hOBvHaW9].
 University of Montreal reduced its subscriptions to Taylor & Francis periodicals by 93%, axing 2,231 journals [@RkpJBRo6].
 Negotiations with Elsevier reached impasses in Germany, Peru, and Taiwan, resulting in access outages [@uKvlPbm2; @wnNilBvm; @pzBnDw2j;  @xehij8U0; @I5vVmgFo].
 These developments echo the predictions of Elsevier's attorneys in 2015 [@3noVfYfJ]:
