@@ -30,7 +30,7 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.72
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@fe753fb](https://github.com/greenelab/scihub-manuscript/tree/fe753fbc976ab74a794720fd499c4e6ce7b77e41)
+from [greenelab/scihub-manuscript@268ee7b](https://github.com/greenelab/scihub-manuscript/tree/268ee7b3c2b8bd4a2d38bd411949ae8a41d4147b)
 on January 31, 2018.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
@@ -816,7 +816,7 @@ Note that these analyses do not include Sci-Hub's access logs for 2017 [@D6wP8q7
 Unfortunately, at that time we had already adopted a freeze on major new analyses.
 Nonetheless, we did a quick analysis to assess growth in Sci-Hub downloads over time that combined the 2015–2016 and 2017 access log data (Figure @fig:downloads).
 
-## Supplementary Information
+## Figure Supplements
 
 ![
 **Downloads per day on Sci-Hub for months with access logs.**
