@@ -30,7 +30,7 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.72
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@bb7244b](https://github.com/greenelab/scihub-manuscript/tree/bb7244bbedc7179129c7cfa3634890ed297611fc)
+from [greenelab/scihub-manuscript@ab9ca60](https://github.com/greenelab/scihub-manuscript/tree/ab9ca6055e80a083e3ff2cb53b7b0af9c8e929f9)
 on January 31, 2018.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
@@ -425,12 +425,12 @@ We randomly selected 500 of these articles to evaluate manually and assessed whe
 We defined access as fulltext availability at the location redirected to by an article's DOI, without providing any payment, credentials, or login information.
 This definition is analogous to the union of oaDOI's gold, hybrid, and bronze categories.
 
-Using these manual access calls, we [found](https://github.com/greenelab/library-access/blob/c60246a0dd6b0fccf9b1954f793261e729954b66/evaluate_library_access_from_output_tsv/penntext-accuracy-500.ipynb) PennText correctly classified access 88.2% of the time.
-PennText claimed to have access to 422 of the 500 articles (84.4%).
-When PennText asserted access, it was correct 94.8% of the time.
-However, when PennText claimed no access, it was only correct for 41 of 78 articles (52.6%).
+Using these manual access calls, we [found](https://github.com/greenelab/library-access/blob/c60246a0dd6b0fccf9b1954f793261e729954b66/evaluate_library_access_from_output_tsv/penntext-accuracy-500.ipynb) PennText correctly classified access 88.2% [85.2%–90.8%] of the time (bracketed ranges refer to 95% confidence intervals calculated using Jeffreys interval for binomial proportions [@BP6sDsyK]).
+PennText claimed to have access to 422 of the 500 articles [81.0%–87.4%].
+When PennText asserted access, it was correct 94.8% [92.4%–96.6%] of the time.
+However, when PennText claimed no access, it was only correct for 41 of 78 articles [41.6%–63.4%].
 This error rate arose because PennText was not only unaware of Penn's access to 23 open articles, but also unaware of Penn's subscription access to 14 articles.
-Despite these issues, PennText's estimate of Penn's access at 84.4% did not drastically differ from the manually evaluated estimate of 87.4%.
+Despite these issues, PennText's estimate of Penn's access at 84.4% did not significantly differ from the manually evaluated estimate of 87.4% [84.3%–90.1%].
 Nonetheless, we proceed by showing comparisons for both the 500 articles with manual access calls as well as the 290,120 articles with PennText calls.
 
 ### Coverage combining access methods
@@ -438,16 +438,16 @@ Nonetheless, we proceed by showing comparisons for both the 500 articles with ma
 In practice, readers of the scholarly literature likely use a variety of methods for access.
 Figure @fig:combinations compares several of these methods, as well as their combinations.
 Users without institutional access may simply attempt to view an article on its publisher's site.
-Based on our manual evaluation of 500 articles, we found 34.8% of articles are accessible this way.
+Based on our manual evaluation of 500 articles, we found 34.8% [30.7%–39.1%] of articles are accessible this way.
 The remaining 326 articles that are not accessible from their publisher's site are considered toll access.
-[oaDOI](https://oadoi.org/) --- a utility that redirects paywalled DOIs to gratis, licit versions, when possible [@eOi5pOoT] --- was able to access 15.3% of these toll access articles, indicating that green open access is still limited in its reach.
-This remained true on the full set of 208,786 toll access articles from the State of OA dataset, where oaDOI only provided access to 12.4%.
-Although oaDOI's overall access rate was 37.0%, this access consisted largely of gold, hybrid, and bronze articles, whereby gratis access is provided by the publisher.
+[oaDOI](https://oadoi.org/) --- a utility that redirects paywalled DOIs to gratis, licit versions, when possible [@eOi5pOoT] --- was able to access 15.3% [11.7%–19.5%] of these toll access articles, indicating that green open access is still limited in its reach.
+This remained true on the full set of 208,786 toll access articles from the State of OA dataset, where oaDOI only provided access to 12.4% [12.3%–12.6%].
+Although oaDOI's overall access rate was 37.0% [36.8%–37.2%], this access consisted largely of gold, hybrid, and bronze articles, whereby gratis access is provided by the publisher.
 
 Sci-Hub and Penn had similar coverage on all articles:
-85.2% versus 87.4% on the manual article set and 84.8% versus 84.4% on the larger but automated set.
+85.2% [81.9%–88.1%] versus 87.4% [84.3%–90.1%] on the manual article set and 84.8% [84.7%–84.9%] versus 84.4% [84.3%–84.5%] on the larger but automated set.
 However, when considering only toll access articles, Sci-Hub's coverage exceeds Penn's: 
-94.2% versus 80.7% on the manual set and 90.7% versus 83.5% on the automated set.
+94.2% [91.2%–96.3%] versus 80.7% [76.1%–84.7%] on the manual set and 90.7% [90.5%–90.8%] versus 83.5% [83.4%–83.7%] on the automated set.
 This reflects Sci-Hub's focus on paywalled articles.
 In addition, Sci-Hub's coverage is a lower bound for its access rate, since it can retrieve articles on demand, so in practice Sci-Hub's access to toll access articles could exceed Penn's by a higher margin.
 Remarkably, Sci-Hub provides greater access to toll access literature than a leading research university that spends millions of dollars per year for its access to scholarly literature.
@@ -457,8 +457,8 @@ Combining access methods can also be synergistic.
 Specifically when including open access articles, combining Sci-Hub's repository with oaDOI's or Penn's access increases coverage from around 85% to 95%.
 The benefits of oaDOI are reduced when only considering toll access articles, where oaDOI only improves Sci-Hub's or Penn's coverage by approximately 1%.
 On toll access articles, Penn's access appeared to complement Sci-Hub's.
-Together, Sci-Hub's repositories and Penn's access covered approximately 97% of toll access articles.
-Our findings suggest that users with institutional subscriptions comparable to those at Penn as well as knowledge of oaDOI and Sci-Hub are able to access over 97% of all articles, online and without payment.
+Together, Sci-Hub's repositories and Penn's access covered approximately 96% of toll access articles [95.0%–98.6% (manual set), 95.9%–96.1% (automated set)].
+Our findings suggest that users with institutional subscriptions comparable to those at Penn as well as knowledge of oaDOI and Sci-Hub are able to access over 97% of all articles [96.7%–99.1% (manual set), 97.3%–97.5% (automated set)], online and without payment.
 
 ![
 **Coverage of several access methods and their combinations.**
