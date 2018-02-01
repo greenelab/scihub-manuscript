@@ -25,12 +25,9 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 
 
-_A DOI-citable version of this manuscript is available at <https://doi.org/10.7287/peerj.preprints.3100>_.
-
-
-<small><em>
+_A DOI-citable version of this manuscript is available at <https://doi.org/10.7287/peerj.preprints.3100>_.<small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@561763d](https://github.com/greenelab/scihub-manuscript/tree/561763db8ec56764fa41b0e9791c4a5fe9177c00)
+from [greenelab/scihub-manuscript@3d16cd9](https://github.com/greenelab/scihub-manuscript/tree/3d16cd9ffe3a2a33779b0bf1db2da5a906a30464)
 on February  1, 2018.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
