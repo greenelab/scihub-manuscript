@@ -128,7 +128,7 @@
   ],
   "ci_source": {
     "repo_slug": "greenelab/scihub-manuscript",
-    "commit": "cce4963e5f1ee2bfa143ed40713512d8b28d6576"
+    "commit": "746a6a54534cda5fb496ac6f71fc3aed10e9fb0a"
   },
   "manuscript_stats": {
     "reference_counts": {
