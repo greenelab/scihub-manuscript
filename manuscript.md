@@ -27,7 +27,7 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 _A DOI-citable version of this manuscript is available at <https://doi.org/10.7287/peerj.preprints.3100>_.<small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@c7d5dbf](https://github.com/greenelab/scihub-manuscript/tree/c7d5dbfd540bc3c59deed572fb4b396460a4f1cd)
+from [greenelab/scihub-manuscript@cce4963](https://github.com/greenelab/scihub-manuscript/tree/cce4963e5f1ee2bfa143ed40713512d8b28d6576)
 on February  2, 2018.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
@@ -822,7 +822,7 @@ Point color indicates the proportion of days with logs for a given month.
 For example, November 2015 and October 2017, which were missing logs for 17 and 23 days respectively, are thus lighter.
 The December 2017 dropoff in downloads likely reflects the effect of domain suspensions that occurred in late November [@pmrIfHRq].
 Unlike the Sci-Hub log analyses elsewhere in this study, this plot does not filter for valid articles (i.e. DOIs in our Crossref-derived catalog of scholarly literature).
-](https://cdn.rawgit.com/greenelab/scihub/e35cc7b0d3b6dd65bf8ce18945007d2b44a6be1e/download/scihub-logs-2017/scihub-log-downloads.png){#fig:downloads tag="1—figure supplement 1" width="65%"}
+](https://cdn.rawgit.com/greenelab/scihub/e35cc7b0d3b6dd65bf8ce18945007d2b44a6be1e/download/scihub-logs-2017/scihub-log-downloads.svg){#fig:downloads tag="1—figure supplement 1" width="65%"}
 
 ![
 **Coverage by country of publication.**
