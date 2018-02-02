@@ -7,7 +7,7 @@ author-meta:
 - Stephen Reid McLaughlin
 - Bastian Greshake Tzovaras
 - Casey S. Greene
-date-meta: '2018-02-01'
+date-meta: '2018-02-02'
 keywords:
 - Sci-Hub
 - publishing
@@ -27,8 +27,8 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 _A DOI-citable version of this manuscript is available at <https://doi.org/10.7287/peerj.preprints.3100>_.<small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@3d16cd9](https://github.com/greenelab/scihub-manuscript/tree/3d16cd9ffe3a2a33779b0bf1db2da5a906a30464)
-on February  1, 2018.
+from [greenelab/scihub-manuscript@91f9424](https://github.com/greenelab/scihub-manuscript/tree/91f94248c25eed4ead065bc879c1e7273b74f3e4)
+on February  2, 2018.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
 
@@ -135,7 +135,7 @@ Foremost, widespread subscription access remains restricted to institutions, suc
 Smaller institutions or those in the developing world often have poor access to scholarly literature [@16BrOMxI0; @13ynzWtv8; @17wtGC2m7].
 As a result, only a tiny percentage of the world's population has been able to access much of the scholarly literature, despite the fact that the underlying research was often publicly or philanthropically funded.
 Compounding the problem is that publications have historically been the primary, if not sole, output of scholarship.
-Although copyright does not apply to ideas, journals leverage the copyright covering an article's prose, figures, and typesetting to effectively paywall its knowledge, as other routes to consuming the knowledge do not exist.
+Although copyright does not apply to ideas, journals leverage the copyright covering an article's prose, figures, and typesetting to effectively paywall its knowledge.
 
 Since each article is unique, libraries cannot substitute one journal subscription for another without depriving their users of potentially crucial access.
 As a result, the price of journal subscriptions has grown at a faster rate than inflation for several decades [@PR3qioJB], leading to an ever-present "serials crisis" that has pushed library budgets to their brink while diverting funds from other services [@18zoY6Ild].
@@ -146,8 +146,8 @@ For example, EBSCO estimates that per-journal subscription costs increased by 25
 In this study, we use the term "toll access" (also known as "closed access") to refer to paywalled literature [@LgXhvEw7].
 On the other hand, we refer to literature that is free to read as "open access".
 Furthermore, we discuss two variants of open access: "libre" and "gratis" [@LgXhvEw7; @tSEdUvgK].
-Libre open access refers to literature that is [openly licensed](http://opendefinition.org/) to freely allow reuse.
-Gratis open access refers to literature without price barriers, although permission barriers may remain (usually due to copyright) [@7aXVorCC].
+Libre open access refers to literature that is [openly licensed](http://opendefinition.org/) to allow reuse.
+Gratis open access refers to literature that is accessible free of charge, although permission barriers may remain (usually due to copyright) [@7aXVorCC].
 
 The website Sci-Hub, now in its sixth year of existence, provides gratis access to scholarly literature, despite the continued presence of paywalls.
 Sci-Hub brands itself as "the first pirate website in the world to provide mass and public access to tens of millions of research papers."
@@ -155,11 +155,11 @@ The website, started in 2011, is run by Alexandra Elbakyan, a graduate student a
 Elbakyan describes herself as motivated to provide universal access to knowledge [@nZZjs6T6; @1BUarVNFD; @K6n65WB0].
 
 Sci-Hub does not restrict itself to only openly licensed content.
-Instead, it retrieves and distributes scholarly literature without regard to copyright regimes.
+Instead, it retrieves and distributes scholarly literature without regard to copyright.
 **Readers should note that, in many jurisdictions, use of Sci-Hub may constitute copyright infringement.
 Users of Sci-Hub do so at their own risk.
 This study is not an endorsement of using Sci-Hub, and its authors and publishers accept no responsibility on behalf of readers.
-There is a possibility that Sci-Hub users — especially those not using privacy-enhancing services such as Tor — could have their usage history unmasked and face consequences, both legal or reputational in nature.**
+There is a possibility that Sci-Hub users — especially those not using privacy-enhancing services such as Tor — could have their usage history unmasked and face legal or reputational consequences.**
 
 Sci-Hub is currently served at domains including https://sci-hub.hk, https://sci-hub.la, https://sci-hub.mn, https://sci-hub.name, https://sci-hub.tv, and https://sci-hub.tw, as well as at scihub22266oqcxt.onion — a Tor Hidden Service [@zvVsLNxf].
 Elbakyan described the project's technical scope in July 2017 [@1H8x8f4Y7]:
@@ -287,7 +287,7 @@ The total number of articles published by each journal is noted in the Crossref 
 The table provides the number (Sci-Hub column) and percentage (Coverage column) of these articles that are in Sci-Hub's repository.
 {#tbl:top-ten-journals}
 
-In general, a journal's coverage was either nearly complete or nearly entirely absent (Figure @fig:distributions).
+In general, a journal's coverage was either nearly complete or near zero (Figure @fig:distributions).
 As a result, relatively few journals had coverage between 5–75%.
 At the extremes, 2,574 journals had zero coverage in Sci-Hub, whereas 2,095 journals had perfect coverage.
 Of zero-coverage journals, 22.2% were inactive, and 27.9% were open access.
@@ -338,7 +338,7 @@ For the eight publishers with more than one million articles, the following cove
 79.4% of Wolters Kluwer,
 88.3% of Oxford University Press,
 90.9% of SAGE, and
-98.8% of American Chemical Society.
+98.8% of American Chemical Society articles.
 In total, 3,832 publishers were represented in the journal catalog.
 The coverage distribution among publishers resembled the journal coverage distribution, with most publishers occupying the extremities (Figure @fig:distributions).
 Sci-Hub had zero coverage for 1,249 publishers, and complete coverage for 341 publishers.
@@ -372,7 +372,7 @@ In addition to having limited readership demand, these journals are generally op
 Sci-Hub's coverage of 2016 articles in open access journals was just 32.7% compared to 78.8% for articles in toll access journals (Figure @fig:years-by-access).
 Upon further [investigation](https://github.com/greenelab/scihub/blob/e35cc7b0d3b6dd65bf8ce18945007d2b44a6be1e/13.oa-journal-dropoffs.ipynb), we discovered that in June 2015, Sci-Hub ceased archiving articles in [_PeerJ_](https://greenelab.github.io/scihub/#/journal/21100239256), [_eLife_](https://greenelab.github.io/scihub/#/journal/21100242814), and [PLOS journals](https://greenelab.github.io/scihub/#/publisher/public-library-of-science), although they continued archiving articles in other open access journals such as [_Scientific Reports_](https://greenelab.github.io/scihub/#/journal/21100200805), [_Nature Communications_](https://greenelab.github.io/scihub/#/journal/19700182758), and BMC-series journals.
 Sci-Hub currently redirects requests for these delisted journals to the publisher's site, unless it already possesses the article, in which case it serves the PDF.
-These findings are consistent with an explicit decision by Sci-Hub to prioritize resources on circumventing access barriers rather than creating a single repository containing every scholarly article.
+These findings suggest Sci-Hub prioritizes circumventing access barriers rather than creating a single repository containing every scholarly article.
 
 ### Coverage by category of access status
 
@@ -406,8 +406,9 @@ However, hybrid and bronze articles, which are available gratis from their publi
 As a benchmark, we decided to compare Sci-Hub's coverage to the access provided by a major research library.
 Since we were unaware of any studies that comprehensively profiled library access to scholarly articles, we collaborated with Penn Libraries to assess the extent of access available at the University of Pennsylvania (Penn).
 Penn is a private research university located in Philadelphia and founded by the open science pioneer Benjamin Franklin in 1749.
+It is one of the world's wealthiest universities, with an [endowment](http://www.nacubo.org/Documents/EndowmentFiles/2016-Endowment-Market-Values.pdf "U.S. and Canadian Institutions Listed by Fiscal Year 2016 Endowment Market Value. National Association of College and University Business Officers and Commonfund Institute") of over $10 billion.
 According to the Higher Education Research and Development Survey, [R&D expenditures](https://ncsesdata.nsf.gov/herd/2016/html/HERD2016_DST_21.html "Table 21. Higher education R&D expenditures, ranked by all R&D expenditures, by source of funds: FY 2016") at Penn totaled $1.29 billion in 2016, placing it third among U.S. colleges and universities.
-In 2017, Penn Libraries [approximates](https://github.com/greenelab/library-access/issues/23) that it spent $13.13 million on electronic resources, which includes subscriptions to journals and ebooks.
+In 2017, Penn Libraries [estimates](https://github.com/greenelab/library-access/issues/23) that it spent $13.13 million on electronic resources, which includes subscriptions to journals and ebooks.
 During this year, its users accessed 7.3 million articles and 860 thousand ebook chapters, averaging a per-download cost of $1.61.
 
 Penn Libraries uses the Alma library resource management system from Ex Libris.
@@ -427,7 +428,7 @@ PennText claimed to have access to 422 of the 500 articles [81.0%–87.4%].
 When PennText asserted access, it was correct 94.8% [92.4%–96.6%] of the time.
 However, when PennText claimed no access, it was only correct for 41 of 78 articles [41.6%–63.4%].
 This error rate arose because PennText was not only unaware of Penn's access to 23 open articles, but also unaware of Penn's subscription access to 14 articles.
-Despite these issues, PennText's estimate of Penn's access at 84.4% did not significantly differ from the manually evaluated estimate of 87.4% [84.3%–90.1%].
+Despite these issues, PennText's estimate of Penn's access at 84.4% did not differ significantly from the manually evaluated estimate of 87.4% [84.3%–90.1%].
 Nonetheless, we proceed by showing comparisons for both the 500 articles with manual access calls as well as the 290,120 articles with PennText calls.
 
 ### Coverage combining access methods
@@ -585,7 +586,7 @@ But these disputes were ultimately resolved before major cancellations transpire
 But in 2017, researchers began losing access to entire publishers.
 Universities in the Netherlands canceled all Oxford University Press subscriptions in May 2017 [@hOBvHaW9].
 University of Montreal reduced its subscriptions to Taylor & Francis periodicals by 93%, axing 2,231 journals [@RkpJBRo6].
-Negotiations with Elsevier reached impasses in Germany, Peru, and Taiwan, resulting in access outages [@uKvlPbm2; @wnNilBvm; @pzBnDw2j;  @xehij8U0; @I5vVmgFo].
+Negotiations with Elsevier reached impasses in Germany, Peru, and Taiwan. As a result, hundreds of universities have cancelled all Elsevier subscriptions [@wnNilBvm; @i9e7Fcm8].
 These developments echo the predictions of Elsevier's attorneys in 2015 [@3noVfYfJ]:
 "Defendants’ actions also threaten imminent irreparable harm to Elsevier because it appears that the Library Genesis Project repository may be approaching (or will eventually approach) a level of 'completeness' where it can serve as a functionally equivalent, although patently illegal, replacement for ScienceDirect."
 
@@ -634,8 +635,7 @@ We used DOIs (Digital Object Identifiers) to uniquely identify articles.
 The Sci-Hub and LibGen scimag repositories also uniquely identify articles by their DOIs, making DOIs the natural primary identifier for our analyses.
 The DOI initiative began in 1997, and the first DOIs were registered in 2000 [@8zeVK2hX; @JDfJRWbr].
 Note that DOIs can be registered retroactively.
-For example, Antony van Leewenhoeck's discovery of protists and bacteria — published in 1677 by _Philosophical Transactions of the Royal Society of London_ [@HhEZiSSR] — has a DOI (`10.1098/rstl.1677.0003`).
-While van Leewenhoeck's article was published long before the DOI system existed, the _Royal Society_ retroactively assigned it a DOI in 2006.
+For example, Antony van Leewenhoeck's discovery of protists and bacteria — published in 1677 by _Philosophical Transactions of the Royal Society of London_ [@HhEZiSSR] — has a DOI (`10.1098/rstl.1677.0003`), retroactively assigned in 2006.
 
 Not all scholarly articles have DOIs.
 By evaluating the presence of DOIs in other databases of scholarly literature (such as PubMed, Web of Science, and Scopus), researchers estimate around 90% of newly published articles in the sciences have DOIs [@9sCtTvlE; @10zxQMO6J].
@@ -689,8 +689,8 @@ Therefore, we instead relied on the [Scopus](https://www.scopus.com) database to
 Scopus uses "title" to refer to all of the following: peer-reviewed journals, trade journals, book series, and conference proceedings.
 For this study, we refer to all of these types as journals.
 From the October 2017 data release of Scopus titles, we extracted metadata for 72,502 titles including their names, ISSNs, subject areas, publishers, open access status, and active status.
-The publisher information was poorly standardized — e.g. both "ICE Publishing" and "ICE Publishing Ltd." were present — so we [applied](https://github.com/dhimmel/scopus/pull/3) hundreds of manually-reviewed publisher name patches.
-This version of Scopus based open access status on whether a journal was registered in [DOAJ](https://doaj.org/) or [ROAD](http://road.issn.org/) as of April 2017.
+The publisher information was poorly standardized — e.g. both "ICE Publishing" and "ICE Publishing Ltd." were present — so name variants were [combined](https://github.com/dhimmel/scopus/pull/3) using [OpenRefine](https://github.com/OpenRefine/OpenRefine).
+This version of Scopus determined open access status by whether a journal was registered in [DOAJ](https://doaj.org/) or [ROAD](http://road.issn.org/) as of April 2017.
 Note that Scopus does not index every scholarly journal [@QyHSyHo3], which is one reason why 30.5% of articles (24,853,345 DOIs) were not attributable to a journal.
 
 We tidied the Scopus Journal Metrics, which evaluate journals based on the number of citations their articles receive.
@@ -745,8 +745,7 @@ Accordingly, we hypothesize that the `TimeAdded` field is replaced upon modifica
 On March 19, 2017, Sci-Hub [tweeted](https://twitter.com/Sci_Hub/status/843546352219017218):
 "If you like the list of all DOI collected on Sci-Hub, here it is: sci-hub.cc/downloads/doi.7z … 62,835,101 DOI in alphabetical order".
 The tweet included a download link for a file with the 62,835,101 DOIs that Sci-Hub claims to provide access to.
-Of these DOIs, 56,246,220 were part of the Crossref-derived catalog of scholarly articles.
-99.5% of the DOIs from Sci-Hub's list were in the LibGen scimag repository (after filtering).
+Of these DOIs, 56,246,220 were part of the Crossref-derived catalog of scholarly articles, and 99.5% of the DOIs from Sci-Hub's list were in the LibGen scimag repository (after filtering).
 Hence, the LibGen scimag and Sci-Hub repositories have largely stayed in sync since their split.
 On Twitter, the Sci-Hub account confirmed this finding, [commenting](https://twitter.com/Sci_Hub/status/844165613203480576) "with a small differences, yes the database is the same".
 Therefore, the LibGen scimag and Sci-Hub DOI catalogs can essentially be used interchangeably for research purposes.
@@ -833,7 +832,7 @@ Sci-Hub's coverage is shown for countries with at least 100,000 articles.
 
 ![
 **Coverage of articles by year published and journal access status.**
-Sci-Hub's coverage is shown, separately for articles in open versus toll access journals, for each year since 1950.
+Sci-Hub's coverage is shown separately for articles in open versus toll access journals, for each year since 1950.
 ](https://cdn.rawgit.com/greenelab/scihub/e35cc7b0d3b6dd65bf8ce18945007d2b44a6be1e/figure/coverage-by-year-and-access.svg){#fig:years-by-access tag="6—figure supplement 1" width="100%"}
 
 ![

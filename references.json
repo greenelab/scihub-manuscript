@@ -1866,17 +1866,17 @@
     "indexed": {
       "date-parts": [
         [
-          2017,
-          12,
-          8
+          2018,
+          1,
+          11
         ]
       ],
-      "date-time": "2017-12-08T14:40:47Z",
-      "timestamp": 1512744047577
+      "date-time": "2018-01-11T11:10:32Z",
+      "timestamp": 1515669032137
     },
     "reference-count": 0,
     "publisher": "Springer Nature",
-    "issue": "7683",
+    "issue": "7687",
     "content-domain": {
       "domain": [],
       "crossmark-restriction": false
@@ -1884,31 +1884,31 @@
     "published-print": {
       "date-parts": [
         [
-          2017,
-          12,
-          7
+          2018,
+          1,
+          11
         ]
       ]
     },
-    "DOI": "10.1038/d41586-017-07817-1",
+    "DOI": "10.1038/d41586-018-00093-7",
     "type": "article-journal",
     "created": {
       "date-parts": [
         [
-          2017,
-          12,
-          6
+          2018,
+          1,
+          9
         ]
       ],
-      "date-time": "2017-12-06T12:45:20Z",
-      "timestamp": 1512564320000
+      "date-time": "2018-01-09T17:57:44Z",
+      "timestamp": 1515520664000
     },
-    "page": "17-18",
+    "page": "137-137",
     "source": "Crossref",
     "is-referenced-by-count": 0,
-    "title": "Hundreds of German universities set to lose access to Elsevier journals",
+    "title": "Germany vs Elsevier: universities win temporary journal access after refusing to pay fees",
     "prefix": "10.1038",
-    "volume": "552",
+    "volume": "553",
     "author": [
       {
         "given": "Quirin",
@@ -1921,7 +1921,7 @@
     "original-title": [],
     "link": [
       {
-        "URL": "http://www.nature.com/doifinder/10.1038/d41586-017-07817-1",
+        "URL": "http://www.nature.com/doifinder/10.1038/d41586-018-00093-7",
         "content-type": "unspecified",
         "content-version": "vor",
         "intended-application": "similarity-checking"
@@ -1930,13 +1930,13 @@
     "deposited": {
       "date-parts": [
         [
-          2017,
-          12,
-          8
+          2018,
+          1,
+          11
         ]
       ],
-      "date-time": "2017-12-08T14:18:03Z",
-      "timestamp": 1512742683000
+      "date-time": "2018-01-11T10:51:53Z",
+      "timestamp": 1515667913000
     },
     "score": 1.0,
     "subtitle": [],
@@ -1944,24 +1944,24 @@
     "issued": {
       "date-parts": [
         [
-          2017,
-          12,
-          7
+          2018,
+          1,
+          11
         ]
       ]
     },
     "references-count": 0,
     "alternative-id": [
-      "d41586-017-07817-1"
+      "d41586-018-00093-7"
     ],
-    "URL": "https://doi.org/10.1038/d41586-017-07817-1",
+    "URL": "https://doi.org/10.1038/d41586-018-00093-7",
     "relation": {},
     "subject": [
       "Multidisciplinary"
     ],
     "container-title-short": "Nature",
-    "short_url": "https://doi.org/gcmdrs",
-    "id": "I5vVmgFo"
+    "short_url": "https://doi.org/gcvkgf",
+    "id": "i9e7Fcm8"
   },
   {
     "indexed": {
@@ -2330,96 +2330,6 @@
     "container-title-short": "Nature",
     "short_url": "https://doi.org/bwrb",
     "id": "wnNilBvm"
-  },
-  {
-    "indexed": {
-      "date-parts": [
-        [
-          2017,
-          10,
-          28
-        ]
-      ],
-      "date-time": "2017-10-28T01:13:13Z",
-      "timestamp": 1509153193532
-    },
-    "reference-count": 0,
-    "publisher": "Springer Nature",
-    "content-domain": {
-      "domain": [],
-      "crossmark-restriction": false
-    },
-    "DOI": "10.1038/nature.2017.21482",
-    "type": "article-journal",
-    "created": {
-      "date-parts": [
-        [
-          2017,
-          2,
-          14
-        ]
-      ],
-      "date-time": "2017-02-14T10:50:46Z",
-      "timestamp": 1487069446000
-    },
-    "source": "Crossref",
-    "is-referenced-by-count": 0,
-    "title": "German scientists regain access to Elsevier journals",
-    "prefix": "10.1038",
-    "author": [
-      {
-        "given": "Quirin",
-        "family": "Schiermeier",
-        "affiliation": []
-      }
-    ],
-    "member": "339",
-    "published-online": {
-      "date-parts": [
-        [
-          2017,
-          2,
-          14
-        ]
-      ]
-    },
-    "container-title": "Nature",
-    "original-title": [],
-    "deposited": {
-      "date-parts": [
-        [
-          2017,
-          2,
-          22
-        ]
-      ],
-      "date-time": "2017-02-22T17:58:29Z",
-      "timestamp": 1487786309000
-    },
-    "score": 1.0,
-    "subtitle": [],
-    "short-title": [],
-    "issued": {
-      "date-parts": [
-        [
-          2017,
-          2,
-          14
-        ]
-      ]
-    },
-    "references-count": 0,
-    "alternative-id": [
-      "nature.2017.21482"
-    ],
-    "URL": "https://doi.org/10.1038/nature.2017.21482",
-    "relation": {},
-    "subject": [
-      "Multidisciplinary"
-    ],
-    "container-title-short": "Nature",
-    "short_url": "https://doi.org/gbxtgx",
-    "id": "xehij8U0"
   },
   {
     "indexed": {
@@ -4106,116 +4016,6 @@
           27
         ]
       ],
-      "date-time": "2017-10-27T20:35:26Z",
-      "timestamp": 1509136526797
-    },
-    "reference-count": 0,
-    "publisher": "American Association for the Advancement of Science (AAAS)",
-    "issue": "6320",
-    "content-domain": {
-      "domain": [],
-      "crossmark-restriction": false
-    },
-    "published-print": {
-      "date-parts": [
-        [
-          2017,
-          1,
-          6
-        ]
-      ]
-    },
-    "DOI": "10.1126/science.355.6320.17",
-    "type": "article-journal",
-    "created": {
-      "date-parts": [
-        [
-          2017,
-          1,
-          5
-        ]
-      ],
-      "date-time": "2017-01-05T19:10:37Z",
-      "timestamp": 1483643437000
-    },
-    "page": "17-17",
-    "source": "Crossref",
-    "is-referenced-by-count": 1,
-    "title": "German researchers start 2017 without Elsevier journals",
-    "prefix": "10.1126",
-    "volume": "355",
-    "author": [
-      {
-        "given": "Gretchen",
-        "family": "Vogel",
-        "affiliation": []
-      }
-    ],
-    "member": "221",
-    "published-online": {
-      "date-parts": [
-        [
-          2017,
-          1,
-          5
-        ]
-      ]
-    },
-    "container-title": "Science",
-    "original-title": [],
-    "link": [
-      {
-        "URL": "https://syndication.highwire.org/content/doi/10.1126/science.355.6320.17",
-        "content-type": "unspecified",
-        "content-version": "vor",
-        "intended-application": "similarity-checking"
-      }
-    ],
-    "deposited": {
-      "date-parts": [
-        [
-          2017,
-          5,
-          1
-        ]
-      ],
-      "date-time": "2017-05-01T21:56:52Z",
-      "timestamp": 1493675812000
-    },
-    "score": 1.0,
-    "subtitle": [],
-    "short-title": [],
-    "issued": {
-      "date-parts": [
-        [
-          2017,
-          1,
-          5
-        ]
-      ]
-    },
-    "references-count": 0,
-    "alternative-id": [
-      "10.1126/science.355.6320.17"
-    ],
-    "URL": "https://doi.org/10.1126/science.355.6320.17",
-    "relation": {},
-    "subject": [
-      "Multidisciplinary"
-    ],
-    "container-title-short": "Science",
-    "short_url": "https://doi.org/gbxtgz",
-    "id": "pzBnDw2j"
-  },
-  {
-    "indexed": {
-      "date-parts": [
-        [
-          2017,
-          10,
-          27
-        ]
-      ],
       "date-time": "2017-10-27T18:00:09Z",
       "timestamp": 1509127209599
     },
@@ -4491,101 +4291,6 @@
     "container-title-short": "Science",
     "short_url": "https://doi.org/gbqq97",
     "id": "cOKy7PSo"
-  },
-  {
-    "indexed": {
-      "date-parts": [
-        [
-          2017,
-          10,
-          27
-        ]
-      ],
-      "date-time": "2017-10-27T17:57:03Z",
-      "timestamp": 1509127023648
-    },
-    "reference-count": 0,
-    "publisher": "American Association for the Advancement of Science (AAAS)",
-    "content-domain": {
-      "domain": [],
-      "crossmark-restriction": false
-    },
-    "published-print": {
-      "date-parts": [
-        [
-          2016,
-          12,
-          22
-        ]
-      ]
-    },
-    "DOI": "10.1126/science.aal0552",
-    "type": "article-journal",
-    "created": {
-      "date-parts": [
-        [
-          2016,
-          12,
-          23
-        ]
-      ],
-      "date-time": "2016-12-23T22:03:57Z",
-      "timestamp": 1482530637000
-    },
-    "source": "Crossref",
-    "is-referenced-by-count": 0,
-    "title": "Thousands of German researchers set to lose access to Elsevier journals",
-    "prefix": "10.1126",
-    "author": [
-      {
-        "given": "Gretchen",
-        "family": "Vogel",
-        "affiliation": []
-      }
-    ],
-    "member": "221",
-    "container-title": "Science",
-    "original-title": [],
-    "link": [
-      {
-        "URL": "https://syndication.highwire.org/content/doi/10.1126/science.aal0552",
-        "content-type": "unspecified",
-        "content-version": "vor",
-        "intended-application": "similarity-checking"
-      }
-    ],
-    "deposited": {
-      "date-parts": [
-        [
-          2017,
-          3,
-          30
-        ]
-      ],
-      "date-time": "2017-03-30T21:36:59Z",
-      "timestamp": 1490909819000
-    },
-    "score": 1.0,
-    "subtitle": [],
-    "short-title": [],
-    "issued": {
-      "date-parts": [
-        [
-          2016,
-          12,
-          22
-        ]
-      ]
-    },
-    "references-count": 0,
-    "URL": "https://doi.org/10.1126/science.aal0552",
-    "relation": {},
-    "subject": [
-      "Multidisciplinary"
-    ],
-    "container-title-short": "Science",
-    "short_url": "https://doi.org/gbqq98",
-    "id": "uKvlPbm2"
   },
   {
     "indexed": {
