@@ -27,7 +27,7 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 _A DOI-citable version of this manuscript is available at <https://doi.org/10.7287/peerj.preprints.3100>_.<small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@91f9424](https://github.com/greenelab/scihub-manuscript/tree/91f94248c25eed4ead065bc879c1e7273b74f3e4)
+from [greenelab/scihub-manuscript@d8730c9](https://github.com/greenelab/scihub-manuscript/tree/d8730c9a89e2addb65583403cac3e51538dec4a7)
 on February  2, 2018.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
@@ -469,7 +469,7 @@ Each diagram shows the coverage of three access methods and their possible combi
 Within a diagram, each section notes the percent coverage achieved by the corresponding combination of access methods.
 **Contrary to traditional Venn diagrams**, each section does not indicate disjoint sets of articles.
 Instead, each section shows coverage on the same set of articles, whose total number is reported in the diagram's title.
-The top two diagrams show coverage on a small set of manually evaluated articles.
+The top two diagrams show coverage on a small set of manually evaluated articles (confidence intervals provided in the main text).
 The bottom two diagrams show coverage on a larger set of automatically evaluated articles.
 The two lefthand diagrams show coverage on all articles, whereas the two righthand diagrams show coverage on toll access articles only.
 Specifically, the top-right diagram assesses coverage on articles that were inaccessible from outside of an institutional network.
