@@ -11,7 +11,7 @@
       "affiliations": [
         "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania"
       ],
-      "funders": "GBMF4552",
+      "funders": "GBMF 4552",
       "affiliation_numbers": [
         1
       ]
@@ -94,7 +94,7 @@
       "affiliations": [
         "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania"
       ],
-      "funders": "GBMF4552",
+      "funders": "GBMF 4552",
       "affiliation_numbers": [
         1
       ]
@@ -128,7 +128,7 @@
   ],
   "ci_source": {
     "repo_slug": "greenelab/scihub-manuscript",
-    "commit": "d8730c9a89e2addb65583403cac3e51538dec4a7"
+    "commit": "c7d5dbfd540bc3c59deed572fb4b396460a4f1cd"
   },
   "manuscript_stats": {
     "reference_counts": {

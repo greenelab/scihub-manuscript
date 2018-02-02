@@ -27,7 +27,7 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 _A DOI-citable version of this manuscript is available at <https://doi.org/10.7287/peerj.preprints.3100>_.<small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@d8730c9](https://github.com/greenelab/scihub-manuscript/tree/d8730c9a89e2addb65583403cac3e51538dec4a7)
+from [greenelab/scihub-manuscript@c7d5dbf](https://github.com/greenelab/scihub-manuscript/tree/c7d5dbfd540bc3c59deed572fb4b396460a4f1cd)
 on February  2, 2018.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
@@ -45,7 +45,7 @@ Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on 
     [dhimmel](https://twitter.com/dhimmel)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
-     · Funded by GBMF4552
+     · Funded by GBMF 4552
   </small>
 
 + **Ariel Rodriguez Romero**<br>
@@ -108,7 +108,7 @@ Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on 
     [GreeneScientist](https://twitter.com/GreeneScientist)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
-     · Funded by GBMF4552
+     · Funded by GBMF 4552
   </small>
 
 
