@@ -25,4 +25,4 @@ dependencies:
     - pysha3==1.0.2
     - python-bitcoinlib==0.9.0
     - requests-cache==0.4.13
-    - git+https://github.com/Kozea/WeasyPrint@ea9ffc9a3fcd6b45cc0172af4f9913abe1cb49e5
+    - git+https://github.com/Kozea/WeasyPrint@28d2e886fcd58ae0ce534725a1d9d30e5a217306
