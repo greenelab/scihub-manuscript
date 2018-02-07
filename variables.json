@@ -128,7 +128,7 @@
   ],
   "ci_source": {
     "repo_slug": "greenelab/scihub-manuscript",
-    "commit": "c7a528572164600f1bb68f7b44795b5e146a6f01"
+    "commit": "7ec9061d176196cbbb421f872ac984a4e19fe3b9"
   },
   "manuscript_stats": {
     "reference_counts": {
@@ -137,6 +137,6 @@
       "url": 47,
       "total": 129
     },
-    "word_count": 10551
+    "word_count": 10520
   }
 }

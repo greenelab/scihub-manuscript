@@ -27,7 +27,7 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 _A DOI-citable version of this manuscript is available at <https://doi.org/10.7287/peerj.preprints.3100>_.<small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@c7a5285](https://github.com/greenelab/scihub-manuscript/tree/c7a528572164600f1bb68f7b44795b5e146a6f01)
+from [greenelab/scihub-manuscript@7ec9061](https://github.com/greenelab/scihub-manuscript/tree/7ec9061d176196cbbb421f872ac984a4e19fe3b9)
 on February  7, 2018.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
@@ -121,7 +121,6 @@ Here we report that, as of March 2017, Sci-Hub's database contains 68.9% of the 
 We find that coverage varies by discipline and publisher and that Sci-Hub preferentially covers popular, paywalled content.
 For toll access articles, we find that Sci-Hub provides greater coverage than the University of Pennsylvania, a major research university in the United States.
 Green open access to toll access articles via licit services, on the other hand, remains quite limited.
-For toll access articles, green open access via licit services is quite limited, while Sci-Hub provides greater coverage than the University of Pennsylvania, a major research university in the United States.
 Our interactive browser at <https://greenelab.github.io/scihub> allows users to explore these findings in more detail.
 For the first time, nearly all scholarly literature is available gratis to anyone with an Internet connection, suggesting the toll access business model may become unsustainable.
 
