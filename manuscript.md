@@ -7,7 +7,7 @@ author-meta:
 - Stephen Reid McLaughlin
 - Bastian Greshake Tzovaras
 - Casey S. Greene
-date-meta: '2018-02-04'
+date-meta: '2018-02-07'
 keywords:
 - Sci-Hub
 - publishing
@@ -27,8 +27,8 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 _A DOI-citable version of this manuscript is available at <https://doi.org/10.7287/peerj.preprints.3100>_.<small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@f25d8d7](https://github.com/greenelab/scihub-manuscript/tree/f25d8d78ee9176aa1c6c1b4d0a66889f2da39ae3)
-on February  4, 2018.
+from [greenelab/scihub-manuscript@4d62034](https://github.com/greenelab/scihub-manuscript/tree/4d620346ed0a4fc3a8b76a7420c09142348d9d52)
+on February  7, 2018.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
 
@@ -117,11 +117,11 @@ Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on 
 
 The website Sci-Hub enables users to download PDF versions of scholarly articles, including many articles that are paywalled at their journal's site.
 Sci-Hub has grown rapidly since its creation in 2011, but the extent of its coverage was unclear.
-Here we report that, as of March 2017, Sci-Hub's database contains 68.9% of the 81.6 million scholarly articles registered with Crossref and 85.2% of articles published in toll access journals.
+Here we report that, as of March 2017, Sci-Hub's database contains 68.9% of the 81.6 million scholarly articles registered with Crossref and 85.1% of articles published in toll access journals.
 We find that coverage varies by discipline and publisher and that Sci-Hub preferentially covers popular, paywalled content.
-For toll access articles, green open access via licit services is quite limited, while Sci-Hub provides greater coverage than a major research university.
+For toll access articles, green open access via licit services is quite limited, while Sci-Hub provides greater coverage than the University of Pennsylvania, a major research university in the United States.
 Our interactive browser at <https://greenelab.github.io/scihub> allows users to explore these findings in more detail.
-For the first time, nearly all scholarly literature is available gratis to anyone with an Internet connection, suggesting the toll access business model will become unsustainable.
+For the first time, nearly all scholarly literature is available gratis to anyone with an Internet connection, suggesting the toll access business model may become unsustainable.
 
 
 ## Introduction {.page_break_before}
