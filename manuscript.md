@@ -7,7 +7,7 @@ author-meta:
 - Stephen Reid McLaughlin
 - Bastian Greshake Tzovaras
 - Casey S. Greene
-date-meta: '2018-02-07'
+date-meta: '2018-02-09'
 keywords:
 - Sci-Hub
 - publishing
@@ -25,10 +25,10 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 
 
-_A DOI-citable version of this manuscript is available at <https://doi.org/10.7287/peerj.preprints.3100>_.<small><em>
+_A DOI-citable version of this manuscript is available at <https://doi.org/10.7554/eLife.32822>_.<small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@7ec9061](https://github.com/greenelab/scihub-manuscript/tree/7ec9061d176196cbbb421f872ac984a4e19fe3b9)
-on February  7, 2018.
+from [greenelab/scihub-manuscript@b814efa](https://github.com/greenelab/scihub-manuscript/tree/b814efaf4c5d3706ba19d27d86ffd4bdd6adddd7)
+on February  9, 2018.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
 

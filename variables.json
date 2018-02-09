@@ -1,5 +1,5 @@
 {
-  "date": "February  7, 2018",
+  "date": "February  9, 2018",
   "authors": [
     {
       "github": "dhimmel",
@@ -128,7 +128,7 @@
   ],
   "ci_source": {
     "repo_slug": "greenelab/scihub-manuscript",
-    "commit": "7ec9061d176196cbbb421f872ac984a4e19fe3b9"
+    "commit": "b814efaf4c5d3706ba19d27d86ffd4bdd6adddd7"
   },
   "manuscript_stats": {
     "reference_counts": {
