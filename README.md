@@ -8,14 +8,20 @@
 
 ## Manuscript description
 
-<!-- usage note: edit this section. 
+<!-- usage note: edit this section.
 
 This repository is a template manuscript (a.k.a. rootstock).
 Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
 -->
 
 This is the manuscript source for the study titled **Sci-Hub provides access to nearly all scholarly literature**.
-This study is currently available as a [preprint](https://doi.org/10.7287/peerj.preprints.3100 "PeerJ Preprint").
+This study was [published](https://doi.org/10.7554/eLife.32822 "eLife Research Feature Article") in _eLife_ and, before that, as a [preprint](https://doi.org/10.7287/peerj.preprints.3100 "PeerJ Preprint").
+The published manuscript can be cited as:
+
+> **Sci-Hub provides access to nearly all scholarly literature**<br>
+Daniel S Himmelstein, Ariel R Romero, Jacob G Levernier, Thomas A Munro, Stephen R McLaughlin, Bastian Greshake Tzovaras, Casey S Greene<br>
+_eLife_ (2018-02-09) DOI: `10.7554/eLife.32822`. https://doi.org/ckcj
+
 Please leave feedback on the study via [GitHub Issues](https://github.com/greenelab/scihub-manuscript/issues) or suggest changes by pull request.
 The analyses for the study reside in the separate [`greenelab/scihub`](https://github.com/greenelab/scihub) repository.
 
