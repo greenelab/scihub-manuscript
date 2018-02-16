@@ -1,0 +1,497 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Daniel S. Himmelstein" />
+  <meta name="author" content="Ariel R. Romero" />
+  <meta name="author" content="Stephen Reid McLaughlin" />
+  <meta name="author" content="Bastian Greshake Tzovaras" />
+  <meta name="author" content="Casey S. Greene" />
+  <meta name="date" content="2017-07-22" />
+  <meta name="keywords" content="Sci-Hub, publishing, literature, piracy, data-science, LibGen, journals, open-data, copyright, paywalls" />
+  <title>Sci-Hub provides access to nearly all scholarly literature</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="github-pandoc.css" type="text/css" />
+  <!-- Piwik -->
+  <script type="text/javascript">
+    var _paq = _paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="https://piwik.dhimmel.com/";
+      _paq.push(['setTrackerUrl', u+'piwik.php']);
+      _paq.push(['setSiteId', '8']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <noscript><p><img src="https://piwik.dhimmel.com/piwik.php?idsite=8&rec=1" style="border:0;" alt="" /></p></noscript>
+  <!-- End Piwik Code -->
+</head>
+<body>
+<div id="header">
+<h1 class="title">Sci-Hub provides access to nearly all scholarly literature</h1>
+</div>
+<p><em>A preprint for this study is available at <a href="https://doi.org/10.7287/peerj.preprints.3100" class="uri">https://doi.org/10.7287/peerj.preprints.3100</a>.</em></p>
+<p><small><em> This manuscript was automatically generated from <a href="https://github.com/greenelab/scihub-manuscript/tree/573e884975d10002a088c52568864974ce684ee3">greenelab/scihub-manuscript@573e884</a> on July 22, 2017. Submit feedback on the manuscript at <a href="https://git.io/v7feh">git.io/v7feh</a> or on the analyses at <a href="https://git.io/v7fvJ">git.io/v7fvJ</a>. </em></small></p>
+<h2 id="authors">Authors</h2>
+<ul>
+<li><p><strong>Daniel S. Himmelstein</strong><br> <img src="images/orcid.svg" alt="ORCID icon" height="13" /> <a href="https://orcid.org/0000-0002-3012-7446">0000-0002-3012-7446</a> · <img src="images/github.svg" alt="GitHub icon" height="13" /> <a href="https://github.com/dhimmel">dhimmel</a> · <img src="images/twitter.svg" alt="Twitter icon" height="13" /> <a href="https://twitter.com/dhimmel">dhimmel</a><br> <small> Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania · Funded by GBMF4552 </small></p></li>
+<li><p><strong>Ariel R. Romero</strong><br> <img src="images/orcid.svg" alt="ORCID icon" height="13" /> <a href="https://orcid.org/0000-0003-2290-4927">0000-0003-2290-4927</a> · <img src="images/github.svg" alt="GitHub icon" height="13" /> <a href="https://github.com/arielsvn">arielsvn</a><br> <small> Bidwise, Inc </small></p></li>
+<li><p><strong>Stephen Reid McLaughlin</strong><br> <img src="images/orcid.svg" alt="ORCID icon" height="13" /> <a href="https://orcid.org/0000-0002-9888-3168">0000-0002-9888-3168</a> · <img src="images/github.svg" alt="GitHub icon" height="13" /> <a href="https://github.com/stevemclaugh">stevemclaugh</a> · <img src="images/twitter.svg" alt="Twitter icon" height="13" /> <a href="https://twitter.com/SteveMcLaugh">SteveMcLaugh</a><br> <small> School of Information, University of Texas at Austin </small></p></li>
+<li><p><strong>Bastian Greshake Tzovaras</strong><br> <img src="images/orcid.svg" alt="ORCID icon" height="13" /> <a href="https://orcid.org/0000-0002-9925-9623">0000-0002-9925-9623</a> · <img src="images/github.svg" alt="GitHub icon" height="13" /> <a href="https://github.com/gedankenstuecke">gedankenstuecke</a> · <img src="images/twitter.svg" alt="Twitter icon" height="13" /> <a href="https://twitter.com/gedankenstuecke">gedankenstuecke</a><br> <small> Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt </small></p></li>
+<li><p><strong>Casey S. Greene</strong><br> <img src="images/orcid.svg" alt="ORCID icon" height="13" /> <a href="https://orcid.org/0000-0001-8713-9213">0000-0001-8713-9213</a> · <img src="images/github.svg" alt="GitHub icon" height="13" /> <a href="https://github.com/cgreene">cgreene</a> · <img src="images/twitter.svg" alt="Twitter icon" height="13" /> <a href="https://twitter.com/GreeneScientist">GreeneScientist</a><br> <small> Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania · Funded by GBMF4552 </small></p></li>
+</ul>
+<h2 id="abstract" class="page_break_before">Abstract</h2>
+<p>The website Sci-Hub provides access to scholarly literature via full text PDF downloads. The site enables users to access articles that would otherwise be paywalled. Since its creation in 2011, Sci-Hub has grown rapidly in popularity. However, until now, the extent of Sci-Hub’s coverage was unclear. As of March 2017, we find that Sci-Hub’s database contains 68.9% of all 81.6 million scholarly articles, which rises to 85.2% for those published in closed access journals. Furthermore, Sci-Hub contains 77.0% of the 5.2 million articles published by inactive journals. Coverage varies by discipline, with 92.8% coverage of articles in chemistry journals compared to 76.3% for computer science. Coverage also varies by publisher, with the coverage of the largest publisher, Elsevier, at 97.3%. Our interactive browser at <a href="https://greenelab.github.io/scihub">greenelab.github.io/scihub</a> allows users to explore these findings in more detail. Finally, we estimate that over a six-month period in 2015–2016, Sci-Hub provided access for 99.3% of valid incoming requests. Hence, the scope of this resource suggests the subscription publishing model is becoming unsustainable. For the first time, the overwhelming majority of scholarly literature is available gratis to anyone with an Internet connection.</p>
+<h2 id="introduction" class="page_break_before">Introduction</h2>
+<p>As of 2014, paywalls on the web limited access to an estimated 76% of scholarly literature <span class="citation">[<a href="#ref-MNHagzoO">1</a>]</span>. The open access movement strives to remedy this situation <span class="citation">[<a href="#ref-PuP45jrB">2</a>]</span>. After decades of effort by the open access community <span class="citation">[<a href="#ref-3k6GM8o4">3</a>]</span>, nearly 50% of newly published articles are available without paywalls <span class="citation">[<a href="#ref-n1xo9kJ7">4</a>,<a href="#ref-NE5AByb0">5</a>]</span>. Literature that is free to read is comprised of two categories <span class="citation">[<a href="#ref-tSEdUvgK">6</a>]</span>. The first category includes articles that are <a href="http://opendefinition.org/">openly licensed</a> to freely allow reuse, a group colloquially termed “free as in libre”. The remainder of free to read articles can be accessed without price barriers, but permission barriers may remain (usually due to copyright) <span class="citation">[<a href="#ref-7aXVorCC">7</a>]</span>. This set of articles is termed “free as in gratis”. In this work, we refer to availability as “libre” or “gratis” to denote these categories.</p>
+<p>The website Sci-Hub, now in its fifth year of existence provides gratis access to scholarly literature, despite the continued presence of paywalls. Sci-Hub brands itself as “the first pirate website in the world to provide mass and public access to tens of millions of research papers.” The website, started in 2011, is run by Alexandra Elbakyan, a graduate student and native of Kazakhstan who now resides in Russia <span class="citation">[<a href="#ref-JVjciZPv">8</a>,<a href="#ref-sR4uAYxB">9</a>]</span>. Elbakyan describes herself as motivated to provide universal access to knowledge <span class="citation">[<a href="#ref-nZZjs6T6">10</a>–<a href="#ref-K6n65WB0">12</a>]</span>.</p>
+<p>Sci-Hub does not restrict itself to only openly licensed content. Instead, it retrieves and distributes scholarly literature without regard to copyright regimes. <strong>Readers should note that, in many jurisdictions, use of Sci-Hub may constitute copyright infringement. Users of Sci-Hub do so at their own risk. This study is not an endorsement of using Sci-Hub, and its authors and publishers accept no responsibility on behalf of readers. There is a possibility that Sci-Hub users — especially those not using privacy-enhancing services such as Tor — could have their usage history unmasked and face consequences, both legal or reputational in nature.</strong></p>
+<p>Sci-Hub is currently served at domains including <code>sci-hub.cc</code>, <code>sci-hub.io</code>, <code>sci-hub.ac</code>, and <code>sci-hub.bz</code>, as well as at <code>scihub22266oqcxt.onion</code> — a Tor Hidden Service <span class="citation">[<a href="#ref-zvVsLNxf">13</a>]</span>. Elbakyan described the project’s technical scope in July 2017 <span class="citation">[<a href="#ref-1H8x8f4Y7">14</a>]</span>:</p>
+<blockquote>
+<p>Sci-Hub technically is by itself a repository, or a library if you like, and not a search engine for some other repository. But of course, the most important part in Sci-Hub is not a repository, but the script that can download papers closed behind paywalls.</p>
+</blockquote>
+<p>One method Sci-Hub uses to bypass paywalls is by obtaining leaked authentication credentials for educational institutions <span class="citation">[<a href="#ref-1H8x8f4Y7">14</a>]</span>. These credentials enable Sci-Hub to use institutional networks as proxies and gain subscription journal access. While the open access movement has progressed slowly, Sci-Hub represents a seismic shift in access to scholarly literature. Since its inception, Sci-Hub has experienced sustained growth, with spikes in interest and awareness driven by legal proceedings, news coverage, and social media (Figure <a href="#fig:history">1</a>). Here we investigate the extent to which Sci-Hub provides access to scholarly literature. If Sci-Hub’s coverage is sufficiently broad, then a radical shift may be underway in how individuals access scholarly literature.</p>
+<div class="figure">
+<img src="https://cdn.rawgit.com/greenelab/scihub/d84c62a1cbcd70033d70a3728df5492a0031afa9/explore/trends/google-trends.svg" alt="Figure 1: The history of Sci-Hub. Weekly interest from Google Trends is plotted over time for the search terms Sci-Hub and LibGen. The light green period indicates when Sci-Hub used LibGen as its database for storing articles [14]. The light blue period indicates the public availability of request logs from Sci-Hub [15]. The first pink dotted line represents the collection date of the LibGen metadata used in Cabanac’s study [16]. The second pink dotted line shows the date of Sci-Hub’s Tweeted DOI catalog used in this study." id="fig:history" />
+<p class="caption">Figure 1: <strong>The history of Sci-Hub.</strong> Weekly interest from Google Trends is plotted over time for the search terms “Sci-Hub” and “LibGen”. The light green period indicates when Sci-Hub used LibGen as its database for storing articles <span class="citation">[<a href="#ref-1H8x8f4Y7">14</a>]</span>. The light blue period indicates the public availability of request logs from Sci-Hub <span class="citation">[<a href="#ref-kQFQ8EaO">15</a>]</span>. The first pink dotted line represents the collection date of the LibGen metadata used in Cabanac’s study <span class="citation">[<a href="#ref-18KKRwlN6">16</a>]</span>. The second pink dotted line shows the date of Sci-Hub’s Tweeted DOI catalog used in this study.</p>
+</div>
+<p>In Figure <a href="#fig:history">1</a>, The ⓛⓔⓣⓣⓔⓡⓢ refer to the following events:</p>
+<ul>
+<li><strong>Ⓐ</strong> Created by Alexandra Elbakyan, the Sci-Hub website goes live on September 5, 2011.</li>
+<li><strong>Ⓑ</strong> Several LibGen domains go down <span class="citation">[<a href="#ref-Hz2uRUJS">17</a>]</span>.</li>
+<li><strong>Ⓒ</strong> Elsevier files a civil suit against Sci-Hub and LibGen — at the respective domains <code>sci-hub.org</code> and <code>libgen.org</code> — in the U.S. District Court for the Southern District of New York <span class="citation">[<a href="#ref-6ZrZVv6E">18</a>,<a href="#ref-j3Zl6sH5">19</a>]</span>. The complaint seeks a “prayer for relief” that includes domain name seizure, damages, and “an order disgorging Defendants’ profits”.</li>
+<li><strong>Ⓓ</strong> Elsevier is granted a preliminary injunction to suspend domain names and restrain the site operators from distributing Elsevier’s copyrighted works <span class="citation">[<a href="#ref-9GOM6WEw">20</a>,<a href="#ref-BpCqwlYS">21</a>]</span>. Shortly after, Sci-Hub and LibGen resurface at alternative domains outside of U.S. court jurisdiction, including on the dark web <span class="citation">[<a href="#ref-sR4uAYxB">9</a>,<a href="#ref-16k28dBmH">22</a>]</span>.</li>
+<li><strong>Ⓔ</strong> The article “Meet the Robin Hood of Science” by Simon Oxenham spurs a wave of attention and news coverage on Sci-Hub and Alexandra Elbakyan <span class="citation">[<a href="#ref-SlcfPQQQ">23</a>]</span>, culminating in <em>The New York Times</em> asking “Should all research papers be free?” <span class="citation">[<a href="#ref-tMPCGeuL">24</a>]</span>.</li>
+<li><strong>Ⓕ</strong> The article “Who’s downloading pirated papers? Everyone” by John Bohannon shows Sci-Hub is used worldwide, including in developed countries <span class="citation">[<a href="#ref-RsNXQAG2">25</a>,<a href="#ref-t4r48QpO">26</a>]</span>. These findings spark debate among scholars, with a large contingent of scientists supporting Sci-Hub’s mission <span class="citation">[<a href="#ref-Zp0s36X0">27</a>,<a href="#ref-cOKy7PSo">28</a>]</span>.</li>
+<li><strong>Ⓖ</strong> Alexandra Elbakyan is named one of “<em>Nature</em>’s 10”, which featured “ten people who mattered” in 2016 <span class="citation">[<a href="#ref-cUfIvWm6">29</a>]</span>. Written by Richard Van Noorden, the story profiles Alexandra and includes an estimate that Sci-Hub serves “3% of all downloads from science publishers worldwide.”</li>
+<li><strong>Ⓗ</strong> The court finds that Alexandra Elbakyan, Sci-Hub, and LibGen are “liable for willful copyright infringement” in a default judgment, since none of the defendants answered Elsevier’s complaint <span class="citation">[<a href="#ref-b5B01CbS">30</a>–<a href="#ref-17drH57zs">32</a>]</span>. The court issues a permanent injunction and orders the defendants to pay Elsevier $15 million, or $150,000 for each of 100 copyrighted works. The statutory damages, which the defendants do not intend to pay, now bear interest.</li>
+<li><strong>Ⓘ</strong> The American Chemical Society files suit against Sci-Hub in the U.S. District Court for the Eastern District of Virginia. Their “prayer for relief” requests that Internet search engines and Internet service providers “cease facilitating access” to Sci-Hub<span class="citation">[<a href="#ref-17REO8hrA">33</a>,<a href="#ref-POar53EX">34</a>]</span>.</li>
+</ul>
+<p>Past research sheds some light on Sci-Hub’s reach. From the Spring of 2013 until the end of 2014, Sci-Hub relied on the Library Genesis (LibGen) scimag repository to store articles <span class="citation">[<a href="#ref-1H8x8f4Y7">14</a>]</span>. Whenever a user requested an article, Sci-Hub would check LibGen for a copy. If the article was not in LibGen, Sci-Hub would fetch the article for the user and then upload it to LibGen. Cabanac compared the number of articles in the LibGen scimag database at the start of 2014 to the total number of Crossref DOIs, estimating that LibGen contained 36% of all published scholarly articles <span class="citation">[<a href="#ref-18KKRwlN6">16</a>]</span>. Coverage was higher for several prominent publishers: 77% for Elsevier, 73% for Wiley, and 53% for Springer (prior to its merger with Macmillan / Nature <span class="citation">[<a href="#ref-ynhlmOBH">35</a>]</span>).</p>
+<p>Later, Bohannon analyzed six months of Sci-Hub’s server request logs, starting in September 2015 <span class="citation">[<a href="#ref-RsNXQAG2">25</a>]</span>. He found a global pattern of usage. Based on these logs, Gardner, McLaughlin, and Asher estimated the ratio of publisher downloads to Sci-Hub downloads within the U.S. for several publishers <span class="citation">[<a href="#ref-17rORqxsI">36</a>]</span>. They estimated this ratio at 20:1 for the Royal Society of Chemistry and 48:1 for Elsevier. They also noted that 25% of article downloads in the U.S. are in fields related to clinical medicine. Greshake also analyzed the logs to identify per capita Sci-Hub usage <span class="citation">[<a href="#ref-uBm4Sor6">37</a>]</span>. Portugal, Iran, Tunisia, and Greece had the highest usage, suggesting Sci-Hub is preferentially used in countries with poor institutional access to scholarly literature. In a subsequent study, Greshake found especially high Sci-Hub usage in chemistry, with 12 of the top 20 requested journals specializing in chemistry <span class="citation">[<a href="#ref-iLKgjFDu">38</a>,<a href="#ref-nnSxBFFr">39</a>]</span>.</p>
+<p>Since 2015, Sci-Hub has operated its own repository, distinct from LibGen. On March 19, 2017, Sci-Hub released the list of DOIs for articles in its database. Greshake retrieved metadata for 77% of Sci-Hub DOIs <span class="citation">[<a href="#ref-iLKgjFDu">38</a>,<a href="#ref-nnSxBFFr">39</a>]</span>. He found that 95% of articles in Sci-Hub were published after 1950. Sci-Hub requests were even more skewed towards recent articles, with only 5% targeting articles published before 1983. Greshake’s study did not incorporate a catalog of all scholarly literature. This study analyzes Sci-Hub’s catalog in the context of all scholarly literature and thus assesses coverage. In other words, what percentage of articles in a given domain does Sci-Hub have in its repository?</p>
+<h2 id="results" class="page_break_before">Results</h2>
+<p>To define the extent of the scholarly literature, we relied on DOIs from the Crossref database, as downloaded on March 21, 2017. We define the “scholarly literature” as 81,609,016 texts identified by their DOIs. We refer to these texts as “articles”, although Sci-Hub encompasses a range of text types, including book chapters, conference papers, and journal front matter. To assess the articles available from Sci-Hub, we relied on a list of DOIs released by Sci-Hub on March 19, 2017. All DOIs were lowercased to be congruent across datasets (see Methods). Sci-Hub’s offerings included 56,246,220 articles from the corpus of scholarly literature, equating to 68.9% of all articles.</p>
+<h3 id="coverage-by-article-type">Coverage by article type</h3>
+<p>Each article in Crossref’s database is assigned a type. Figure <a href="#fig:types">2</a> shows coverage by article type. The scholarly literature consisted primarily of journal articles, for which Sci-Hub had 77.8% coverage. Sci-Hub’s coverage was also strong for the 5 million proceedings articles at 79.7%. Overall coverage suffered from the 10 million book chapters, where coverage was poor (14.2%). The remaining Crossref types were uncommon, and hence contributed little to overall coverage.</p>
+<div class="figure">
+<img src="https://cdn.rawgit.com/greenelab/scihub/d84c62a1cbcd70033d70a3728df5492a0031afa9/figure/coverage-by-type.svg" alt="Figure 2: Coverage by article type. Coverage is plotted for the Crossref work types included by this study. We refer to all of these types as articles." id="fig:types" width="384" />
+<p class="caption">Figure 2: <strong>Coverage by article type.</strong> Coverage is plotted for the Crossref work types included by this study. We refer to all of these types as “articles”.</p>
+</div>
+<h3 id="coverage-by-year">Coverage by year</h3>
+<p>Next, we investigated coverage based on the year an article was published (Figure <a href="#fig:years">3</a>). For most years since 1850, annual coverage is between 60–80%. However, there is a dropoff in coverage, starting in 2010, for recently published articles. For example, 2016 coverage was 56.0% and 2017 coverage (for part of the year) was 45.3%. One factor is that it takes some time for Sci-Hub to retrieve articles following their publication, because articles are not downloaded until requested by a user. Another possible factor is that some publishers are now deploying more aggressive measures to deter unauthorized article downloads <span class="citation">[<a href="#ref-xn59qVAG">40</a>,<a href="#ref-d9g1ZhPz">41</a>]</span>, making recent articles less accessible.</p>
+<div class="figure">
+<img src="https://cdn.rawgit.com/greenelab/scihub/d84c62a1cbcd70033d70a3728df5492a0031afa9/figure/coverage-by-year.svg" alt="Figure 3: Coverage of articles by year published. Sci-Hub’s article coverage is shown for each year since 1850." id="fig:years" />
+<p class="caption">Figure 3: <strong>Coverage of articles by year published.</strong> Sci-Hub’s article coverage is shown for each year since 1850.</p>
+</div>
+<h3 id="coverage-by-journal">Coverage by journal</h3>
+<p>We defined a comprehensive set of scholarly publishing venues, referred to as “journals”, based on the Scopus database. In reality, these include conferences with proceedings as well as book series. For inclusion in this analysis, each required an ISSN and at least one article as part of the Crossref-derived catalog of scholarly literature. Accordingly, our catalog consisted of 22,193 journals encompassing 57,074,208 articles. Of these journals, 4,345 (19.6%) were inactive (i.e. no longer publishing articles), and 2,650 were open access (11.9%). Only two journals were inactive and also open access.</p>
+<p>We calculated Sci-Hub’s coverage for each of the 22,193 journals (examples in Table <a href="#tbl:top-ten-journals">1</a>). The complete journal coverage results are available in our <a href="https://greenelab.github.io/scihub/#/journals">Sci-Hub Stats Browser</a>.</p>
+<a name="tbl:top-ten-journals"></a>
+<table>
+<caption>Table 1: <strong>Coverage for the ten journals with the most articles.</strong> </caption>
+<thead>
+<tr class="header">
+<th>Journal</th>
+<th>Sci-Hub</th>
+<th>Crossref</th>
+<th>Coverage</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>The Lancet</td>
+<td>457,650</td>
+<td>458,580</td>
+<td>99.80%</td>
+</tr>
+<tr class="even">
+<td>Nature</td>
+<td>385,619</td>
+<td>399,273</td>
+<td>96.58%</td>
+</tr>
+<tr class="odd">
+<td>BMJ (Clinical research ed.)</td>
+<td>17,141</td>
+<td>392,277</td>
+<td>4.37%</td>
+</tr>
+<tr class="even">
+<td>Lecture Notes in Computer Science</td>
+<td>103,675</td>
+<td>356,323</td>
+<td>29.10%</td>
+</tr>
+<tr class="odd">
+<td>Science</td>
+<td>230,649</td>
+<td>251,083</td>
+<td>91.86%</td>
+</tr>
+<tr class="even">
+<td>JAMA - Journal of the American Medical Association</td>
+<td>191,950</td>
+<td>248,369</td>
+<td>77.28%</td>
+</tr>
+<tr class="odd">
+<td>Journal of the American Chemical Society</td>
+<td>189,142</td>
+<td>189,567</td>
+<td>99.78%</td>
+</tr>
+<tr class="even">
+<td>Scientific American</td>
+<td>22,600</td>
+<td>186,473</td>
+<td>12.12%</td>
+</tr>
+<tr class="odd">
+<td>New England Journal of Medicine</td>
+<td>180,321</td>
+<td>180,467</td>
+<td>99.92%</td>
+</tr>
+<tr class="even">
+<td>PLoS ONE</td>
+<td>4,731</td>
+<td>177,260</td>
+<td>2.67%</td>
+</tr>
+</tbody>
+</table>
+<p>In general, a journal’s coverage was either nearly complete or nearly entirely absent (Figure <a href="#fig:distributions">4</a>). As a result, relatively few journals had coverage between 5–75%. At the extremes, 2,342 journals had zero coverage in Sci-Hub, whereas 2,067 journals had perfect coverage. Of zero-coverage journals, 22.3% were inactive, and 27.2% were open access. Of perfect-coverage journals, 80.3% were inactive, and 1.9% were open access. Hence, inactive, closed-access journals make up the bulk of perfect-coverage journals.</p>
+<div class="figure">
+<img src="https://cdn.rawgit.com/greenelab/scihub/d84c62a1cbcd70033d70a3728df5492a0031afa9/figure/coverage-distributions.svg" alt="Figure 4: Distributions of journal &amp; publisher coverages. The histograms show the distribution of Sci-Hub’s coverage for journals and publishers. Each bin spans 2.5 percentage points." id="fig:distributions" width="480" />
+<p class="caption">Figure 4: <strong>Distributions of journal &amp; publisher coverages.</strong> The histograms show the distribution of Sci-Hub’s coverage for journals and publishers. Each bin spans 2.5 percentage points.</p>
+</div>
+<p>Next, we explored article coverage according to journal attributes (Figure <a href="#fig:attributes">5</a>). Sci-Hub covered 83.4% of the 57,074,208 articles that were attributable to an academic journal. Articles from inactive journals had slightly lower coverage than active journals (77.0% versus 84.3%). Strikingly, coverage was substantially higher for articles from closed- rather than open-access journals (85.2% versus 49.1%). Coverage did vary by subject area, with the highest coverage in chemistry at 92.8% and the lowest coverage in computer science at 76.3%. Accordingly, no discipline had coverage below 75%. See Figure <a href="#fig:countries">S1</a> for coverage according to a journal’s country of publication.</p>
+<div class="figure">
+<img src="https://cdn.rawgit.com/greenelab/scihub/d84c62a1cbcd70033d70a3728df5492a0031afa9/figure/coverage.svg" alt="Figure 5: Coverage by journal attributes. Coverage was assessed for all articles from journals with the specified Scopus attributes." id="fig:attributes" />
+<p class="caption">Figure 5: <strong>Coverage by journal attributes.</strong> Coverage was assessed for all articles from journals with the specified Scopus attributes.</p>
+</div>
+<p>We also evaluated whether journal coverage varied by journal impact. We assessed journal impact using the 2015 CiteScore, which measures the average number of citations that articles published in 2012–2014 received during 2015. Highly cited journals tended to have higher coverage in Sci-Hub (Figure <a href="#fig:citescore">7</a>A). The 1,730 least cited journals (lowest decile) had 40.9% coverage on average, whereas the 1,729 most cited journals (top decile) averaged 90.3% coverage.</p>
+<h3 id="coverage-by-publisher">Coverage by publisher</h3>
+<p>Next, we evaluated coverage by publisher (Figure <a href="#fig:publishers">6</a>, full table <a href="https://greenelab.github.io/scihub/#/publishers">online</a>). The largest publisher was Elsevier, with 13,185,971 articles from 3,356 journals. Sci-Hub covered 97.3% of Elsevier articles. For the eight publishers with more than one million articles, the following coverage was observed: 97.3% of Elsevier, 89.4% of Springer Nature, 94.8% of Wiley-Blackwell, 96.2% of Taylor &amp; Francis, 79.2% of Wolters Kluwer, 98.8% of American Chemical Society, 95.3% of SAGE, and 84.9% of Oxford University Press. In total, 4,879 publishers were represented in the journal catalog. The coverage distribution among publishers resembled the journal coverage distribution, with most publishers occupying the extremities (Figure <a href="#fig:distributions">4</a>). Sci-Hub had zero coverage for 1,206 publishers, and complete coverage for 323 publishers.</p>
+<div class="figure">
+<img src="https://cdn.rawgit.com/greenelab/scihub/d84c62a1cbcd70033d70a3728df5492a0031afa9/figure/coverage-by-publisher.svg" alt="Figure 6: Coverage by publisher. Article coverage is shown for all Scopus publishers with at least 200,000 articles." id="fig:publishers" />
+<p class="caption">Figure 6: <strong>Coverage by publisher.</strong> Article coverage is shown for all Scopus publishers with at least 200,000 articles.</p>
+</div>
+<h3 id="sci-hub-request-logs">Sci-Hub request logs</h3>
+<p>Sci-Hub has released article request records from its server logs, covering 165 days from September 2015 through February 2016 <span class="citation">[<a href="#ref-kQFQ8EaO">15</a>,<a href="#ref-RsNXQAG2">25</a>,<a href="#ref-t4r48QpO">26</a>]</span>. We filtered for valid requests by excluding DOIs not included in our literature catalog and omitting requests that occurred before an article’s publication date. Accordingly, we identified 26,984,851 valid requests for 10,116,937 distinct articles. Hence, on average, Sci-Hub received approximately 164,000 valid requests per day in late 2015–early 2016.</p>
+<p>The logs do not indicate whether requests were fulfilled. However, if a requested article wasn’t in Sci-Hub’s database, Sci-Hub would have attempted to retrieve it and store it for future use. Therefore, we can estimate fulfillment rates by assuming that articles currently in Sci-Hub’s database were available in the past, at the time of request.</p>
+<p>Accordingly, we estimate that Sci-Hub fulfilled 99.3% of valid requests during this period. The estimated fulfillment rate was nearly 100% for all article types other than book chapters. Users that requested book chapters were granted access 82.1% of the time. In total, only 141,466 articles were requested that are not presently in Sci-Hub. Of these inaccessible articles, 14,154 <a href="https://github.com/greenelab/scihub/issues/5#issuecomment-298952622">were</a> book chapters from <em>Lecture Notes in Computer Science</em>.</p>
+<p>We computed journal-level metrics based on average article requests. The “visitors” metric assesses the average number of IP addresses that requested each article published by a journal during the 20 months preceding September 2015 (the start date of the Sci-Hub logs). In aggregate, articles from closed access journals average 1.30 visitors, whereas articles from open access journals averaged 0.27 visitors. Figure <a href="#fig:citescore">7</a>B shows that articles from highly cited journals were visited much more frequently on average. Articles in the least cited closed access journals averaged almost zero visitors, compared to approximately 15 visitors for the most cited journals. In addition, Figure <a href="#fig:citescore">7</a>B shows that articles in closed access journals received many times more visitors than those in open access journals, even after accounting for journal impact.</p>
+<div class="figure">
+<img src="https://cdn.rawgit.com/greenelab/scihub/d84c62a1cbcd70033d70a3728df5492a0031afa9/figure/citescore.svg" alt="Figure 7: Relation to journal impact. A) Average coverage for journals divided into 2015 CiteScore deciles. The CiteScore range defining each decile is shown by the x-axis labels. The ticks represent 99% confidence intervals of the mean. This is the only analysis where Sci-Hub Coverage refers to journal-level rather than article-level averages. B) The association between 2015 CiteScore and average visitors per article is plotted for open and closed access journals. Curves show the 95% confidence band from a Generalized Additive Model." id="fig:citescore" />
+<p class="caption">Figure 7: <strong>Relation to journal impact.</strong> <strong>A)</strong> Average coverage for journals divided into 2015 CiteScore deciles. The CiteScore range defining each decile is shown by the x-axis labels. The ticks represent 99% confidence intervals of the mean. This is the only analysis where “Sci-Hub Coverage” refers to journal-level rather than article-level averages. <strong>B)</strong> The association between 2015 CiteScore and average visitors per article is plotted for open and closed access journals. Curves show the 95% confidence band from a Generalized Additive Model.</p>
+</div>
+<h2 id="discussion" class="page_break_before">Discussion</h2>
+<p>Sci-Hub’s repository contains 69% of all scholarly articles with DOIs. Coverage for the 50 million articles attributed to closed access journals — which some users may not otherwise be able to access — was 85.2%. Furthermore, coverage of the most cited journals exceeded 90%. Journals with very low (including zero) coverage tended to be obscure, less cited venues. Importantly, Sci-Hub delivers access to scholarly literature at a much higher rate than its database coverage. Since Sci-Hub can retrieve, in real time, requested articles that are not in its database, our coverage figures are a lower bound. In terms of articles actually requested by users, we infer that Sci-Hub provides access 99% of the time.</p>
+<p>We find strong evidence that Sci-Hub is primarily used to circumvent paywalls. In particular, users requested articles from closed access journals much more frequently than open access journals. Accordingly, many users likely only resort to Sci-Hub when access through a commercial database is cumbersome or costly.</p>
+<p>Judging from donations, many users appear to value Sci-Hub’s service. In the past, Sci-Hub accepted donations through centralized and regulated payment processors such as PayPal, Yandex, WebMoney, and QiQi <span class="citation">[<a href="#ref-j3Zl6sH5">19</a>,<a href="#ref-1EZBJN9ej">42</a>]</span>. Now however, Sci-Hub only advertises donation via Bitcoin, presumably to avoid banking blockades or government seizure of funds. Since the ledger of bitcoin transactions is public, we can evaluate the donation activity to known Sci-Hub addresses (<code>1K4t2vSBSS2xFjZ6PofYnbgZewjeqbG1TM</code>, <code>14ghuGKDAPdEcUQN4zuzGwBUrhQgACwAyA</code>, <code>1EVkHpdQ8VJQRpQ15hSRoohCztTvDMEepm</code>). We find that these addresses have received 1,037 donations, totaling 92.63 bitcoins (Figure <a href="#fig:bitcoin">8</a>, Figure <a href="#fig:bitcoin-all">S2</a>). Using the U.S. dollar value at the time of transaction confirmation, Sci-Hub has received an equivalent of $60,358 in bitcoins. However, since the price of bitcoins has risen, the 67.42 donated bitcoins that remain unspent are now worth approximately $175,000.</p>
+<div class="figure">
+<img src="https://cdn.rawgit.com/greenelab/scihub/d84c62a1cbcd70033d70a3728df5492a0031afa9/explore/bitcoin/monthly-donations-count.svg" alt="Figure 8: Number of bitcoin donations per month. The number of bitcoin donations to Sci-Hub is shown for each month from June 2015 to June 2017. Since February 2016, Sci-Hub has received at least 30 donations per month. Each donation corresponds to an incoming transaction to a known Sci-Hub address." id="fig:bitcoin" />
+<p class="caption">Figure 8: <strong>Number of bitcoin donations per month.</strong> The number of bitcoin donations to Sci-Hub is shown for each month from June 2015 to June 2017. Since February 2016, Sci-Hub has received at least 30 donations per month. Each donation corresponds to an incoming transaction to a known Sci-Hub address.</p>
+</div>
+<p>The largest, most prominent academic publishers are thoroughly covered by Sci-Hub, and these publishers have taken note. Elsevier (whose 13 million works are 97.3% covered by Sci-Hub) and the American Chemical Society (whose 1.4 million works are 98.8% covered) have both filed suit against Sci-Hub, despite the limited enforcement options of United States courts. The widespread gratis access that Sci-Hub provides to previously paywalled articles calls into question the sustainability of the subscription publishing model <span class="citation">[<a href="#ref-102oWwJt1">43</a>]</span>. As distributed and censorship-resistant file storage protocols mature <span class="citation">[<a href="#ref-16kozZ9Ys">44</a>,<a href="#ref-5gyFSQse">45</a>]</span>, successors to Sci-Hub may emerge that no longer rely on a centralized service. Indeed, Alexandra Elbakyan is only one individual in the larger “guerilla access” movement <span class="citation">[<a href="#ref-2TjdrEPp">46</a>–<a href="#ref-xkkXadRh">48</a>]</span>, which will persist regardless of her fate. As such, Sci-Hub’s corpus of gratis scholarly literature may be extremely difficult to suppress.</p>
+<p>In addition, adoption of Sci-Hub and similar sites may accelerate if universities continue canceling increasingly expensive journal subscriptions <span class="citation">[<a href="#ref-wnNilBvm">49</a>–<a href="#ref-GWp5Zx0w">52</a>]</span>, leaving researchers with few alternative access options. We can also expect biblioleaks — bulk releases of closed access corpuses — to progress despite publisher’s best efforts, as articles must only leak once to be perpetually available <span class="citation">[<a href="#ref-8mg1a0YE">53</a>]</span>. In essence, scholarly publishers have already lost the access battle. Publishers will be forced to adapt quickly to open access publishing models. In the words of Alexandra Elbakyan <span class="citation">[<a href="#ref-DCZkZXsz">54</a>]</span>:</p>
+<blockquote>
+<p>The effect of long-term operation of Sci-Hub will be that publishers change their publishing models to support Open Access, because closed access will make no sense anymore.</p>
+</blockquote>
+<p>Sci-Hub is poised to fundamentally disrupt scholarly publishing. The transition to gratis availability of scholarly articles is currently underway, and such a model may be inevitable in the long term. However, we urge the community to take this opportunity to fully liberate scholarly articles, as well as explore more constructive business models for publishing <span class="citation">[<a href="#ref-cunYx7X4">55</a>]</span>. Only libre access, enabled by <a href="http://opendefinition.org/">open licensing</a>, allows building applications on top of scholarly literature without fear of legal consequences <span class="citation">[<a href="#ref-7aXVorCC">7</a>]</span>. For example, fulltext mining of scholarly literature is an area of great potential <span class="citation">[<a href="#ref-1BW4FtNLl">56</a>]</span>, but is currently impractical due to the lack of a large-scale preprocessed corpus of articles. The barriers here are legal, not technological <span class="citation">[<a href="#ref-llK8SMam">57</a>,<a href="#ref-I6O7IKP7">58</a>]</span>. In closing, were all articles libre, there would be no such thing as a “pirate website” for accessing scholarly literature.</p>
+<h2 id="methods" class="page_break_before">Methods</h2>
+<p>This project was performed entirely in the open, via the GitHub repository <a href="https://github.com/greenelab/scihub"><code>greenelab/scihub</code></a>. Several authors of this study became involved after we mentioned their usernames in GitHub discussions. This project’s fully transparent and online model enabled us to assemble an international team of individuals with complementary expertise and knowledge.</p>
+<p>We managed our computational environment using <a href="https://conda.io/docs/">Conda</a>, allowing us to specify and install dependencies for both Python and R. We performed our analyses using a series of <a href="http://jupyter.org/">Jupyter</a> notebooks. In general, data integration and manipulation were performed in Python 3, relying heavily on <a href="https://pandas.pydata.org/">Pandas</a>, while plotting was performed with <a href="http://ggplot2.org/">ggplot2</a> in R. Tabular data were saved in TSV (tab-separated values) format, and large datasets were compressed using <a href="https://tukaani.org/xz/">XZ</a>. We used Git Large File Storage (<a href="https://git-lfs.github.com/">Git LFS</a>) to track large files, enabling us to make nearly all of the datasets generated and consumed by the analyses available to the public. The Sci-Hub Stats Browser is a single-page application built using React and hosted via GitHub Pages.</p>
+<p>The manuscript source for this study is located at <a href="https://github.com/greenelab/scihub-manuscript"><code>greenelab/scihub-manuscript</code></a>. We used the <a href="https://github.com/greenelab/manubot-rootstock">Manubot Rootstock</a> system to automatically generate the manuscript from Markdown files. This system — originally developed for the <a href="https://github.com/greenelab/deep-review">Deep Review</a> to enable collaborative writing on GitHub <span class="citation">[<a href="#ref-tJKvnIaZ">59</a>]</span> — uses continuous analysis to fetch reference metadata and rebuild the manuscript upon changes <span class="citation">[<a href="#ref-Qh7xTLwz">60</a>]</span>.</p>
+<h3 id="digital-object-identifiers">Digital Object Identifiers</h3>
+<p>We used DOIs (Digital Object Identifiers) to uniquely identify articles. Sci-Hub and LibGen’s scimag repository also uniquely identify articles by their DOIs, making DOIs the natural primary identifier for our analyses. The DOI initiative began in 1997, and the first DOIs were registered in 2000 <span class="citation">[<a href="#ref-8zeVK2hX">61</a>,<a href="#ref-JDfJRWbr">62</a>]</span>. Note that DOIs can be registered retroactively. For example, Antony van Leewenhoeck’s discovery of protists and bacteria — published in 1677 by <em>Philosophical Transactions of the Royal Society of London</em> <span class="citation">[<a href="#ref-HhEZiSSR">63</a>]</span> — has a DOI (<code>10.1098/rstl.1677.0003</code>). While van Leewenhoeck’s article was published long before the DOI system existed, the <em>Royal Society</em> retroactively assigned it a DOI in 2006.</p>
+<p>Not all scholarly articles have DOIs. By evaluating the presence of DOIs in other databases of scholarly literature (such as PubMed, Web of Science, and Scopus), researchers estimate around 90% of newly published articles in the sciences have DOIs <span class="citation">[<a href="#ref-9sCtTvlE">64</a>,<a href="#ref-10zxQMO6J">65</a>]</span>. The prevalence of DOIs varies by discipline and country of publication, with DOI assignment in newly published Arts &amp; Humanities articles around 60% <span class="citation">[<a href="#ref-9sCtTvlE">64</a>]</span>. Indeed, DOI registration is almost entirely lacking for publishers from many Eastern European countries <span class="citation">[<a href="#ref-10zxQMO6J">65</a>]</span>. In addition, the prevalence of DOI assignment is likely lower for older articles <span class="citation">[<a href="#ref-10zxQMO6J">65</a>]</span>. The incomplete and non-random assignment of DOIs to scholarly articles is a limitation of this study. However, DOIs are presumably the least imperfect and most widespread identifier for scholarly articles.</p>
+<p>An often overlooked aspect of the DOI system is that DOIs are case-insensitive within the ASCII character range <span class="citation">[<a href="#ref-8zeVK2hX">61</a>,<a href="#ref-LS0mB1CD">66</a>]</span>. In other words, <code>10.7717/peerj.705</code> refers to the same article as <code>10.7717/PeerJ.705</code>. Accordingly, DOIs make a poor standard identifier unless they are consistently cased. While the DOI handbook states that “all DOI names are converted to upper case upon registration” <span class="citation">[<a href="#ref-8zeVK2hX">61</a>]</span>, we lowercased DOIs in accordance with Crossref’s behavior. Given the risk of unmatched DOIs, we lowercased DOIs for each input resource at the earliest opportunity in our processing pipeline. Consistent casing <a href="https://github.com/greenelab/scihub/issues/9">considerably influenced</a> our findings as different resources used different casings of the same DOI.</p>
+<h3 id="crossref-derived-catalog-of-scholarly-articles">Crossref-derived catalog of scholarly articles</h3>
+<p>To catalog all scholarly articles, we relied on the Crossref database. <a href="https://www.crossref.org/">Crossref</a> is a DOI Registration Agency (an entity capable of assigning DOIs) for scholarly publishing <span class="citation">[<a href="#ref-Eq78IAX4">67</a>]</span>. There are presently 10 Registration Agencies. We <a href="https://github.com/greenelab/crossref/issues/3">estimate</a> that Crossref has registered 67% of all DOIs in existence. While several Registration Agencies assign DOIs to scholarly publications, Crossref is the preeminent registrar. In March 2015, of the 1,464,818 valid DOI links on the English version of Wikipedia, 99.9% were registered with Crossref <span class="citation">[<a href="#ref-aUCPtxQc">68</a>]</span>. This percentage was slightly lower for other languages: 99.8% on Chinese Wikipedia and 98.0% on Japanese Wikipedia. Hence, the overwhelming majority of DOI-referenced scholarly articles are registered with Crossref. Since Crossref has the most comprehensive and featureful programmatic access, there was a strong incentive to focus solely on Crossref-registered DOIs. Given Crossref’s preeminence, the omission of other Registration Agencies is unlikely to significantly influence our findings.</p>
+<p>We queried the <code>works</code> endpoint of the <a href="https://api.crossref.org/">Crossref API</a> to retrieve the metadata for all DOIs, storing the responses in a MongoDB database. The queries began on March 21, 2017 and took 12 days to complete. In total, we retrieved metadata for 87,542,370 DOIs, corresponding to all Crossref works as of March 21, 2017. The source code for this step is available on GitHub at <a href="https://github.com/greenelab/crossref"><code>greenelab/crossref</code></a>. Due to its large file size (7.4 GB), the MongoDB database export of DOI metadata is not available on GitHub, and is instead hosted via figshare <span class="citation">[<a href="#ref-1E6E4mpZ">69</a>]</span>. We created TSV files with the minimal information needed for this study: First, a DOI table with columns for work type and date issued. Date issued refers to the earliest known publication date, i.e. the date of print or online publication, whichever occurred first. Second, a mapping of DOI to ISSN for associating articles with their journal of publication.</p>
+<p>We <a href="https://github.com/greenelab/scihub/issues/7">selected</a> a subset of Crossref work types to include in our Sci-Hub coverage analyses that corresponded to scholarly articles (i.e. publications). Since we could not locate definitions for the Crossref types, we used our best judgment and evaluated sample works of a given type in the case of uncertainty. We included the following types: <code>book-chapter</code>, <code>book-part</code>, <code>book-section</code>, <code>journal-article</code>, <code>proceedings-article</code>, <code>reference-entry</code>, <code>report</code>, and <code>standard</code>. Types such as <code>book</code>, <code>journal</code>, <code>journal-issue</code>, and <code>report-series</code> were excluded, as they are generally containers for individual articles rather than scholarly articles themselves. After filtering by type, 81,609,016 DOIs remained (77,201,782 of which had their year of publication available). For the purposes of this study, these DOIs represent the entirety of the scholarly literature.</p>
+<h3 id="scopus-derived-catalog-of-journals">Scopus-derived catalog of journals</h3>
+<p>Prior to June 2017, the Crossref API had an <a href="https://github.com/CrossRef/rest-api-doc/issues/179">issue</a> that prevented exhaustively downloading journal metadata. Therefore, we instead relied on the <a href="https://www.scopus.com">Scopus</a> database to catalog scholarly journals. Scopus uses “title” to refer to all of the following: peer-reviewed journals, trade journals, book series, and conference proceedings. For this study, we refer to all of these types as journals. From the January 2017 data release of Scopus titles, we extracted metadata for 62,482 titles including their names, ISSNs, subject areas, open access status, and active status. We then tidied the Scopus Journal Metrics, which evaluate journals based on the number of citations their articles receive. Specifically, we extracted a 2015 CiteScore for 22,256 titles, 17,295 of which were included in our journal catalog. Finally, we queried the Elsevier API to <a href="https://github.com/dhimmel/journalmetrics/issues/2">retrieve</a> homepage URLs for 20,442 Scopus titles. See <a href="https://github.com/dhimmel/journalmetrics"><code>dhimmel/journalmetrics</code></a> for the source code and data relating to Scopus.</p>
+<h3 id="libgen-scimags-catalog-of-articles">LibGen scimag’s catalog of articles</h3>
+<p>Library Genesis (LibGen) is a shadow library primarily comprising illicit copies of academic books and articles. Compared to Sci-Hub, the operations of LibGen are more opaque, as the contributors maintain a low profile and do not contact journalists <span class="citation">[<a href="#ref-1H8x8f4Y7">14</a>]</span>. LibGen hosts several collections, including distinct repositories for scientific books and textbooks, fiction books, and comics <span class="citation">[<a href="#ref-18KKRwlN6">16</a>]</span>. In 2012, LibGen added the “scimag” database for scholarly literature. Since the spring of 2013, Sci-Hub has uploaded articles that it obtains to LibGen scimag <span class="citation">[<a href="#ref-1H8x8f4Y7">14</a>]</span>. At the end of 2014, Sci-Hub forked LibGen scimag and began managing its own distinct article repository.</p>
+<p>We downloaded the LibGen scimag metadata database on April 7, 2017 as a SQL dump. We <a href="https://github.com/greenelab/scihub/issues/2">imported</a> the SQL dump into MySQL, and then exported the scimag table to a TSV file. Each row of this table corresponds to an article in LibGen, identified by its DOI. The <code>TimeAdded</code> field apparently indicates when the publication was uploaded to LibGen. After removing records missing <code>TimeAdded</code>, 64,195,940 DOIs remained. 56,205,763 (87.6%) of the DOIs were in our Crossref-derived catalog of scholarly literature. The 12.4% of LibGen scimag DOIs missing from our Crossref catalog likely comprise incorrect DOIs, DOIs whose metadata availability postdates our Crossref export, DOIs from other Registration Agencies, and DOIs for excluded publication types.</p>
+<p>Next, we explored the cumulative size of LibGen scimag over time according to the <code>TimeAdded</code> field (Figure <a href="#fig:libgen-size">S3</a>). However, when we <a href="https://github.com/greenelab/scihub/issues/8#issuecomment-296710357">compared</a> our plot to one generated from the LibGen scimag database SQL dump on January 5, 2014 <span class="citation">[<a href="#ref-18KKRwlN6">16</a>]</span>, we noticed a major discrepancy. The earlier analysis identified a total of 22,829,088 DOIs, whereas we found only 234,504 DOIs as of January 5, 2014. We hypothesize that the discrepancy arose because <code>TimeAdded</code> indicates the date modified rather than created. Specifically, when an article in the database is changed, the database record for that DOI is entirely replaced. Hence, the <code>TimeAdded</code> value is effectively overwritten upon every update to a record. Unfortunately, many research questions require the date first added. For example, lag-time analyses (the time from study publication to LibGen upload) may be unreliable. Therefore, we do not report on these findings in this manuscript. Instead, we provide Figure <a href="#fig:libgen-lag">S4</a> as an example analysis that would be highly informative were reliable creation dates available. In addition, findings from some previous studies may require additional scrutiny. For example, Cabanac writes <span class="citation">[<a href="#ref-18KKRwlN6">16</a>]</span>:</p>
+<blockquote>
+<p>The growth of LibGen suggests that it has benefited from a few isolated, but massive, additions of scientific articles to its cache. For instance, 71% of the article collection was uploaded in 13 days at a rate of 100,000+ articles a day. It is likely that such massive collections of articles result from biblioleaks <span class="citation">[<a href="#ref-8mg1a0YE">53</a>]</span>, but one can only speculate about this because of the undocumented source of each file cached at LibGen.</p>
+</blockquote>
+<p>While we agree this is most likely the case, confirmation is needed that the bulk addition of articles does not simply correspond to bulk updates rather than bulk initial uploads.</p>
+<h3 id="sci-hubs-catalog-of-articles">Sci-Hub’s catalog of articles</h3>
+<p>On March 19, 2017, Sci-Hub <a href="https://twitter.com/Sci_Hub/status/843546352219017218">tweeted</a>:</p>
+<blockquote>
+<p>If you like the list of all DOI collected on Sci-Hub, here it is: <code>sci-hub.cc/downloads/doi.7z</code> … 62,835,101 DOI in alphabetical order</p>
+</blockquote>
+<p>The Tweet included a download link for a file with the 62,835,101 DOIs that Sci-Hub claims to provide access to. Of these DOIs, 56,246,220 were part of the Crossref-derived catalog of scholarly articles. 99.5% of the DOIs from Sci-Hub’s list were in the LibGen scimag repository (after filtering). Hence, the LibGen scimag and Sci-Hub repositories have largely stayed in sync since their split. On Twitter, the Sci-Hub account confirmed this finding, <a href="https://twitter.com/Sci_Hub/status/844165613203480576">commenting</a> “with a small differences, yes the database is the same”. Therefore, the LibGen scimag and Sci-Hub DOI catalogs can essentially be used interchangeably for research purposes.</p>
+<h3 id="sci-hub-request-logs-1">Sci-Hub request logs</h3>
+<p>The 2016 study titled “Who’s downloading pirated papers? Everyone” analyzed a dataset of Sci-Hub request logs <span class="citation">[<a href="#ref-RsNXQAG2">25</a>,<a href="#ref-t4r48QpO">26</a>]</span>. Alexandra Elbakyan worked with journalist John Bohannon to produce a dataset of download requests received by Sci-Hub from September 1, 2015 through February 29, 2016 <span class="citation">[<a href="#ref-kQFQ8EaO">15</a>]</span>. In November 2015, Sci-Hub’s domain name was suspended as the result of legal action by Elsevier <span class="citation">[<a href="#ref-sR4uAYxB">9</a>,<a href="#ref-16k28dBmH">22</a>]</span>. According to Bohannon, this resulted in “an 18-day gap in the data starting November 4, 2015 when the domain <code>sci-hub.org</code> went down and the server logs were improperly configured.” We show this downtime in Figure <a href="#fig:history">1</a>.</p>
+<p>Of the 10,552,418 distinct DOIs in the request logs, 10,293,836 (97.5%) were part of the Crossref-derived catalog of scholarly articles. Bohannon notes <span class="citation">[<a href="#ref-AeHqdtRV">70</a>]</span>, “some DOIs are invalid, due to typos from the Sci-Hub users or … because a website listed the wrong DOI.”</p>
+<p>We summarized the requests for each article using the following metrics:</p>
+<ol style="list-style-type: decimal">
+<li>downloads: total number of requests</li>
+<li>visitors: number of IP addresses that requested the article</li>
+<li>countries: number of countries (geolocation by IP address) that requested the article</li>
+<li>days: number of days the article was requested</li>
+<li>months: number of months the article was requested</li>
+</ol>
+<p>Next, we calculated journal-level request metrics based on articles published from January 1, 2014 until the start of the Sci-Hub request log records on September 1, 2015. For each journal, we calculated the average values for the five request log metrics described above. Interestingly, the journal <a href="http://www.sciencedirect.com/science/journal/03045412"><em>Medicine - Programa de Formación Médica Continuada Acreditado</em></a> received the most visitors per article, averaging 33.4 visitors for each of its 326 articles.</p>
+<h2 id="supplementary-information">Supplementary Information</h2>
+<div class="figure">
+<img src="https://cdn.rawgit.com/greenelab/scihub/d84c62a1cbcd70033d70a3728df5492a0031afa9/figure/coverage-by-country.svg" alt="Figure S1: Coverage by country of publication. Scopus assigns each journal a country of publication. Sci-Hub’s coverage is shown for countries with at least 100,000 articles." id="fig:countries" tag="S1" />
+<p class="caption">Figure S1: <strong>Coverage by country of publication.</strong> Scopus assigns each journal a country of publication. Sci-Hub’s coverage is shown for countries with at least 100,000 articles.</p>
+</div>
+<div class="figure">
+<img src="https://cdn.rawgit.com/greenelab/scihub/d84c62a1cbcd70033d70a3728df5492a0031afa9/explore/bitcoin/monthly-donations-faceted.svg" alt="Figure S2: Bitcoin donations to Sci-Hub per month. For months since June 2015, total bitcoin donations (deposits to known Sci-Hub addresses) are assessed. Donations in USD refers to the United States dollar value at time of transaction confirmation." id="fig:bitcoin-all" tag="S2" width="480" />
+<p class="caption">Figure S2: <strong>Bitcoin donations to Sci-Hub per month.</strong> For months since June 2015, total bitcoin donations (deposits to known Sci-Hub addresses) are assessed. Donations in USD refers to the United States dollar value at time of transaction confirmation.</p>
+</div>
+<div class="figure">
+<img src="https://cdn.rawgit.com/greenelab/scihub/d84c62a1cbcd70033d70a3728df5492a0031afa9/figure/libgen-cumulative-works.svg" alt="Figure S3: Number of articles in LibGen scimag over time. The figure shows the cumulative number of articles versus the LibGen scimag TimeAdded field. When comparing this plot to Figure 1 of Cabanac 2015 [16], we noticed a major discrepancy. We hypothesize that the TimeAdded field is replaced upon modification, making it impossible to assess date of first upload." id="fig:libgen-size" tag="S3" width="384" />
+<p class="caption">Figure S3: <strong>Number of articles in LibGen scimag over time.</strong> The figure shows the cumulative number of articles versus the LibGen scimag <code>TimeAdded</code> field. When comparing this plot to Figure 1 of Cabanac 2015 <span class="citation">[<a href="#ref-18KKRwlN6">16</a>]</span>, we noticed a major discrepancy. We hypothesize that the <code>TimeAdded</code> field is replaced upon modification, making it impossible to assess date of first upload.</p>
+</div>
+<div class="figure">
+<img src="https://cdn.rawgit.com/greenelab/scihub/7891082161dbcfcd5eeb1d7b76ee99ab44b95064/figure/libgen-monthly-lagtimes.svg" alt="Figure S4: Lag-time from publication to LibGen upload. For each year of publication from 2010–2017, we plot the relationship between lag-time and LibGen scimag’s coverage. For example, this plot shows that 75% of articles published in 2011 were uploaded to LibGen within 60 months. This analysis only considers articles for which a month of publication can reliably be extracted, which excludes all articles that are allegedly published on the first day of each year. This plot portrays lag-times as decreasing over time, with maximum coverage declining. For example, coverage for 2016 articles exceeded 50% within 6 months, but appears to have reached an asymptote around 60%. Alternatively, coverage for 2014 took 15 months to exceed 50%, but has since reached 75%. However, this signal could result from post-dated LibGen upload timestamps. Therefore, we caution against drawing any conclusions from the TimeAdded field in LibGen scimag until its accuracy can be established more reliably." id="fig:libgen-lag" tag="S4" />
+<p class="caption">Figure S4: <strong>Lag-time from publication to LibGen upload.</strong> For each year of publication from 2010–2017, we plot the relationship between lag-time and LibGen scimag’s coverage. For example, this plot shows that 75% of articles published in 2011 were uploaded to LibGen within 60 months. This analysis only considers articles for which a month of publication can reliably be extracted, which excludes all articles that are allegedly published on the first day of each year. This plot portrays lag-times as decreasing over time, with maximum coverage declining. For example, coverage for 2016 articles exceeded 50% within 6 months, but appears to have reached an asymptote around 60%. Alternatively, coverage for 2014 took 15 months to exceed 50%, but has since reached 75%. However, this signal could result from post-dated LibGen upload timestamps. Therefore, we caution against drawing any conclusions from the <code>TimeAdded</code> field in LibGen scimag until its accuracy can be established more reliably.</p>
+</div>
+<h1 id="acknowledgements">Acknowledgements</h1>
+<p>We’d like to thank the individuals, not listed as authors, who provided comments on <a href="https://github.com/greenelab/scihub/issues">GitHub issues</a> or pull requests. Specifically, the following individuals provided valuable input while the study was underway: <a href="https://github.com/blahah">Richard Smith-Unna</a>, <a href="https://github.com/rossmounce">Ross Mounce</a>, and <a href="https://github.com/gcabanac">Guillaume Cabanac</a>. In addition, we’re grateful to GitHub for offering gratis Large File Storage as part of their education program.</p>
+<h1 id="references" class="unnumbered page_break_before">References</h1>
+<div id="refs" class="references">
+<div id="ref-MNHagzoO">
+<p>1. Khabsa M, Giles CL. 2014 The Number of Scholarly Documents on the Public Web. <em>PLoS ONE</em> <strong>9</strong>, e93949. See <a href="https://doi.org/10.1371/journal.pone.0093949" class="uri">https://doi.org/10.1371/journal.pone.0093949</a>.</p>
+</div>
+<div id="ref-PuP45jrB">
+<p>2. Tennant JP, Waldner F, Jacques DC, Masuzzo P, Collister LB, Hartgerink CHJ. 2016 The academic, economic and societal impacts of Open Access: an evidence-based review. <em>F1000Research</em> <strong>5</strong>, 632. See <a href="https://doi.org/10.12688/f1000research.8460.3" class="uri">https://doi.org/10.12688/f1000research.8460.3</a>.</p>
+</div>
+<div id="ref-3k6GM8o4">
+<p>3. Royster P. 2016 A Brief History of Open Access. <em>Library Conference Presentations and Speeches</em>. See <a href="http://digitalcommons.unl.edu/library_talks/123" class="uri">http://digitalcommons.unl.edu/library_talks/123</a>.</p>
+</div>
+<div id="ref-n1xo9kJ7">
+<p>4. Archambault É, Amyot D, Deschamps P, Nicol A, Provencher F, Rebout L, Roberge G. 2014 Proportion of Open Access Papers Published in Peer-Reviewed Journals at the European and World Levels—1996–2013. <em>Copyright, Fair Use, Scholarly Communication, etc.</em> See <a href="http://digitalcommons.unl.edu/scholcom/8" class="uri">http://digitalcommons.unl.edu/scholcom/8</a>.</p>
+</div>
+<div id="ref-NE5AByb0">
+<p>5. Van Noorden R. 2013 Half of 2011 papers now free to read. <em>Nature</em> <strong>500</strong>, 386–387. See <a href="https://doi.org/10.1038/500386a" class="uri">https://doi.org/10.1038/500386a</a>.</p>
+</div>
+<div id="ref-tSEdUvgK">
+<p>6. Suber P. 2008 Gratis and libre open access. <em>Peter Suber, Gratis and libre open access, SPARC Open Access Newsletter, August 2, 2008.</em> See <a href="https://dash.harvard.edu/handle/1/4322580" class="uri">https://dash.harvard.edu/handle/1/4322580</a>.</p>
+</div>
+<div id="ref-7aXVorCC">
+<p>7. Himmelstein D. 2016 The licensing of bioRxiv preprints. <em>Satoshi Village</em>. See <a href="http://blog.dhimmel.com/biorxiv-licenses/" class="uri">http://blog.dhimmel.com/biorxiv-licenses/</a>.</p>
+</div>
+<div id="ref-JVjciZPv">
+<p>8. Bohannon J. 2016 The frustrated science student behind Sci-Hub. <em>Science</em> See <a href="https://doi.org/10.1126/science.aaf5675" class="uri">https://doi.org/10.1126/science.aaf5675</a>.</p>
+</div>
+<div id="ref-sR4uAYxB">
+<p>9. Schiermeier Q. 2015 Pirate research-paper sites play hide-and-seek with publishers. <em>Nature</em> See <a href="https://doi.org/10.1038/nature.2015.18876" class="uri">https://doi.org/10.1038/nature.2015.18876</a>.</p>
+</div>
+<div id="ref-nZZjs6T6">
+<p>10. Elbakyan A. 2016 Sci-Hub is a goal, changing the system is a method. <em>Engineuring</em>. See <a href="https://engineuring.wordpress.com/2016/03/11/sci-hub-is-a-goal-changing-the-system-is-a-method/" class="uri">https://engineuring.wordpress.com/2016/03/11/sci-hub-is-a-goal-changing-the-system-is-a-method/</a>.</p>
+</div>
+<div id="ref-1BUarVNFD">
+<p>11. Elbakyan A. 2015 Letter – Document #50 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS. <em>Southern District Court of New York</em>. See <a href="https://www.courtlistener.com/docket/4355308/50/elsevier-inc-v-sci-hub/" class="uri">https://www.courtlistener.com/docket/4355308/50/elsevier-inc-v-sci-hub/</a>.</p>
+</div>
+<div id="ref-K6n65WB0">
+<p>12. Milova E. 2017 Alexandra Elbakyan – Science Should be Open to all Not Behind Paywalls. <em>Life Extension Advocacy Foundation</em>. See <a href="http://www.leafscience.org/alexandra-elbakyan/" class="uri">http://www.leafscience.org/alexandra-elbakyan/</a>.</p>
+</div>
+<div id="ref-zvVsLNxf">
+<p>13. Dingledine R, Mathewson N, Syverson P. 2004 Tor: The Second-Generation Onion Router. See <a href="http://www.dtic.mil/docs/citations/ADA465464" class="uri">http://www.dtic.mil/docs/citations/ADA465464</a>.</p>
+</div>
+<div id="ref-1H8x8f4Y7">
+<p>14. Elbakyan A. 2017 Some facts on Sci-Hub that Wikipedia gets wrong. <em>Engineuring</em>. See <a href="https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/" class="uri">https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/</a>.</p>
+</div>
+<div id="ref-kQFQ8EaO">
+<p>15. Elbakyan A, Bohannon J. 2016 Sci-Hub download data. See <a href="https://doi.org/10.5061/dryad.q447c/1" class="uri">https://doi.org/10.5061/dryad.q447c/1</a>.</p>
+</div>
+<div id="ref-18KKRwlN6">
+<p>16. Cabanac G. 2015 Bibliogifts in LibGen? A study of a text-sharing platform driven by biblioleaks and crowdsourcing. <em>Journal of the Association for Information Science and Technology</em> <strong>67</strong>, 874–884. See <a href="https://doi.org/10.1002/asi.23445" class="uri">https://doi.org/10.1002/asi.23445</a>.</p>
+</div>
+<div id="ref-Hz2uRUJS">
+<p>17. /u/BitterCoffeeMan. Libgen down • r/Scholar. See <a href="https://redd.it/2raea8" class="uri">https://redd.it/2raea8</a>.</p>
+</div>
+<div id="ref-6ZrZVv6E">
+<p>18. Van der Sar E. 2015 Elsevier Cracks Down on Pirated Scientific Articles. <em>TorrentFreak</em>. See <a href="https://torrentfreak.com/elsevier-cracks-down-on-pirated-scientific-articles-150609/" class="uri">https://torrentfreak.com/elsevier-cracks-down-on-pirated-scientific-articles-150609/</a>.</p>
+</div>
+<div id="ref-j3Zl6sH5">
+<p>19. DeMarco JV, Hirschberg DM, Sen U. 2015 Complaint – Document #1 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS. <em>Southern District Court of New York</em>. See <a href="https://www.courtlistener.com/docket/4355308/1/elsevier-inc-v-sci-hub/" class="uri">https://www.courtlistener.com/docket/4355308/1/elsevier-inc-v-sci-hub/</a>.</p>
+</div>
+<div id="ref-9GOM6WEw">
+<p>20. Van der Sar E. 2015 Court Orders Shutdown of Libgen, Bookfi and Sci-Hub. <em>TorrentFreak</em>. See <a href="https://torrentfreak.com/court-orders-shutdown-of-libgen-bookfi-and-sci-hub-151102/" class="uri">https://torrentfreak.com/court-orders-shutdown-of-libgen-bookfi-and-sci-hub-151102/</a>.</p>
+</div>
+<div id="ref-BpCqwlYS">
+<p>21. Sweet RW. 2015 Memorandum &amp; Opinion – Document #53 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS. <em>Southern District Court of New York</em>. See <a href="https://www.courtlistener.com/docket/4355308/53/elsevier-inc-v-sci-hub/" class="uri">https://www.courtlistener.com/docket/4355308/53/elsevier-inc-v-sci-hub/</a>.</p>
+</div>
+<div id="ref-16k28dBmH">
+<p>22. Van der Sar E. 2015 Sci-Hub, BookFi and LibGen Resurface After Being Shut Down. <em>TorrentFreak</em>. See <a href="https://torrentfreak.com/sci-hub-and-libgen-resurface-after-being-shut-down-151121/" class="uri">https://torrentfreak.com/sci-hub-and-libgen-resurface-after-being-shut-down-151121/</a>.</p>
+</div>
+<div id="ref-SlcfPQQQ">
+<p>23. Oxenham S. 2016 Meet the Robin Hood of Science. <em>Big Think</em>. See <a href="http://bigthink.com/neurobonkers/a-pirate-bay-for-science" class="uri">http://bigthink.com/neurobonkers/a-pirate-bay-for-science</a>.</p>
+</div>
+<div id="ref-tMPCGeuL">
+<p>24. Murphy K. 2016 Should All Research Papers Be Free? <em>New York Times</em>, 12 March. See <a href="https://www.nytimes.com/2016/03/13/opinion/sunday/should-all-research-papers-be-free.html" class="uri">https://www.nytimes.com/2016/03/13/opinion/sunday/should-all-research-papers-be-free.html</a>.</p>
+</div>
+<div id="ref-RsNXQAG2">
+<p>25. Bohannon J. 2016 Who’s downloading pirated papers? Everyone. <em>Science</em> <strong>352</strong>, 508–512. See <a href="https://doi.org/10.1126/science.352.6285.508" class="uri">https://doi.org/10.1126/science.352.6285.508</a>.</p>
+</div>
+<div id="ref-t4r48QpO">
+<p>26. Bohannon J. 2016 Who’s downloading pirated papers? Everyone. <em>Science</em> See <a href="https://doi.org/10.1126/science.aaf5664" class="uri">https://doi.org/10.1126/science.aaf5664</a>.</p>
+</div>
+<div id="ref-Zp0s36X0">
+<p>27. Woolston C. 2016 Paper piracy sparks online debate. <em>Nature</em> See <a href="https://doi.org/10.1038/nature.2016.19841" class="uri">https://doi.org/10.1038/nature.2016.19841</a>.</p>
+</div>
+<div id="ref-cOKy7PSo">
+<p>28. Travis J. 2016 In survey, most give thumbs-up to pirated papers. <em>Science</em> See <a href="https://doi.org/10.1126/science.aaf5704" class="uri">https://doi.org/10.1126/science.aaf5704</a>.</p>
+</div>
+<div id="ref-cUfIvWm6">
+<p>29. 2016 Nature’s 10. <em>Nature</em> <strong>540</strong>, 507–515. See <a href="https://doi.org/10.1038/540507a" class="uri">https://doi.org/10.1038/540507a</a>.</p>
+</div>
+<div id="ref-b5B01CbS">
+<p>30. Schiermeier Q. 2017 US court grants Elsevier millions in damages from Sci-Hub. <em>Nature</em> See <a href="https://doi.org/10.1038/nature.2017.22196" class="uri">https://doi.org/10.1038/nature.2017.22196</a>.</p>
+</div>
+<div id="ref-jlNm94FU">
+<p>31. Van der Sar E. 2017 Sci-Hub Ordered to Pay $15 Million in Piracy Damages. <em>TorrentFreak</em>. See <a href="https://torrentfreak.com/sci-hub-ordered-to-pay-15-million-in-piracy-damages-170623/" class="uri">https://torrentfreak.com/sci-hub-ordered-to-pay-15-million-in-piracy-damages-170623/</a>.</p>
+</div>
+<div id="ref-17drH57zs">
+<p>32. Sweet RW. 2017 Judgement – Document #87 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS. <em>Southern District Court of New York</em>. See <a href="https://www.documentcloud.org/documents/3878258-2017-06-21-Elsevier-Sci-Hub-Final-Judgement.html" class="uri">https://www.documentcloud.org/documents/3878258-2017-06-21-Elsevier-Sci-Hub-Final-Judgement.html</a>.</p>
+</div>
+<div id="ref-17REO8hrA">
+<p>33. Van der Sar E. 2017 New Lawsuit Demands ISP Blockades Against ‘Pirate’ Site Sci-Hub. <em>TorrentFreak</em>. See <a href="https://torrentfreak.com/new-lawsuit-demands-isp-blockades-against-pirate-site-sci-hub-170629/" class="uri">https://torrentfreak.com/new-lawsuit-demands-isp-blockades-against-pirate-site-sci-hub-170629/</a>.</p>
+</div>
+<div id="ref-POar53EX">
+<p>34. Attison L. B III, David E. W, Matthew J. G. 2017 Complaint – Document #1 of American Chemical Society v. Sci-Hub – Case 1:17-cv-00726-LMB-JFA. <em>Eastern District Court of Virginia</em>. See <a href="https://www.documentcloud.org/documents/3879464-2017-06-23-ACS-Sci-Hub-Complaint.html" class="uri">https://www.documentcloud.org/documents/3879464-2017-06-23-ACS-Sci-Hub-Complaint.html</a>.</p>
+</div>
+<div id="ref-ynhlmOBH">
+<p>35. Van Noorden R. 2015 Nature owner merges with publishing giant. <em>Nature</em> See <a href="https://doi.org/10.1038/nature.2015.16731" class="uri">https://doi.org/10.1038/nature.2015.16731</a>.</p>
+</div>
+<div id="ref-17rORqxsI">
+<p>36. Gardner GJ, McLaughlin SR, Asher AD. 2017 Shadow Libraries and You: Sci-Hub Usage and the Future of ILL. See <a href="https://hdl.handle.net/10760/30981" class="uri">https://hdl.handle.net/10760/30981</a>.</p>
+</div>
+<div id="ref-uBm4Sor6">
+<p>37. Greshake B. In press. Correlating the Sci-Hub data with World Bank Indicators and Identifying Academic Use. <em>The Winnower</em>. See <a href="https://doi.org/10.15200/winn.146485.57797" class="uri">https://doi.org/10.15200/winn.146485.57797</a>.</p>
+</div>
+<div id="ref-iLKgjFDu">
+<p>38. Greshake B. 2017 Looking into Pandora’s Box: The Content of Sci-Hub and its Usage. <em>F1000Research</em> <strong>6</strong>, 541. See <a href="https://doi.org/10.12688/f1000research.11366.1" class="uri">https://doi.org/10.12688/f1000research.11366.1</a>.</p>
+</div>
+<div id="ref-nnSxBFFr">
+<p>39. Greshake B. 2017 Data And Scripts For Looking Into Pandora’S Box: The Content Of Sci-Hub And Its Usage. See <a href="https://doi.org/10.5281/zenodo.472493" class="uri">https://doi.org/10.5281/zenodo.472493</a>.</p>
+</div>
+<div id="ref-xn59qVAG">
+<p>40. Rovner SL. 2014 Online Access To ACS Publications Is Restored After Some Customers Were Unintentionally Blocked | Chemical &amp; Engineering News. See <a href="http://cen.acs.org/articles/92/web/2014/04/Online-Access-ACS-Publications-Restored.html" class="uri">http://cen.acs.org/articles/92/web/2014/04/Online-Access-ACS-Publications-Restored.html</a>.</p>
+</div>
+<div id="ref-d9g1ZhPz">
+<p>41. Becker R. 2016 Publisher under fire for fake article webpages. <em>Nature</em> <strong>535</strong>, 11–11. See <a href="https://doi.org/10.1038/535011f" class="uri">https://doi.org/10.1038/535011f</a>.</p>
+</div>
+<div id="ref-1EZBJN9ej">
+<p>42. Woltermann A. 2015 Declaration in Support of Motion – Document #8 Attachment #23 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS. <em>Southern District Court of New York</em>. See <a href="https://www.courtlistener.com/docket/4355308/8/23/elsevier-inc-v-sci-hub/" class="uri">https://www.courtlistener.com/docket/4355308/8/23/elsevier-inc-v-sci-hub/</a>.</p>
+</div>
+<div id="ref-102oWwJt1">
+<p>43. Lawson S. 2017 Access, ethics and piracy. <em>Insights the UKSG journal</em> <strong>30</strong>, 25–30. See <a href="https://doi.org/10.1629/uksg.333" class="uri">https://doi.org/10.1629/uksg.333</a>.</p>
+</div>
+<div id="ref-16kozZ9Ys">
+<p>44. Benet J. 2014 IPFS - content addressed, versioned, p2p file system. See <a href="https://arxiv.org/abs/1407.3561v1" class="uri">https://arxiv.org/abs/1407.3561v1</a>.</p>
+</div>
+<div id="ref-5gyFSQse">
+<p>45. ConsenSys. 2016 Decentralized Storage: The Backbone of the Third Web. <em>ConsenSys Media</em>. See <a href="https://media.consensys.net/decentralized-storage-the-backbone-of-the-third-web-d4bc54e79700" class="uri">https://media.consensys.net/decentralized-storage-the-backbone-of-the-third-web-d4bc54e79700</a>.</p>
+</div>
+<div id="ref-2TjdrEPp">
+<p>46. Bodó B. 2016 Pirates in the Library – An Inquiry into the Guerilla Open Access Movement. In <em>8th Annual Workshop of the International Society for the History and Theory of Intellectual Property, CREATe</em>, See <a href="https://doi.org/10.2139/ssrn.2816925" class="uri">https://doi.org/10.2139/ssrn.2816925</a>.</p>
+</div>
+<div id="ref-R9mR68Y4">
+<p>47. Bodó B. 2015 Libraries in the Post-Scarcity Era. In <em>Copyrighting Creativity: Creative values, Cultural Heritage Institutions and Systems of Intellectual Property</em> (ed H Porsdam), See <a href="https://doi.org/10.2139/ssrn.2616636" class="uri">https://doi.org/10.2139/ssrn.2616636</a>.</p>
+</div>
+<div id="ref-xkkXadRh">
+<p>48. Laskow S. 2016 The Rise of Pirate Libraries. <em>Atlas Obscura</em>. See <a href="http://www.atlasobscura.com/articles/the-rise-of-illegal-pirate-libraries" class="uri">http://www.atlasobscura.com/articles/the-rise-of-illegal-pirate-libraries</a>.</p>
+</div>
+<div id="ref-wnNilBvm">
+<p>49. Schiermeier Q, Mega ER. 2016 Scientists in Germany, Peru and Taiwan to lose access to Elsevier journals. <em>Nature</em> <strong>541</strong>, 13–13. See <a href="https://doi.org/10.1038/nature.2016.21223" class="uri">https://doi.org/10.1038/nature.2016.21223</a>.</p>
+</div>
+<div id="ref-uKvlPbm2">
+<p>50. Vogel G. 2016 Thousands of German researchers set to lose access to Elsevier journals. <em>Science</em> See <a href="https://doi.org/10.1126/science.aal0552" class="uri">https://doi.org/10.1126/science.aal0552</a>.</p>
+</div>
+<div id="ref-12rSJsEKK">
+<p>51. Lawson S, Meghreblian B, Brook M. 2015 Journal subscription costs - FOIs to UK universities. See <a href="https://doi.org/10.6084/m9.figshare.1186832.v23" class="uri">https://doi.org/10.6084/m9.figshare.1186832.v23</a>.</p>
+</div>
+<div id="ref-GWp5Zx0w">
+<p>52. Lawson S. 2017 Journal subscription expenditure in the UK 2015-16. See <a href="https://doi.org/10.6084/m9.figshare.4542433.v6" class="uri">https://doi.org/10.6084/m9.figshare.4542433.v6</a>.</p>
+</div>
+<div id="ref-8mg1a0YE">
+<p>53. Dunn AG, Coiera E, Mandl KD. 2014 Is Biblioleaks Inevitable? <em>Journal of Medical Internet Research</em> <strong>16</strong>, e112. See <a href="https://doi.org/10.2196/jmir.3331" class="uri">https://doi.org/10.2196/jmir.3331</a>.</p>
+</div>
+<div id="ref-DCZkZXsz">
+<p>54. Elbakyan A. 2016 Why Sci-Hub is the true solution for Open Access: reply to criticism. <em>Engineuring</em>. See <a href="https://engineuring.wordpress.com/2016/02/24/why-sci-hub-is-the-true-solution-for-open-access-reply-to-criticism/" class="uri">https://engineuring.wordpress.com/2016/02/24/why-sci-hub-is-the-true-solution-for-open-access-reply-to-criticism/</a>.</p>
+</div>
+<div id="ref-cunYx7X4">
+<p>55. Eve Martin Paul, de Vries Saskia C.J., Rooryck Johan. 2017 The Transition to Open Access: The State of the Market, Offsetting Deals, and a Demonstrated Model for Fair Open Access with the Open Library of Humanities. <em>STAL</em> <strong>0</strong>, 118–128. See <a href="https://doi.org/10.3233/978-1-61499-769-6-118" class="uri">https://doi.org/10.3233/978-1-61499-769-6-118</a>.</p>
+</div>
+<div id="ref-1BW4FtNLl">
+<p>56. Westergaard D, Stærfeldt H-H, Tønsberg C, Jensen LJ, Brunak S. 2017 Text mining of 15 million full-text scientific articles. See <a href="https://doi.org/10.1101/162099" class="uri">https://doi.org/10.1101/162099</a>.</p>
+</div>
+<div id="ref-llK8SMam">
+<p>57. Brook M, Murray-Rust P, Oppenheim C. 2014 The Social, Political and Legal Aspects of Text and Data Mining (TDM). <em>D-Lib Magazine</em> <strong>20</strong>. See <a href="https://doi.org/10.1045/november14-brook" class="uri">https://doi.org/10.1045/november14-brook</a>.</p>
+</div>
+<div id="ref-I6O7IKP7">
+<p>58. Van Noorden R. 2012 Trouble at the text mine. <em>Nature</em> <strong>483</strong>, 134–135. See <a href="https://doi.org/10.1038/483134a" class="uri">https://doi.org/10.1038/483134a</a>.</p>
+</div>
+<div id="ref-tJKvnIaZ">
+<p>59. Ching T <em>et al.</em> 2017 Opportunities And Obstacles For Deep Learning In Biology And Medicine. See <a href="https://doi.org/10.1101/142760" class="uri">https://doi.org/10.1101/142760</a>.</p>
+</div>
+<div id="ref-Qh7xTLwz">
+<p>60. Beaulieu-Jones BK, Greene CS. 2017 Reproducibility of computational workflows is automated using continuous analysis. <em>Nature Biotechnology</em> <strong>35</strong>, 342–346. See <a href="https://doi.org/10.1038/nbt.3780" class="uri">https://doi.org/10.1038/nbt.3780</a>.</p>
+</div>
+<div id="ref-8zeVK2hX">
+<p>61. 2017 DOI® Handbook. <em>International DOI Foundation</em>. See <a href="https://doi.org/10.1000/182" class="uri">https://doi.org/10.1000/182</a>.</p>
+</div>
+<div id="ref-JDfJRWbr">
+<p>62. Wang J. 2007 Digital Object Identifiers and Their Use in Libraries. <em>Serials Review</em> <strong>33</strong>, 161–164. See <a href="https://doi.org/10.1080/00987913.2007.10765116" class="uri">https://doi.org/10.1080/00987913.2007.10765116</a>.</p>
+</div>
+<div id="ref-HhEZiSSR">
+<p>63. van Leewenhoeck A. 1677 Observations, Communicated to the Publisher by Mr. Antony van Leewenhoeck, in a Dutch Letter of the 9th of Octob. 1676. Here English’d: concerning Little Animals by Him Observed in Rain-Well-Sea. and Snow Water; as Also in Water Wherein Pepper Had Lain Infused. <em>Philosophical Transactions of the Royal Society of London</em> <strong>12</strong>, 821–831. See <a href="https://doi.org/10.1098/rstl.1677.0003" class="uri">https://doi.org/10.1098/rstl.1677.0003</a>.</p>
+</div>
+<div id="ref-9sCtTvlE">
+<p>64. Gorraiz J, Melero-Fuentes D, Gumpenberger C, Valderrama-Zurián J-C. 2016 Availability of digital object identifiers (DOIs) in Web of Science and Scopus. <em>Journal of Informetrics</em> <strong>10</strong>, 98–109. See <a href="https://doi.org/10.1016/j.joi.2015.11.008" class="uri">https://doi.org/10.1016/j.joi.2015.11.008</a>.</p>
+</div>
+<div id="ref-10zxQMO6J">
+<p>65. Boudry C, Chartron G. 2017 Availability of digital object identifiers in publications archived by PubMed. <em>Scientometrics</em> <strong>110</strong>, 1453–1469. See <a href="https://doi.org/10.1007/s11192-016-2225-6" class="uri">https://doi.org/10.1007/s11192-016-2225-6</a>.</p>
+</div>
+<div id="ref-LS0mB1CD">
+<p>66. 2012 BS ISO 26324:2012. Information and documentation. Digital object identifier system. <em>BSI British Standards</em>. See <a href="https://doi.org/10.3403/30177056" class="uri">https://doi.org/10.3403/30177056</a>.</p>
+</div>
+<div id="ref-Eq78IAX4">
+<p>67. Lammey R. 2014 CrossRef developments and initiatives: an update on services for the scholarly publishing community from CrossRef. <em>Science Editing</em> <strong>1</strong>, 13–18. See <a href="https://doi.org/10.6087/kcse.2014.1.13" class="uri">https://doi.org/10.6087/kcse.2014.1.13</a>.</p>
+</div>
+<div id="ref-aUCPtxQc">
+<p>68. Kikkawa J, Takaku M, Yoshikane F. 2016 DOI Links on Wikipedia. In <em>Digital Libraries: Knowledge, Information, and Data in an Open Access Society</em>, pp. 369–380. Springer International Publishing. See <a href="https://doi.org/10.1007/978-3-319-49304-6_40" class="uri">https://doi.org/10.1007/978-3-319-49304-6_40</a>.</p>
+</div>
+<div id="ref-1E6E4mpZ">
+<p>69. Himmelstein D, Wheeler K, Greene C. 2017 Metadata for all DOIs in Crossref: JSON MongoDB exports of all works from the Crossref API. See <a href="https://doi.org/10.6084/m9.figshare.4816720.v1" class="uri">https://doi.org/10.6084/m9.figshare.4816720.v1</a>.</p>
+</div>
+<div id="ref-AeHqdtRV">
+<p>70. Elbakyan A, Bohannon J. 2016 IPython Notebook for Sci-Hub raw data. See <a href="https://doi.org/10.5061/dryad.q447c/2" class="uri">https://doi.org/10.5061/dryad.q447c/2</a>.</p>
+</div>
+</div>
+<script>
+// AnchorJS minified version below.
+// Source https://github.com/bryanbraun/anchorjs/blob/064abdd0987f305933ec4982af6d0c1cf2fd0814/anchor.js
+
+/**
+ * AnchorJS - v4.0.0 - 2017-06-02
+ * https://github.com/bryanbraun/anchorjs
+ * Copyright (c) 2017 Bryan Braun; Licensed MIT
+ */
+!function(A,e){"use strict";"function"==typeof define&&define.amd?define([],e):"object"==typeof module&&module.exports?module.exports=e():(A.AnchorJS=e(),A.anchors=new A.AnchorJS)}(this,function(){"use strict";function A(A){function e(A){A.icon=A.hasOwnProperty("icon")?A.icon:"",A.visible=A.hasOwnProperty("visible")?A.visible:"hover",A.placement=A.hasOwnProperty("placement")?A.placement:"right",A.class=A.hasOwnProperty("class")?A.class:"",A.truncate=A.hasOwnProperty("truncate")?Math.floor(A.truncate):64}function t(A){var e;if("string"==typeof A||A instanceof String)e=[].slice.call(document.querySelectorAll(A));else{if(!(Array.isArray(A)||A instanceof NodeList))throw new Error("The selector provided to AnchorJS was invalid.");e=[].slice.call(A)}return e}function n(){if(null===document.head.querySelector("style.anchorjs")){var A,e=document.createElement("style");e.className="anchorjs",e.appendChild(document.createTextNode("")),void 0===(A=document.head.querySelector('[rel="stylesheet"], style'))?document.head.appendChild(e):document.head.insertBefore(e,A),e.sheet.insertRule(" .anchorjs-link {   opacity: 0;   text-decoration: none;   -webkit-font-smoothing: antialiased;   -moz-osx-font-smoothing: grayscale; }",e.sheet.cssRules.length),e.sheet.insertRule(" *:hover > .anchorjs-link, .anchorjs-link:focus  {   opacity: 1; }",e.sheet.cssRules.length),e.sheet.insertRule(" [data-anchorjs-icon]::after {   content: attr(data-anchorjs-icon); }",e.sheet.cssRules.length),e.sheet.insertRule(' @font-face {   font-family: "anchorjs-icons";   src: url(data:n/a;base64,AAEAAAALAIAAAwAwT1MvMg8yG2cAAAE4AAAAYGNtYXDp3gC3AAABpAAAAExnYXNwAAAAEAAAA9wAAAAIZ2x5ZlQCcfwAAAH4AAABCGhlYWQHFvHyAAAAvAAAADZoaGVhBnACFwAAAPQAAAAkaG10eASAADEAAAGYAAAADGxvY2EACACEAAAB8AAAAAhtYXhwAAYAVwAAARgAAAAgbmFtZQGOH9cAAAMAAAAAunBvc3QAAwAAAAADvAAAACAAAQAAAAEAAHzE2p9fDzz1AAkEAAAAAADRecUWAAAAANQA6R8AAAAAAoACwAAAAAgAAgAAAAAAAAABAAADwP/AAAACgAAA/9MCrQABAAAAAAAAAAAAAAAAAAAAAwABAAAAAwBVAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAMCQAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAg//0DwP/AAEADwABAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAAIAAAACgAAxAAAAAwAAAAMAAAAcAAEAAwAAABwAAwABAAAAHAAEADAAAAAIAAgAAgAAACDpy//9//8AAAAg6cv//f///+EWNwADAAEAAAAAAAAAAAAAAAAACACEAAEAAAAAAAAAAAAAAAAxAAACAAQARAKAAsAAKwBUAAABIiYnJjQ3NzY2MzIWFxYUBwcGIicmNDc3NjQnJiYjIgYHBwYUFxYUBwYGIwciJicmNDc3NjIXFhQHBwYUFxYWMzI2Nzc2NCcmNDc2MhcWFAcHBgYjARQGDAUtLXoWOR8fORYtLTgKGwoKCjgaGg0gEhIgDXoaGgkJBQwHdR85Fi0tOAobCgoKOBoaDSASEiANehoaCQkKGwotLXoWOR8BMwUFLYEuehYXFxYugC44CQkKGwo4GkoaDQ0NDXoaShoKGwoFBe8XFi6ALjgJCQobCjgaShoNDQ0NehpKGgobCgoKLYEuehYXAAAADACWAAEAAAAAAAEACAAAAAEAAAAAAAIAAwAIAAEAAAAAAAMACAAAAAEAAAAAAAQACAAAAAEAAAAAAAUAAQALAAEAAAAAAAYACAAAAAMAAQQJAAEAEAAMAAMAAQQJAAIABgAcAAMAAQQJAAMAEAAMAAMAAQQJAAQAEAAMAAMAAQQJAAUAAgAiAAMAAQQJAAYAEAAMYW5jaG9yanM0MDBAAGEAbgBjAGgAbwByAGoAcwA0ADAAMABAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAH//wAP) format("truetype"); }',e.sheet.cssRules.length)}}this.options=A||{},this.elements=[],e(this.options),this.isTouchDevice=function(){return!!("ontouchstart"in window||window.DocumentTouch&&document instanceof DocumentTouch)},this.add=function(A){var i,o,s,c,r,a,h,l,u,d,f,g,p=[];if(e(this.options),"touch"===(g=this.options.visible)&&(g=this.isTouchDevice()?"always":"hover"),A||(A="h2, h3, h4, h5, h6"),0===(i=t(A)).length)return this;for(n(),o=document.querySelectorAll("[id]"),s=[].map.call(o,function(A){return A.id}),r=0;r<i.length;r++)if(this.hasAnchorJSLink(i[r]))p.push(r);else{if(i[r].hasAttribute("id"))c=i[r].getAttribute("id");else if(i[r].hasAttribute("data-anchor-id"))c=i[r].getAttribute("data-anchor-id");else{u=l=this.urlify(i[r].textContent),h=0;do{void 0!==a&&(u=l+"-"+h),a=s.indexOf(u),h+=1}while(-1!==a);a=void 0,s.push(u),i[r].setAttribute("id",u),c=u}d=c.replace(/-/g," "),(f=document.createElement("a")).className="anchorjs-link "+this.options.class,f.href="#"+c,f.setAttribute("aria-label","Anchor link for: "+d),f.setAttribute("data-anchorjs-icon",this.options.icon),"always"===g&&(f.style.opacity="1"),""===this.options.icon&&(f.style.font="1em/1 anchorjs-icons","left"===this.options.placement&&(f.style.lineHeight="inherit")),"left"===this.options.placement?(f.style.position="absolute",f.style.marginLeft="-1em",f.style.paddingRight="0.5em",i[r].insertBefore(f,i[r].firstChild)):(f.style.paddingLeft="0.375em",i[r].appendChild(f))}for(r=0;r<p.length;r++)i.splice(p[r]-r,1);return this.elements=this.elements.concat(i),this},this.remove=function(A){for(var e,n,i=t(A),o=0;o<i.length;o++)(n=i[o].querySelector(".anchorjs-link"))&&(-1!==(e=this.elements.indexOf(i[o]))&&this.elements.splice(e,1),i[o].removeChild(n));return this},this.removeAll=function(){this.remove(this.elements)},this.urlify=function(A){var t=/[& +$,:;=?@"#{}|^~[`%!'<>\]\.\/\(\)\*\\]/g;return this.options.truncate||e(this.options),A.trim().replace(/\'/gi,"").replace(t,"-").replace(/-{2,}/g,"-").substring(0,this.options.truncate).replace(/^-+|-+$/gm,"").toLowerCase()},this.hasAnchorJSLink=function(A){var e=A.firstChild&&(" "+A.firstChild.className+" ").indexOf(" anchorjs-link ")>-1,t=A.lastChild&&(" "+A.lastChild.className+" ").indexOf(" anchorjs-link ")>-1;return e||t||!1}}return A});
+
+// Enable links for selected headers
+var anchors = new AnchorJS();
+anchors.add("h2, h3, h4")
+</script>
+</body>
+</html>
