@@ -27,9 +27,9 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 _A DOI-citable version of this manuscript is available at <https://doi.org/10.7554/eLife.32822>_.<small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@4b4d238](https://github.com/greenelab/scihub-manuscript/tree/4b4d238a79eda4e0516094514ffd2422b919d76c)
+from [greenelab/scihub-manuscript@8e538a9](https://github.com/greenelab/scihub-manuscript/tree/8e538a98e4f16bab632c00efb1fb4f1b23a1c122)
 on February 18, 2018.
-The permalink for this manuscript version is <https://greenelab.github.io/scihub-manuscript/v/4b4d238a79eda4e0516094514ffd2422b919d76c/>.
+The permalink for this manuscript version is <https://greenelab.github.io/scihub-manuscript/v/8e538a98e4f16bab632c00efb1fb4f1b23a1c122/>.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
 
@@ -779,7 +779,7 @@ Readers should note that this implementation [likely undercounts](https://github
 
 [OpenCitations](http://opencitations.net) is an public domain resource containing scholarly citation data [@H2hXqKsr].
 OpenCitations extracts its information from the Open Access Subset of PubMed Central.
-In the [greenelab/opencitations](https://github.com/greenelab/opencitations) repository, we processed the July 25, 2017 OpenCitations data release [@n73t9GPC @10hS1L2vZ; @1EcDRAPGi], creating a DOI–cites–DOI catalog of bibliographic references.
+In the [greenelab/opencitations](https://github.com/greenelab/opencitations) repository, we processed the July 25, 2017 OpenCitations data release [@n73t9GPC; @10hS1L2vZ; @1EcDRAPGi], creating a DOI–cites–DOI catalog of bibliographic references.
 For quality control, we removed DOIs that were not part of the Crossref-derived catalog of articles.
 Furthermore, we removed outgoing citations from articles published before 2015.
 Incoming citations to articles predating 2015 were not removed.
