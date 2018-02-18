@@ -7,7 +7,7 @@ author-meta:
 - Stephen Reid McLaughlin
 - Bastian Greshake Tzovaras
 - Casey S. Greene
-date-meta: '2018-02-16'
+date-meta: '2018-02-18'
 keywords:
 - Sci-Hub
 - publishing
@@ -27,9 +27,9 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 _A DOI-citable version of this manuscript is available at <https://doi.org/10.7554/eLife.32822>_.<small><em>
 This manuscript was automatically generated
-from [greenelab/scihub-manuscript@3aca7cc](https://github.com/greenelab/scihub-manuscript/tree/3aca7cc215743b4ce3e471e6cc2227fbf0c31a20)
-on February 16, 2018.
-The permalink for this manuscript version is <https://greenelab.github.io/scihub-manuscript/v/3aca7cc215743b4ce3e471e6cc2227fbf0c31a20/>.
+from [greenelab/scihub-manuscript@4b4d238](https://github.com/greenelab/scihub-manuscript/tree/4b4d238a79eda4e0516094514ffd2422b919d76c)
+on February 18, 2018.
+The permalink for this manuscript version is <https://greenelab.github.io/scihub-manuscript/v/4b4d238a79eda4e0516094514ffd2422b919d76c/>.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
 
@@ -204,7 +204,7 @@ The statutory damages, which the defendants do not intend to pay, now bear inter
 + **Ⓘ** The American Chemical Society files suit against Sci-Hub in the U.S. District Court for the Eastern District of Virginia.
 Their "prayer for relief" requests that Internet search engines and Internet service providers "cease facilitating access" to Sci-Hub [@17REO8hrA; @Ia7JSsBI].
 + **Ⓙ** The version 1 preprint of this study is published [@11cb5HXoY], generating headlines such as _Science_'s "subscription journals are doomed" [@sheBR4X4] and _Inside Higher Ed_'s "Inevitably Open" [@NIBjp6R1].
-+ **Ⓚ** Sci-Hub blocks access to Russian IP addresses due to disputes with the Russian Scientific establishment and the naming of a newly discovered parasitoid wasp species, _Idiogramma elbakyanae_, after Alexandra Elbakyan [@PxpGmdxJ @1Fdmn0XsW].
++ **Ⓚ** Sci-Hub blocks access to Russian IP addresses due to disputes with the Russian Scientific establishment and the naming of a newly discovered parasitoid wasp species, _Idiogramma elbakyanae_, after Alexandra Elbakyan [@PxpGmdxJ; @1Fdmn0XsW].
 Four days later, Sci-Hub restores access after receiving "many letters of support from Russian researchers" [@GLDH745f].
 + **Ⓛ** The court rules on the American Chemical Society suit, ordering Sci-Hub to pay $4.8 million in damages and that "any person or entity in active concert or participation" with Sci-Hub "including any Internet search engines, web hosting and Internet service providers, domain name registrars, and domain name registries, cease facilitating access" [@WBnZqVXT; @XI4kiPR4].
 Within five weeks, the domains sci-hub.io, sci-hub.ac, sci-hub.cc, and sci-hub.bz were suspended by their respective domain name registries [@pmrIfHRq], leaving only the Tor hidden service and several newly-registered/revealed domains in operation.
@@ -446,7 +446,7 @@ Although oaDOI's overall access rate was 37.0% [36.8%–37.2%], this access cons
 
 Sci-Hub and Penn had similar coverage on all articles:
 85.2% [81.9%–88.1%] versus 87.4% [84.3%–90.1%] on the manual article set and 84.8% [84.7%–84.9%] versus 84.4% [84.3%–84.5%] on the larger but automated set.
-However, when considering only toll access articles, Sci-Hub's coverage exceeds Penn's: 
+However, when considering only toll access articles, Sci-Hub's coverage exceeds Penn's:
 94.2% [91.2%–96.3%] versus 80.7% [76.1%–84.7%] on the manual set and 90.7% [90.5%–90.8%] versus 83.5% [83.4%–83.7%] on the automated set.
 This reflects Sci-Hub's focus on paywalled articles.
 In addition, Sci-Hub's coverage is a lower bound for its access rate, since it can retrieve articles on demand, so in practice Sci-Hub's access to toll access articles could exceed Penn's by a higher margin.
@@ -736,7 +736,7 @@ While we agree this is most likely the case, confirmation is needed that the bul
 
 ![
 **Number of articles in LibGen scimag over time.**
-The figure shows the number of articles in LibGen scimag, according to its `TimeAdded` field, for two database dumps. 
+The figure shows the number of articles in LibGen scimag, according to its `TimeAdded` field, for two database dumps.
 The number of articles added per day for the January 1, 2014 LibGen database dump was [provided](https://github.com/greenelab/scihub/issues/8#issuecomment-296719787) by Cabanac and corresponds to Figure 1 of @18KKRwlN6.
 Notice the major discrepancy whereby articles from the April 7, 2017 database dump were added at later dates.
 Accordingly, we hypothesize that the `TimeAdded` field is replaced upon modification, making it impossible to assess date of first upload.
