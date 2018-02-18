@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/greenelab/scihub-manuscript/tree/gh-pages) branch hosts the contents of this directory at https://greenelab.github.io/scihub-manuscript/.
-The permalink for this webpage version is https://greenelab.github.io/scihub-manuscript/v/4b4d238a79eda4e0516094514ffd2422b919d76c/.
+The permalink for this webpage version is https://greenelab.github.io/scihub-manuscript/v/8e538a98e4f16bab632c00efb1fb4f1b23a1c122/.
 To redirect to the permalink for the latest manuscript version at anytime, use the link https://greenelab.github.io/scihub-manuscript/v/freeze/.
 
 ## Files
@@ -32,4 +32,4 @@ git add v/*/*.ots
 ## Source
 
 The manuscripts in this directory were built from
-[`4b4d238a79eda4e0516094514ffd2422b919d76c`](https://github.com/greenelab/scihub-manuscript/commit/4b4d238a79eda4e0516094514ffd2422b919d76c).
+[`8e538a98e4f16bab632c00efb1fb4f1b23a1c122`](https://github.com/greenelab/scihub-manuscript/commit/8e538a98e4f16bab632c00efb1fb4f1b23a1c122).
