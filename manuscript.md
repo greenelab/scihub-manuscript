@@ -25,11 +25,11 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 
 
-_A DOI-citable version of this manuscript is available at <https://doi.org/10.7554/eLife.32822>_.<small><em>
+This study was published in _eLife_ on February 9, 2018 at <https://doi.org/10.7554/eLife.32822>.<small><em>
 This manuscript
-([permalink](https://greenelab.github.io/scihub-manuscript/v/fe62433ad4d31d1c324a64cab648686d9a40a3d0/))
+([permalink](https://greenelab.github.io/scihub-manuscript/v/9a6387b9e091d4a658573d924de44053cb1f4c2a/))
 was automatically generated
-from [greenelab/scihub-manuscript@fe62433](https://github.com/greenelab/scihub-manuscript/tree/fe62433ad4d31d1c324a64cab648686d9a40a3d0)
+from [greenelab/scihub-manuscript@9a6387b](https://github.com/greenelab/scihub-manuscript/tree/9a6387b9e091d4a658573d924de44053cb1f4c2a)
 on March 20, 2019.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
