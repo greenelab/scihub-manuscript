@@ -27,9 +27,9 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 This study was published in _eLife_ on February 9, 2018 at <https://doi.org/10.7554/eLife.32822>.<small><em>
 This manuscript
-([permalink](https://greenelab.github.io/scihub-manuscript/v/9a6387b9e091d4a658573d924de44053cb1f4c2a/))
+([permalink](https://greenelab.github.io/scihub-manuscript/v/c43168250c23fe5fa5ed8b535e9702f15ecf61a2/))
 was automatically generated
-from [greenelab/scihub-manuscript@9a6387b](https://github.com/greenelab/scihub-manuscript/tree/9a6387b9e091d4a658573d924de44053cb1f4c2a)
+from [greenelab/scihub-manuscript@c431682](https://github.com/greenelab/scihub-manuscript/tree/c43168250c23fe5fa5ed8b535e9702f15ecf61a2)
 on March 20, 2019.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
@@ -184,7 +184,7 @@ Light blue indicates the collection period of the Sci-Hub access logs that we an
 Based on these logs and newly released logs for 2017, Figure @fig:downloads shows the number of articles downloaded from Sci-Hub over time, providing an alternative look into Sci-Hub's growth.
 The first pink dotted line represents the collection date of the LibGen scimag metadata used in Cabanac's study [@18KKRwlN6; @GxWkjeN2].
 The second pink dotted line shows the date of Sci-Hub's tweeted DOI catalog used in this study.
-](https://cdn.rawgit.com/greenelab/scihub/e35cc7b0d3b6dd65bf8ce18945007d2b44a6be1e/explore/trends/google-trends.png){#fig:history width="100%"}
+](https://cdn.rawgit.com/greenelab/scihub/e35cc7b0d3b6dd65bf8ce18945007d2b44a6be1e/explore/trends/google-trends.png){#fig:history width="100%" .white}
 
 In Figure @fig:history, The ⓛⓔⓣⓣⓔⓡⓢ refer to the following events:
 
@@ -741,7 +741,7 @@ The figure shows the number of articles in LibGen scimag, according to its `Time
 The number of articles added per day for the January 1, 2014 LibGen database dump was [provided](https://github.com/greenelab/scihub/issues/8#issuecomment-296719787) by Cabanac and corresponds to Figure 1 of @18KKRwlN6.
 Notice the major discrepancy whereby articles from the April 7, 2017 database dump were added at later dates.
 Accordingly, we hypothesize that the `TimeAdded` field is replaced upon modification, making it impossible to assess date of first upload.
-](https://cdn.rawgit.com/greenelab/scihub/e35cc7b0d3b6dd65bf8ce18945007d2b44a6be1e/figure/libgen-cumulative-works.svg){#fig:libgen-size width="4in"}
+](https://cdn.rawgit.com/greenelab/scihub/e35cc7b0d3b6dd65bf8ce18945007d2b44a6be1e/figure/libgen-cumulative-works.svg){#fig:libgen-size width="4in" .white}
 
 ### Sci-Hub's catalog of articles
 
@@ -865,7 +865,7 @@ For example, coverage for 2016 articles exceeded 50% within 6 months, but appear
 Alternatively, coverage for 2014 took 15 months to exceed 50%, but has since reached 75%.
 However, this signal could result from post-dated LibGen upload timestamps.
 Therefore, we caution against drawing any conclusions from the `TimeAdded` field in LibGen scimag until its accuracy can be established more reliably.
-](https://cdn.rawgit.com/greenelab/scihub/e35cc7b0d3b6dd65bf8ce18945007d2b44a6be1e/figure/libgen-monthly-lagtimes.svg){#fig:libgen-lag tag="11—figure supplement 1" width="100%"}
+](https://cdn.rawgit.com/greenelab/scihub/e35cc7b0d3b6dd65bf8ce18945007d2b44a6be1e/figure/libgen-monthly-lagtimes.svg){#fig:libgen-lag tag="11—figure supplement 1" width="100%" .white}
 
 
 ## Acknowledgements

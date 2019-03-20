@@ -2716,18 +2716,24 @@
     "id": "9JroGcRn"
   },
   {
-    "type": "webpage",
-    "title": "Ð’ÐµÑ€Ð½ÑƒÑ‚ÑŒ Sci-Hub | Ð�Ð»Ð»Ð° Ð�Ñ�Ñ‚Ð°Ñ…Ð¾Ð²Ð°.Ru",
-    "URL": "http://alla-astakhova.ru/sci-hub/",
-    "accessed": {
+    "title": "Вернуть Sci-Hub",
+    "container-title": "Status Prаеsens",
+    "issued": {
       "date-parts": [
         [
-          "2019",
-          3,
-          20
+          2017,
+          9,
+          12
         ]
       ]
     },
+    "author": [
+      {
+        "family": "Астахова",
+        "given": "Алла"
+      }
+    ],
+    "type": "webpage",
     "id": "GLDH745f"
   },
   {
