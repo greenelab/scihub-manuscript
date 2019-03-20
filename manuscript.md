@@ -7,7 +7,7 @@ author-meta:
 - Stephen Reid McLaughlin
 - Bastian Greshake Tzovaras
 - Casey S. Greene
-date-meta: '2018-02-18'
+date-meta: '2019-03-20'
 keywords:
 - Sci-Hub
 - publishing
@@ -26,10 +26,11 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 
 _A DOI-citable version of this manuscript is available at <https://doi.org/10.7554/eLife.32822>_.<small><em>
-This manuscript was automatically generated
-from [greenelab/scihub-manuscript@8e538a9](https://github.com/greenelab/scihub-manuscript/tree/8e538a98e4f16bab632c00efb1fb4f1b23a1c122)
-on February 18, 2018.
-The permalink for this manuscript version is <https://greenelab.github.io/scihub-manuscript/v/8e538a98e4f16bab632c00efb1fb4f1b23a1c122/>.
+This manuscript
+([permalink](https://greenelab.github.io/scihub-manuscript/v/fe62433ad4d31d1c324a64cab648686d9a40a3d0/))
+was automatically generated
+from [greenelab/scihub-manuscript@fe62433](https://github.com/greenelab/scihub-manuscript/tree/fe62433ad4d31d1c324a64cab648686d9a40a3d0)
+on March 20, 2019.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
 
@@ -38,11 +39,11 @@ Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on 
 
 
 + **Daniel S. Himmelstein**<br>
-    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-3012-7446](https://orcid.org/0000-0002-3012-7446)
-    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    · ![GitHub icon](images/github.svg){.inline_icon}
     [dhimmel](https://github.com/dhimmel)
-    · ![Twitter icon](images/twitter.svg){height="13px" width="13px"}
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
     [dhimmel](https://twitter.com/dhimmel)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
@@ -50,62 +51,62 @@ Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on 
   </small>
 
 + **Ariel Rodriguez Romero**<br>
-    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0003-2290-4927](https://orcid.org/0000-0003-2290-4927)
-    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    · ![GitHub icon](images/github.svg){.inline_icon}
     [arielsvn](https://github.com/arielsvn)
-    · ![Twitter icon](images/twitter.svg){height="13px" width="13px"}
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
     [arielswn](https://twitter.com/arielswn)<br>
   <small>
      Bidwise, Inc
   </small>
 
 + **Jacob G. Levernier**<br>
-    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0003-1563-7314](https://orcid.org/0000-0003-1563-7314)
-    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    · ![GitHub icon](images/github.svg){.inline_icon}
     [publicus](https://github.com/publicus)<br>
   <small>
      Library Technology Services and Strategic Initiatives, University of Pennsylvania Libraries
   </small>
 
 + **Thomas Anthony Munro**<br>
-    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-3366-7149](https://orcid.org/0000-0002-3366-7149)
-    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    · ![GitHub icon](images/github.svg){.inline_icon}
     [tamunro](https://github.com/tamunro)<br>
   <small>
      School of Life and Environmental Sciences, Deakin University, Melbourne, Australia
   </small>
 
 + **Stephen Reid McLaughlin**<br>
-    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-9888-3168](https://orcid.org/0000-0002-9888-3168)
-    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    · ![GitHub icon](images/github.svg){.inline_icon}
     [stevemclaugh](https://github.com/stevemclaugh)
-    · ![Twitter icon](images/twitter.svg){height="13px" width="13px"}
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
     [SteveMcLaugh](https://twitter.com/SteveMcLaugh)<br>
   <small>
      School of Information, University of Texas at Austin
   </small>
 
 + **Bastian Greshake Tzovaras**<br>
-    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-9925-9623](https://orcid.org/0000-0002-9925-9623)
-    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    · ![GitHub icon](images/github.svg){.inline_icon}
     [gedankenstuecke](https://github.com/gedankenstuecke)
-    · ![Twitter icon](images/twitter.svg){height="13px" width="13px"}
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
     [gedankenstuecke](https://twitter.com/gedankenstuecke)<br>
   <small>
      Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt
   </small>
 
 + **Casey S. Greene**<br>
-    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0001-8713-9213](https://orcid.org/0000-0001-8713-9213)
-    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    · ![GitHub icon](images/github.svg){.inline_icon}
     [cgreene](https://github.com/cgreene)
-    · ![Twitter icon](images/twitter.svg){height="13px" width="13px"}
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
     [GreeneScientist](https://twitter.com/GreeneScientist)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
