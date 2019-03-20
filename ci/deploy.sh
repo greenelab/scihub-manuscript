@@ -31,13 +31,15 @@ git fetch origin gh-pages:gh-pages output:output
 
 # Configure versioned webpage
 python build/webpage.py \
+  --no-ots-cache \
   --checkout=gh-pages \
   --version=$TRAVIS_COMMIT
 
 # Generate OpenTimestamps
-ots stamp \
-  webpage/v/$TRAVIS_COMMIT/index.html \
-  webpage/v/$TRAVIS_COMMIT/manuscript.pdf
+ots stamp webpage/v/$TRAVIS_COMMIT/index.html
+if [ "$BUILD_PDF" != "false" ]; then
+  ots stamp webpage/v/$TRAVIS_COMMIT/manuscript.pdf
+fi
 
 # Commit message
 MESSAGE="\
@@ -47,8 +49,8 @@ This build is based on
 https://github.com/$TRAVIS_REPO_SLUG/commit/$TRAVIS_COMMIT.
 
 This commit was created by the following Travis CI build and job:
-https://travis-ci.org/$TRAVIS_REPO_SLUG/builds/$TRAVIS_BUILD_ID
-https://travis-ci.org/$TRAVIS_REPO_SLUG/jobs/$TRAVIS_JOB_ID
+https://travis-ci.com/$TRAVIS_REPO_SLUG/builds/$TRAVIS_BUILD_ID
+https://travis-ci.com/$TRAVIS_REPO_SLUG/jobs/$TRAVIS_JOB_ID
 
 [ci skip]
 

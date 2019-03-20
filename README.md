@@ -31,10 +31,10 @@ The analyses for the study reside in the separate [`greenelab/scihub`](https://g
 
 Manubot is a system for writing scholarly manuscripts via GitHub.
 Manubot automates citations and references, versions manuscripts using git, and enables collaborative writing via GitHub.
-The [Manubot Rootstock repository](https://git.io/vQSvo) is a general purpose template for creating new Manubot instances, as detailed in [`SETUP.md`](SETUP.md).
+The [rootstock repository](https://git.io/fhQH1) is a general purpose template for creating new Manubot instances, as detailed in [`SETUP.md`](SETUP.md).
 See [`USAGE.md`](USAGE.md) for documentation how to write a manuscript.
 
-Please open [an issue](https://github.com/greenelab/manubot-rootstock/issues) for questions related to Manubot usage, bug reports, or general inquiries.
+Please open [an issue](https://git.io/fhQHM) for questions related to Manubot usage, bug reports, or general inquiries.
 
 ### Repository directories & files
 
@@ -58,12 +58,8 @@ Then, you can build the manuscript on POSIX systems by running the following com
 # Activate the manubot conda environment (assumes conda version >= 4.4)
 conda activate manubot
 
-# Build the manuscript
+# Build the manuscript, saving outputs to the output directory
 sh build/build.sh
-
-# Or monitor the content directory, and automatically rebuild the manuscript
-# when a change is detected.
-sh build/autobuild.sh
 
 # At this point, the HTML & PDF outputs will have been created. The remaining
 # commands are for serving the webpage to view the HTML manuscript locally.
@@ -76,6 +72,13 @@ cd webpage
 python -m http.server
 ```
 
+Sometimes it's helpful to monitor the content directory and automatically rebuild the manuscript when a change is detected.
+The following command, while running, will trigger both the `build.sh` and `webpage.py` scripts upon content changes:
+
+```sh
+sh build/autobuild.sh
+```
+
 ### Continuous Integration
 
 [![Build Status](https://travis-ci.org/greenelab/scihub-manuscript.svg?branch=master)](https://travis-ci.org/greenelab/scihub-manuscript)
@@ -84,7 +87,7 @@ Whenever a pull request is opened, Travis CI will test whether the changes break
 The build process aims to detect common errors, such as invalid citations.
 If your pull request build fails, see the Travis CI logs for the cause of failure and revise your pull request accordingly.
 
-When a commit to the `master` branch occurs (for example, when a pull request is merged), Travis CI builds the manuscript and writes the results to the [`gh-pages`](https://github.com/greenelab/manubot-rootstock/tree/gh-pages) and [`output`](https://github.com/greenelab/manubot-rootstock/tree/output) branches.
+When a commit to the `master` branch occurs (for example, when a pull request is merged), Travis CI builds the manuscript and writes the results to the [`gh-pages`](https://github.com/manubot/rootstock/tree/gh-pages) and [`output`](https://github.com/manubot/rootstock/tree/output) branches.
 The `gh-pages` branch uses [GitHub Pages](https://pages.github.com/) to host the following URLs:
 
 + **HTML manuscript** at https://greenelab.github.io/scihub-manuscript/
@@ -122,9 +125,5 @@ All other files are only available under CC BY 4.0, including:
 + `*.html`
 + `*.pdf`
 + `*.docx`
-
-Except for the following files with different licenses:
-
-+ `build/assets/anchors.js` which is [released](https://www.bryanbraun.com/anchorjs/) under an [MIT License](https://opensource.org/licenses/MIT)
 
 Please open [an issue](https://github.com/greenelab/scihub-manuscript/issues) for any question related to licensing.
