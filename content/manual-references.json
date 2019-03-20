@@ -904,6 +904,27 @@
   "page": "399-400"
 },
 {
+  "standard_citation": "url:http://alla-astakhova.ru/sci-hub/",
+  "title": "Вернуть Sci-Hub",
+  "container-title": "Status Prаеsens",
+  "issued": {
+    "date-parts": [
+      [
+        2017,
+        9,
+        12
+      ]
+    ]
+  },
+  "author": [
+    {
+      "family": "Астахова",
+      "given": "Алла"
+    }
+  ],
+  "type": "webpage"
+},
+{
   "URL": "http://www.theregister.co.uk/2017/11/23/scihubs_become_inactive_following_court_order/",
   "standard_citation": "url:http://www.theregister.co.uk/2017/11/23/scihubs_become_inactive_following_court_order/",
   "title": "Sci-Hub domains inactive following court order",
