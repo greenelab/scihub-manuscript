@@ -2716,6 +2716,33 @@
     "id": "9JroGcRn"
   },
   {
+    "type": "book",
+    "title": "Open access",
+    "collection-title": "MIT Press essential knowledge series",
+    "publisher": "MIT Press",
+    "publisher-place": "Cambridge, Mass",
+    "number-of-pages": "242",
+    "source": "Library of Congress ISBN",
+    "event-place": "Cambridge, Mass",
+    "ISBN": "9780262517638",
+    "call-number": "Z286.O63 S83 2012",
+    "note": "OCLC: ocn754518563",
+    "author": [
+      {
+        "family": "Suber",
+        "given": "Peter"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2012"
+        ]
+      ]
+    },
+    "id": "zBPP9YKu"
+  },
+  {
     "title": "Вернуть Sci-Hub",
     "container-title": "Status Prаеsens",
     "issued": {
@@ -3332,30 +3359,6 @@
       ]
     },
     "id": "5gyFSQse"
-  },
-  {
-    "type": "webpage",
-    "title": "Open Access",
-    "container-title": "The MIT Press",
-    "abstract": "A concise introduction to the basics of open access, describing what it is (and isn't) and showing that it is easy, fast, inexpensive, legal, and beneficial.\n                The Internet lets us share perfect copies of our work with a worldwide audience at virtually no cost. We take advantage of this revolutionary opportunity when we make our work “open access”: digital, online, free of charge, and free of most copyright and licensing restrictions. Open access is made possible by the Internet and copyright-holder consent, and many authors, musicians, filmmakers, and other creators who depend on royalties are understandably unwilling to give their consent. But for 350 years, scholars have written peer-reviewed journal articles for impact, not for money, and are free to consent to open access without losing revenue.In this concise introduction, Peter Suber tells us what open access is and isn't, how it benefits authors and readers of research, how we pay for it, how it avoids copyright problems, how it has moved from the periphery to the mainstream, and what its future may hold. Distilling a decade of Suber's influential writing and thinking about open access, this is the indispensable book on the subject for researchers, librarians, administrators, funders, publishers, and policy makers.",
-    "URL": "https://mitpress.mit.edu/books/open-access",
-    "language": "en",
-    "author": [
-      {
-        "family": "Press",
-        "given": "The MIT"
-      }
-    ],
-    "accessed": {
-      "date-parts": [
-        [
-          "2019",
-          3,
-          20
-        ]
-      ]
-    },
-    "id": "LgXhvEw7"
   },
   {
     "URL": "https://redd.it/2raea8",

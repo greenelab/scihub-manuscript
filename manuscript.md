@@ -27,9 +27,9 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 This study was published in _eLife_ on February 9, 2018 at <https://doi.org/10.7554/eLife.32822>.<small><em>
 This manuscript
-([permalink](https://greenelab.github.io/scihub-manuscript/v/c43168250c23fe5fa5ed8b535e9702f15ecf61a2/))
+([permalink](https://greenelab.github.io/scihub-manuscript/v/fd7acb7ed0108c920da56f84819ce13f02f68aa8/))
 was automatically generated
-from [greenelab/scihub-manuscript@c431682](https://github.com/greenelab/scihub-manuscript/tree/c43168250c23fe5fa5ed8b535e9702f15ecf61a2)
+from [greenelab/scihub-manuscript@fd7acb7](https://github.com/greenelab/scihub-manuscript/tree/fd7acb7ed0108c920da56f84819ce13f02f68aa8)
 on March 20, 2019.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
@@ -146,9 +146,9 @@ Meanwhile, publishing has trended towards oligopoly [@OGMKPsIG], with nondisclos
 Price increases have persisted over the last decade [@AgjD0tTw; @12rSJsEKK; @GWp5Zx0w].
 For example, EBSCO estimates that per-journal subscription costs increased by 25% from 2013–2017, with annual subscription to a journal for research libraries now averaging $1,396 [@5e9PbvWY].
 
-In this study, we use the term "toll access" (also known as "closed access") to refer to paywalled literature [@LgXhvEw7].
+In this study, we use the term "toll access" (also known as "closed access") to refer to paywalled literature [@zBPP9YKu].
 On the other hand, we refer to literature that is free to read as "open access".
-Furthermore, we discuss two variants of open access: "libre" and "gratis" [@LgXhvEw7; @tSEdUvgK].
+Furthermore, we discuss two variants of open access: "libre" and "gratis" [@zBPP9YKu; @tSEdUvgK].
 Libre open access refers to literature that is [openly licensed](http://opendefinition.org/) to allow reuse.
 Gratis open access refers to literature that is accessible free of charge, although permission barriers may remain (usually due to copyright) [@7aXVorCC].
 

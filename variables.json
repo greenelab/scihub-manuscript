@@ -130,13 +130,14 @@
     "repo_slug": "greenelab/scihub-manuscript",
     "repo_owner": "greenelab",
     "repo_name": "scihub-manuscript",
-    "commit": "c43168250c23fe5fa5ed8b535e9702f15ecf61a2"
+    "commit": "fd7acb7ed0108c920da56f84819ce13f02f68aa8"
   },
   "manuscript_stats": {
     "reference_counts": {
       "arxiv": 1,
       "doi": 81,
-      "url": 47,
+      "isbn": 1,
+      "url": 46,
       "total": 129
     },
     "word_count": 10551
