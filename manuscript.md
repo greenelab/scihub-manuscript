@@ -7,7 +7,7 @@ author-meta:
 - Stephen Reid McLaughlin
 - Bastian Greshake Tzovaras
 - Casey S. Greene
-date-meta: '2019-03-20'
+date-meta: '2019-09-10'
 keywords:
 - Sci-Hub
 - publishing
@@ -27,10 +27,10 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 This study was published in _eLife_ on February 9, 2018 at <https://doi.org/10.7554/eLife.32822>.<small><em>
 This manuscript
-([permalink](https://greenelab.github.io/scihub-manuscript/v/fd7acb7ed0108c920da56f84819ce13f02f68aa8/))
+([permalink](https://greenelab.github.io/scihub-manuscript/v/0733af7da9b8e65da241411b175c308bf07d0f02/))
 was automatically generated
-from [greenelab/scihub-manuscript@fd7acb7](https://github.com/greenelab/scihub-manuscript/tree/fd7acb7ed0108c920da56f84819ce13f02f68aa8)
-on March 20, 2019.
+from [greenelab/scihub-manuscript@0733af7](https://github.com/greenelab/scihub-manuscript/tree/0733af7da9b8e65da241411b175c308bf07d0f02)
+on September 10, 2019.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
 </em></small>
 
