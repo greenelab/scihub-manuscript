@@ -31,7 +31,7 @@
    ]
  },
  "type": "webpage",
- "standard_citation": "doi:10.1000/182"
+ "id": "doi:10.1000/182"
 },
 {
   "DOI": "10.3403/30177056",
@@ -50,10 +50,10 @@
   "title": "BS ISO 26324:2012. Information and documentation. Digital object identifier system",
   "container-title": "BSI British Standards",
   "URL": "https://doi.org/10.3403/30177056",
-  "standard_citation": "doi:10.3403/30177056"
+  "id": "doi:10.3403/30177056"
 },
 {
-  "standard_citation": "url:https://www.courtlistener.com/docket/4355308/1/elsevier-inc-v-sci-hub/",
+  "id": "url:https://www.courtlistener.com/docket/4355308/1/elsevier-inc-v-sci-hub/",
   "type": "legal-case",
   "title": "Complaint – Document #1 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS",
   "author": [
@@ -85,7 +85,7 @@
   "URL": "https://www.courtlistener.com/docket/4355308/1/elsevier-inc-v-sci-hub/"
 },
 {
-  "standard_citation": "url:https://www.courtlistener.com/docket/4355308/6/elsevier-inc-v-sci-hub/",
+  "id": "url:https://www.courtlistener.com/docket/4355308/6/elsevier-inc-v-sci-hub/",
   "type": "legal-case",
   "title": "Memorandum of Law in Support of Motion – Document #6 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS",
   "author": [
@@ -117,7 +117,7 @@
   "URL": "https://www.courtlistener.com/docket/4355308/6/elsevier-inc-v-sci-hub/"
 },
 {
-  "standard_citation": "url:https://www.courtlistener.com/docket/4355308/8/23/elsevier-inc-v-sci-hub/",
+  "id": "url:https://www.courtlistener.com/docket/4355308/8/23/elsevier-inc-v-sci-hub/",
   "type": "legal-case",
   "title": "Declaration in Support of Motion – Document #8 Attachment #23 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS",
   "author": [
@@ -141,7 +141,7 @@
   "URL": "https://www.courtlistener.com/docket/4355308/8/23/elsevier-inc-v-sci-hub/"
 },
 {
-  "standard_citation": "url:https://www.courtlistener.com/docket/4355308/50/elsevier-inc-v-sci-hub/",
+  "id": "url:https://www.courtlistener.com/docket/4355308/50/elsevier-inc-v-sci-hub/",
   "type": "legal-case",
   "title": "Letter – Document #50 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS",
   "author": [
@@ -165,7 +165,7 @@
   "URL": "https://www.courtlistener.com/docket/4355308/50/elsevier-inc-v-sci-hub/"
 },
 {
-  "standard_citation": "url:https://www.courtlistener.com/docket/4355308/53/elsevier-inc-v-sci-hub/",
+  "id": "url:https://www.courtlistener.com/docket/4355308/53/elsevier-inc-v-sci-hub/",
   "type": "legal-case",
   "title": "Memorandum & Opinion – Document #53 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS",
   "author": [
@@ -189,7 +189,7 @@
   "URL": "https://www.courtlistener.com/docket/4355308/53/elsevier-inc-v-sci-hub/"
 },
 {
-  "standard_citation": "url:https://www.documentcloud.org/documents/3878258-2017-06-21-Elsevier-Sci-Hub-Final-Judgement.html",
+  "id": "url:https://www.documentcloud.org/documents/3878258-2017-06-21-Elsevier-Sci-Hub-Final-Judgement.html",
   "type": "legal-case",
   "title": "Judgement – Document #87 of Elsevier Inc. v. Sci-Hub – Case 1:15-cv-04282-RWS",
   "author": [
@@ -213,7 +213,7 @@
   "URL": "https://www.documentcloud.org/documents/3878258-2017-06-21-Elsevier-Sci-Hub-Final-Judgement.html"
 },
 {
-  "standard_citation": "url:https://www.courtlistener.com/docket/6146630/1/american-chemical-society-v-does-1-99/",
+  "id": "url:https://www.courtlistener.com/docket/6146630/1/american-chemical-society-v-does-1-99/",
   "type": "legal-case",
   "title": "Complaint – Document #1 of American Chemical Society v. Sci-Hub – Case 1:17-cv-00726-LMB-JFA",
   "author": [
@@ -246,7 +246,7 @@
   "URL": "https://www.courtlistener.com/docket/6146630/1/american-chemical-society-v-does-1-99/"
 },
 {
-  "standard_citation": "url:https://regmedia.co.uk/2017/11/07/sci_hub_block_order_short.pdf",
+  "id": "url:https://regmedia.co.uk/2017/11/07/sci_hub_block_order_short.pdf",
   "type": "legal-case",
   "title": "Order – Document #37 of American Chemical Society v. Sci-Hub – Case 1:17-cv-00726-LMB-JFA",
   "author": [
@@ -270,7 +270,7 @@
   "URL": "https://regmedia.co.uk/2017/11/07/sci_hub_block_order_short.pdf"
 },
 {
-  "standard_citation": "url:http://www.leafscience.org/alexandra-elbakyan/",
+  "id": "url:http://www.leafscience.org/alexandra-elbakyan/",
   "type": "post",
   "title": "Alexandra Elbakyan – Science Should be Open to all Not Behind Paywalls",
   "author": [
@@ -292,7 +292,7 @@
   "URL": "http://www.leafscience.org/alexandra-elbakyan/"
 },
 {
-  "standard_citation": "url:https://torrentfreak.com/court-orders-shutdown-of-libgen-bookfi-and-sci-hub-151102/",
+  "id": "url:https://torrentfreak.com/court-orders-shutdown-of-libgen-bookfi-and-sci-hub-151102/",
   "URL": "https://torrentfreak.com/court-orders-shutdown-of-libgen-bookfi-and-sci-hub-151102/",
   "title": "Court Orders Shutdown of Libgen, Bookfi and Sci-Hub",
   "container-title": "TorrentFreak",
@@ -314,7 +314,7 @@
   "type": "webpage"
 },
 {
-  "standard_citation": "url:https://torrentfreak.com/elsevier-cracks-down-on-pirated-scientific-articles-150609/",
+  "id": "url:https://torrentfreak.com/elsevier-cracks-down-on-pirated-scientific-articles-150609/",
   "URL": "https://torrentfreak.com/elsevier-cracks-down-on-pirated-scientific-articles-150609/",
   "title": "Elsevier Cracks Down on Pirated Scientific Articles",
   "container-title": "TorrentFreak",
@@ -336,7 +336,7 @@
   "type": "webpage"
 },
 {
-  "standard_citation": "url:https://torrentfreak.com/new-lawsuit-demands-isp-blockades-against-pirate-site-sci-hub-170629/",
+  "id": "url:https://torrentfreak.com/new-lawsuit-demands-isp-blockades-against-pirate-site-sci-hub-170629/",
   "URL": "https://torrentfreak.com/new-lawsuit-demands-isp-blockades-against-pirate-site-sci-hub-170629/",
   "title": "New Lawsuit Demands ISP Blockades Against 'Pirate' Site Sci-Hub",
   "container-title": "TorrentFreak",
@@ -358,7 +358,7 @@
   "type": "webpage"
 },
 {
-  "standard_citation": "url:https://torrentfreak.com/sci-hub-and-libgen-resurface-after-being-shut-down-151121/",
+  "id": "url:https://torrentfreak.com/sci-hub-and-libgen-resurface-after-being-shut-down-151121/",
   "URL": "https://torrentfreak.com/sci-hub-and-libgen-resurface-after-being-shut-down-151121/",
   "title": "Sci-Hub, BookFi and LibGen Resurface After Being Shut Down",
   "container-title": "TorrentFreak",
@@ -380,7 +380,7 @@
   "type": "webpage"
 },
 {
-  "standard_citation": "url:https://torrentfreak.com/sci-hub-ordered-to-pay-15-million-in-piracy-damages-170623/",
+  "id": "url:https://torrentfreak.com/sci-hub-ordered-to-pay-15-million-in-piracy-damages-170623/",
   "URL": "https://torrentfreak.com/sci-hub-ordered-to-pay-15-million-in-piracy-damages-170623/",
   "title": "Sci-Hub Ordered to Pay $15 Million in Piracy Damages",
   "container-title": "TorrentFreak",
@@ -402,7 +402,7 @@
   "type": "webpage"
 },
 {
-  "standard_citation": "url:https://engineuring.wordpress.com/2016/02/24/why-sci-hub-is-the-true-solution-for-open-access-reply-to-criticism/",
+  "id": "url:https://engineuring.wordpress.com/2016/02/24/why-sci-hub-is-the-true-solution-for-open-access-reply-to-criticism/",
   "URL": "https://engineuring.wordpress.com/2016/02/24/why-sci-hub-is-the-true-solution-for-open-access-reply-to-criticism/",
   "title": "Why Sci-Hub is the true solution for Open Access: reply to criticism",
   "container-title": "Engineuring",
@@ -424,7 +424,7 @@
   "type": "webpage"
 },
 {
-  "standard_citation": "url:https://engineuring.wordpress.com/2016/03/11/sci-hub-is-a-goal-changing-the-system-is-a-method/",
+  "id": "url:https://engineuring.wordpress.com/2016/03/11/sci-hub-is-a-goal-changing-the-system-is-a-method/",
   "URL": "https://engineuring.wordpress.com/2016/03/11/sci-hub-is-a-goal-changing-the-system-is-a-method/",
   "title": "Sci-Hub is a goal, changing the system is a method",
   "container-title": "Engineuring",
@@ -446,7 +446,7 @@
   "type": "webpage"
 },
 {
-  "standard_citation": "url:https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/",
+  "id": "url:https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/",
   "URL": "https://engineuring.wordpress.com/2017/07/02/some-facts-on-sci-hub-that-wikipedia-gets-wrong/",
   "title": "Some facts on Sci-Hub that Wikipedia gets wrong",
   "container-title": "Engineuring",
@@ -488,7 +488,7 @@
    }
  ],
  "type": "paper-conference",
- "standard_citation": "doi:10.2139/ssrn.2816925"
+ "id": "doi:10.2139/ssrn.2816925"
 },
 {
  "URL": "https://doi.org/10.2139/ssrn.2616636",
@@ -517,11 +517,11 @@
    }
  ],
  "type": "chapter",
- "standard_citation": "doi:10.2139/ssrn.2616636"
+ "id": "doi:10.2139/ssrn.2616636"
 },
 {
   "URL": "https://www.nytimes.com/2016/03/13/opinion/sunday/should-all-research-papers-be-free.html",
-  "standard_citation": "url:https://www.nytimes.com/2016/03/13/opinion/sunday/should-all-research-papers-be-free.html",
+  "id": "url:https://www.nytimes.com/2016/03/13/opinion/sunday/should-all-research-papers-be-free.html",
   "title": "Should All Research Papers Be Free?",
   "section": "Opinion",
   "container-title": "New York Times",
@@ -544,7 +544,7 @@
 },
 {
   "URL": "http://www.atlasobscura.com/articles/the-rise-of-illegal-pirate-libraries",
-  "standard_citation": "url:http://www.atlasobscura.com/articles/the-rise-of-illegal-pirate-libraries",
+  "id": "url:http://www.atlasobscura.com/articles/the-rise-of-illegal-pirate-libraries",
   "title": "The Rise of Pirate Libraries",
   "container-title": "Atlas Obscura",
   "author": [
@@ -565,7 +565,7 @@
   "type": "webpage"
 },
 {
-  "standard_citation": "doi:10.6084/m9.figshare.4906367.v1",
+  "id": "doi:10.6084/m9.figshare.4906367.v1",
   "URL": "https://doi.org/10.6084/m9.figshare.4906367.v1",
   "author": [
     {
@@ -590,7 +590,7 @@
 },
 {
   "URL": "https://www.insidehighered.com/blogs/library-babel-fish/inevitably-open",
-  "standard_citation": "url:https://www.insidehighered.com/blogs/library-babel-fish/inevitably-open",
+  "id": "url:https://www.insidehighered.com/blogs/library-babel-fish/inevitably-open",
   "title": "Library Babel Fish Blog: Inevitably Open",
   "container-title": "Inside Higher Ed",
   "author": [
@@ -612,7 +612,7 @@
 },
 {
   "URL": "http://foreignpolicy.com/2017/09/06/the-worlds-largest-free-scientific-resource-is-now-blocked-in-russia/",
-  "standard_citation": "url:http://foreignpolicy.com/2017/09/06/the-worlds-largest-free-scientific-resource-is-now-blocked-in-russia/",
+  "id": "url:http://foreignpolicy.com/2017/09/06/the-worlds-largest-free-scientific-resource-is-now-blocked-in-russia/",
   "title": "The World’s Largest Free Scientific Resource Is Now Blocked in Russia",
   "container-title": "Foreign Policy",
   "author": [
@@ -634,7 +634,7 @@
 },
 {
   "URL": "http://lj.libraryjournal.com/2017/04/publishing/new-world-same-model-periodicals-price-survey-2017/",
-  "standard_citation": "url:http://lj.libraryjournal.com/2017/04/publishing/new-world-same-model-periodicals-price-survey-2017/",
+  "id": "url:http://lj.libraryjournal.com/2017/04/publishing/new-world-same-model-periodicals-price-survey-2017/",
   "title": "New World, Same Model | Periodicals Price Survey 2017",
   "container-title": "Library Journal",
   "issued": {
@@ -660,7 +660,7 @@
 },
 {
   "URL": "http://www.attemptingelegance.com/?p=1765",
-  "standard_citation": "url:http://www.attemptingelegance.com/?p=1765",
+  "id": "url:http://www.attemptingelegance.com/?p=1765",
   "title": "Walking away from the American Chemical Society",
   "container-title": "Attempting Elegance",
   "author": [
@@ -682,7 +682,7 @@
 },
 {
   "URL": "https://www.ebscohost.com/promoMaterials/Five_Year_Journal_Price_Increase_History_EBSCO_2013-2017.pdf",
-  "standard_citation": "url:https://www.ebscohost.com/promoMaterials/Five_Year_Journal_Price_Increase_History_EBSCO_2013-2017.pdf",
+  "id": "url:https://www.ebscohost.com/promoMaterials/Five_Year_Journal_Price_Increase_History_EBSCO_2013-2017.pdf",
   "title": "Five Year Journal Price Increase History (2013-2017)",
   "author": [
     {
@@ -703,7 +703,7 @@
 },
 {
   "URL": "http://www.arl.org/storage/documents/expenditure-trends.pdf",
-  "standard_citation": "url:http://www.arl.org/storage/documents/expenditure-trends.pdf",
+  "id": "url:http://www.arl.org/storage/documents/expenditure-trends.pdf",
   "title": "Graph 4: Expenditure Trends in ARL Libraries, 1986-2015",
   "container-title": "ARL Statistics 2014–2015",
   "author": [
@@ -725,7 +725,7 @@
 },
 {
   "URL": "http://www.bib.umontreal.ca/communiques/20170504-DC-annulation-taylor-francis-va.htm",
-  "standard_citation": "url:http://www.bib.umontreal.ca/communiques/20170504-DC-annulation-taylor-francis-va.htm",
+  "id": "url:http://www.bib.umontreal.ca/communiques/20170504-DC-annulation-taylor-francis-va.htm",
   "title": "UdeM Libraries cancel Big Deal subscription to 2,231 periodical titles published by Taylor & Francis Group",
   "container-title": "Communiqués, Bibliothèques, Université de Montréal",
   "author": [
@@ -747,7 +747,7 @@
 },
 {
   "URL": "http://blog.impactstory.org/introducting-oadoi/",
-  "standard_citation": "url:http://blog.impactstory.org/introducting-oadoi/",
+  "id": "url:http://blog.impactstory.org/introducting-oadoi/",
   "title": "Introducing oaDOI: resolve a DOI straight to OA",
   "container-title": "Impactstory blog",
   "issued": {
@@ -769,7 +769,7 @@
 },
 {
   "URL": "https://www.timeshighereducation.com/news/dutch-lose-access-oup-journals-subscription-standoff",
-  "standard_citation": "url:https://www.timeshighereducation.com/news/dutch-lose-access-oup-journals-subscription-standoff",
+  "id": "url:https://www.timeshighereducation.com/news/dutch-lose-access-oup-journals-subscription-standoff",
   "title": "Dutch lose access to OUP journals in subscription standoff",
   "container-title": "Times Higher Education",
   "author": [
@@ -791,7 +791,7 @@
 },
 {
   "URL": "https://scholarlykitchen.sspnet.org/2017/09/05/sci-hub-moves-center-ecosystem/",
-  "standard_citation": "url:https://scholarlykitchen.sspnet.org/2017/09/05/sci-hub-moves-center-ecosystem/",
+  "id": "url:https://scholarlykitchen.sspnet.org/2017/09/05/sci-hub-moves-center-ecosystem/",
   "title": "Sci-Hub Moves to the Center of the Ecosystem",
   "container-title": "The Scholarly Kitchen",
   "author": [
@@ -813,7 +813,7 @@
 },
 {
   "URL": "https://scholarlykitchen.sspnet.org/2016/03/02/sci-hub-and-the-four-horsemen-of-the-internet/",
-  "standard_citation": "url:https://scholarlykitchen.sspnet.org/2016/03/02/sci-hub-and-the-four-horsemen-of-the-internet/",
+  "id": "url:https://scholarlykitchen.sspnet.org/2016/03/02/sci-hub-and-the-four-horsemen-of-the-internet/",
   "title": "Sci-Hub and the Four Horsemen of the Internet",
   "container-title": "The Scholarly Kitchen",
   "author": [
@@ -835,7 +835,7 @@
 },
 {
   "URL": "https://scholarlykitchen.sspnet.org/2016/06/21/two-step-authentication-finally-coming-to-a-university-near-you/",
-  "standard_citation": "url:https://scholarlykitchen.sspnet.org/2016/06/21/two-step-authentication-finally-coming-to-a-university-near-you/",
+  "id": "url:https://scholarlykitchen.sspnet.org/2016/06/21/two-step-authentication-finally-coming-to-a-university-near-you/",
   "title": "Two-step Authentication: Finally Coming to a University Near You",
   "container-title": "The Scholarly Kitchen",
   "author": [
@@ -857,7 +857,7 @@
 },
 {
   "URL": "https://redd.it/2raea8",
-  "standard_citation": "url:https://redd.it/2raea8",
+  "id": "url:https://redd.it/2raea8",
   "title": "Scholar Subreddit: Libgen down",
   "container-title": "Reddit",
   "issued": {
@@ -876,7 +876,7 @@
   "type": "webpage"
 },
 {
-  "standard_citation": "doi:10.1038/d41586-017-05922-9",
+  "id": "doi:10.1038/d41586-017-05922-9",
   "DOI": "10.1038/d41586-017-05922-9",
   "URL": "https://doi.org/10.1038/d41586-017-05922-9",
   "short_url": "https://doi.org/cf98",
@@ -904,7 +904,7 @@
   "page": "399-400"
 },
 {
-  "standard_citation": "url:http://alla-astakhova.ru/sci-hub/",
+  "id": "url:http://alla-astakhova.ru/sci-hub/",
   "title": "Вернуть Sci-Hub",
   "container-title": "Status Prаеsens",
   "issued": {
@@ -926,7 +926,7 @@
 },
 {
   "URL": "http://www.theregister.co.uk/2017/11/23/scihubs_become_inactive_following_court_order/",
-  "standard_citation": "url:http://www.theregister.co.uk/2017/11/23/scihubs_become_inactive_following_court_order/",
+  "id": "url:http://www.theregister.co.uk/2017/11/23/scihubs_become_inactive_following_court_order/",
   "title": "Sci-Hub domains inactive following court order",
   "container-title": "The Register",
   "author": [
