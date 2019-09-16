@@ -7,7 +7,7 @@ author-meta:
 - Stephen Reid McLaughlin
 - Bastian Greshake Tzovaras
 - Casey S. Greene
-date-meta: '2019-09-13'
+date-meta: '2019-09-16'
 keywords:
 - Sci-Hub
 - publishing
@@ -25,13 +25,14 @@ title: Sci-Hub provides access to nearly all scholarly literature
 
 
 
-This study was published in _eLife_ on February 9, 2018 at <https://doi.org/10.7554/eLife.32822> [@IhliSZDo].<small><em>
+This study was published in _eLife_ on February 9, 2018 at <https://doi.org/10.7554/eLife.32822> [@IhliSZDo].
+A [Spanish translation](https://greenelab.github.io/scihub-manuscript-es/ "Sci-Hub proporciona acceso a casi toda la literatura académica") of this article is available.<small><em>
 This manuscript
-([permalink](https://greenelab.github.io/scihub-manuscript/v/dac81624737b3816596f7a368d4dd5d3c44894ae/))
+([permalink](https://greenelab.github.io/scihub-manuscript/v/b1f3279a96f496faa8233d495de9bc38daff2f04/))
 was automatically generated
-from [greenelab/scihub-manuscript@dac8162](https://github.com/greenelab/scihub-manuscript/tree/dac81624737b3816596f7a368d4dd5d3c44894ae)
-on September 13, 2019.
-Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh) or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ).
+from [greenelab/scihub-manuscript@b1f3279](https://github.com/greenelab/scihub-manuscript/tree/b1f3279a96f496faa8233d495de9bc38daff2f04)
+on September 16, 2019.
+Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh "GitHub Issues for greenelab/scihub-manuscript") or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ "GitHub Issues for greenelab/scihub").
 </em></small>
 
 ## Authors
