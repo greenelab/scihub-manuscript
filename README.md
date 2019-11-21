@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/greenelab/scihub-manuscript/tree/gh-pages) branch hosts the contents of this directory at https://greenelab.github.io/scihub-manuscript/.
-The permalink for this webpage version is https://greenelab.github.io/scihub-manuscript/v/b1f3279a96f496faa8233d495de9bc38daff2f04/.
+The permalink for this webpage version is https://greenelab.github.io/scihub-manuscript/v/fd9351c2752b1e97b2f55fdfad60a5ec8e10805d/.
 To redirect to the permalink for the latest manuscript version at anytime, use the link https://greenelab.github.io/scihub-manuscript/v/freeze/.
 
 ## Files
@@ -19,10 +19,10 @@ In general, a version is identified by the commit hash of the source content tha
 
 The `*.ots` files in version directories are OpenTimestamps which can be used to verify manuscript existence at or before a given time.
 [OpenTimestamps](https://opentimestamps.org/) uses the Bitcoin blockchain to attest to file hash existence.
-The `deploy.sh` script run during continuous deployment creates the `.ots` files.
+The `deploy.sh` script run during continuous deployment creates the `.ots` files through its `manubot webpage` call.
 There is a delay before timestamps get confirmed by a Bitcoin block.
 Therefore, `.ots` files are initially incomplete and should be upgraded at a later time, so that they no longer rely on the availability of a calendar server to verify.
-`webpage.py`, which is run during continuous deployment, identifies files matched by `webpage/v/**/*.ots` and attempts to upgrade them.
+The `manubot webpage` call during continuous deployment identifies files matched by `webpage/v/**/*.ots` and attempts to upgrade them.
 You can also manually upgrade timestamps, by running the following in the `gh-pages` branch:
 
 ```sh
@@ -36,4 +36,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`b1f3279a96f496faa8233d495de9bc38daff2f04`](https://github.com/greenelab/scihub-manuscript/commit/b1f3279a96f496faa8233d495de9bc38daff2f04).
+[`fd9351c2752b1e97b2f55fdfad60a5ec8e10805d`](https://github.com/greenelab/scihub-manuscript/commit/fd9351c2752b1e97b2f55fdfad60a5ec8e10805d).
