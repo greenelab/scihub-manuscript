@@ -1,150 +1,183 @@
 {
-  "date": "September 16, 2019",
-  "authors": [
-    {
-      "github": "dhimmel",
-      "name": "Daniel S. Himmelstein",
-      "initials": "DSH",
-      "orcid": "0000-0002-3012-7446",
-      "twitter": "dhimmel",
-      "email": "daniel.himmelstein@gmail.com",
-      "affiliations": [
-        "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania"
-      ],
-      "funders": "GBMF 4552",
-      "affiliation_numbers": [
-        1
-      ]
-    },
-    {
-      "github": "arielsvn",
-      "name": "Ariel Rodriguez Romero",
-      "initials": "ARR",
-      "orcid": "0000-0003-2290-4927",
-      "twitter": "arielswn",
-      "email": "arielsvn@gmail.com",
-      "affiliations": [
-        "Bidwise, Inc"
-      ],
-      "affiliation_numbers": [
-        2
-      ]
-    },
-    {
-      "github": "publicus",
-      "name": "Jacob G. Levernier",
-      "initials": "JGL",
-      "orcid": "0000-0003-1563-7314",
-      "email": "jlevern@upenn.edu",
-      "affiliations": [
-        "Library Technology Services and Strategic Initiatives, University of Pennsylvania Libraries"
-      ],
-      "affiliation_numbers": [
-        3
-      ]
-    },
-    {
-      "github": "tamunro",
-      "name": "Thomas Anthony Munro",
-      "initials": "TAM",
-      "orcid": "0000-0002-3366-7149",
-      "email": "thomas@munro.com",
-      "affiliations": [
-        "School of Life and Environmental Sciences, Deakin University, Melbourne, Australia"
-      ],
-      "affiliation_numbers": [
-        4
-      ]
-    },
-    {
-      "github": "stevemclaugh",
-      "name": "Stephen Reid McLaughlin",
-      "initials": "SRM",
-      "orcid": "0000-0002-9888-3168",
-      "twitter": "SteveMcLaugh",
-      "email": "stephen.mclaughlin@utexas.edu",
-      "affiliations": [
-        "School of Information, University of Texas at Austin"
-      ],
-      "affiliation_numbers": [
-        5
-      ]
-    },
-    {
-      "github": "gedankenstuecke",
-      "name": "Bastian Greshake Tzovaras",
-      "initials": "BGT",
-      "orcid": "0000-0002-9925-9623",
-      "twitter": "gedankenstuecke",
-      "email": "bgreshake@googlemail.com",
-      "affiliations": [
-        "Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt"
-      ],
-      "affiliation_numbers": [
-        6
-      ]
-    },
-    {
-      "github": "cgreene",
-      "name": "Casey S. Greene",
-      "initials": "CSG",
-      "orcid": "0000-0001-8713-9213",
-      "twitter": "GreeneScientist",
-      "email": "csgreene@upenn.edu",
-      "affiliations": [
-        "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania"
-      ],
-      "funders": "GBMF 4552",
-      "affiliation_numbers": [
-        1
-      ]
-    }
-  ],
-  "affiliations": [
-    {
-      "affiliation": "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania",
-      "affiliation_number": 1
-    },
-    {
-      "affiliation": "Bidwise, Inc",
-      "affiliation_number": 2
-    },
-    {
-      "affiliation": "Library Technology Services and Strategic Initiatives, University of Pennsylvania Libraries",
-      "affiliation_number": 3
-    },
-    {
-      "affiliation": "School of Life and Environmental Sciences, Deakin University, Melbourne, Australia",
-      "affiliation_number": 4
-    },
-    {
-      "affiliation": "School of Information, University of Texas at Austin",
-      "affiliation_number": 5
-    },
-    {
-      "affiliation": "Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt",
-      "affiliation_number": 6
-    }
-  ],
-  "ci_source": {
-    "provider": "travis",
-    "repo_slug": "greenelab/scihub-manuscript",
-    "repo_owner": "greenelab",
-    "repo_name": "scihub-manuscript",
-    "commit": "b1f3279a96f496faa8233d495de9bc38daff2f04",
-    "triggering_commit": "b1f3279a96f496faa8233d495de9bc38daff2f04",
-    "build_url": "https://travis-ci.org/greenelab/scihub-manuscript/builds/585639840",
-    "job_url": "https://travis-ci.org/greenelab/scihub-manuscript/jobs/585639841",
-    "manuscript_url": "https://greenelab.github.io/scihub-manuscript/v/b1f3279a96f496faa8233d495de9bc38daff2f04/"
+  "pandoc": {
+    "title": "Sci-Hub provides access to nearly all scholarly literature",
+    "keywords": [
+      "Sci-Hub",
+      "publishing",
+      "literature",
+      "piracy",
+      "data-science",
+      "LibGen",
+      "journals",
+      "open-data",
+      "copyright",
+      "paywalls"
+    ],
+    "lang": "en-US",
+    "date-meta": "2019-11-21",
+    "author-meta": [
+      "Daniel S. Himmelstein",
+      "Ariel Rodriguez Romero",
+      "Jacob G. Levernier",
+      "Thomas Anthony Munro",
+      "Stephen Reid McLaughlin",
+      "Bastian Greshake Tzovaras",
+      "Casey S. Greene"
+    ],
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Sci-Hub provides access to nearly all scholarly literature\" />\n<meta name=\"citation_title\" content=\"Sci-Hub provides access to nearly all scholarly literature\" />\n<meta property=\"og:title\" content=\"Sci-Hub provides access to nearly all scholarly literature\" />\n<meta property=\"twitter:title\" content=\"Sci-Hub provides access to nearly all scholarly literature\" />\n<meta name=\"dc.date\" content=\"2019-11-21\" />\n<meta name=\"citation_publication_date\" content=\"2019-11-21\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Daniel S. Himmelstein\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3012-7446\" />\n<meta name=\"twitter:creator\" content=\"@dhimmel\" />\n<meta name=\"citation_author\" content=\"Ariel Rodriguez Romero\" />\n<meta name=\"citation_author_institution\" content=\"Bidwise, Inc\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2290-4927\" />\n<meta name=\"twitter:creator\" content=\"@arielswn\" />\n<meta name=\"citation_author\" content=\"Jacob G. Levernier\" />\n<meta name=\"citation_author_institution\" content=\"Library Technology Services and Strategic Initiatives, University of Pennsylvania Libraries\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1563-7314\" />\n<meta name=\"citation_author\" content=\"Thomas Anthony Munro\" />\n<meta name=\"citation_author_institution\" content=\"School of Life and Environmental Sciences, Deakin University, Melbourne, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3366-7149\" />\n<meta name=\"citation_author\" content=\"Stephen Reid McLaughlin\" />\n<meta name=\"citation_author_institution\" content=\"School of Information, University of Texas at Austin\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9888-3168\" />\n<meta name=\"twitter:creator\" content=\"@SteveMcLaugh\" />\n<meta name=\"citation_author\" content=\"Bastian Greshake Tzovaras\" />\n<meta name=\"citation_author_institution\" content=\"Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9925-9623\" />\n<meta name=\"twitter:creator\" content=\"@gedankenstuecke\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"twitter:creator\" content=\"@GreeneScientist\" />\n<link rel=\"canonical\" href=\"https://greenelab.github.io/scihub-manuscript/\" />\n<meta property=\"og:url\" content=\"https://greenelab.github.io/scihub-manuscript/\" />\n<meta property=\"twitter:url\" content=\"https://greenelab.github.io/scihub-manuscript/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://greenelab.github.io/scihub-manuscript/\" />\n<meta name=\"citation_pdf_url\" content=\"https://greenelab.github.io/scihub-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://greenelab.github.io/scihub-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://greenelab.github.io/scihub-manuscript/v/fd9351c2752b1e97b2f55fdfad60a5ec8e10805d/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://greenelab.github.io/scihub-manuscript/v/fd9351c2752b1e97b2f55fdfad60a5ec8e10805d/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://greenelab.github.io/scihub-manuscript/v/fd9351c2752b1e97b2f55fdfad60a5ec8e10805d/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<meta property=\"og:image\" content=\"https://github.com/greenelab/scihub-manuscript/raw/fd9351c2752b1e97b2f55fdfad60a5ec8e10805d/thumbnail.png\" />\n<meta property=\"twitter:image\" content=\"https://github.com/greenelab/scihub-manuscript/raw/fd9351c2752b1e97b2f55fdfad60a5ec8e10805d/thumbnail.png\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
   },
-  "manuscript_stats": {
-    "reference_counts": {
-      "arxiv": 1,
-      "doi": 82,
-      "isbn": 1,
-      "url": 46,
-      "total": 130
+  "manubot": {
+    "date": "November 21, 2019",
+    "authors": [
+      {
+        "github": "dhimmel",
+        "name": "Daniel S. Himmelstein",
+        "initials": "DSH",
+        "orcid": "0000-0002-3012-7446",
+        "twitter": "dhimmel",
+        "email": "daniel.himmelstein@gmail.com",
+        "affiliations": [
+          "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania"
+        ],
+        "funders": "GBMF 4552",
+        "affiliation_numbers": [
+          1
+        ]
+      },
+      {
+        "github": "arielsvn",
+        "name": "Ariel Rodriguez Romero",
+        "initials": "ARR",
+        "orcid": "0000-0003-2290-4927",
+        "twitter": "arielswn",
+        "email": "arielsvn@gmail.com",
+        "affiliations": [
+          "Bidwise, Inc"
+        ],
+        "affiliation_numbers": [
+          2
+        ]
+      },
+      {
+        "github": "publicus",
+        "name": "Jacob G. Levernier",
+        "initials": "JGL",
+        "orcid": "0000-0003-1563-7314",
+        "email": "jlevern@upenn.edu",
+        "affiliations": [
+          "Library Technology Services and Strategic Initiatives, University of Pennsylvania Libraries"
+        ],
+        "affiliation_numbers": [
+          3
+        ]
+      },
+      {
+        "github": "tamunro",
+        "name": "Thomas Anthony Munro",
+        "initials": "TAM",
+        "orcid": "0000-0002-3366-7149",
+        "email": "thomas@munro.com",
+        "affiliations": [
+          "School of Life and Environmental Sciences, Deakin University, Melbourne, Australia"
+        ],
+        "affiliation_numbers": [
+          4
+        ]
+      },
+      {
+        "github": "stevemclaugh",
+        "name": "Stephen Reid McLaughlin",
+        "initials": "SRM",
+        "orcid": "0000-0002-9888-3168",
+        "twitter": "SteveMcLaugh",
+        "email": "stephen.mclaughlin@utexas.edu",
+        "affiliations": [
+          "School of Information, University of Texas at Austin"
+        ],
+        "affiliation_numbers": [
+          5
+        ]
+      },
+      {
+        "github": "gedankenstuecke",
+        "name": "Bastian Greshake Tzovaras",
+        "initials": "BGT",
+        "orcid": "0000-0002-9925-9623",
+        "twitter": "gedankenstuecke",
+        "email": "bgreshake@googlemail.com",
+        "affiliations": [
+          "Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt"
+        ],
+        "affiliation_numbers": [
+          6
+        ]
+      },
+      {
+        "github": "cgreene",
+        "name": "Casey S. Greene",
+        "initials": "CSG",
+        "orcid": "0000-0001-8713-9213",
+        "twitter": "GreeneScientist",
+        "email": "csgreene@upenn.edu",
+        "affiliations": [
+          "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania"
+        ],
+        "funders": "GBMF 4552",
+        "affiliation_numbers": [
+          1
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "affiliation": "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania",
+        "affiliation_number": 1
+      },
+      {
+        "affiliation": "Bidwise, Inc",
+        "affiliation_number": 2
+      },
+      {
+        "affiliation": "Library Technology Services and Strategic Initiatives, University of Pennsylvania Libraries",
+        "affiliation_number": 3
+      },
+      {
+        "affiliation": "School of Life and Environmental Sciences, Deakin University, Melbourne, Australia",
+        "affiliation_number": 4
+      },
+      {
+        "affiliation": "School of Information, University of Texas at Austin",
+        "affiliation_number": 5
+      },
+      {
+        "affiliation": "Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt",
+        "affiliation_number": 6
+      }
+    ],
+    "ci_source": {
+      "provider": "travis",
+      "repo_slug": "greenelab/scihub-manuscript",
+      "repo_owner": "greenelab",
+      "repo_name": "scihub-manuscript",
+      "commit": "fd9351c2752b1e97b2f55fdfad60a5ec8e10805d",
+      "triggering_commit": "fd9351c2752b1e97b2f55fdfad60a5ec8e10805d",
+      "build_url": "https://travis-ci.org/greenelab/scihub-manuscript/builds/615140826",
+      "job_url": "https://travis-ci.org/greenelab/scihub-manuscript/jobs/615140827"
     },
-    "word_count": 10581
+    "html_url": "https://greenelab.github.io/scihub-manuscript/",
+    "pdf_url": "https://greenelab.github.io/scihub-manuscript/manuscript.pdf",
+    "html_url_versioned": "https://greenelab.github.io/scihub-manuscript/v/fd9351c2752b1e97b2f55fdfad60a5ec8e10805d/",
+    "pdf_url_versioned": "https://greenelab.github.io/scihub-manuscript/v/fd9351c2752b1e97b2f55fdfad60a5ec8e10805d/manuscript.pdf",
+    "thumbnail_url": "https://github.com/greenelab/scihub-manuscript/raw/fd9351c2752b1e97b2f55fdfad60a5ec8e10805d/thumbnail.png",
+    "manuscript_stats": {
+      "reference_counts": {
+        "arxiv": 1,
+        "doi": 82,
+        "isbn": 1,
+        "url": 46,
+        "total": 130
+      },
+      "word_count": 10588
+    }
   }
 }
