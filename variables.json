@@ -14,7 +14,7 @@
       "paywalls"
     ],
     "lang": "en-US",
-    "date-meta": "2019-11-21",
+    "date-meta": "2020-03-19",
     "author-meta": [
       "Daniel S. Himmelstein",
       "Ariel Rodriguez Romero",
@@ -24,10 +24,18 @@
       "Bastian Greshake Tzovaras",
       "Casey S. Greene"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Sci-Hub provides access to nearly all scholarly literature\" />\n<meta name=\"citation_title\" content=\"Sci-Hub provides access to nearly all scholarly literature\" />\n<meta property=\"og:title\" content=\"Sci-Hub provides access to nearly all scholarly literature\" />\n<meta property=\"twitter:title\" content=\"Sci-Hub provides access to nearly all scholarly literature\" />\n<meta name=\"dc.date\" content=\"2019-11-21\" />\n<meta name=\"citation_publication_date\" content=\"2019-11-21\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Daniel S. Himmelstein\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3012-7446\" />\n<meta name=\"twitter:creator\" content=\"@dhimmel\" />\n<meta name=\"citation_author\" content=\"Ariel Rodriguez Romero\" />\n<meta name=\"citation_author_institution\" content=\"Bidwise, Inc\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2290-4927\" />\n<meta name=\"twitter:creator\" content=\"@arielswn\" />\n<meta name=\"citation_author\" content=\"Jacob G. Levernier\" />\n<meta name=\"citation_author_institution\" content=\"Library Technology Services and Strategic Initiatives, University of Pennsylvania Libraries\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1563-7314\" />\n<meta name=\"citation_author\" content=\"Thomas Anthony Munro\" />\n<meta name=\"citation_author_institution\" content=\"School of Life and Environmental Sciences, Deakin University, Melbourne, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3366-7149\" />\n<meta name=\"citation_author\" content=\"Stephen Reid McLaughlin\" />\n<meta name=\"citation_author_institution\" content=\"School of Information, University of Texas at Austin\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9888-3168\" />\n<meta name=\"twitter:creator\" content=\"@SteveMcLaugh\" />\n<meta name=\"citation_author\" content=\"Bastian Greshake Tzovaras\" />\n<meta name=\"citation_author_institution\" content=\"Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9925-9623\" />\n<meta name=\"twitter:creator\" content=\"@gedankenstuecke\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"twitter:creator\" content=\"@GreeneScientist\" />\n<link rel=\"canonical\" href=\"https://greenelab.github.io/scihub-manuscript/\" />\n<meta property=\"og:url\" content=\"https://greenelab.github.io/scihub-manuscript/\" />\n<meta property=\"twitter:url\" content=\"https://greenelab.github.io/scihub-manuscript/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://greenelab.github.io/scihub-manuscript/\" />\n<meta name=\"citation_pdf_url\" content=\"https://greenelab.github.io/scihub-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://greenelab.github.io/scihub-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://greenelab.github.io/scihub-manuscript/v/fd9351c2752b1e97b2f55fdfad60a5ec8e10805d/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://greenelab.github.io/scihub-manuscript/v/fd9351c2752b1e97b2f55fdfad60a5ec8e10805d/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://greenelab.github.io/scihub-manuscript/v/fd9351c2752b1e97b2f55fdfad60a5ec8e10805d/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<meta property=\"og:image\" content=\"https://github.com/greenelab/scihub-manuscript/raw/fd9351c2752b1e97b2f55fdfad60a5ec8e10805d/thumbnail.png\" />\n<meta property=\"twitter:image\" content=\"https://github.com/greenelab/scihub-manuscript/raw/fd9351c2752b1e97b2f55fdfad60a5ec8e10805d/thumbnail.png\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Sci-Hub provides access to nearly all scholarly literature\" />\n<meta name=\"citation_title\" content=\"Sci-Hub provides access to nearly all scholarly literature\" />\n<meta property=\"og:title\" content=\"Sci-Hub provides access to nearly all scholarly literature\" />\n<meta property=\"twitter:title\" content=\"Sci-Hub provides access to nearly all scholarly literature\" />\n<meta name=\"dc.date\" content=\"2020-03-19\" />\n<meta name=\"citation_publication_date\" content=\"2020-03-19\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Daniel S. Himmelstein\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3012-7446\" />\n<meta name=\"twitter:creator\" content=\"@dhimmel\" />\n<meta name=\"citation_author\" content=\"Ariel Rodriguez Romero\" />\n<meta name=\"citation_author_institution\" content=\"Bidwise, Inc\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2290-4927\" />\n<meta name=\"twitter:creator\" content=\"@arielswn\" />\n<meta name=\"citation_author\" content=\"Jacob G. Levernier\" />\n<meta name=\"citation_author_institution\" content=\"Library Technology Services and Strategic Initiatives, University of Pennsylvania Libraries\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-1563-7314\" />\n<meta name=\"citation_author\" content=\"Thomas Anthony Munro\" />\n<meta name=\"citation_author_institution\" content=\"School of Life and Environmental Sciences, Deakin University, Melbourne, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3366-7149\" />\n<meta name=\"citation_author\" content=\"Stephen Reid McLaughlin\" />\n<meta name=\"citation_author_institution\" content=\"School of Information, University of Texas at Austin\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9888-3168\" />\n<meta name=\"twitter:creator\" content=\"@SteveMcLaugh\" />\n<meta name=\"citation_author\" content=\"Bastian Greshake Tzovaras\" />\n<meta name=\"citation_author_institution\" content=\"Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-9925-9623\" />\n<meta name=\"twitter:creator\" content=\"@gedankenstuecke\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"twitter:creator\" content=\"@GreeneScientist\" />\n<link rel=\"canonical\" href=\"https://greenelab.github.io/scihub-manuscript/\" />\n<meta property=\"og:url\" content=\"https://greenelab.github.io/scihub-manuscript/\" />\n<meta property=\"twitter:url\" content=\"https://greenelab.github.io/scihub-manuscript/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://greenelab.github.io/scihub-manuscript/\" />\n<meta name=\"citation_pdf_url\" content=\"https://greenelab.github.io/scihub-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://greenelab.github.io/scihub-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://greenelab.github.io/scihub-manuscript/v/b4652d9f7ba666eadf0d849175f3f4973a480fbc/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://greenelab.github.io/scihub-manuscript/v/b4652d9f7ba666eadf0d849175f3f4973a480fbc/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://greenelab.github.io/scihub-manuscript/v/b4652d9f7ba666eadf0d849175f3f4973a480fbc/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<meta property=\"og:image\" content=\"https://github.com/greenelab/scihub-manuscript/raw/b4652d9f7ba666eadf0d849175f3f4973a480fbc/thumbnail.png\" />\n<meta property=\"twitter:image\" content=\"https://github.com/greenelab/scihub-manuscript/raw/b4652d9f7ba666eadf0d849175f3f4973a480fbc/thumbnail.png\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "bibliography": [
+      "content/manual-references-2019-09-10.json",
+      "content/manual-references.json"
+    ],
+    "manubot-output-bibliography": "output/references.json",
+    "manubot-output-citekeys": "output/citations.tsv",
+    "manubot-requests-cache-path": "ci/cache/requests-cache",
+    "manubot-clear-requests-cache": false
   },
   "manubot": {
-    "date": "November 21, 2019",
+    "date": "March 19, 2020",
     "authors": [
       {
         "github": "dhimmel",
@@ -155,29 +163,24 @@
       }
     ],
     "ci_source": {
-      "provider": "travis",
+      "provider": "github",
       "repo_slug": "greenelab/scihub-manuscript",
       "repo_owner": "greenelab",
       "repo_name": "scihub-manuscript",
-      "commit": "fd9351c2752b1e97b2f55fdfad60a5ec8e10805d",
-      "triggering_commit": "fd9351c2752b1e97b2f55fdfad60a5ec8e10805d",
-      "build_url": "https://travis-ci.org/greenelab/scihub-manuscript/builds/615140826",
-      "job_url": "https://travis-ci.org/greenelab/scihub-manuscript/jobs/615140827"
+      "commit": "b4652d9f7ba666eadf0d849175f3f4973a480fbc",
+      "triggering_commit": "b4652d9f7ba666eadf0d849175f3f4973a480fbc",
+      "build_url": "https://github.com/greenelab/scihub-manuscript/commit/b4652d9f7ba666eadf0d849175f3f4973a480fbc/checks",
+      "job_url": "https://github.com/greenelab/scihub-manuscript/runs/run2"
     },
     "html_url": "https://greenelab.github.io/scihub-manuscript/",
     "pdf_url": "https://greenelab.github.io/scihub-manuscript/manuscript.pdf",
-    "html_url_versioned": "https://greenelab.github.io/scihub-manuscript/v/fd9351c2752b1e97b2f55fdfad60a5ec8e10805d/",
-    "pdf_url_versioned": "https://greenelab.github.io/scihub-manuscript/v/fd9351c2752b1e97b2f55fdfad60a5ec8e10805d/manuscript.pdf",
-    "thumbnail_url": "https://github.com/greenelab/scihub-manuscript/raw/fd9351c2752b1e97b2f55fdfad60a5ec8e10805d/thumbnail.png",
+    "html_url_versioned": "https://greenelab.github.io/scihub-manuscript/v/b4652d9f7ba666eadf0d849175f3f4973a480fbc/",
+    "pdf_url_versioned": "https://greenelab.github.io/scihub-manuscript/v/b4652d9f7ba666eadf0d849175f3f4973a480fbc/manuscript.pdf",
+    "manubot_version": "0.3.1",
+    "rootstock_commit": "1780fac0ac6bba1260a9da3886061730fa5d2765",
+    "thumbnail_url": "https://github.com/greenelab/scihub-manuscript/raw/b4652d9f7ba666eadf0d849175f3f4973a480fbc/thumbnail.png",
     "manuscript_stats": {
-      "reference_counts": {
-        "arxiv": 1,
-        "doi": 82,
-        "isbn": 1,
-        "url": 46,
-        "total": 130
-      },
-      "word_count": 10588
+      "word_count": 10602
     }
   }
 }
