@@ -35,8 +35,8 @@ header-includes: |
   <meta name="dc.date" content="2018-02-09" />
   <meta name="citation_publication_date" content="2018-02-09" />
   <meta property="article:published_time" content="2018-02-09" />
-  <meta name="dc.modified" content="2023-07-28T14:47:37+00:00" />
-  <meta property="article:modified_time" content="2023-07-28T14:47:37+00:00" />
+  <meta name="dc.modified" content="2023-07-28T15:35:12+00:00" />
+  <meta property="article:modified_time" content="2023-07-28T15:35:12+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -75,13 +75,13 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/scihub-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/scihub-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/scihub-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/scihub-manuscript/v/a31efa1b1948588d8103e4b5e4259d85de1772bb/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/scihub-manuscript/v/a31efa1b1948588d8103e4b5e4259d85de1772bb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/scihub-manuscript/v/a31efa1b1948588d8103e4b5e4259d85de1772bb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/scihub-manuscript/v/bb52fa19e56788edfe2e454c62b910828e2671b5/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/scihub-manuscript/v/bb52fa19e56788edfe2e454c62b910828e2671b5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/scihub-manuscript/v/bb52fa19e56788edfe2e454c62b910828e2671b5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/scihub-manuscript/raw/a31efa1b1948588d8103e4b5e4259d85de1772bb/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/scihub-manuscript/raw/a31efa1b1948588d8103e4b5e4259d85de1772bb/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/scihub-manuscript/raw/bb52fa19e56788edfe2e454c62b910828e2671b5/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/scihub-manuscript/raw/bb52fa19e56788edfe2e454c62b910828e2671b5/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -102,19 +102,18 @@ manubot-clear-requests-cache: false
 
 [
 <i class="fas fa-scroll fa-lg"></i> **Published Versions & Feedback**<br>
-
 This study is published in _eLife_ at <https://doi.org/10.7554/eLife.32822> [@doi:10.7554/eLife.32822],
 which is the preferred location for citations.
 A preprint also exists in [_PeerJ Preprerints_](https://doi.org/10.7287/peerj.preprints.3100v3).
-
+<br>
 A [Spanish translation](https://greenelab.github.io/scihub-manuscript-es/ "Sci-Hub proporciona acceso a casi toda la literatura académica") of this article is available.
-
+<br>
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh "GitHub Issues for greenelab/scihub-manuscript") or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ "GitHub Issues for greenelab/scihub").
 ]{.banner .lightpurple}<small><em>
 This manuscript
-([permalink](https://greenelab.github.io/scihub-manuscript/v/a31efa1b1948588d8103e4b5e4259d85de1772bb/))
+([permalink](https://greenelab.github.io/scihub-manuscript/v/bb52fa19e56788edfe2e454c62b910828e2671b5/))
 was automatically generated
-from [greenelab/scihub-manuscript@a31efa1](https://github.com/greenelab/scihub-manuscript/tree/a31efa1b1948588d8103e4b5e4259d85de1772bb)
+from [greenelab/scihub-manuscript@bb52fa1](https://github.com/greenelab/scihub-manuscript/tree/bb52fa19e56788edfe2e454c62b910828e2671b5)
 on July 28, 2023.
 </em></small>
 
