@@ -3103,33 +3103,6 @@
     "note": "This CSL JSON Item was loaded by Manubot v0.2.4 from a manual reference file.\nmanual_reference_filename: manual-references.json\nstandard_id: url:http://foreignpolicy.com/2017/09/06/the-worlds-largest-free-scientific-resource-is-now-blocked-in-russia/"
   },
   {
-    "URL": "http://lj.libraryjournal.com/2017/04/publishing/new-world-same-model-periodicals-price-survey-2017/",
-    "id": "AgjD0tTw",
-    "title": "New World, Same Model | Periodicals Price Survey 2017",
-    "container-title": "Library Journal",
-    "issued": {
-      "date-parts": [
-        [
-          2017,
-          4,
-          19
-        ]
-      ]
-    },
-    "type": "webpage",
-    "author": [
-      {
-        "given": "Stephen",
-        "family": "Bosch"
-      },
-      {
-        "given": "Kittie",
-        "family": "Henderson"
-      }
-    ],
-    "note": "This CSL JSON Item was loaded by Manubot v0.2.4 from a manual reference file.\nmanual_reference_filename: manual-references.json\nstandard_id: url:http://lj.libraryjournal.com/2017/04/publishing/new-world-same-model-periodicals-price-survey-2017/"
-  },
-  {
     "id": "bGUjzQuG",
     "type": "thesis",
     "title": "Freedom for scholarship in the internet age",
