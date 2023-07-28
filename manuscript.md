@@ -71,13 +71,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/scihub-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/scihub-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/scihub-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/scihub-manuscript/v/0592eebcd2ef416db3cc11815fd241255e682111/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/scihub-manuscript/v/0592eebcd2ef416db3cc11815fd241255e682111/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/scihub-manuscript/v/0592eebcd2ef416db3cc11815fd241255e682111/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/scihub-manuscript/v/73eae227fff81687e676c4795d612bdb193a3f2a/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/scihub-manuscript/v/73eae227fff81687e676c4795d612bdb193a3f2a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/scihub-manuscript/v/73eae227fff81687e676c4795d612bdb193a3f2a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/scihub-manuscript/raw/0592eebcd2ef416db3cc11815fd241255e682111/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/scihub-manuscript/raw/0592eebcd2ef416db3cc11815fd241255e682111/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/scihub-manuscript/raw/73eae227fff81687e676c4795d612bdb193a3f2a/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/scihub-manuscript/raw/73eae227fff81687e676c4795d612bdb193a3f2a/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -93,15 +93,26 @@ manubot-clear-requests-cache: false
 
 
 
-This study was published in _eLife_ on February 9, 2018 at <https://doi.org/10.7554/eLife.32822> [@doi:10.7554/eLife.32822].
-A [Spanish translation](https://greenelab.github.io/scihub-manuscript-es/ "Sci-Hub proporciona acceso a casi toda la literatura académica") of this article is available.<small><em>
-This manuscript
-([permalink](https://greenelab.github.io/scihub-manuscript/v/0592eebcd2ef416db3cc11815fd241255e682111/))
-was automatically generated
-from [greenelab/scihub-manuscript@0592eeb](https://github.com/greenelab/scihub-manuscript/tree/0592eebcd2ef416db3cc11815fd241255e682111)
-on July 28, 2023.
+<!-- include the Font Awesome library, per: https://fontawesome.com/start -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+
+<i class="fas fa-scroll fa-lg"></i> **Published Versions**<br>
+This study is published in _eLife_ at <https://doi.org/10.7554/eLife.32822> [@doi:10.7554/eLife.32822],
+which is the preferred location for citations.
+A preprint also exists in [_PeerJ Preprerints_](https://doi.org/10.7287/peerj.preprints.3100v3).
+
+A [Spanish translation](https://greenelab.github.io/scihub-manuscript-es/ "Sci-Hub proporciona acceso a casi toda la literatura académica") of this article is available.
+
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh "GitHub Issues for greenelab/scihub-manuscript") or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ "GitHub Issues for greenelab/scihub").
+]{.banner .lightpurple}<small><em>
+This manuscript
+([permalink](https://greenelab.github.io/scihub-manuscript/v/73eae227fff81687e676c4795d612bdb193a3f2a/))
+was automatically generated
+from [greenelab/scihub-manuscript@73eae22](https://github.com/greenelab/scihub-manuscript/tree/73eae227fff81687e676c4795d612bdb193a3f2a)
+on July 28, 2023.
 </em></small>
+
+
 
 ## Authors
 
@@ -212,7 +223,7 @@ Although copyright does not apply to ideas, journals leverage the copyright cove
 Since each article is unique, libraries cannot substitute one journal subscription for another without depriving their users of potentially crucial access.
 As a result, the price of journal subscriptions has grown at a faster rate than inflation for several decades [@url:http://www.arl.org/storage/documents/expenditure-trends.pdf], leading to an ever-present "serials crisis" that has pushed library budgets to their brink while diverting funds from other services [@doi:10.1300/J123v18n01_09].
 Meanwhile, publishing has trended towards oligopoly [@doi:10.1371/journal.pone.0127502], with nondisclosure clauses obfuscating price information among subscribers [@doi:10.1073/pnas.1403006111] while publishers profit immensely [@url:http://summit.sfu.ca/item/12537; @url:https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science; @doi:10.1038/495426a].
-Price increases have persisted over the last decade [@url:http://lj.libraryjournal.com/2017/04/publishing/new-world-same-model-periodicals-price-survey-2017/; @doi:10.6084/m9.figshare.1186832.v23; @doi:10.6084/m9.figshare.4542433.v6].
+Price increases have persisted over the last decade [@url:https://www.libraryjournal.com/story/new-world-same-model-periodicals-price-survey-2017; @doi:10.6084/m9.figshare.1186832.v23; @doi:10.6084/m9.figshare.4542433.v6].
 For example, EBSCO estimates that per-journal subscription costs increased by 25% from 2013–2017, with annual subscription to a journal for research libraries now averaging $1,396 [@url:https://www.ebscohost.com/promoMaterials/Five_Year_Journal_Price_Increase_History_EBSCO_2013-2017.pdf].
 
 In this study, we use the term "toll access" (also known as "closed access") to refer to paywalled literature [@isbn:9780262517638].

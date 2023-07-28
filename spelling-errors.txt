@@ -20,7 +20,7 @@ capita
 carte
 cgreene
 citable
-citescore
+CiteScore
 Conda
 Continuada
 coverages
@@ -75,15 +75,16 @@ Levernier
 LFS
 libgen
 LibGen’s
-Libre
+libre
 Libris
+lightpurple
 lowercased
 Médica
 misconfiguration
 Mounce
 Noorden
 OA
-oaDOI
+oadoi
 oaDOI’s
 opencitations
 OpenRefine
@@ -99,6 +100,7 @@ PLOS
 postprints
 pre
 prefiltered
+Preprerints
 preprint
 preprints
 preprocessed
@@ -114,7 +116,7 @@ scimag
 scimag’s
 Scopus
 Springer
-SteveMcLaugh
+stevemclaugh
 suny
 tamunro
 transfered
