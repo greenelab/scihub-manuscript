@@ -104,11 +104,25 @@ When choosing which source to use for a citation, we recommend the following ord
    Similarly, `@https://doi.org/10.1101/142760` is a [workaround](https://github.com/manubot/manubot/issues/16) to set the journal name of bioRxiv preprints to _bioRxiv_.
 7. Wikidata Items, cite like `@wikidata:Q50051684`.
    Note that anyone can edit or add records on [Wikidata](https://www.wikidata.org), so users are encouraged to contribute metadata for hard-to-cite works to Wikidata.
-8. Any other compact identifier supported by <https://identifiers.org>.
-   Manubot uses the Identifiers.org Resolution Service to support [hundreds](https://github.com/manubot/manubot/blob/7055bcc6524fdf1ef97d838cf0158973e2061595/manubot/cite/handlers.py#L122-L831 "Actual prefix support is determined by this manubot source code.") of [prefixes](https://registry.identifiers.org/registry "Identifiers.org prefix search").
-   For example, citing `@clinicaltrials:NCT04280705` will produce the same bibliographic metadata as `@https://identifiers.org/clinicaltrials:NCT04280705` or `@https://clinicaltrials.gov/ct2/show/NCT04280705`.
-9. For references that do not have any of the above persistent identifiers, the citation key does not need to include a prefix.
+8. Any other compact identifier supported by <https://bioregistry.io>.
+   Manubot uses the Bioregistry to support [hundreds](https://github.com/manubot/manubot/blob/a4af68125ab6bb322fdfb1689cfeec09f0cb1b60/manubot/cite/handlers.py#L155-L1485 "Actual prefix support is determined by this manubot source code.") of [prefixes](https://bioregistry.io/registry/ "Bioregistry prefix search").
+   For example, citing `@clinicaltrials:NCT04280705` will produce the same bibliographic metadata as `@https://bioregistry.io/clinicaltrials:NCT04280705` or `@https://clinicaltrials.gov/ct2/show/NCT04280705`.
+9. For references that do not have any of the above persistent identifiers,
+   the citation key does not need to include a prefix.
    Citing `@old-manuscript` will work, but only if reference metadata is [provided manually](#reference-metadata).
+
+Manubot is able to infer certain prefixes,
+such some citations can be formatted like `@accession` (without a prefix).
+Examples includes DOIs like `@10.15363/thinklab.4` or `@10/993`,
+PMC / PubMed identifiers like `@PMC4497619` or `@26158728`,
+arXiv identifier like `@1508.06576v2`,
+and Wikidata identifiers like `@Q50051684`.
+To disable citekey prefix inference, add the following to `metadata.yaml`:
+
+```yaml
+pandoc:
+  manubot-infer-citekey-prefixes: false
+```
 
 Cite multiple items at once like:
 
@@ -120,14 +134,23 @@ Note that multiple citations must be semicolon separated.
 Be careful not to cite the same study using identifiers from multiple sources.
 For example, the following citations all refer to the same study, but will be treated as separate references: `[@doi:10.7717/peerj.705; @pmc:PMC4304851; @pubmed:25648772]`.
 
-Citation keys must adhere to the syntax described in the [Pandoc manual](https://pandoc.org/MANUAL.html#citations):
+The citation key syntax is described in the [Pandoc manual](https://pandoc.org/MANUAL.html#citation-syntax):
 
-> The citation key must begin with a letter, digit, or `_`, and may contain alphanumerics, `_`, and internal punctuation characters (`:.#$%&-+?<>~/`).
+> Unless a citation key start with a letter, digit, or `_`,
+> and contains only alphanumerics and internal punctuation characters (`:.#$%&-+?<>~/`),
+> it must be surrounded by curly braces,
+> which are not considered part of the key.
+> In `@Foo_bar.baz.`, the key is `Foo_bar.baz`.
+> The final period is not *internal* punctuation,
+> so it is not included in the key.
+> In `@{Foo_bar.baz.}`, the key is `Foo_bar.baz.`, including the final period.
+> The curly braces are recommended if you use URLs as keys:
+> `[@{https://example.com/bib?name=foobar&date=2000}, p. 33]`.
 
-To evaluate whether a citation key fully matches this syntax, try [this online regex](https://regex101.com/r/mXZyY2/latest).
-If the citation key is not valid, use the [citation aliases](#citation-aliases) workaround below.
-This is required for citation keys that contain forbidden characters such as `;` or `=` or end with a non-alphanumeric character such as `/`.
-<!-- See [jgm/pandoc#6026](https://github.com/jgm/pandoc/issues/6026) for progress on a more flexible Markdown citation key syntax. -->
+If a citation key does not fully match [this online regex](https://regex101.com/r/mXZyY2/latest)
+(for example, contains characters such as `;` or `=` or end with a non-alphanumeric character such as `/`),
+make sure to surround it with curly braces or use the [citation aliases](#citation-aliases) workaround below.
+<!-- See [jgm/pandoc#6026](https://github.com/jgm/pandoc/issues/6026) on the curly-brace syntax for Markdown citation keys, which was introduced in Pandoc 2.14. -->
 
 Prior to Rootstock commit [`6636b91`](https://github.com/manubot/rootstock/commit/6636b912c6b41593acd2041d34cd4158c1b317fb) on 2020-01-14, Manubot processed citations separately from Pandoc.
 Switching to a Pandoc filter improved reliability on complex documents, but restricted the syntax of citation keys slightly.
@@ -136,7 +159,7 @@ By default, `pandoc-manubot-cite` does not fail upon invalid citations, although
 
 ```yaml
 pandoc:
-  manubot-fail-on-errors: True
+  manubot-fail-on-errors: true
 ```
 
 #### Citation aliases
@@ -177,7 +200,7 @@ Manubot stores the bibliographic details for references (the set of all cited wo
 Manubot automatically generates CSL JSON for most persistent identifiers (as described in [Citations](#citations) above).
 In some cases, automatic metadata retrieval fails or provides incorrect or incomplete information.
 Errors are most common for references generated from scraping HTML metadata from websites.
-This occurs most frequently for `https`/`http`/`url` citations as well as identifiers.org prefixes without explicit support listed above.
+This occurs most frequently for `https`/`http`/`url` citations as well as Bioregistry prefixes without explicit support listed above.
 Therefore, Manubot supports user-provided metadata, which we refer to as "manual references".
 When a manual reference is provided, Manubot uses the supplied metadata and does not attempt to generate it.
 
@@ -223,8 +246,14 @@ One tip is to embed the date `references.json` was generated into the frozen man
 
 [`content/metadata.yaml`](content/metadata.yaml) contains manuscript metadata that gets passed through to Pandoc, via a [`yaml_metadata_block`](https://pandoc.org/MANUAL.html#extension-yaml_metadata_block).
 `metadata.yaml` should contain the manuscript `title`, `authors` list, `keywords`, and `lang` ([language tag](https://www.w3.org/International/articles/language-tags/ "W3C: Language tags in HTML and XML")).
-Additional metadata, such as `date`, will automatically be created by the Manubot.
-Manubot uses the [timezone](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) specified in [`build.sh`](build/build.sh) for setting the manuscript's date.
+
+When the `date` field is missing or null,
+Manubot uses the current time for the publication date.
+This is ideal for manuscripts that are being actively written,
+but once complete it might make sense to set an explicit date (ISO-format like '2022-10-31'),
+such that future minor changes do not update the publication date.
+The generated date will still reflect the time of the Manubot build.
+Manubot uses the [timezone](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) specified in [`build.sh`](build/build.sh) for the generated date.
 For example, setting the `TZ` environment variable to `Etc/UTC` directs the Manubot to use Coordinated Universal Time.
 
 We recommend authors add themselves to `metadata.yaml` via pull request (when requested by a maintainer), thereby signaling that they've read and approved the manuscript.
@@ -236,7 +265,10 @@ name: Daniel S. Himmelstein  # mandatory
 initials: DSH  # optional
 orcid: 0000-0002-3012-7446  # mandatory
 twitter: dhimmel  # optional
+mastodon: dhimmel  # optional: mastodon username
+mastodon-server: genomic.social  # optional: mastodon server (instance)
 email: daniel.himmelstein@gmail.com  # suggested
+corresponding: true  # optional, if set to true displays author's email for correspondence
 affiliations:  # as a list, strongly suggested
   - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
   - Department of Biological & Medical Informatics, University of California, San Francisco
@@ -297,6 +329,32 @@ Potential spelling errors will be printed in the continuous integration log alon
 Words in `build/assets/custom-dictionary.txt` are ignored during spellchecking.
 Spellchecking is currently only supported for English language manuscripts.
 
+## AI-assisted authoring
+
+The workflow [`ai-revision`](.github/workflows/ai-revision.yaml) is available to assist authors in writing their manuscripts.
+It uses large language models to revise the manuscript text, fixing spelling and grammar errors, and improving the sentence structure and the writing style with section-specific prompts.
+It is manually triggered by the user (it never runs automatically), and it generates a pull request with suggested revisions.
+Then the user can review these changes and merge the pull request if they are acceptable.
+More information about this tool is available in [this manuscript](https://greenelab.github.io/manubot-gpt-manuscript/).
+
+You need to change your repository settings to 1) provide a secret with name `OPENAI_API_KEY` containing your OpenAI API token, and 2) allow workflows to create pull requests.
+For 1), go to the settings page and, within "Secrets and variables," select "Actions."
+Next, create a repository secret with the name `OPENAI_API_KEY` and the value of the API token (you can also do this using "Organization secrets" if available).
+For 2), go to "Actions", "General", "Workflow permissions", and activate the checkbox "Allow GitHub Actions to create and approve pull requests."
+
+By default, the tool uses the model `text-davinci-003`.
+Make sure to check the [pricing](https://openai.com/api/pricing/) of the OpenAI API.
+With $0.02 per 1000 tokens using the most powerful AI models, the cost for a revision of a standard manuscript (around 35 paragraphs) should be around $0.50.
+The workflow allows specifying the branch and file names (in the `content/` directory) to revise, the language model to use, and the output branch name.
+Internally, the workflow uses the tool [Manubot AI Editor](https://github.com/manubot/manubot-ai-editor) to revise the manuscript.
+For more advanced users, the behavior of the Manubot AI Editor or the parameters used for the language model can be changed using environment variables.
+These variables can be changed in the workflow file (`ai-revision.yaml`).
+
+It is important to note that using language models in scientific writing is a matter of debate among researchers and journal editors.
+Therefore, it's advisable to follow the guidelines that journals and the research community propose.
+For example, the *Nature* journal has published [rules about using language models in scholarly writing](https://www.nature.com/articles/d41586-023-00191-1), such as not listing the tools as authors and documenting how they were used.
+Since a Manubot-based manuscript uses GitHub, one approach consists of linking the AI-generated pull request, which will transparently show the changes suggested by the AI tool.
+
 ## Manubot feedback
 
 If you experience any issues with the Manubot or would like to contribute to its source code, please visit [`manubot/manubot`](https://github.com/manubot/manubot) or [`manubot/rootstock`](https://github.com/manubot/rootstock).
@@ -311,6 +369,14 @@ Daniel S. Himmelstein, Vincent Rubinetti, David R. Slochower, Dongbo Hu, Venkat 
 DOI: [10.1371/journal.pcbi.1007128](https://doi.org/10.1371/journal.pcbi.1007128) · PMID: [31233491](https://www.ncbi.nlm.nih.gov/pubmed/31233491)
 
 The Manubot version of this manuscript is available at <https://greenelab.github.io/meta-review/>.
+
+To cite the Manubot AI Editor or for more information on its design, see `@doi:10.1101/2023.01.21.525030`:
+
+> **A publishing infrastructure for AI-assisted academic authoring**<br>
+Milton Pividori, Casey S. Greene<br>
+*bioRxiv* (2023) <https://doi.org/grpf8m><br>
+DOI: [10.1101/2023.01.21.525030](https://doi.org/10.1101/2023.01.21.525030)
+
 
 ## Acknowledgments
 
