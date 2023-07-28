@@ -1,135 +1,5 @@
 ---
-author-meta:
-- Daniel S. Himmelstein
-- Ariel Rodriguez Romero
-- Jacob G. Levernier
-- Thomas Anthony Munro
-- Stephen Reid McLaughlin
-- Bastian Greshake Tzovaras
-- Casey S. Greene
-bibliography:
-- content/manual-references-2019-09-10.json
-- content/manual-references.json
-date-meta: '2020-03-19'
-header-includes: '<!--
-
-  Manubot generated metadata rendered from header-includes-template.html.
-
-  Suggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html
-
-  -->
-
-  <meta name="dc.format" content="text/html" />
-
-  <meta name="dc.title" content="Sci-Hub provides access to nearly all scholarly literature" />
-
-  <meta name="citation_title" content="Sci-Hub provides access to nearly all scholarly literature" />
-
-  <meta property="og:title" content="Sci-Hub provides access to nearly all scholarly literature" />
-
-  <meta property="twitter:title" content="Sci-Hub provides access to nearly all scholarly literature" />
-
-  <meta name="dc.date" content="2020-03-19" />
-
-  <meta name="citation_publication_date" content="2020-03-19" />
-
-  <meta name="dc.language" content="en-US" />
-
-  <meta name="citation_language" content="en-US" />
-
-  <meta name="dc.relation.ispartof" content="Manubot" />
-
-  <meta name="dc.publisher" content="Manubot" />
-
-  <meta name="citation_journal_title" content="Manubot" />
-
-  <meta name="citation_technical_report_institution" content="Manubot" />
-
-  <meta name="citation_author" content="Daniel S. Himmelstein" />
-
-  <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania" />
-
-  <meta name="citation_author_orcid" content="0000-0002-3012-7446" />
-
-  <meta name="twitter:creator" content="@dhimmel" />
-
-  <meta name="citation_author" content="Ariel Rodriguez Romero" />
-
-  <meta name="citation_author_institution" content="Bidwise, Inc" />
-
-  <meta name="citation_author_orcid" content="0000-0003-2290-4927" />
-
-  <meta name="twitter:creator" content="@arielswn" />
-
-  <meta name="citation_author" content="Jacob G. Levernier" />
-
-  <meta name="citation_author_institution" content="Library Technology Services and Strategic Initiatives, University of Pennsylvania Libraries" />
-
-  <meta name="citation_author_orcid" content="0000-0003-1563-7314" />
-
-  <meta name="citation_author" content="Thomas Anthony Munro" />
-
-  <meta name="citation_author_institution" content="School of Life and Environmental Sciences, Deakin University, Melbourne, Australia" />
-
-  <meta name="citation_author_orcid" content="0000-0002-3366-7149" />
-
-  <meta name="citation_author" content="Stephen Reid McLaughlin" />
-
-  <meta name="citation_author_institution" content="School of Information, University of Texas at Austin" />
-
-  <meta name="citation_author_orcid" content="0000-0002-9888-3168" />
-
-  <meta name="twitter:creator" content="@SteveMcLaugh" />
-
-  <meta name="citation_author" content="Bastian Greshake Tzovaras" />
-
-  <meta name="citation_author_institution" content="Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt" />
-
-  <meta name="citation_author_orcid" content="0000-0002-9925-9623" />
-
-  <meta name="twitter:creator" content="@gedankenstuecke" />
-
-  <meta name="citation_author" content="Casey S. Greene" />
-
-  <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania" />
-
-  <meta name="citation_author_orcid" content="0000-0001-8713-9213" />
-
-  <meta name="twitter:creator" content="@GreeneScientist" />
-
-  <link rel="canonical" href="https://greenelab.github.io/scihub-manuscript/" />
-
-  <meta property="og:url" content="https://greenelab.github.io/scihub-manuscript/" />
-
-  <meta property="twitter:url" content="https://greenelab.github.io/scihub-manuscript/" />
-
-  <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/scihub-manuscript/" />
-
-  <meta name="citation_pdf_url" content="https://greenelab.github.io/scihub-manuscript/manuscript.pdf" />
-
-  <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/scihub-manuscript/manuscript.pdf" />
-
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/scihub-manuscript/v/b4652d9f7ba666eadf0d849175f3f4973a480fbc/" />
-
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/scihub-manuscript/v/b4652d9f7ba666eadf0d849175f3f4973a480fbc/" />
-
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/scihub-manuscript/v/b4652d9f7ba666eadf0d849175f3f4973a480fbc/manuscript.pdf" />
-
-  <meta property="og:type" content="article" />
-
-  <meta property="twitter:card" content="summary_large_image" />
-
-  <meta property="og:image" content="https://github.com/greenelab/scihub-manuscript/raw/b4652d9f7ba666eadf0d849175f3f4973a480fbc/thumbnail.png" />
-
-  <meta property="twitter:image" content="https://github.com/greenelab/scihub-manuscript/raw/b4652d9f7ba666eadf0d849175f3f4973a480fbc/thumbnail.png" />
-
-  <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
-
-  <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
-
-  <meta name="theme-color" content="#ad1457" />
-
-  <!-- end Manubot generated metadata -->'
+title: Sci-Hub provides access to nearly all scholarly literature
 keywords:
 - Sci-Hub
 - publishing
@@ -142,11 +12,83 @@ keywords:
 - copyright
 - paywalls
 lang: en-US
-manubot-clear-requests-cache: false
+date-meta: '2023-07-28'
+author-meta:
+- Daniel S. Himmelstein
+- Ariel Rodriguez Romero
+- Jacob G. Levernier
+- Thomas Anthony Munro
+- Stephen Reid McLaughlin
+- Bastian Greshake Tzovaras
+- Casey S. Greene
+header-includes: |-
+  <!--
+  Manubot generated metadata rendered from header-includes-template.html.
+  Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
+  -->
+  <meta name="dc.format" content="text/html" />
+  <meta name="dc.title" content="Sci-Hub provides access to nearly all scholarly literature" />
+  <meta name="citation_title" content="Sci-Hub provides access to nearly all scholarly literature" />
+  <meta property="og:title" content="Sci-Hub provides access to nearly all scholarly literature" />
+  <meta property="twitter:title" content="Sci-Hub provides access to nearly all scholarly literature" />
+  <meta name="dc.date" content="2023-07-28" />
+  <meta name="citation_publication_date" content="2023-07-28" />
+  <meta name="dc.language" content="en-US" />
+  <meta name="citation_language" content="en-US" />
+  <meta name="dc.relation.ispartof" content="Manubot" />
+  <meta name="dc.publisher" content="Manubot" />
+  <meta name="citation_journal_title" content="Manubot" />
+  <meta name="citation_technical_report_institution" content="Manubot" />
+  <meta name="citation_author" content="Daniel S. Himmelstein" />
+  <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania" />
+  <meta name="citation_author_orcid" content="0000-0002-3012-7446" />
+  <meta name="twitter:creator" content="@dhimmel" />
+  <meta name="citation_author" content="Ariel Rodriguez Romero" />
+  <meta name="citation_author_institution" content="Bidwise, Inc" />
+  <meta name="citation_author_orcid" content="0000-0003-2290-4927" />
+  <meta name="twitter:creator" content="@arielswn" />
+  <meta name="citation_author" content="Jacob G. Levernier" />
+  <meta name="citation_author_institution" content="Library Technology Services and Strategic Initiatives, University of Pennsylvania Libraries" />
+  <meta name="citation_author_orcid" content="0000-0003-1563-7314" />
+  <meta name="citation_author" content="Thomas Anthony Munro" />
+  <meta name="citation_author_institution" content="School of Life and Environmental Sciences, Deakin University, Melbourne, Australia" />
+  <meta name="citation_author_orcid" content="0000-0002-3366-7149" />
+  <meta name="citation_author" content="Stephen Reid McLaughlin" />
+  <meta name="citation_author_institution" content="School of Information, University of Texas at Austin" />
+  <meta name="citation_author_orcid" content="0000-0002-9888-3168" />
+  <meta name="twitter:creator" content="@SteveMcLaugh" />
+  <meta name="citation_author" content="Bastian Greshake Tzovaras" />
+  <meta name="citation_author_institution" content="Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt" />
+  <meta name="citation_author_orcid" content="0000-0002-9925-9623" />
+  <meta name="twitter:creator" content="@gedankenstuecke" />
+  <meta name="citation_author" content="Casey S. Greene" />
+  <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania" />
+  <meta name="citation_author_orcid" content="0000-0001-8713-9213" />
+  <meta name="twitter:creator" content="@GreeneScientist" />
+  <link rel="canonical" href="https://greenelab.github.io/scihub-manuscript/" />
+  <meta property="og:url" content="https://greenelab.github.io/scihub-manuscript/" />
+  <meta property="twitter:url" content="https://greenelab.github.io/scihub-manuscript/" />
+  <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/scihub-manuscript/" />
+  <meta name="citation_pdf_url" content="https://greenelab.github.io/scihub-manuscript/manuscript.pdf" />
+  <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/scihub-manuscript/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/scihub-manuscript/v/0592eebcd2ef416db3cc11815fd241255e682111/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/scihub-manuscript/v/0592eebcd2ef416db3cc11815fd241255e682111/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/scihub-manuscript/v/0592eebcd2ef416db3cc11815fd241255e682111/manuscript.pdf" />
+  <meta property="og:type" content="article" />
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="og:image" content="https://github.com/greenelab/scihub-manuscript/raw/0592eebcd2ef416db3cc11815fd241255e682111/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/scihub-manuscript/raw/0592eebcd2ef416db3cc11815fd241255e682111/thumbnail.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
+  <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
+  <meta name="theme-color" content="#ad1457" />
+  <!-- end Manubot generated metadata -->
+bibliography:
+- content/manual-references-2019-09-10.json
+- content/manual-references.json
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
-title: Sci-Hub provides access to nearly all scholarly literature
+manubot-clear-requests-cache: false
 ...
 
 
@@ -154,10 +96,10 @@ title: Sci-Hub provides access to nearly all scholarly literature
 This study was published in _eLife_ on February 9, 2018 at <https://doi.org/10.7554/eLife.32822> [@doi:10.7554/eLife.32822].
 A [Spanish translation](https://greenelab.github.io/scihub-manuscript-es/ "Sci-Hub proporciona acceso a casi toda la literatura académica") of this article is available.<small><em>
 This manuscript
-([permalink](https://greenelab.github.io/scihub-manuscript/v/b4652d9f7ba666eadf0d849175f3f4973a480fbc/))
+([permalink](https://greenelab.github.io/scihub-manuscript/v/0592eebcd2ef416db3cc11815fd241255e682111/))
 was automatically generated
-from [greenelab/scihub-manuscript@b4652d9](https://github.com/greenelab/scihub-manuscript/tree/b4652d9f7ba666eadf0d849175f3f4973a480fbc)
-on March 19, 2020.
+from [greenelab/scihub-manuscript@0592eeb](https://github.com/greenelab/scihub-manuscript/tree/0592eebcd2ef416db3cc11815fd241255e682111)
+on July 28, 2023.
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh "GitHub Issues for greenelab/scihub-manuscript") or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ "GitHub Issues for greenelab/scihub").
 </em></small>
 
