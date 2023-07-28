@@ -12,7 +12,7 @@ keywords:
 - copyright
 - paywalls
 lang: en-US
-date-meta: '2023-07-28'
+date-meta: '2018-02-09'
 author-meta:
 - Daniel S. Himmelstein
 - Ariel Rodriguez Romero
@@ -21,18 +21,22 @@ author-meta:
 - Stephen Reid McLaughlin
 - Bastian Greshake Tzovaras
 - Casey S. Greene
-header-includes: |-
+header-includes: |
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
+  <meta property="og:type" content="article" />
   <meta name="dc.title" content="Sci-Hub provides access to nearly all scholarly literature" />
   <meta name="citation_title" content="Sci-Hub provides access to nearly all scholarly literature" />
   <meta property="og:title" content="Sci-Hub provides access to nearly all scholarly literature" />
   <meta property="twitter:title" content="Sci-Hub provides access to nearly all scholarly literature" />
-  <meta name="dc.date" content="2023-07-28" />
-  <meta name="citation_publication_date" content="2023-07-28" />
+  <meta name="dc.date" content="2018-02-09" />
+  <meta name="citation_publication_date" content="2018-02-09" />
+  <meta property="article:published_time" content="2018-02-09" />
+  <meta name="dc.modified" content="2023-07-28T14:47:37+00:00" />
+  <meta property="article:modified_time" content="2023-07-28T14:47:37+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -71,13 +75,13 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/scihub-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/scihub-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/scihub-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/scihub-manuscript/v/73eae227fff81687e676c4795d612bdb193a3f2a/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/scihub-manuscript/v/73eae227fff81687e676c4795d612bdb193a3f2a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/scihub-manuscript/v/73eae227fff81687e676c4795d612bdb193a3f2a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/scihub-manuscript/v/a31efa1b1948588d8103e4b5e4259d85de1772bb/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/scihub-manuscript/v/a31efa1b1948588d8103e4b5e4259d85de1772bb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/scihub-manuscript/v/a31efa1b1948588d8103e4b5e4259d85de1772bb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="https://github.com/greenelab/scihub-manuscript/raw/73eae227fff81687e676c4795d612bdb193a3f2a/thumbnail.png" />
-  <meta property="twitter:image" content="https://github.com/greenelab/scihub-manuscript/raw/73eae227fff81687e676c4795d612bdb193a3f2a/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/scihub-manuscript/raw/a31efa1b1948588d8103e4b5e4259d85de1772bb/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/scihub-manuscript/raw/a31efa1b1948588d8103e4b5e4259d85de1772bb/thumbnail.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
   <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
   <meta name="theme-color" content="#ad1457" />
@@ -96,7 +100,9 @@ manubot-clear-requests-cache: false
 <!-- include the Font Awesome library, per: https://fontawesome.com/start -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 
-<i class="fas fa-scroll fa-lg"></i> **Published Versions**<br>
+[
+<i class="fas fa-scroll fa-lg"></i> **Published Versions & Feedback**<br>
+
 This study is published in _eLife_ at <https://doi.org/10.7554/eLife.32822> [@doi:10.7554/eLife.32822],
 which is the preferred location for citations.
 A preprint also exists in [_PeerJ Preprerints_](https://doi.org/10.7287/peerj.preprints.3100v3).
@@ -106,93 +112,113 @@ A [Spanish translation](https://greenelab.github.io/scihub-manuscript-es/ "Sci-H
 Submit feedback on the manuscript at [git.io/v7feh](https://git.io/v7feh "GitHub Issues for greenelab/scihub-manuscript") or on the analyses at [git.io/v7fvJ](https://git.io/v7fvJ "GitHub Issues for greenelab/scihub").
 ]{.banner .lightpurple}<small><em>
 This manuscript
-([permalink](https://greenelab.github.io/scihub-manuscript/v/73eae227fff81687e676c4795d612bdb193a3f2a/))
+([permalink](https://greenelab.github.io/scihub-manuscript/v/a31efa1b1948588d8103e4b5e4259d85de1772bb/))
 was automatically generated
-from [greenelab/scihub-manuscript@73eae22](https://github.com/greenelab/scihub-manuscript/tree/73eae227fff81687e676c4795d612bdb193a3f2a)
+from [greenelab/scihub-manuscript@a31efa1](https://github.com/greenelab/scihub-manuscript/tree/a31efa1b1948588d8103e4b5e4259d85de1772bb)
 on July 28, 2023.
 </em></small>
 
+Published: February 9, 2018
 
 
 ## Authors
 
 
 
-+ **Daniel S. Himmelstein**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
++ **Daniel S. Himmelstein**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-3012-7446](https://orcid.org/0000-0002-3012-7446)
-    · ![GitHub icon](images/github.svg){.inline_icon}
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [dhimmel](https://github.com/dhimmel)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [dhimmel](https://twitter.com/dhimmel)<br>
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [dhimmel](https://twitter.com/dhimmel)
+    <br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
      · Funded by GBMF 4552
   </small>
 
-+ **Ariel Rodriguez Romero**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
++ **Ariel Rodriguez Romero**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0003-2290-4927](https://orcid.org/0000-0003-2290-4927)
-    · ![GitHub icon](images/github.svg){.inline_icon}
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [arielsvn](https://github.com/arielsvn)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [arielswn](https://twitter.com/arielswn)<br>
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [arielswn](https://twitter.com/arielswn)
+    <br>
   <small>
      Bidwise, Inc
   </small>
 
-+ **Jacob G. Levernier**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
++ **Jacob G. Levernier**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0003-1563-7314](https://orcid.org/0000-0003-1563-7314)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [publicus](https://github.com/publicus)<br>
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [publicus](https://github.com/publicus)
+    <br>
   <small>
      Library Technology Services and Strategic Initiatives, University of Pennsylvania Libraries
   </small>
 
-+ **Thomas Anthony Munro**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
++ **Thomas Anthony Munro**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-3366-7149](https://orcid.org/0000-0002-3366-7149)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [tamunro](https://github.com/tamunro)<br>
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [tamunro](https://github.com/tamunro)
+    <br>
   <small>
      School of Life and Environmental Sciences, Deakin University, Melbourne, Australia
   </small>
 
-+ **Stephen Reid McLaughlin**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
++ **Stephen Reid McLaughlin**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-9888-3168](https://orcid.org/0000-0002-9888-3168)
-    · ![GitHub icon](images/github.svg){.inline_icon}
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [stevemclaugh](https://github.com/stevemclaugh)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [SteveMcLaugh](https://twitter.com/SteveMcLaugh)<br>
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [SteveMcLaugh](https://twitter.com/SteveMcLaugh)
+    <br>
   <small>
      School of Information, University of Texas at Austin
   </small>
 
-+ **Bastian Greshake Tzovaras**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
++ **Bastian Greshake Tzovaras**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-9925-9623](https://orcid.org/0000-0002-9925-9623)
-    · ![GitHub icon](images/github.svg){.inline_icon}
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [gedankenstuecke](https://github.com/gedankenstuecke)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [gedankenstuecke](https://twitter.com/gedankenstuecke)<br>
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [gedankenstuecke](https://twitter.com/gedankenstuecke)
+    <br>
   <small>
      Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University Frankfurt
   </small>
 
-+ **Casey S. Greene**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
++ **Casey S. Greene**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0001-8713-9213](https://orcid.org/0000-0001-8713-9213)
-    · ![GitHub icon](images/github.svg){.inline_icon}
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [cgreene](https://github.com/cgreene)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [GreeneScientist](https://twitter.com/GreeneScientist)<br>
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [GreeneScientist](https://twitter.com/GreeneScientist)
+    <br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
      · Funded by GBMF 4552
   </small>
 
+
+::: {#correspondence}
+✉ — Correspondence possible via [GitHub Issues](https://github.com/greenelab/scihub-manuscript/issues)
+
+:::
 
 
 ## Abstract {.page_break_before}
@@ -962,3 +988,4 @@ In addition, we're grateful to GitHub for offering gratis Large File Storage as 
 
 <!-- Explicitly insert bibliography here -->
 <div id="refs"></div>
+
